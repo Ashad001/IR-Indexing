@@ -1,4 +1,9 @@
-
+import os
+from typing import List, Optional, Dict, Tuple
 
 class PositionalIndex:
-    pass
+    def __init__(self) -> None:
+        pass
+
+    def makde_index(self, name):
+        pass
