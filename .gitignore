@@ -27,3 +27,6 @@ local_settings.py
 *.bak
 *.swp
 .DS_Store
+
+# digrams
+*.drawio
