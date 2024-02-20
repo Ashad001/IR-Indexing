@@ -16,7 +16,7 @@ def main(data_dir: str) -> None:
     """
     reads data from directory and makes positional and inverted index
 
-    Args:
+    Args:cls
         data_dir (str): data directory path
     """
     
