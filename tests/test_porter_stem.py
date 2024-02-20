@@ -48,13 +48,20 @@ class TestPorterStemStep1(unittest.TestCase):
     
     def test_step4(self):
         # Test cases for Step 4
-        self.assertEqual(self.stemmer.stem("revival"), "reviv")
-        self.assertEqual(self.stemmer.stem("irritant"), "irrit")
-        self.assertEqual(self.stemmer.stem("replacement"), "replac")
-        self.assertEqual(self.stemmer.stem("adjustment"), "adjust")
-        self.assertEqual(self.stemmer.stem("dependent"), "depend")
-        self.assertEqual(self.stemmer.stem("adoption"), "adopt")
-        self.assertEqual(self.stemmer.stem("homologou"), "homolog")
+        self.assertEqual(self.stemmer.step4("revival"), "reviv")
+        self.assertEqual(self.stemmer.step4("irritant"), "irrit")
+        self.assertEqual(self.stemmer.step4("replacement"), "replac")
+        self.assertEqual(self.stemmer.step4("adjustment"), "adjust")
+        self.assertEqual(self.stemmer.step4("dependent"), "depend")
+        self.assertEqual(self.stemmer.step4("adoption"), "adopt")
+        self.assertEqual(self.stemmer.step4("homologou"), "homolog")
+    
+    def test_step5(self):
+        # Test cases for Step 5
+        self.assertEqual(self.stemmer.step5("probate"), "probat")
+        self.assertEqual(self.stemmer.step5("cease"), "ceas")
+        self.assertEqual(self.stemmer.step5("controll"), "control")
+        self.assertEqual(self.stemmer.step5("roll"), "roll")
     
 if __name__ == '__main__':
     unittest.main()

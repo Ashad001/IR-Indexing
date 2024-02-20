@@ -8,7 +8,7 @@ import re
 class PorterStemmer:
     def __init__(self) -> None:
         self.vowels = "aeiou"
-        self.double_consonants = ["bb", "dd", "ff", "gg", "mm", "nn", "pp", "rr", "tt"]
+        # self.double_consonants = ["bb", "dd", "ff", "gg", "mm", "nn", "pp", "rr", "tt"]
         self.step1_suffixes = ["sses", "ies", "ss", "s"]
         self.step2_sufixes = {
             "ational": "ate",
@@ -62,13 +62,39 @@ class PorterStemmer:
             "ize": ""
         }
 
+    def double_consonant(self, word: str) -> bool:
+        """
+        Returns True if the word contains double consonants
+        
+        Args:
+            word (str): English word
+
+        Returns:
+            bool: True if the word contains double consonants
+        """
+        if len(word) < 2:
+            return False
+        if word[-1] == word[-2]:
+            if self.is_consonant(word, -1):
+                return True
+        return False
 
 
     def stem(self, word: str) -> str:
+        """
+        Main method to stem the word
+
+        Args:
+            word (str): English word
+
+        Returns:
+            str: Stemmed word
+        """
         word = self.step1(word)
         word = self.step2(word)
         word = self.step3(word)
         word = self.step4(word)
+        word = self.step5(word)
         return word
 
     def step1(self, word: str) -> str:
@@ -120,7 +146,7 @@ class PorterStemmer:
                     word = word + "e"
 
                 if len(word) > 2:
-                    if word[:-2] in self.double_consonants and (
+                    if self.double_consonant(word) and (
                         not word.endswith("l")
                         or word.endswith("s")
                         or word.endswith("z")
@@ -144,20 +170,45 @@ class PorterStemmer:
         return word
 
     def step2(self, word: str) -> str:
+        """
+        Replace the word with the given suffixes
+
+        Args:
+            word (str): English | Stemmed word
+
+        Returns:
+            str: Stemmed word 
+        """
         for key, value in self.step2_sufixes.items():
             if word.endswith(key):
                 word = self.replaceM(word, key, value, m=0)
                 return word
         return word
 
-    def step3(self, word):
+    def step3(self, word: str) -> str:
+        """
+        Replace the word with the given suffixes
+
+        Args:
+            word (str): English | Stemmed word
+
+        Returns:
+            str: Stemmed word
+        """
         for key, value in self.step3_sufixes.items():
             if word.endswith(key):
                 word = self.replaceM(word, key, value, m=0)
                 return word
         return word
 
-    def step4(self, word):
+    def step4(self, word: str) -> str:
+        """
+        Args:
+            word (str): Englsih | Stemmed word
+
+        Returns:
+            str: Stemmed Word
+        """
         for key, value in self.step4_sufixes.items():
             if word.endswith(key):
                 word = self.replaceM(word, key, value, m=1)
@@ -170,8 +221,53 @@ class PorterStemmer:
             word = self.replaceM(word, '', '', m = 0)
             
         return word
+    
+    def step5(self, word: str) -> str:
+        
+        def step5a(word: str) -> str:
+            """
+            (m>1) E     → 
+            (m=1 and not *o) E   →
+
+            Args:
+                word (str): English word
+
+            Returns:
+                str: Stemmed Word
+            """
+            if word.endswith('e'):
+                stem = word[:-1]
+                if self.measure(stem) > 1 or (self.measure(stem) == 1 and not self.cvc(stem)):
+                    word = stem
+            return word
+        
+        def step5b(word: str) -> str:
+            """
+            (m > 1 and *d and *L) →  single letter
+
+            Args:
+                word (str): English | stemmed word
+
+            Returns:
+                str: Stemmed Word
+            """
+            if self.measure(word) > 1 and word.endswith('l') and self.double_consonant(word):
+                word = word[:-1]
+            return word
+        
+        word = step5a(word)
+        word = step5b(word)
+        return word
 
     def cvc(self, word: str) -> bool:
+        """
+        *o    –    the stem ends cvc, where the second c is not W, X or Y (e.g. -WIL, -HOP)
+        Args:
+            word (str): 
+
+        Returns:
+            bool: Returns True if the word ends with cvc
+        """
         if len(word) < 3:
             return False
 
@@ -196,12 +292,14 @@ class PorterStemmer:
         base = word[:result]
         word = base + replace
         return word
+    
 
     def contains_vowel(self, word: str) -> bool:
+        """Return True if the word contains vowel"""
         return not self.contains_consonant(word)
 
     def contains_consonant(self, word: str) -> bool:
-
+        """Return True if the word contains consonant"""
         for w in word:
             if w in self.vowels:
                 return False
@@ -302,6 +400,18 @@ class PorterStemmer:
         return m
 
     def replaceM(self, word: str, remove: str, replace: str, m: int = 0) -> str:
+        """
+        Replace the word with the given suffixes if the measure of the word is greater than m
+
+        Args:
+            word (str): word or stem
+            remove (str): string to remove
+            replace (str): string to replace
+            m (int, optional): Defaults to 0.
+
+        Returns:
+            str: replaced word
+        """
         stem_idx = word.rfind(remove)
         stem = word[:stem_idx]
         if self.measure(stem) > m:
@@ -317,4 +427,4 @@ if __name__ == "__main__":
     # print(ps.contains_vowel("fwjefe"))
     # print(ps.contains_vowel("ndfdsf"))
     # print(ps.contains_consonant("fwjefe"))
-    print(ps.step1("bled"))
+    print(ps.stem("revival".lower()))
