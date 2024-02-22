@@ -89,15 +89,14 @@ class PorterStemmer:
         Returns:
             str: Stemmed word
         """
-        print(word)
+        # Modification to porter stemmer to handle abbreviations and important words highlighted as capital
+        if word == word.upper():
+            return word
+        word = word.lower()
         word = self.step1(word)
-        print(word)
         word = self.step2(word)
-        print(word)
         word = self.step3(word)
-        print(word)
         word = self.step4(word)
-        print(word)
         word = self.step5(word)
         
         return word
@@ -242,11 +241,8 @@ class PorterStemmer:
             """
             if word.endswith('e'):
                 stem = word[:-1]
-                print('base', stem)
                 if self.measure(stem) > 1 or (self.measure(stem) == 1 and not self.cvc(stem)):
                     word = stem
-                    print("--")
-                print(self.cvc(word))
             return word
         
         def step5b(word: str) -> str:

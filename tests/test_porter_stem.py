@@ -1,7 +1,7 @@
 import unittest
 from src.porter_stemmer import PorterStemmer
 
-class TestPorterStemStep1(unittest.TestCase):
+class TestPorterStem(unittest.TestCase):
 
     def setUp(self):
         self.stemmer = PorterStemmer()
