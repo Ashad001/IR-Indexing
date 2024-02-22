@@ -30,3 +30,10 @@ local_settings.py
 
 # digrams
 *.drawio
+
+#temp files
+test_tokens_1.txt
+test_tokens_2.txt
+test.txt
+test_porter.py
+compare_stems.py

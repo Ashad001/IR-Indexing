@@ -74,9 +74,8 @@ class PorterStemmer:
         """
         if len(word) < 2:
             return False
-        if word[-1] == word[-2]:
-            if self.is_consonant(word, -1):
-                return True
+        if self.is_consonant(word, -1) and self.is_consonant(word, -2):
+            return True
         return False
 
 
@@ -90,11 +89,17 @@ class PorterStemmer:
         Returns:
             str: Stemmed word
         """
+        print(word)
         word = self.step1(word)
+        print(word)
         word = self.step2(word)
+        print(word)
         word = self.step3(word)
+        print(word)
         word = self.step4(word)
+        print(word)
         word = self.step5(word)
+        
         return word
 
     def step1(self, word: str) -> str:
@@ -237,8 +242,11 @@ class PorterStemmer:
             """
             if word.endswith('e'):
                 stem = word[:-1]
+                print('base', stem)
                 if self.measure(stem) > 1 or (self.measure(stem) == 1 and not self.cvc(stem)):
                     word = stem
+                    print("--")
+                print(self.cvc(word))
             return word
         
         def step5b(word: str) -> str:
@@ -261,7 +269,7 @@ class PorterStemmer:
 
     def cvc(self, word: str) -> bool:
         """
-        *o    –    the stem ends cvc, where the second c is not W, X or Y (e.g. -WIL, -HOP)
+        *o – the stem ends cvc, where the second c is not W, X or Y (e.g. -WIL, -HOP)
         Args:
             word (str): 
 
@@ -282,10 +290,7 @@ class PorterStemmer:
         ):
             if third != "w" and third != "x" and third != "y":
                 return True
-            else:
-                return False
-        else:
-            return False
+        return False
 
     def replace(self, word: str, remove: str, replace: str):
         result = word.rfind(remove)
@@ -419,12 +424,6 @@ class PorterStemmer:
             return replaced
         return word
 
-
-if __name__ == "__main__":
+if __name__=='__main__':
     ps = PorterStemmer()
-    # print(ps.measure(ps.get_form("TREE".lower())))
-    # print(ps.contains_consonant("ndfdsf"))
-    # print(ps.contains_vowel("fwjefe"))
-    # print(ps.contains_vowel("ndfdsf"))
-    # print(ps.contains_consonant("fwjefe"))
-    print(ps.stem("revival".lower()))
+    print(ps.stem("applied"))

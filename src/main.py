@@ -1,4 +1,6 @@
 import os
+from tokenizer import Tokenizer
+from porter_stemmer import PorterStemmer
 from typing import List, Tuple, Dict, Optional
 
 def read_data(file_name: str) -> List[str]:
@@ -25,8 +27,13 @@ def main(data_dir: str) -> None:
     for file in files:
         if file.endswith('.txt'):
             data = read_data(os.path.join(data_dir, file))
-            print(data)
-            
+            tokens = Tokenizer(data).tokens
+            stemmed_tokens = [PorterStemmer().stem(token.strip()) for token in tokens]
+            with open("test_tokens.txt", 'a', encoding='utf-8') as f:
+                f.write(f"{file}: {stemmed_tokens}\n")
+                f.write("\n")
+        break
+                            
 if __name__=="__main__":
     main("../data/toy/")
     
