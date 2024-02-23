@@ -38,8 +38,8 @@ def main(data_dir: str) -> None:
     
     for file in files:
         if file.endswith('.txt'):
-            doc_id: str = re.findall(r'\d+', file)[0]
             data: str = read_data(os.path.join(data_dir, file))
+            doc_id: str = re.findall(r'\d+', file)[0] + data[:10] # Has to be unique
             
             tokens: List[str] = Tokenizer(data).tokens
             stemmed_tokens: List[str] = [PorterStemmer().stem(token.strip()) for token in tokens]
@@ -49,6 +49,7 @@ def main(data_dir: str) -> None:
                 "tokens": len(tokens),
                 "stemmed_tokens": len(stemmed_tokens)
             }    
+            
             if metadata_lookup(metadata, "metadata", logger=lookup_logger):
                 continue
             
@@ -63,5 +64,5 @@ def main(data_dir: str) -> None:
         json.dump(pos_idx.index, f, indent=4)
         
 if __name__=="__main__":
-    main("../data/toy/")
+    main("../data/ResearchPapers/")
     
