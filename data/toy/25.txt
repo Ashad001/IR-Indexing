@@ -54,7 +54,7 @@ to select features from a huge feature set is critical for com-
 puter vision. 
 Given a feature set of size M, the feature selection prob- 
 lem is to find a feature subset of size n (n << M) that maxi- 
-mizes the system’s ability to classify object instances. Find- 
+mizes the systemï¿½s ability to classify object instances. Find- 
 ing the optimal set of features is usually intractable [ 141, and 
 many problems related to feature selection have been shown 
 to be NP-hard ([2], [SI). For most practical problems, an op- 
@@ -105,7 +105,7 @@ obtaining comparable results on at least some data sets [20].
 The goal of our system is to reduce a large set of fea- 
 tures (on the order of thousands) to a small subset of fea- 
 tures (on the order of tens), without significantly reducing 
-the system’s ability to approximate functions or classify ob- 
+the systemï¿½s ability to approximate functions or classify ob- 
 jects. Our approach, shown in Figure 1, is a three step sys- 
 tem: first the irrelevant features are removed, then the re- 
 dundant features are removed, and finally a traditional com- 
@@ -120,14 +120,14 @@ The first filter removes irrelevant features using a modi-
 fied form of the Relief algorithm [ 11, 151. For readers who 
 are not familiar with Relief, it assigns relevance values to 
 features by treating training samples as points in feature 
-space. For each sample, it finds the nearest “hit” (another 
-sample of the same class) and “miss” (a sample of a differ- 
+space. For each sample, it finds the nearest ï¿½hitï¿½ (another 
+sample of the same class) and ï¿½missï¿½ (a sample of a differ- 
 ent class), and adjusts the relevance value of each feature 
 according to the square of the feature difference between 
 the sample and the hit and miss. Kononenko [ 151 suggests 
 several modifications to Relief to generalize it for continu- 
 ous features and to make it more robust in the presence of Figure 1. High level system architecture. 
-noise. We adopt Kononenko’s modifications, and modify 
+noise. We adopt Kononenkoï¿½s modifications, and modify 
 Relief again to remove a bias against non-monotonic fea- 
 tures, as described in [ 11. 
 Within our feature selection system, Relief is used as a 
@@ -204,7 +204,7 @@ since the accuracy of hypotheses are measured on a scale of
 zero to one. The second data set are features extracted from images of hand-written characters. This data set was first de- 
 scribed by Breuklen et al. [3,4], and has also been used by 
 Jain et al. [ 101. It has the disadvantage that it contains only 
-649 features’, and that none of these features are completely 
+649 featuresï¿½, and that none of these features are completely 
 irrelevent or redundant. The third data set contains images 
 of cats and dogs, and has been previously used as a testbed 
 to compare appearance-based recognition methods [25]. 
@@ -222,7 +222,7 @@ tures are irrelevant for judging house hypotheses, or are re-
 dundant with other features. 
 The first experiment tests if all three steps of the algo- 
 rithm are necessary. Since the system is composed of filters, 
-any filter can be removed and the system will still work’. To 
+any filter can be removed and the system will still workï¿½. To 
 test whether all three filter are needed, all feasible combina- 
 tions of modules of the system were applied to the task of 
 selecting the best subset of ten features. 
@@ -241,15 +241,15 @@ For each feature set, 100 neural nets were trained and
 tested. When training a net, the data is randomly divided 
 into three sets: a learning set (70%); a validation set (15%) 
 and a test set (15%). Each net was trained for 15,000 
-epochs, with an “early termination” routine saving the net 
+epochs, with an ï¿½early terminationï¿½ routine saving the net 
 state with the lowest MSE on the validation set. Each net is 
 then evaluated in terms of its MSE on the test set. The av- 
 erage MSE for the 100 neural nets is shown in table 2 for 
 each combination of filters. As can be seen, the best perfor- 
 mance is achieved by using all three filters. The results are 
 particularly good when the third filter is SFBS. 
-‘The original images are no longer available. so we cannot compute ad- 
-’SFBS is not practical if it is applied to more than I10 features. ditional features. 
+ï¿½The original images are no longer available. so we cannot compute ad- 
+ï¿½SFBS is not practical if it is applied to more than I10 features. ditional features. 
 161 
 Authorized licensed use limited to: National University Fast. Downloaded on February 14,2024 at 14:17:19 UTC from IEEE Xplore.  Restrictions apply. I System 1 Original I R I K 1 F/B I Final set I 
 IR I891 1101-1-1 10 I System 
@@ -319,7 +319,7 @@ also show that our three-step algorithm outperforms its pri-
 mary competitors. 
 4.2 Experiment #2: The Digits Data 
 The second data set contains features extracted from im- 
-ages of handwritten numerals (‘0’ - ‘9’) extracted from a col- 
+ages of handwritten numerals (ï¿½0ï¿½ - ï¿½9ï¿½) extracted from a col- 
 lection of Dutch utility maps. There are 200 samples per 
 digit, for a total of 2,000 samples. Each sample has 649 fea- 
 tures: 76 Fourier coefficients of the character shapes; 216 
@@ -334,7 +334,7 @@ the whole feature set, without performing feature selection.
 It also has no irrelevent features, and no two features are re- 
 dundant. 
 The goal of the first part of this experiment was to test a 
-“do no harm” philosophy. The digit data set is small enough 
+ï¿½do no harmï¿½ philosophy. The digit data set is small enough 
 to run SFFS on all 649 features. Since our three-step sys- 
 tem uses SFFS, we wanted to be sure that the three-step al- 
 gorithm did as well as SFFS alone, even when the assump- 
@@ -386,7 +386,7 @@ tures are included. 4.3 Experiment #3: Cats and Dogs
 In the third experiment, we use the system to remove ir- 
 relevent and redundant features without specifying a target 
 feature set size. As a result, the third filter (SFFS or SFBS) 
-is discarded. Instead, we apply a “R+K” algorithm to re- 
+is discarded. Instead, we apply a ï¿½R+Kï¿½ algorithm to re- 
 move irrelevent features and redundant features, and return 
 as many relevent and unique features as the data will sup- 
 port. 
@@ -420,7 +420,7 @@ vectors for 5 12x5 12 images, but it would be much more fea-
 163 
 Authorized licensed use limited to: National University Fast. Downloaded on February 14,2024 at 14:17:19 UTC from IEEE Xplore.  Restrictions apply. sible to select a few thousand pixels from such images and 
 apply PCA to the reduced feature vectors. 
-This experiment also emphasizes the system’s ability to 
+This experiment also emphasizes the systemï¿½s ability to 
 detect relationships between features. The cats in the data 
 set run the gamut of intensities from black to white; so do 
 the dogs. As a result, the intensity of a single pixel is almost 
@@ -433,13 +433,13 @@ means can be seen visually for this domain. Figure 3 shows
 images representing the result of the two filters. In these im- 
 ages, a pixel is zero (black) if it was eliminated from the fea- 
 ture set by the filter. Otherwise, rhe relevence value com- 
-puted by Relief is used as the pixel’s intensity. 
+puted by Relief is used as the pixelï¿½s intensity. 
 Figure 3(a) is the image after the relevance filter. The 
 relevence filter removes all but 615 pixels, reducing the vol- 
 ume of data by 85%. The remaining pixels highlight the dif- 
 ferences betwee dogs and cats: dogs have relatively higher 
 foreheads then cats, as well as wider muzzles. Cats have ears 
-in the upper corners of the images. Cats’ eyes are also larger, 
+in the upper corners of the images. Catsï¿½ eyes are also larger, 
 in proportion to their spacing. 
 Figure 3(b) shows the result of the redundancy filter, 
 which further reduces the data set down to just 217 pixels. 
@@ -450,7 +450,7 @@ effect, in which a pixel is selected and its neighbors are re-
 jected. 
 The question, of course, is how much information has 
 been lost by reducing the feature set from 4096 pixels to just 
-2 17. To test this, we applied a standard “eigenfaces” recog- 
+2 17. To test this, we applied a standard ï¿½eigenfacesï¿½ recog- 
 niton system to the complete set of 4096 pixels, and then 
 again to the reduced set of 217 pixels. In both cases, we 
 trained the system on 160 images, holding forty images out 
@@ -465,10 +465,10 @@ puted and the result of the classification is the label (class)
 of the closest neighbor, in terms of Euclidean distance, to the 
 sample projection. 
 To test if both data sets achieve the same performance, we 
-used McNemar’s test. This test is similar to a binomial test, 
+used McNemarï¿½s test. This test is similar to a binomial test, 
 but it considers only the difference in classification between 
 the data sets. As a result, it is more sensitive to differences 
-between algorithms than a binomial test. McNemar’s test in- 
+between algorithms than a binomial test. McNemarï¿½s test in- 
 dicates that the difference in classification accuracy between 
 the original pixel set and the reduced pixel set is not statisti- Figure 3. Result of the Relief and Kmeans fil- 
 ters over the Cats and Dogs dataset. The 
@@ -501,7 +501,7 @@ R+K+B outperforms other algorithms from the iiterature, as
 well as other versions of this system. The digits data set 
 [3, 101 is composed of hand-picked sets of features. It does 
 not contain irrelevent or redundant features, and was used to 
-show that the system “does no harm” when such features are 
+show that the system ï¿½does no harmï¿½ when such features are 
 not present. It also allowed us to demonstrate that the per- 
 formance of the system does not degrade as irrelevent and 
 redundant features are added. The third data set, composed 
@@ -516,82 +516,82 @@ systems) that can handle such large data sets. It is also the
 first feature selection system which explicitly filters for ir- 
 relevance and redundancy. 
 References 
-J. Bins, “Feature Selection of Huge Feature Sets in the Con- 
-text of Computer Vision”, Ph. D. Dissertation, Computer Sci- 
+J. Bins, ï¿½Feature Selection of Huge Feature Sets in the Con- 
+text of Computer Visionï¿½, Ph. D. Dissertation, Computer Sci- 
 ence Department, Colorado State University, 2000. 
-A. L. Blum and R. L. Rivest, “Training a 3-node Neural Net- 
-work is NP-complete ”, Neural Networks, 5: 1 17-1 27, 1992. 
+A. L. Blum and R. L. Rivest, ï¿½Training a 3-node Neural Net- 
+work is NP-complete ï¿½, Neural Networks, 5: 1 17-1 27, 1992. 
 M. van Breukelen, R.P.W. Duin, D.M.J. Tax and J.E. den Har- 
-tog, “Combining ClassiJiers for the Recognition of Handwrit- 
-ten digits”, Kybemetika, 34(4):381-386, 1998. 
+tog, ï¿½Combining ClassiJiers for the Recognition of Handwrit- 
+ten digitsï¿½, Kybemetika, 34(4):381-386, 1998. 
 M. van Breukelen, R.P.W. Duin, D.M.J. Tax and J.E. den Har- 
-tog, “Handwritten Digit Recognition by Combined Classi- 
-fiers”, lSt IAPR Workshop on Statistical Techniques in Pat- 
+tog, ï¿½Handwritten Digit Recognition by Combined Classi- 
+fiersï¿½, lSt IAPR Workshop on Statistical Techniques in Pat- 
 tern Recognition, Prague, 1997, pp. 13-18. 
-R. Caruana and D. Freitag, “Greedy Attribute Selection ”, llth 
+R. Caruana and D. Freitag, ï¿½Greedy Attribute Selection ï¿½, llth 
 International Conference on Machine Leaming, 1994. 
-G. Castelano, A.M. Fanelli and M. Pelillo, “An Iterative P run- 
-ning Algorithm for Feedfonvard Neural Networks”, IEEE 
+G. Castelano, A.M. Fanelli and M. Pelillo, ï¿½An Iterative P run- 
+ning Algorithm for Feedfonvard Neural Networksï¿½, IEEE 
 Transactions on Neural Networks, 8(3):5 19-531, 1997. 
-B. A. Draper, J. Bins, K. Baek. “ADORE: Adaptive Object 
-Recognition ”, Videre 1 (4):86-99, 2000. 
-L. Hyafil and R. L. Rivest, “Constructing Optimal Binaty De- 
-cision Trees is NP -complete ”, Information Processing Letters, 
+B. A. Draper, J. Bins, K. Baek. ï¿½ADORE: Adaptive Object 
+Recognition ï¿½, Videre 1 (4):86-99, 2000. 
+L. Hyafil and R. L. Rivest, ï¿½Constructing Optimal Binaty De- 
+cision Trees is NP -complete ï¿½, Information Processing Letters, 
 5(1):15-17, 1976. 
-A. Jain and B. Chandrasekaran, “Dimensionality and Sample 
-Size Considerations”, Pattern Recognition Practice, V. 2, Kr- 
+A. Jain and B. Chandrasekaran, ï¿½Dimensionality and Sample 
+Size Considerationsï¿½, Pattern Recognition Practice, V. 2, Kr- 
 ishnaiah and I.N. Kana1 editors, pp. 835-855, North-Holland, 
 1982. 
-[IO] A.K. Jain, R.P.W. Duin, and J. Mao, “Statistical Pattern 
-Recognition: A review”, IEEETransactions on Pattern Recog- 
+[IO] A.K. Jain, R.P.W. Duin, and J. Mao, ï¿½Statistical Pattern 
+Recognition: A reviewï¿½, IEEETransactions on Pattern Recog- 
 nition and Machine Intelligence, 22( l), Jan. 2000. 
-[ 1 I] K. Kira and L.A. Rendell, “The Feature Selection Problem: 
-Traditional Methods and a New Algorithm”, loth National 
+[ 1 I] K. Kira and L.A. Rendell, ï¿½The Feature Selection Problem: 
+Traditional Methods and a New Algorithmï¿½, loth National 
 Conference on Machine Intelligence, pp. 129-134, 1992. 
-[ 121 J. Kittler,“Feature Set search Algorithms”, Pattem Recogni- 
+[ 121 J. Kittler,ï¿½Feature Set search Algorithmsï¿½, Pattem Recogni- 
 tion and Signal Processing; C.H. Chen Editor, Sijthoff & No- 
 ordhoff, Alphen aan den Rijn, The Netherlands, 1978, pp. 41- 
-60. [14] R. Kohavi and G.H. John, “Wrappers for Feature Subset 
-Selection ”, Artificial Intelligence Journal, 97( 1-2):273-324, 
+60. [14] R. Kohavi and G.H. John, ï¿½Wrappers for Feature Subset 
+Selection ï¿½, Artificial Intelligence Journal, 97( 1-2):273-324, 
 1997. 
-[ 151 I.. Kononenko, “Estimation attributes: Analysis and Exten- 
-sions of RELIEF”, European Conference on Machine Learn- 
+[ 151 I.. Kononenko, ï¿½Estimation attributes: Analysis and Exten- 
+sions of RELIEFï¿½, European Conference on Machine Learn- 
 ing, Catana, Italy, pp. 171-182, 1994. 
-[16] J. MacQueen, “Some Methods for Classification and 
-Analysys of Multivariate Observations”, Proceedings of the 
+[16] J. MacQueen, ï¿½Some Methods for Classification and 
+Analysys of Multivariate Observationsï¿½, Proceedings of the 
 Fifth Berkley Symposium on Mathematics, Statistics and 
 Probability, L. M. LeCam and J. Neyman eds., pp. 281-297, 
 University of Califomia Press, Berkeley, 1967. 
-[I71 D.P. Mandal, “Partitioning of Feature Space For Pattern 
+[I71 D.P. Mandal, ï¿½Partitioning of Feature Space For Pattern 
 Class$cation Pattern Recognition, 30( 12): 1971 - 1990, 1997. 
-[ 181 T. Marill and D.M. Green, “On the Effectiveness of Recep- 
-tors in Recognition Systems”, IEEE transactions on Informa- 
+[ 181 T. Marill and D.M. Green, ï¿½On the Effectiveness of Recep- 
+tors in Recognition Systemsï¿½, IEEE transactions on Informa- 
 tion Theory, 9:11-17, 1963. 
-[I91 H.T. Ng, W.B. Goh and K.L. Low, “Feati~re Selection, Per- 
+[I91 H.T. Ng, W.B. Goh and K.L. Low, ï¿½Feati~re Selection, Per- 
 ceptron Learning, and a Usabilit?, Case Study for text Catego- 
-rization ”. 20th annual international ACM SIGIR conference 
+rization ï¿½. 20th annual international ACM SIGIR conference 
 on Research and development in information retrieval, July 
 27-3 1, Philadelphia, pp. 67-73, 1997. 
-[20] P. Pudil, J. Novovicova and J. Kittler, “Floating Search 
-Methods in Feature Selection ”, Pattern Recognition Letters, 
+[20] P. Pudil, J. Novovicova and J. Kittler, ï¿½Floating Search 
+Methods in Feature Selection ï¿½, Pattern Recognition Letters, 
 (131 119- 1125, 1994. 
-[21] J.R. Quinlan, “Decision Trees and Multivalued Attributes”, 
+[21] J.R. Quinlan, ï¿½Decision Trees and Multivalued Attributesï¿½, 
 J. Richards, ed., Machine Intelligence, V. 11, Oxford, Eng- 
 land, Oxford Univ. Press, pp. 305-31 8, 1988. 
-[22] W. Siedlecki and J. Sklansky, “On Automatic Feature Selec- 
-tion ”, International Journal of Pattern Recognition and Artifi- 
+[22] W. Siedlecki and J. Sklansky, ï¿½On Automatic Feature Selec- 
+tion ï¿½, International Journal of Pattern Recognition and Artifi- 
 cial Intelligence, 2(2): 197-220, 1988. 
-[23] K. Tieu and P. Viola. “Boosting Image Retrieval”, IEEECon- 
+[23] K. Tieu and P. Viola. ï¿½Boosting Image Retrievalï¿½, IEEECon- 
 ference on Computer Vision and Pattern Recognition, Hilton 
 Head, June 13- 15, 2000, pp. 228-235. 
-[24] M. Turk and A. Pentland, “Eigenfaces for Recognition”, 
+[24] M. Turk and A. Pentland, ï¿½Eigenfaces for Recognitionï¿½, 
 Journal of Cognitive Neuroscience, 3( l), 199 1. 
-[25] W. Yambor, “Anal.ysis of PCA-based and Fisher 
-Discriminant-Based Image Recognition Algorithms”, 
+[25] W. Yambor, ï¿½Anal.ysis of PCA-based and Fisher 
+Discriminant-Based Image Recognition Algorithmsï¿½, 
 M.S. Thesis, Department of Computer Science, Colorado 
 State University, May 2000. 
-[ 131 R. Kohavi, “Feature Subset Selection as Search with Prob- 
-abilistic Estimates”, AAA1 Fall Symposium on Relevance, 
+[ 131 R. Kohavi, ï¿½Feature Subset Selection as Search with Prob- 
+abilistic Estimatesï¿½, AAA1 Fall Symposium on Relevance, 
 1994. 
 165 
 Authorized licensed use limited to: National University Fast. Downloaded on February 14,2024 at 14:17:19 UTC from IEEE Xplore.  Restrictions apply. 
