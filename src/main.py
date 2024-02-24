@@ -35,22 +35,26 @@ def main(data_dir: str) -> None:
         
     metadata_logger = get_logger("metadata")
     lookup_logger = get_logger("lookup", see_time=True)
-    
+    file_iter = 1
     for file in files:
         if file.endswith('.txt'):
             data: str = read_data(os.path.join(data_dir, file))
-            doc_id: str = re.findall(r'\d+', file)[0] + data[:10] # Has to be unique
-            
-            tokens: List[str] = Tokenizer(data).tokens
-            stemmed_tokens: List[str] = [PorterStemmer().stem(token.strip()) for token in tokens]
+            doc_id: str = re.findall(r'\d+', file)[0] # + data[:10] # Has to be unique
+            doc_id = str(file_iter) + "_" + doc_id   # This way, we don't need to sort the postings and can get document ids after _ directly.
+            file_iter += 1
+            # tokens: List[str] = Tokenizer(data).tokens
+            # stemmed_tokens: List[str] = [PorterStemmer().stem(token.strip()) for token in tokens]
+            stemmed_tokens: List[str] = Tokenizer().tokenize(data)
             
             metadata = {
                 "doc_id": doc_id,
-                "tokens": len(tokens),
+                # "tokens": len(tokens),
                 "stemmed_tokens": len(stemmed_tokens)
             }    
             
             if metadata_lookup(metadata, "metadata", logger=lookup_logger):
+                inv_idx.load_index()
+                pos_idx.load_index()
                 continue
             
             log_message(json.dumps(metadata, indent=4), logger=metadata_logger)            
