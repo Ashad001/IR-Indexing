@@ -13,4 +13,4 @@ class BooleanModel:
             list1 (List[int]): list 1
             list2 (List[int]): list 2
         """
-        return list(set(list1) & set(list2))
+        return list(set(list1).intersection(set(list2)))
