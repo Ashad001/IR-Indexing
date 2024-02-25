@@ -72,7 +72,7 @@ def metadata_lookup(meta_data, name: str, logger: logging.Logger) -> bool:
         data = json.loads(data)
         meta_doc_ids = [x['doc_id'] for x in data if (
             x['doc_id'] == meta_data.get('doc_id') and 
-            # x['tokens'] == meta_data.get('tokens') and 
+            x['unique_tokens'] == meta_data.get('unique_tokens') and 
             x['stemmed_tokens'] == meta_data.get('stemmed_tokens'))
         ]
         if meta_data['doc_id'] in meta_doc_ids:

@@ -1,20 +1,26 @@
 import re
 import json
+import logging
 from typing import List, Optional, Dict, Tuple
-
+from utils import log_message, get_logger
 class PositionalIndex:
-    def __init__(self, load_from_file: bool = False) -> None:
+    def __init__(self) -> None:
         self.index: Dict[str, Dict[str, List[int]]] = {}
-        if load_from_file:
-            self.load_index()
         
-    def load_index(self) -> None:
+    def load_from_index(self, file_name: str, logger: logging.Logger) -> None:
         """
-        Loads index from file
+        Load saved index from file
+
+        Args:
+            file_name (str): Full path to the file
         """
-        with open("test_pos-index.json", 'r', encoding='utf-8') as f:
-            self.index = json.load(f)
-    
+        try:
+            with open(file_name, 'r', encoding='utf-8') as f:
+                self.index = json.load(f)
+        except FileNotFoundError:
+            log_message(f"{file_name} not found for loading positional index", logger, level=logging.ERROR)
+            pass
+        
     def add_to_index(self, doc_id: str, tokens: List[str]) -> None:
         """
         adds tokens to index
