@@ -1,0 +1,5528 @@
+{
+    "train": {
+        "8_17": 180
+    },
+    "tip": {
+        "8_17": 13
+    },
+    "transform": {
+        "8_17": 13
+    },
+    "model": {
+        "8_17": 70
+    },
+    "martin": {
+        "8_17": 5
+    },
+    "popel": {
+        "8_17": 5
+    },
+    "ondrej": {
+        "8_17": 7
+    },
+    "bojar": {
+        "8_17": 8
+    },
+    "charl": {
+        "8_17": 2
+    },
+    "univers": {
+        "8_17": 3
+    },
+    "faculti": {
+        "8_17": 2
+    },
+    "mathemat": {
+        "8_17": 2
+    },
+    "physic": {
+        "8_17": 2
+    },
+    "institut": {
+        "8_17": 2
+    },
+    "formal": {
+        "8_17": 2
+    },
+    "appli": {
+        "8_17": 5
+    },
+    "linguist": {
+        "8_17": 2
+    },
+    "pragu": {
+        "8_17": 1
+    },
+    "czechia": {
+        "8_17": 1
+    },
+    "abstract": {
+        "8_17": 1
+    },
+    "thi": {
+        "8_17": 51
+    },
+    "artic": {
+        "8_17": 5
+    },
+    "describ": {
+        "8_17": 2
+    },
+    "our": {
+        "8_17": 37
+    },
+    "experi": {
+        "8_17": 50
+    },
+    "neural": {
+        "8_17": 14
+    },
+    "machin": {
+        "8_17": 19
+    },
+    "translat": {
+        "8_17": 34
+    },
+    "us": {
+        "8_17": 49
+    },
+    "recent": {
+        "8_17": 2
+    },
+    "ten": {
+        "8_17": 1
+    },
+    "sortensorframeworkandthetransformersequ": {
+        "8_17": 1
+    },
+    "sequencemodel": {
+        "8_17": 1
+    },
+    "vaswaniet": {
+        "8_17": 4
+    },
+    "examin": {
+        "8_17": 1
+    },
+    "some": {
+        "8_17": 12
+    },
+    "critic": {
+        "8_17": 2
+    },
+    "paramet": {
+        "8_17": 28
+    },
+    "that": {
+        "8_17": 42
+    },
+    "ect": {
+        "8_17": 18
+    },
+    "nal": {
+        "8_17": 5
+    },
+    "qualiti": {
+        "8_17": 9
+    },
+    "memori": {
+        "8_17": 8
+    },
+    "usag": {
+        "8_17": 2
+    },
+    "stabil": {
+        "8_17": 2
+    },
+    "time": {
+        "8_17": 52
+    },
+    "conclud": {
+        "8_17": 3
+    },
+    "each": {
+        "8_17": 7
+    },
+    "with": {
+        "8_17": 87
+    },
+    "set": {
+        "8_17": 21
+    },
+    "recom": {
+        "8_17": 1
+    },
+    "mendat": {
+        "8_17": 1
+    },
+    "fellow": {
+        "8_17": 1
+    },
+    "research": {
+        "8_17": 5
+    },
+    "addit": {
+        "8_17": 3
+    },
+    "con": {
+        "8_17": 6
+    },
+    "rming": {
+        "8_17": 1
+    },
+    "gener": {
+        "8_17": 15
+    },
+    "mantra": {
+        "8_17": 1
+    },
+    "more": {
+        "8_17": 23
+    },
+    "data": {
+        "8_17": 40
+    },
+    "larger": {
+        "8_17": 5
+    },
+    "address": {
+        "8_17": 2
+    },
+    "scale": {
+        "8_17": 23
+    },
+    "multip": {
+        "8_17": 9
+    },
+    "gpu": {
+        "8_17": 47
+    },
+    "provid": {
+        "8_17": 8
+    },
+    "practic": {
+        "8_17": 8
+    },
+    "im": {
+        "8_17": 1
+    },
+    "prove": {
+        "8_17": 1
+    },
+    "regar": {
+        "8_17": 1
+    },
+    "batch": {
+        "8_17": 98
+    },
+    "size": {
+        "8_17": 101
+    },
+    "lear": {
+        "8_17": 67
+    },
+    "rate": {
+        "8_17": 57
+    },
+    "warmup": {
+        "8_17": 25
+    },
+    "step": {
+        "8_17": 44
+    },
+    "maximum": {
+        "8_17": 11
+    },
+    "sentenc": {
+        "8_17": 25
+    },
+    "length": {
+        "8_17": 12
+    },
+    "andcheckpointaverag": {
+        "8_17": 1
+    },
+    "wehopethatourobservationswillallowotherstogetbetterresult": {
+        "8_17": 1
+    },
+    "given": {
+        "8_17": 15
+    },
+    "their": {
+        "8_17": 5
+    },
+    "particular": {
+        "8_17": 3
+    },
+    "hardwar": {
+        "8_17": 4
+    },
+    "constraint": {
+        "8_17": 1
+    },
+    "introduct": {
+        "8_17": 2
+    },
+    "it": {
+        "8_17": 43
+    },
+    "been": {
+        "8_17": 3
+    },
+    "alreadi": {
+        "8_17": 2
+    },
+    "clearli": {
+        "8_17": 5
+    },
+    "establis": {
+        "8_17": 1
+    },
+    "NMT": {
+        "8_17": 7
+    },
+    "new": {
+        "8_17": 6
+    },
+    "state": {
+        "8_17": 3
+    },
+    "art": {
+        "8_17": 2
+    },
+    "see": {
+        "8_17": 21
+    },
+    "e": {
+        "8_17": 50
+    },
+    "g": {
+        "8_17": 22
+    },
+    "most": {
+        "8_17": 7
+    },
+    "evalu": {
+        "8_17": 17
+    },
+    "campaign": {
+        "8_17": 1
+    },
+    "bojaret": {
+        "8_17": 1
+    },
+    "cettoloet": {
+        "8_17": 1
+    },
+    "manyfundamentalchangesofth": {
+        "8_17": 1
+    },
+    "under": {
+        "8_17": 2
+    },
+    "network": {
+        "8_17": 8
+    },
+    "architectur": {
+        "8_17": 2
+    },
+    "nevertheless": {
+        "8_17": 2
+    },
+    "still": {
+        "8_17": 7
+    },
+    "frequent": {
+        "8_17": 1
+    },
+    "veri": {
+        "8_17": 5
+    },
+    "di": {
+        "8_17": 23
+    },
+    "cult": {
+        "8_17": 3
+    },
+    "predict": {
+        "8_17": 1
+    },
+    "which": {
+        "8_17": 24
+    },
+    "best": {
+        "8_17": 9
+    },
+    "combin": {
+        "8_17": 1
+    },
+    "properti": {
+        "8_17": 1
+    },
+    "towininthelongterm": {
+        "8_17": 1
+    },
+    "consideringallrelevantcriterialiketranslationqu": {
+        "8_17": 1
+    },
+    "speed": {
+        "8_17": 22
+    },
+    "interpret": {
+        "8_17": 3
+    },
+    "but": {
+        "8_17": 29
+    },
+    "also": {
+        "8_17": 22
+    },
+    "avail": {
+        "8_17": 3
+    },
+    "goodimplement": {
+        "8_17": 1
+    },
+    "aconsiderablepartofamodelssuccessintranslationqu": {
+        "8_17": 1
+    },
+    "consist": {
+        "8_17": 1
+    },
+    "sensit": {
+        "8_17": 3
+    },
+    "nois": {
+        "8_17": 5
+    },
+    "wide": {
+        "8_17": 1
+    },
+    "rang": {
+        "8_17": 5
+    },
+    "hyper": {
+        "8_17": 11
+    },
+    "have": {
+        "8_17": 1
+    },
+    "right": {
+        "8_17": 3
+    },
+    "sete": {
+        "8_17": 11
+    },
+    "them": {
+        "8_17": 3
+    },
+    "turn": {
+        "8_17": 1
+    },
+    "out": {
+        "8_17": 7
+    },
+    "often": {
+        "8_17": 1
+    },
+    "compon": {
+        "8_17": 1
+    },
+    "success": {
+        "8_17": 2
+    },
+    "arxiv": {
+        "8_17": 16
+    },
+    "v": {
+        "8_17": 7
+    },
+    "c": {
+        "8_17": 5
+    },
+    "CL": {
+        "8_17": 1
+    },
+    "mai": {
+        "8_17": 7
+    },
+    "inthisartic": {
+        "8_17": 1
+    },
+    "weexperimentwitharelativelynewnmtmodel": {
+        "8_17": 1
+    },
+    "calledtransform": {
+        "8_17": 1
+    },
+    "asimplementedinthetensortensor": {
+        "8_17": 1
+    },
+    "on": {
+        "8_17": 49
+    },
+    "superior": {
+        "8_17": 34
+    },
+    "abbreviatedtt": {
+        "8_17": 1
+    },
+    "toolkit": {
+        "8_17": 1
+    },
+    "version": {
+        "8_17": 8
+    },
+    "themodelandthetoolkithavebeenreleasedshortlyaftertheevalu": {
+        "8_17": 1
+    },
+    "campaignatwmt": {
+        "8_17": 1
+    },
+    "two": {
+        "8_17": 48
+    },
+    "superioranditsbehavioronlarg": {
+        "8_17": 1
+    },
+    "datanewstranslationisnotyetfulli": {
+        "8_17": 1
+    },
+    "explor": {
+        "8_17": 3
+    },
+    "want": {
+        "8_17": 3
+    },
+    "empir": {
+        "8_17": 5
+    },
+    "import": {
+        "8_17": 4
+    },
+    "hopefulli": {
+        "8_17": 2
+    },
+    "observ": {
+        "8_17": 6
+    },
+    "will": {
+        "8_17": 6
+    },
+    "other": {
+        "8_17": 8
+    },
+    "consid": {
+        "8_17": 3
+    },
+    "framework": {
+        "8_17": 2
+    },
+    "whileinvestigationsintothe": {
+        "8_17": 1
+    },
+    "ectofhyp": {
+        "8_17": 1
+    },
+    "parameterslikelearningrateandbatch": {
+        "8_17": 1
+    },
+    "sizeareavailableinthedeep": {
+        "8_17": 1
+    },
+    "learningcommun": {
+        "8_17": 2
+    },
+    "bottouet": {
+        "8_17": 1
+    },
+    "smithand": {
+        "8_17": 3
+    },
+    "le": {
+        "8_17": 9
+    },
+    "jastrzebski": {
+        "8_17": 3
+    },
+    "et": {
+        "8_17": 16
+    },
+    "al": {
+        "8_17": 18
+    },
+    "these": {
+        "8_17": 8
+    },
+    "either": {
+        "8_17": 2
+    },
+    "mostli": {
+        "8_17": 2
+    },
+    "theoret": {
+        "8_17": 2
+    },
+    "or": {
+        "8_17": 32
+    },
+    "experiment": {
+        "8_17": 2
+    },
+    "suppor": {
+        "8_17": 2
+    },
+    "from": {
+        "8_17": 24
+    },
+    "domain": {
+        "8_17": 4
+    },
+    "like": {
+        "8_17": 1
+    },
+    "imag": {
+        "8_17": 1
+    },
+    "recognit": {
+        "8_17": 1
+    },
+    "rather": {
+        "8_17": 4
+    },
+    "than": {
+        "8_17": 30
+    },
+    "ll": {
+        "8_17": 1
+    },
+    "gap": {
+        "8_17": 5
+    },
+    "by": {
+        "8_17": 40
+    },
+    "focus": {
+        "8_17": 2
+    },
+    "exclus": {
+        "8_17": 1
+    },
+    "MT": {
+        "8_17": 1
+    },
+    "onli": {
+        "8_17": 13
+    },
+    "rm": {
+        "8_17": 2
+    },
+    "wisdom": {
+        "8_17": 1
+    },
+    "aregenerallybett": {
+        "8_17": 1
+    },
+    "andquantifythebehavioronenglish": {
+        "8_17": 1
+    },
+    "czechtranslationexp": {
+        "8_17": 1
+    },
+    "iment": {
+        "8_17": 1
+    },
+    "somewhat": {
+        "8_17": 4
+    },
+    "surpris": {
+        "8_17": 2
+    },
+    "three": {
+        "8_17": 27
+    },
+    "faster": {
+        "8_17": 9
+    },
+    "singl": {
+        "8_17": 28
+    },
+    "GPU": {
+        "8_17": 44
+    },
+    "nding": {
+        "8_17": 1
+    },
+    "about": {
+        "8_17": 10
+    },
+    "interact": {
+        "8_17": 1
+    },
+    "between": {
+        "8_17": 6
+    },
+    "thearticleisstructuredasfollow": {
+        "8_17": 1
+    },
+    "insect": {
+        "8_17": 2
+    },
+    "wediscussourevaluationmethod": {
+        "8_17": 1
+    },
+    "ologyandmaincriteria": {
+        "8_17": 1
+    },
+    "translationqualityandspeedoftrain": {
+        "8_17": 1
+    },
+    "sectiondescrib": {
+        "8_17": 1
+    },
+    "dataset": {
+        "8_17": 14
+    },
+    "prepar": {
+        "8_17": 1
+    },
+    "section": {
+        "8_17": 24
+    },
+    "main": {
+        "8_17": 6
+    },
+    "contribut": {
+        "8_17": 1
+    },
+    "commen": {
+        "8_17": 1
+    },
+    "recommend": {
+        "8_17": 2
+    },
+    "final": {
+        "8_17": 2
+    },
+    "sec": {
+        "8_17": 2
+    },
+    "tioncomparesourbesttransformerrunwithsystemsparticipatinginwmt": {
+        "8_17": 1
+    },
+    "methodologi": {
+        "8_17": 1
+    },
+    "mani": {
+        "8_17": 5
+    },
+    "wai": {
+        "8_17": 6
+    },
+    "form": {
+        "8_17": 1
+    },
+    "human": {
+        "8_17": 2
+    },
+    "judgment": {
+        "8_17": 2
+    },
+    "should": {
+        "8_17": 7
+    },
+    "alwai": {
+        "8_17": 6
+    },
+    "ultim": {
+        "8_17": 1
+    },
+    "resolut": {
+        "8_17": 1
+    },
+    "ani": {
+        "8_17": 12
+    },
+    "applic": {
+        "8_17": 3
+    },
+    "thecommonpracticeinmtresearchistoevaluatethemodelperformanceonatestset": {
+        "8_17": 1
+    },
+    "against": {
+        "8_17": 4
+    },
+    "refer": {
+        "8_17": 4
+    },
+    "widespread": {
+        "8_17": 1
+    },
+    "automat": {
+        "8_17": 9
+    },
+    "metricisundoubtedlythebleuscor": {
+        "8_17": 1
+    },
+    "papineniet": {
+        "8_17": 1
+    },
+    "despiteitsacknowled": {
+        "8_17": 1
+    },
+    "problem": {
+        "8_17": 1
+    },
+    "better": {
+        "8_17": 18
+    },
+    "perfor": {
+        "8_17": 1
+    },
+    "altern": {
+        "8_17": 2
+    },
+    "b": {
+        "8_17": 4
+    },
+    "simplic": {
+        "8_17": 1
+    },
+    "stick": {
+        "8_17": 1
+    },
+    "BLEU": {
+        "8_17": 53
+    },
+    "too": {
+        "8_17": 9
+    },
+    "result": {
+        "8_17": 28
+    },
+    "sc": {
+        "8_17": 2
+    },
+    "h": {
+        "8_17": 1
+    },
+    "r": {
+        "8_17": 1
+    },
+    "scf": {
+        "8_17": 1
+    },
+    "popov": {
+        "8_17": 2
+    },
+    "foundnosubstantialdi": {
+        "8_17": 1
+    },
+    "erencesfrombleu": {
+        "8_17": 1
+    },
+    "inparticular": {
+        "8_17": 1
+    },
+    "weusethecas": {
+        "8_17": 1
+    },
+    "insensit": {
+        "8_17": 2
+    },
+    "sacrbleu": {
+        "8_17": 2
+    },
+    "superiorwhich": {
+        "8_17": 1
+    },
+    "xed": {
+        "8_17": 4
+    },
+    "token": {
+        "8_17": 7
+    },
+    "ident": {
+        "8_17": 1
+    },
+    "mteval": {
+        "8_17": 1
+    },
+    "pl": {
+        "8_17": 1
+    },
+    "interna": {
+        "8_17": 1
+    },
+    "superiorhttp": {
+        "8_17": 5
+    },
+    "github": {
+        "8_17": 6
+    },
+    "com": {
+        "8_17": 8
+    },
+    "tensorflow": {
+        "8_17": 7
+    },
+    "tensortensor": {
+        "8_17": 8
+    },
+    "www": {
+        "8_17": 4
+    },
+    "statmt": {
+        "8_17": 2
+    },
+    "org": {
+        "8_17": 18
+    },
+    "wmt": {
+        "8_17": 4
+    },
+    "awslab": {
+        "8_17": 1
+    },
+    "sockey": {
+        "8_17": 1
+    },
+    "tree": {
+        "8_17": 1
+    },
+    "master": {
+        "8_17": 2
+    },
+    "contrib": {
+        "8_17": 1
+    },
+    "sacrebleu": {
+        "8_17": 1
+    },
+    "signatur": {
+        "8_17": 1
+    },
+    "score": {
+        "8_17": 18
+    },
+    "repor": {
+        "8_17": 6
+    },
+    "paper": {
+        "8_17": 8
+    },
+    "case": {
+        "8_17": 14
+    },
+    "lc": {
+        "8_17": 1
+    },
+    "lang": {
+        "8_17": 1
+    },
+    "en": {
+        "8_17": 2
+    },
+    "numref": {
+        "8_17": 1
+    },
+    "smooth": {
+        "8_17": 1
+    },
+    "exp": {
+        "8_17": 1
+    },
+    "test": {
+        "8_17": 10
+    },
+    "tok": {
+        "8_17": 1
+    },
+    "intl": {
+        "8_17": 2
+    },
+    "tional": {
+        "8_17": 1
+    },
+    "download": {
+        "8_17": 1
+    },
+    "WMT": {
+        "8_17": 10
+    },
+    "testset": {
+        "8_17": 1
+    },
+    "consider": {
+        "8_17": 2
+    },
+    "stope": {
+        "8_17": 6
+    },
+    "criterion": {
+        "8_17": 2
+    },
+    "situat": {
+        "8_17": 1
+    },
+    "further": {
+        "8_17": 4
+    },
+    "complic": {
+        "8_17": 1
+    },
+    "fact": {
+        "8_17": 3
+    },
+    "systemsisusuallynon": {
+        "8_17": 1
+    },
+    "determinist": {
+        "8_17": 1
+    },
+    "esp": {
+        "8_17": 1
+    },
+    "withthemostrecentmodel": {
+        "8_17": 1
+    },
+    "hardli": {
+        "8_17": 1
+    },
+    "everconvergesorstartsov": {
+        "8_17": 1
+    },
+    "tting": {
+        "8_17": 3
+    },
+    "onreasonablybigdataset": {
+        "8_17": 1
+    },
+    "thisleadstolear": {
+        "8_17": 1
+    },
+    "curvesthatneverfulli": {
+        "8_17": 1
+    },
+    "attenletalonestartdecreas": {
+        "8_17": 1
+    },
+    "seesect": {
+        "8_17": 4
+    },
+    "thecommon": {
+        "8_17": 1
+    },
+    "when": {
+        "8_17": 29
+    },
+    "stare": {
+        "8_17": 3
+    },
+    "over": {
+        "8_17": 9
+    },
+    "bit": {
+        "8_17": 5
+    },
+    "sooner": {
+        "8_17": 1
+    },
+    "thu": {
+        "8_17": 12
+    },
+    "not": {
+        "8_17": 40
+    },
+    "specifi": {
+        "8_17": 1
+    },
+    "criteria": {
+        "8_17": 1
+    },
+    "whatsoev": {
+        "8_17": 1
+    },
+    "sometim": {
+        "8_17": 2
+    },
+    "theymentiononlyanapproximatenumberofdaysthemodel": {
+        "8_17": 1
+    },
+    "wa": {
+        "8_17": 11
+    },
+    "bahdanau": {
+        "8_17": 2
+    },
+    "exact": {
+        "8_17": 2
+    },
+    "number": {
+        "8_17": 39
+    },
+    "indic": {
+        "8_17": 1
+    },
+    "how": {
+        "8_17": 7
+    },
+    "much": {
+        "8_17": 4
+    },
+    "conver": {
+        "8_17": 5
+    },
+    "point": {
+        "8_17": 5
+    },
+    "mostprob": {
+        "8_17": 1
+    },
+    "thetrainingwasrununtilnofurth": {
+        "8_17": 1
+    },
+    "improvementswereclearlyapparentonthedevelopmenttestset": {
+        "8_17": 1
+    },
+    "andthemodelwa": {
+        "8_17": 1
+    },
+    "such": {
+        "8_17": 5
+    },
+    "an": {
+        "8_17": 9
+    },
+    "approxim": {
+        "8_17": 4
+    },
+    "riski": {
+        "8_17": 1
+    },
+    "conceivablethatdi": {
+        "8_17": 1
+    },
+    "erentsetupswerestoppedatdi": {
+        "8_17": 1
+    },
+    "erentstagesoftrainingandtheir": {
+        "8_17": 1
+    },
+    "comparison": {
+        "8_17": 3
+    },
+    "fair": {
+        "8_17": 1
+    },
+    "reliab": {
+        "8_17": 2
+    },
+    "method": {
+        "8_17": 4
+    },
+    "keep": {
+        "8_17": 9
+    },
+    "speci": {
+        "8_17": 6
+    },
+    "ed": {
+        "8_17": 4
+    },
+    "iter": {
+        "8_17": 2
+    },
+    "certain": {
+        "8_17": 3
+    },
+    "epoch": {
+        "8_17": 14
+    },
+    "howev": {
+        "8_17": 15
+    },
+    "perfect": {
+        "8_17": 1
+    },
+    "solut": {
+        "8_17": 4
+    },
+    "if": {
+        "8_17": 10
+    },
+    "quit": {
+        "8_17": 4
+    },
+    "erenc": {
+        "8_17": 10
+    },
+    "perform": {
+        "8_17": 4
+    },
+    "su": {
+        "8_17": 1
+    },
+    "cientli": {
+        "8_17": 1
+    },
+    "larg": {
+        "8_17": 12
+    },
+    "possib": {
+        "8_17": 6
+    },
+    "complex": {
+        "8_17": 1
+    },
+    "would": {
+        "8_17": 7
+    },
+    "need": {
+        "8_17": 22
+    },
+    "few": {
+        "8_17": 6
+    },
+    "eventu": {
+        "8_17": 1
+    },
+    "arriv": {
+        "8_17": 1
+    },
+    "higher": {
+        "8_17": 17
+    },
+    "competitor": {
+        "8_17": 1
+    },
+    "durat": {
+        "8_17": 1
+    },
+    "er": {
+        "8_17": 6
+    },
+    "andfromthepracticalpointofview": {
+        "8_17": 1
+    },
+    "wearemostlyinteres": {
+        "8_17": 1
+    },
+    "wall": {
+        "8_17": 2
+    },
+    "clock": {
+        "8_17": 2
+    },
+    "tri": {
+        "8_17": 2
+    },
+    "standard": {
+        "8_17": 2
+    },
+    "techniqu": {
+        "8_17": 1
+    },
+    "earli": {
+        "8_17": 3
+    },
+    "nsubsequ": {
+        "8_17": 1
+    },
+    "evaluationsonthedevelopmenttestsetdonotgiveimprovementslargerthanagiven": {
+        "8_17": 1
+    },
+    "delta": {
+        "8_17": 2
+    },
+    "wesawabigvarianceinthetrainingtimeand": {
+        "8_17": 1
+    },
+    "nalbleu": {
+        "8_17": 1
+    },
+    "evenforexperi": {
+        "8_17": 1
+    },
+    "same": {
+        "8_17": 20
+    },
+    "just": {
+        "8_17": 4
+    },
+    "erent": {
+        "8_17": 6
+    },
+    "random": {
+        "8_17": 3
+    },
+    "seed": {
+        "8_17": 1
+    },
+    "moreov": {
+        "8_17": 1
+    },
+    "get": {
+        "8_17": 4
+    },
+    "nand": {
+        "8_17": 1
+    },
+    "small": {
+        "8_17": 6
+    },
+    "evenifw": {
+        "8_17": 1
+    },
+    "xtherandomse": {
+        "8_17": 1
+    },
+    "whichwasnotdoneproperlyinttv": {
+        "8_17": 1
+    },
+    "achangeofsomehyp": {
+        "8_17": 1
+    },
+    "becaus": {
+        "8_17": 11
+    },
+    "chang": {
+        "8_17": 3
+    },
+    "itself": {
+        "8_17": 2
+    },
+    "uen": {
+        "8_17": 3
+    },
+    "initi": {
+        "8_17": 3
+    },
+    "mean": {
+        "8_17": 7
+    },
+    "here": {
+        "8_17": 4
+    },
+    "begin": {
+        "8_17": 1
+    },
+    "worsen": {
+        "8_17": 1
+    },
+    "while": {
+        "8_17": 14
+    },
+    "loss": {
+        "8_17": 3
+    },
+    "improv": {
+        "8_17": 9
+    },
+    "choic": {
+        "8_17": 1
+    },
+    "full": {
+        "8_17": 1
+    },
+    "curv": {
+        "8_17": 20
+    },
+    "basedonthediscussionabov": {
+        "8_17": 1
+    },
+    "wedecidedtoreportalwaysthefulllearningcurv": {
+        "8_17": 1
+    },
+    "doe": {
+        "8_17": 7
+    },
+    "fulli": {
+        "8_17": 6
+    },
+    "prevent": {
+        "8_17": 5
+    },
+    "risk": {
+        "8_17": 1
+    },
+    "prematur": {
+        "8_17": 1
+    },
+    "butthereaderscanatleastjudgeforthemselvesiftheywouldexpectani": {
+        "8_17": 1
+    },
+    "sudden": {
+        "8_17": 2
+    },
+    "twist": {
+        "8_17": 1
+    },
+    "plot": {
+        "8_17": 2
+    },
+    "hour": {
+        "8_17": 36
+    },
+    "obvious": {
+        "8_17": 2
+    },
+    "depend": {
+        "8_17": 3
+    },
+    "chosen": {
+        "8_17": 1
+    },
+    "so": {
+        "8_17": 19
+    },
+    "usedthesameequip": {
+        "8_17": 1
+    },
+    "oneuptoeightgeforcegtxtigpuswithnvidia": {
+        "8_17": 1
+    },
+    "driver": {
+        "8_17": 2
+    },
+    "variat": {
+        "8_17": 3
+    },
+    "measur": {
+        "8_17": 6
+    },
+    "unfortun": {
+        "8_17": 1
+    },
+    "unavoid": {
+        "8_17": 1
+    },
+    "could": {
+        "8_17": 3
+    },
+    "isol": {
+        "8_17": 1
+    },
+    "comput": {
+        "8_17": 15
+    },
+    "process": {
+        "8_17": 2
+    },
+    "tra": {
+        "8_17": 1
+    },
+    "base": {
+        "8_17": 3
+    },
+    "replic": {
+        "8_17": 2
+    },
+    "neglig": {
+        "8_17": 1
+    },
+    "terminologi": {
+        "8_17": 1
+    },
+    "clariti": {
+        "8_17": 1
+    },
+    "de": {
+        "8_17": 9
+    },
+    "ne": {
+        "8_17": 3
+    },
+    "follow": {
+        "8_17": 3
+    },
+    "term": {
+        "8_17": 2
+    },
+    "adher": {
+        "8_17": 1
+    },
+    "rest": {
+        "8_17": 2
+    },
+    "estim": {
+        "8_17": 3
+    },
+    "well": {
+        "8_17": 6
+    },
+    "carri": {
+        "8_17": 1
+    },
+    "express": {
+        "8_17": 1
+    },
+    "sourc": {
+        "8_17": 5
+    },
+    "sole": {
+        "8_17": 1
+    },
+    "denot": {
+        "8_17": 1
+    },
+    "i": {
+        "8_17": 11
+    },
+    "opti": {
+        "8_17": 1
+    },
+    "mizer": {
+        "8_17": 1
+    },
+    "updat": {
+        "8_17": 4
+    },
+    "run": {
+        "8_17": 3
+    },
+    "equal": {
+        "8_17": 3
+    },
+    "mini": {
+        "8_17": 1
+    },
+    "were": {
+        "8_17": 9
+    },
+    "proces": {
+        "8_17": 6
+    },
+    "isthenumberoftrainingexamplesusedbyonegpuinonetrainingstep": {
+        "8_17": 1
+    },
+    "sequenc": {
+        "8_17": 4
+    },
+    "usual": {
+        "8_17": 5
+    },
+    "ofsentencepair": {
+        "8_17": 1
+    },
+    "theparamet": {
+        "8_17": 3
+    },
+    "batch_siz": {
+        "8_17": 22
+    },
+    "intttranslationspeci": {
+        "8_17": 1
+    },
+    "subword": {
+        "8_17": 20
+    },
+    "allow": {
+        "8_17": 5
+    },
+    "short": {
+        "8_17": 1
+    },
+    "smaller": {
+        "8_17": 16
+    },
+    "long": {
+        "8_17": 5
+    },
+    "E": {
+        "8_17": 12
+    },
+    "ectiv": {
+        "8_17": 11
+    },
+    "examp": {
+        "8_17": 14
+    },
+    "consum": {
+        "8_17": 2
+    },
+    "whentrainingonmultiplegpu": {
+        "8_17": 1
+    },
+    "isinterpret": {
+        "8_17": 1
+    },
+    "pergpu": {
+        "8_17": 1
+    },
+    "thati": {
+        "8_17": 1
+    },
+    "andgpu": {
+        "8_17": 2
+    },
+    "thesystemactuallydigest": {
+        "8_17": 1
+    },
+    "k": {
+        "8_17": 40
+    },
+    "languag": {
+        "8_17": 3
+    },
+    "correspond": {
+        "8_17": 2
+    },
+    "complet": {
+        "8_17": 4
+    },
+    "pass": {
+        "8_17": 1
+    },
+    "unfortu": {
+        "8_17": 1
+    },
+    "nate": {
+        "8_17": 1
+    },
+    "easi": {
+        "8_17": 1
+    },
+    "TT": {
+        "8_17": 22
+    },
+    "purpos": {
+        "8_17": 1
+    },
+    "ned": {
+        "8_17": 3
+    },
+    "target": {
+        "8_17": 3
+    },
+    "ttalsodoesreorderingandbucketingofthesentencesbytheirlengthtominimizetheuseof": {
+        "8_17": 1
+    },
+    "pade": {
+        "8_17": 3
+    },
+    "symbol": {
+        "8_17": 1
+    },
+    "actual": {
+        "8_17": 13
+    },
+    "non": {
+        "8_17": 2
+    },
+    "http": {
+        "8_17": 23
+    },
+    "issu": {
+        "8_17": 4
+    },
+    "report": {
+        "8_17": 4
+    },
+    "order": {
+        "8_17": 3
+    },
+    "convert": {
+        "8_17": 1
+    },
+    "multipli": {
+        "8_17": 4
+    },
+    "divid": {
+        "8_17": 4
+    },
+    "thenumberofsubwordsinthetrainingdata": {
+        "8_17": 1
+    },
+    "thesegment": {
+        "8_17": 1
+    },
+    "ofthetrainingdataintosubwordsisusuallyhiddentotheuserandthenumb": {
+        "8_17": 1
+    },
+    "must": {
+        "8_17": 2
+    },
+    "special": {
+        "8_17": 1
+    },
+    "script": {
+        "8_17": 5
+    },
+    "issimplytheobservednumberoftrainingstepsperhour": {
+        "8_17": 1
+    },
+    "putat": {
+        "8_17": 2
+    },
+    "CPU": {
+        "8_17": 1
+    },
+    "commun": {
+        "8_17": 1
+    },
+    "softwar": {
+        "8_17": 1
+    },
+    "CUDA": {
+        "8_17": 1
+    },
+    "librari": {
+        "8_17": 1
+    },
+    "impl": {
+        "8_17": 1
+    },
+    "mentat": {
+        "8_17": 1
+    },
+    "ec": {
+        "8_17": 2
+    },
+    "optimizerandothersettingsthatdirectlymodifytheformulaoftheneur": {
+        "8_17": 1
+    },
+    "throughput": {
+        "8_17": 18
+    },
+    "amount": {
+        "8_17": 1
+    },
+    "diges": {
+        "8_17": 1
+    },
+    "per": {
+        "8_17": 4
+    },
+    "converg": {
+        "8_17": 9
+    },
+    "orbleuconverg": {
+        "8_17": 1
+    },
+    "istheincreaseinbleudividedbytim": {
+        "8_17": 1
+    },
+    "heavili": {
+        "8_17": 1
+    },
+    "dure": {
+        "8_17": 4
+    },
+    "high": {
+        "8_17": 10
+    },
+    "decreas": {
+        "8_17": 8
+    },
+    "progress": {
+        "8_17": 3
+    },
+    "genc": {
+        "8_17": 1
+    },
+    "zero": {
+        "8_17": 2
+    },
+    "till": {
+        "8_17": 9
+    },
+    "achiev": {
+        "8_17": 6
+    },
+    "level": {
+        "8_17": 5
+    },
+    "inform": {
+        "8_17": 3
+    },
+    "clear": {
+        "8_17": 1
+    },
+    "moment": {
+        "8_17": 3
+    },
+    "after": {
+        "8_17": 26
+    },
+    "never": {
+        "8_17": 4
+    },
+    "fall": {
+        "8_17": 2
+    },
+    "below": {
+        "8_17": 4
+    },
+    "tool": {
+        "8_17": 3
+    },
+    "within": {
+        "8_17": 5
+    },
+    "be": {
+        "8_17": 2
+    },
+    "implemen": {
+        "8_17": 3
+    },
+    "nice": {
+        "8_17": 1
+    },
+    "tensorboard": {
+        "8_17": 2
+    },
+    "visual": {
+        "8_17": 1
+    },
+    "origin": {
+        "8_17": 3
+    },
+    "implement": {
+        "8_17": 4
+    },
+    "optim": {
+        "8_17": 7
+    },
+    "toward": {
+        "8_17": 3
+    },
+    "eld": {
+        "8_17": 1
+    },
+    "reportsapprox": {
+        "8_17": 1
+    },
+    "bleubydefault": {
+        "8_17": 1
+    },
+    "whichiscomputedontheinternalsubword": {
+        "8_17": 1
+    },
+    "expos": {
+        "8_17": 1
+    },
+    "user": {
+        "8_17": 2
+    },
+    "instead": {
+        "8_17": 9
+    },
+    "word": {
+        "8_17": 11
+    },
+    "accor": {
+        "8_17": 3
+    },
+    "approx": {
+        "8_17": 1
+    },
+    "bleu": {
+        "8_17": 3
+    },
+    "real": {
+        "8_17": 1
+    },
+    "due": {
+        "8_17": 3
+    },
+    "vocabulari": {
+        "8_17": 3
+    },
+    "easili": {
+        "8_17": 2
+    },
+    "reproduc": {
+        "8_17": 1
+    },
+    "vare": {
+        "8_17": 4
+    },
+    "suitab": {
+        "8_17": 2
+    },
+    "public": {
+        "8_17": 1
+    },
+    "nition": {
+        "8_17": 1
+    },
+    "lead": {
+        "8_17": 5
+    },
+    "varianc": {
+        "8_17": 4
+    },
+    "valu": {
+        "8_17": 9
+    },
+    "rel": {
+        "8_17": 5
+    },
+    "subsequ": {
+        "8_17": 2
+    },
+    "checkpoint": {
+        "8_17": 23
+    },
+    "visib": {
+        "8_17": 3
+    },
+    "icker": {
+        "8_17": 2
+    },
+    "gure": {
+        "8_17": 4
+    },
+    "bigger": {
+        "8_17": 13
+    },
+    "develop": {
+        "8_17": 4
+    },
+    "EN": {
+        "8_17": 1
+    },
+    "CS": {
+        "8_17": 1
+    },
+    "czeng": {
+        "8_17": 24
+    },
+    "M": {
+        "8_17": 41
+    },
+    "europar": {
+        "8_17": 2
+    },
+    "commentari": {
+        "8_17": 2
+    },
+    "commoncraw": {
+        "8_17": 1
+    },
+    "total": {
+        "8_17": 3
+    },
+    "tabl": {
+        "8_17": 16
+    },
+    "resourc": {
+        "8_17": 5
+    },
+    "weimplementedahelperscript": {
+        "8_17": 1
+    },
+    "tt": {
+        "8_17": 6
+    },
+    "whichcomputestherealbleu": {
+        "8_17": 1
+    },
+    "give": {
+        "8_17": 5
+    },
+    "my": {
+        "8_17": 1
+    },
+    "wmt_deen": {
+        "8_17": 1
+    },
+    "directori": {
+        "8_17": 2
+    },
+    "creat": {
+        "8_17": 2
+    },
+    "store": {
+        "8_17": 3
+    },
+    "event": {
+        "8_17": 1
+    },
+    "wealsoimplemen": {
+        "8_17": 1
+    },
+    "avg": {
+        "8_17": 1
+    },
+    "whichtrans": {
+        "8_17": 1
+    },
+    "averag": {
+        "8_17": 20
+    },
+    "window": {
+        "8_17": 1
+    },
+    "N": {
+        "8_17": 4
+    },
+    "check": {
+        "8_17": 1
+    },
+    "respect": {
+        "8_17": 2
+    },
+    "detail": {
+        "8_17": 3
+    },
+    "select": {
+        "8_17": 1
+    },
+    "preproces": {
+        "8_17": 5
+    },
+    "english": {
+        "8_17": 6
+    },
+    "czech": {
+        "8_17": 10
+    },
+    "direct": {
+        "8_17": 1
+    },
+    "come": {
+        "8_17": 3
+    },
+    "parallel": {
+        "8_17": 5
+    },
+    "treebank": {
+        "8_17": 1
+    },
+    "pair": {
+        "8_17": 8
+    },
+    "common": {
+        "8_17": 3
+    },
+    "crawl": {
+        "8_17": 1
+    },
+    "substitut": {
+        "8_17": 1
+    },
+    "older": {
+        "8_17": 2
+    },
+    "contain": {
+        "8_17": 2
+    },
+    "throughout": {
+        "8_17": 1
+    },
+    "newstest": {
+        "8_17": 2
+    },
+    "overlap": {
+        "8_17": 1
+    },
+    "jude": {
+        "8_17": 1
+    },
+    "system": {
+        "8_17": 6
+    },
+    "now": {
+        "8_17": 1
+    },
+    "mergedin": {
+        "8_17": 1
+    },
+    "trainingi": {
+        "8_17": 1
+    },
+    "thei": {
+        "8_17": 3
+    },
+    "wait": {
+        "8_17": 1
+    },
+    "minut": {
+        "8_17": 3
+    },
+    "appear": {
+        "8_17": 1
+    },
+    "ufal": {
+        "8_17": 2
+    },
+    "mff": {
+        "8_17": 2
+    },
+    "cuni": {
+        "8_17": 2
+    },
+    "cz": {
+        "8_17": 2
+    },
+    "subset": {
+        "8_17": 2
+    },
+    "truecas": {
+        "8_17": 1
+    },
+    "importantpartofthesetupofstatisticalmachinetranslationsystem": {
+        "8_17": 1
+    },
+    "ahugeleapin": {
+        "8_17": 1
+    },
+    "realist": {
+        "8_17": 1
+    },
+    "unit": {
+        "8_17": 3
+    },
+    "sennrichet": {
+        "8_17": 1
+    },
+    "butthelong": {
+        "8_17": 1
+    },
+    "termvisionofthedeep": {
+        "8_17": 1
+    },
+    "leav": {
+        "8_17": 3
+    },
+    "technic": {
+        "8_17": 2
+    },
+    "feed": {
+        "8_17": 1
+    },
+    "input": {
+        "8_17": 1
+    },
+    "lee": {
+        "8_17": 2
+    },
+    "adopt": {
+        "8_17": 1
+    },
+    "vision": {
+        "8_17": 1
+    },
+    "support": {
+        "8_17": 2
+    },
+    "extern": {
+        "8_17": 1
+    },
+    "own": {
+        "8_17": 1
+    },
+    "built": {
+        "8_17": 1
+    },
+    "similar": {
+        "8_17": 2
+    },
+    "piec": {
+        "8_17": 1
+    },
+    "algorithm": {
+        "8_17": 1
+    },
+    "wu": {
+        "8_17": 2
+    },
+    "anddoesnotexpecttheinputtobeeventoken": {
+        "8_17": 1
+    },
+    "basedonasmallsampleof": {
+        "8_17": 1
+    },
+    "thetrainingdata": {
+        "8_17": 1
+    },
+    "ttwilltrainasubwordvocabularyandapplyittoallthetrain": {
+        "8_17": 1
+    },
+    "later": {
+        "8_17": 2
+    },
+    "default": {
+        "8_17": 18
+    },
+    "raw": {
+        "8_17": 1
+    },
+    "plain": {
+        "8_17": 1
+    },
+    "text": {
+        "8_17": 2
+    },
+    "share": {
+        "8_17": 2
+    },
+    "superioraft": {
+        "8_17": 1
+    },
+    "million": {
+        "8_17": 4
+    },
+    "take": {
+        "8_17": 4
+    },
+    "both": {
+        "8_17": 5
+    },
+    "space": {
+        "8_17": 1
+    },
+    "delimit": {
+        "8_17": 1
+    },
+    "evenwhenfollowingthedefault": {
+        "8_17": 1
+    },
+    "therearesomeimportantdetailsthatshouldb": {
+        "8_17": 1
+    },
+    "rst": {
+        "8_17": 10
+    },
+    "makesurethatthesubwordvocabularyistrainedonasu": {
+        "8_17": 1
+    },
+    "cientlylargesamp": {
+        "8_17": 1
+    },
+    "asdiscussedinsect": {
+        "8_17": 1
+    },
+    "ahigherbatchsizemaybeben": {
+        "8_17": 1
+    },
+    "cialforthetrain": {
+        "8_17": 1
+    },
+    "exclud": {
+        "8_17": 2
+    },
+    "longer": {
+        "8_17": 9
+    },
+    "threshold": {
+        "8_17": 3
+    },
+    "control": {
+        "8_17": 2
+    },
+    "max_length": {
+        "8_17": 31
+    },
+    "butitmaybeagoodideatoexcludetoolongsentencesevenbefor": {
+        "8_17": 1
+    },
+    "preparingthetrainingdataus": {
+        "8_17": 1
+    },
+    "datagen": {
+        "8_17": 1
+    },
+    "thiswaythetfrecordstrain": {
+        "8_17": 1
+    },
+    "superiormoredetailsonttwithbpesubwordunitsbysennrichet": {
+        "8_17": 1
+    },
+    "theinternalimplement": {
+        "8_17": 1
+    },
+    "canbefoundinthetechnicalreportmorphologicalandlanguag": {
+        "8_17": 1
+    },
+    "agnosticwordsegmentationfornmt": {
+        "8_17": 1
+    },
+    "attac": {
+        "8_17": 1
+    },
+    "deliver": {
+        "8_17": 1
+    },
+    "project": {
+        "8_17": 2
+    },
+    "QT": {
+        "8_17": 2
+    },
+    "qt": {
+        "8_17": 1
+    },
+    "eu": {
+        "8_17": 1
+    },
+    "superiorthi": {
+        "8_17": 2
+    },
+    "file_byte_budget": {
+        "8_17": 1
+    },
+    "constant": {
+        "8_17": 6
+    },
+    "chane": {
+        "8_17": 2
+    },
+    "directli": {
+        "8_17": 1
+    },
+    "code": {
+        "8_17": 1
+    },
+    "inttv": {
+        "8_17": 1
+    },
+    "asignoftoosmalltrainingdataforthesubwordvocabularyisthatth": {
+        "8_17": 1
+    },
+    "min_count": {
+        "8_17": 1
+    },
+    "asrepor": {
+        "8_17": 1
+    },
+    "log": {
+        "8_17": 1
+    },
+    "low": {
+        "8_17": 2
+    },
+    "seen": {
+        "8_17": 3
+    },
+    "twice": {
+        "8_17": 1
+    },
+    "superiorw": {
+        "8_17": 5
+    },
+    "did": {
+        "8_17": 3
+    },
+    "pre": {
+        "8_17": 3
+    },
+    "ltere": {
+        "8_17": 1
+    },
+    "present": {
+        "8_17": 2
+    },
+    "sever": {
+        "8_17": 5
+    },
+    "summar": {
+        "8_17": 3
+    },
+    "obser": {
+        "8_17": 2
+    },
+    "vation": {
+        "8_17": 1
+    },
+    "done": {
+        "8_17": 4
+    },
+    "unless": {
+        "8_17": 1
+    },
+    "otherwis": {
+        "8_17": 2
+    },
+    "tran": {
+        "8_17": 6
+    },
+    "former_big_single_gpu": {
+        "8_17": 1
+    },
+    "BIG": {
+        "8_17": 41
+    },
+    "transformer_base_single_gpu": {
+        "8_17": 4
+    },
+    "BASE": {
+        "8_17": 31
+    },
+    "mainli": {
+        "8_17": 1
+    },
+    "note": {
+        "8_17": 4
+    },
+    "transformer_big_single_gpu": {
+        "8_17": 3
+    },
+    "former_base_single_gpu": {
+        "8_17": 1
+    },
+    "name": {
+        "8_17": 2
+    },
+    "even": {
+        "8_17": 13
+    },
+    "baselineset": {
+        "8_17": 1
+    },
+    "thebig": {
+        "8_17": 1
+    },
+    "withit": {
+        "8_17": 1
+    },
+    "parametersexcept": {
+        "8_17": 1
+    },
+    "discuss": {
+        "8_17": 1
+    },
+    "train_step": {
+        "8_17": 1
+    },
+    "highenough": {
+        "8_17": 1
+    },
+    "sowecanstopeachexperimentman": {
+        "8_17": 1
+    },
+    "ualli": {
+        "8_17": 1
+    },
+    "save_checkpoints_sec": {
+        "8_17": 1
+    },
+    "forc": {
+        "8_17": 1
+    },
+    "save": {
+        "8_17": 4
+    },
+    "schedul": {
+        "8_17": 10
+    },
+    "disab": {
+        "8_17": 1
+    },
+    "intern": {
+        "8_17": 4
+    },
+    "approx_bleu": {
+        "8_17": 1
+    },
+    "make": {
+        "8_17": 6
+    },
+    "primarili": {
+        "8_17": 1
+    },
+    "interes": {
+        "8_17": 2
+    },
+    "timetillscor": {
+        "8_17": 1
+    },
+    "andwediscussitinthefollowingsect": {
+        "8_17": 1
+    },
+    "inthissect": {
+        "8_17": 1
+    },
+    "focushoweveronlyonth": {
+        "8_17": 1
+    },
+    "computationspe": {
+        "8_17": 1
+    },
+    "andtrainingthroughput": {
+        "8_17": 1
+    },
+    "botharea": {
+        "8_17": 1
+    },
+    "factor": {
+        "8_17": 4
+    },
+    "almost": {
+        "8_17": 7
+    },
+    "show": {
+        "8_17": 12
+    },
+    "variou": {
+        "8_17": 5
+    },
+    "cell": {
+        "8_17": 1
+    },
+    "where": {
+        "8_17": 6
+    },
+    "resul": {
+        "8_17": 3
+    },
+    "error": {
+        "8_17": 4
+    },
+    "mare": {
+        "8_17": 2
+    },
+    "OOM": {
+        "8_17": 8
+    },
+    "superioraccor": {
+        "8_17": 1
+    },
+    "former_big": {
+        "8_17": 1
+    },
+    "although": {
+        "8_17": 2
+    },
+    "suggest": {
+        "8_17": 6
+    },
+    "author": {
+        "8_17": 1
+    },
+    "opposit": {
+        "8_17": 1
+    },
+    "superioralsotherearesomeproblemswiththealternativeschedul": {
+        "8_17": 1
+    },
+    "train_and_evalu": {
+        "8_17": 1
+    },
+    "itneedsmoremem": {
+        "8_17": 1
+    },
+    "ori": {
+        "8_17": 1
+    },
+    "continuous_train_and_ev": {
+        "8_17": 1
+    },
+    "superiortensorboard": {
+        "8_17": 1
+    },
+    "global_step": {
+        "8_17": 2
+    },
+    "statist": {
+        "8_17": 1
+    },
+    "experimentsarealmostconstantforthewholetrainingwithvariationwithin": {
+        "8_17": 1
+    },
+    "exceptformomentswhen": {
+        "8_17": 1
+    },
+    "slower": {
+        "8_17": 2
+    },
+    "superiorfor": {
+        "8_17": 1
+    },
+    "abl": {
+        "8_17": 4
+    },
+    "chece": {
+        "8_17": 2
+    },
+    "increas": {
+        "8_17": 17
+    },
+    "oper": {
+        "8_17": 1
+    },
+    "paralleliz": {
+        "8_17": 1
+    },
+    "grow": {
+        "8_17": 5
+    },
+    "sub": {
+        "8_17": 1
+    },
+    "linearli": {
+        "8_17": 2
+    },
+    "there": {
+        "8_17": 7
+    },
+    "advantag": {
+        "8_17": 3
+    },
+    "return": {
+        "8_17": 2
+    },
+    "question": {
+        "8_17": 2
+    },
+    "into": {
+        "8_17": 1
+    },
+    "account": {
+        "8_17": 1
+    },
+    "overhead": {
+        "8_17": 4
+    },
+    "synchroniz": {
+        "8_17": 1
+    },
+    "appar": {
+        "8_17": 1
+    },
+    "without": {
+        "8_17": 9
+    },
+    "hypothet": {
+        "8_17": 1
+    },
+    "expect": {
+        "8_17": 3
+    },
+    "dai": {
+        "8_17": 20
+    },
+    "figur": {
+        "8_17": 20
+    },
+    "forthisexperi": {
+        "8_17": 1
+    },
+    "wesubstitutedczeng": {
+        "8_17": 1
+    },
+    "withczeng": {
+        "8_17": 1
+    },
+    "inthetrainingdata": {
+        "8_17": 1
+    },
+    "sothetotaltrainingsizeismillionsentencepair": {
+        "8_17": 1
+    },
+    "mofenglish": {
+        "8_17": 1
+    },
+    "figurecomparesthebleulearningcurvesoftwoexperimentswhichdi": {
+        "8_17": 1
+    },
+    "baselin": {
+        "8_17": 5
+    },
+    "versu": {
+        "8_17": 2
+    },
+    "next": {
+        "8_17": 2
+    },
+    "week": {
+        "8_17": 2
+    },
+    "slightli": {
+        "8_17": 6
+    },
+    "wors": {
+        "8_17": 3
+    },
+    "eight": {
+        "8_17": 5
+    },
+    "shown": {
+        "8_17": 5
+    },
+    "graph": {
+        "8_17": 1
+    },
+    "reac": {
+        "8_17": 2
+    },
+    "trainingoneepochofthesmallerdataset": {
+        "8_17": 1
+    },
+    "takeskstep": {
+        "8_17": 1
+    },
+    "hoursoftrain": {
+        "8_17": 1
+    },
+    "comparedtokstep": {
+        "8_17": 1
+    },
+    "compar": {
+        "8_17": 4
+    },
+    "anoth": {
+        "8_17": 7
+    },
+    "gave": {
+        "8_17": 1
+    },
+    "hypothes": {
+        "8_17": 1
+    },
+    "cleaner": {
+        "8_17": 2
+    },
+    "datasetstartsbeingclearlybett": {
+        "8_17": 1
+    },
+    "evenepochsinthebiggerdatasetwerenot": {
+        "8_17": 1
+    },
+    "enough": {
+        "8_17": 5
+    },
+    "reach": {
+        "8_17": 5
+    },
+    "noisier": {
+        "8_17": 1
+    },
+    "mislead": {
+        "8_17": 1
+    },
+    "half": {
+        "8_17": 1
+    },
+    "gigaword": {
+        "8_17": 1
+    },
+    "cannot": {
+        "8_17": 2
+    },
+    "interpol": {
+        "8_17": 1
+    },
+    "continu": {
+        "8_17": 4
+    },
+    "choos": {
+        "8_17": 1
+    },
+    "reason": {
+        "8_17": 2
+    },
+    "maynot": {
+        "8_17": 1
+    },
+    "tanymoreonyourgpuortheymayrequiretouseaverysmallbatchs": {
+        "8_17": 1
+    },
+    "superiora": {
+        "8_17": 3
+    },
+    "transfor": {
+        "8_17": 1
+    },
+    "mer_big_single_gpu": {
+        "8_17": 1
+    },
+    "four": {
+        "8_17": 2
+    },
+    "hidden_s": {
+        "8_17": 1
+    },
+    "lter_siz": {
+        "8_17": 1
+    },
+    "num_head": {
+        "8_17": 1
+    },
+    "adam_beta": {
+        "8_17": 1
+    },
+    "figureshowsthatonasinglegpu": {
+        "8_17": 1
+    },
+    "thebigmodelbecomesclearlybetterthanth": {
+        "8_17": 1
+    },
+    "basemodelafterhoursoftrainingifwekeepthebatchsizethesam": {
+        "8_17": 1
+    },
+    "andw": {
+        "8_17": 1
+    },
+    "rmed": {
+        "8_17": 2
+    },
+    "lessmemori": {
+        "8_17": 1
+    },
+    "sowecana": {
+        "8_17": 1
+    },
+    "ordahigherbatchs": {
+        "8_17": 1
+    },
+    "inourcas": {
+        "8_17": 1
+    },
+    "withno": {
+        "8_17": 1
+    },
+    "restrict": {
+        "8_17": 4
+    },
+    "seethenextsect": {
+        "8_17": 1
+    },
+    "whichimprovesthebleu": {
+        "8_17": 1
+    },
+    "buteven": {
+        "8_17": 1
+    },
+    "althoughsuchanexpectationmayseemnav": {
+        "8_17": 1
+    },
+    "wecan": {
+        "8_17": 1
+    },
+    "nditinliteratur": {
+        "8_17": 1
+    },
+    "forexamp": {
+        "8_17": 2
+    },
+    "bottou": {
+        "8_17": 5
+    },
+    "write": {
+        "8_17": 1
+    },
+    "expectthevalidationperformancetoplateauafteranumberofepochsroughlycomparableto": {
+        "8_17": 1
+    },
+    "dont": {
+        "8_17": 2
+    },
+    "less": {
+        "8_17": 6
+    },
+    "becom": {
+        "8_17": 3
+    },
+    "figurecon": {
+        "8_17": 1
+    },
+    "rmsthiswithgpusherebigwithbatchsizebecomesclearli": {
+        "8_17": 1
+    },
+    "prefer": {
+        "8_17": 1
+    },
+    "you": {
+        "8_17": 7
+    },
+    "plan": {
+        "8_17": 1
+    },
+    "GB": {
+        "8_17": 2
+    },
+    "benchmark": {
+        "8_17": 1
+    },
+    "adam": {
+        "8_17": 8
+    },
+    "adafactor": {
+        "8_17": 5
+    },
+    "none": {
+        "8_17": 2
+    },
+    "maximumbatchsizewhich": {
+        "8_17": 1
+    },
+    "tsintogbmemoryforvariouscombin": {
+        "8_17": 1
+    },
+    "ofmax_length": {
+        "8_17": 1
+    },
+    "big": {
+        "8_17": 1
+    },
+    "last": {
+        "8_17": 4
+    },
+    "column": {
+        "8_17": 2
+    },
+    "percentag": {
+        "8_17": 2
+    },
+    "forfastdebug": {
+        "8_17": 1
+    },
+    "ofmodel": {
+        "8_17": 1
+    },
+    "unrelatedaspect": {
+        "8_17": 1
+    },
+    "useamodelcal": {
+        "8_17": 1
+    },
+    "former_tini": {
+        "8_17": 1
+    },
+    "esthemaximumlengthofasentenceinsubword": {
+        "8_17": 1
+    },
+    "longersent": {
+        "8_17": 1
+    },
+    "eitherinsourceortargetlanguag": {
+        "8_17": 1
+    },
+    "areexcludedfromthetrain": {
+        "8_17": 1
+    },
+    "loweringth": {
+        "8_17": 1
+    },
+    "allowstouseahigherbatchsizeorabiggermodel": {
+        "8_17": 1
+    },
+    "sinc": {
+        "8_17": 1
+    },
+    "suddenli": {
+        "8_17": 1
+    },
+    "good": {
+        "8_17": 2
+    },
+    "know": {
+        "8_17": 2
+    },
+    "t": {
+        "8_17": 3
+    },
+    "your": {
+        "8_17": 1
+    },
+    "what": {
+        "8_17": 3
+    },
+    "superioroptim": {
+        "8_17": 1
+    },
+    "toolowwouldresultinexcludingtoomanytrainingsent": {
+        "8_17": 1
+    },
+    "bias": {
+        "8_17": 1
+    },
+    "shorter": {
+        "8_17": 1
+    },
+    "hurt": {
+        "8_17": 1
+    },
+    "lation": {
+        "8_17": 3
+    },
+    "resp": {
+        "8_17": 3
+    },
+    "detriment": {
+        "8_17": 1
+    },
+    "bia": {
+        "8_17": 1
+    },
+    "minim": {
+        "8_17": 2
+    },
+    "strang": {
+        "8_17": 1
+    },
+    "drop": {
+        "8_17": 3
+    },
+    "lower": {
+        "8_17": 5
+    },
+    "nallygivesthesameresultasnotusingani": {
+        "8_17": 1
+    },
+    "superiortheadafactoroptim": {
+        "8_17": 1
+    },
+    "shazeerandstern": {
+        "8_17": 1
+    },
+    "isavailableonlyintt": {
+        "8_17": 1
+    },
+    "ornewerandhasthre": {
+        "8_17": 1
+    },
+    "second": {
+        "8_17": 4
+    },
+    "weight": {
+        "8_17": 1
+    },
+    "futur": {
+        "8_17": 3
+    },
+    "work": {
+        "8_17": 4
+    },
+    "max": {
+        "8_17": 6
+    },
+    "restric": {
+        "8_17": 1
+    },
+    "thetraininglossof": {
+        "8_17": 1
+    },
+    "andand": {
+        "8_17": 1
+    },
+    "hashighvarianceand": {
+        "8_17": 1
+    },
+    "stop": {
+        "8_17": 1
+    },
+    "diver": {
+        "8_17": 6
+    },
+    "discus": {
+        "8_17": 1
+    },
+    "explan": {
+        "8_17": 2
+    },
+    "phenomenon": {
+        "8_17": 1
+    },
+    "slowergrowingbleucurv": {
+        "8_17": 1
+    },
+    "butandhigherhasthesamecurveasno": {
+        "8_17": 1
+    },
+    "thattheyarenotabletoproducelongertranslationsthanwhatwasthemaximumlengthus": {
+        "8_17": 1
+    },
+    "decod": {
+        "8_17": 1
+    },
+    "alpha": {
+        "8_17": 1
+    },
+    "isahigherchancethatthetrainingwillfaileitherimmedi": {
+        "8_17": 1
+    },
+    "ifthebatchs": {
+        "8_17": 1
+    },
+    "setareasonablyhigh": {
+        "8_17": 1
+    },
+    "considerthepercentageofsentencesexclud": {
+        "8_17": 1
+    },
+    "fromtrainingandfromthetargeteddevelopmenttestsetandalsowatchforun": {
+        "8_17": 1
+    },
+    "expecteddrop": {
+        "8_17": 1
+    },
+    "orstagn": {
+        "8_17": 1
+    },
+    "ofthebleucurveinth": {
+        "8_17": 1
+    },
+    "rsthoursoftrain": {
+        "8_17": 1
+    },
+    "thedefault": {
+        "8_17": 1
+    },
+    "valueinrecentttversionsissubwordsforallmodel": {
+        "8_17": 1
+    },
+    "except": {
+        "8_17": 2
+    },
+    "explicitli": {
+        "8_17": 1
+    },
+    "superioror": {
+        "8_17": 1
+    },
+    "least": {
+        "8_17": 3
+    },
+    "figureshowslearningcurvesfor": {
+        "8_17": 1
+    },
+    "vedi": {
+        "8_17": 1
+    },
+    "erentbatchs": {
+        "8_17": 1
+    },
+    "sizeup": {
+        "8_17": 1
+    },
+    "examplestillscoremetricsd": {
+        "8_17": 1
+    },
+    "nedinsect": {
+        "8_17": 1
+    },
+    "togetoverbleuof": {
+        "8_17": 1
+    },
+    "weneedhour": {
+        "8_17": 1
+    },
+    "mexamp": {
+        "8_17": 1
+    },
+    "andwith": {
+        "8_17": 1
+    },
+    "fromtableaweknowthatbiggerbatcheshaveslowercomputationspe": {
+        "8_17": 1
+    },
+    "sowhen": {
+        "8_17": 1
+    },
+    "re": {
+        "8_17": 3
+    },
+    "plote": {
+        "8_17": 2
+    },
+    "x": {
+        "8_17": 3
+    },
+    "axi": {
+        "8_17": 3
+    },
+    "exceptionisthedi": {
+        "8_17": 1
+    },
+    "erencebetweenbatchsizeand": {
+        "8_17": 1
+    },
+    "whichisverysmalland": {
+        "8_17": 1
+    },
+    "hparam": {
+        "8_17": 1
+    },
+    "learning_r": {
+        "8_17": 8
+    },
+    "learning_rate_warmup_step": {
+        "8_17": 4
+    },
+    "power": {
+        "8_17": 1
+    },
+    "superioral": {
+        "8_17": 1
+    },
+    "got": {
+        "8_17": 1
+    },
+    "rune": {
+        "8_17": 2
+    },
+    "fail": {
+        "8_17": 1
+    },
+    "canbefullyexplainedbythefactthatbatchsizeha": {
+        "8_17": 1
+    },
+    "higherthroughputthan": {
+        "8_17": 1
+    },
+    "sofor": {
+        "8_17": 1
+    },
+    "dimin": {
+        "8_17": 1
+    },
+    "is": {
+        "8_17": 1
+    },
+    "goe": {
+        "8_17": 1
+    },
+    "knowledg": {
+        "8_17": 1
+    },
+    "deep": {
+        "8_17": 3
+    },
+    "keskar": {
+        "8_17": 2
+    },
+    "proceedslow": {
+        "8_17": 1
+    },
+    "trainingexamplesperhour": {
+        "8_17": 1
+    },
+    "butresultinbettergener": {
+        "8_17": 1
+    },
+    "end": {
+        "8_17": 1
+    },
+    "expec": {
+        "8_17": 2
+    },
+    "interestingli": {
+        "8_17": 1
+    },
+    "erentresult": {
+        "8_17": 1
+    },
+    "asshowninfigur": {
+        "8_17": 1
+    },
+    "thebigmodelneedsacertainminimalbatchs": {
+        "8_17": 1
+    },
+    "tostartconvergingatal": {
+        "8_17": 1
+    },
+    "butforhigherbatchsizesthereisalmostnodi": {
+        "8_17": 1
+    },
+    "erenceinth": {
+        "8_17": 1
+    },
+    "bleucurv": {
+        "8_17": 1
+    },
+    "butstil": {
+        "8_17": 1
+    },
+    "biggerbatchnevermakesthebleuworseinourexperi": {
+        "8_17": 1
+    },
+    "sharp": {
+        "8_17": 3
+    },
+    "o": {
+        "8_17": 2
+    },
+    "recov": {
+        "8_17": 1
+    },
+    "slowli": {
+        "8_17": 2
+    },
+    "smith": {
+        "8_17": 6
+    },
+    "gradient": {
+        "8_17": 8
+    },
+    "scaleofrandom": {
+        "8_17": 1
+    },
+    "uctuationsinthesgd": {
+        "8_17": 1
+    },
+    "oradametc": {
+        "8_17": 1
+    },
+    "dynamic": {
+        "8_17": 1
+    },
+    "isproport": {
+        "8_17": 1
+    },
+    "cf": {
+        "8_17": 4
+    },
+    "batchsiz": {
+        "8_17": 1
+    },
+    "weincreasethenoisescaleandthetrainingmai": {
+        "8_17": 1
+    },
+    "diverg": {
+        "8_17": 9
+    },
+    "thismaybeeith": {
+        "8_17": 1
+    },
+    "perman": {
+        "8_17": 1
+    },
+    "temporari": {
+        "8_17": 2
+    },
+    "sure": {
+        "8_17": 3
+    },
+    "caus": {
+        "8_17": 1
+    },
+    "regard": {
+        "8_17": 1
+    },
+    "hypothesi": {
+        "8_17": 2
+    },
+    "phase": {
+        "8_17": 4
+    },
+    "highli": {
+        "8_17": 1
+    },
+    "help": {
+        "8_17": 2
+    },
+    "until": {
+        "8_17": 1
+    },
+    "limit": {
+        "8_17": 2
+    },
+    "preven": {
+        "8_17": 1
+    },
+    "reserv": {
+        "8_17": 1
+    },
+    "hite": {
+        "8_17": 1
+    },
+    "advis": {
+        "8_17": 1
+    },
+    "establish": {
+        "8_17": 1
+    },
+    "largest": {
+        "8_17": 1
+    },
+    "befor": {
+        "8_17": 1
+    },
+    "learningratetoolow": {
+        "8_17": 1
+    },
+    "resultsinnotablyslowerconverg": {
+        "8_17": 1
+    },
+    "settingthelear": {
+        "8_17": 1
+    },
+    "divergedtrain": {
+        "8_17": 1
+    },
+    "inthiscasethatthelearningcurvestartsgrowingasusu": {
+        "8_17": 1
+    },
+    "butatonemomentdrop": {
+        "8_17": 1
+    },
+    "down": {
+        "8_17": 2
+    },
+    "stai": {
+        "8_17": 2
+    },
+    "forev": {
+        "8_17": 1
+    },
+    "introduc": {
+        "8_17": 2
+    },
+    "clipe": {
+        "8_17": 2
+    },
+    "linear_warmup_rsqrt_decai": {
+        "8_17": 2
+    },
+    "superiorand": {
+        "8_17": 2
+    },
+    "superiorth": {
+        "8_17": 2
+    },
+    "call": {
+        "8_17": 2
+    },
+    "noamin": {
+        "8_17": 1
+    },
+    "rstkstepsthelearningrategrowslinearlyandthenfollowsaninversesquar": {
+        "8_17": 1
+    },
+    "root": {
+        "8_17": 3
+    },
+    "decai": {
+        "8_17": 7
+    },
+    "highest": {
+        "8_17": 2
+    },
+    "happen": {
+        "8_17": 2
+    },
+    "look": {
+        "8_17": 1
+    },
+    "similarli": {
+        "8_17": 3
+    },
+    "baselineon": {
+        "8_17": 1
+    },
+    "withdefaultvaluesofkwarmupstepsandlearningr": {
+        "8_17": 1
+    },
+    "tryinglearningr": {
+        "8_17": 1
+    },
+    "wehadtoincreasewarmupstepstok": {
+        "8_17": 1
+    },
+    "withkthetrain": {
+        "8_17": 1
+    },
+    "divergedafteronehour": {
+        "8_17": 1
+    },
+    "thisresultedinaslowerconvergenceat": {
+        "8_17": 1
+    },
+    "aboutbleu": {
+        "8_17": 1
+    },
+    "lowerthanthebaselineafterhoursoftrain": {
+        "8_17": 1
+    },
+    "butafterdaysoftraininghav": {
+        "8_17": 1
+    },
+    "figureshowsthe": {
+        "8_17": 1
+    },
+    "ectofdi": {
+        "8_17": 1
+    },
+    "erentwarmupstepswitha": {
+        "8_17": 1
+    },
+    "xedlearningr": {
+        "8_17": 1
+    },
+    "settingwarmupstepstoolow": {
+        "8_17": 1
+    },
+    "resultsindivergedtrain": {
+        "8_17": 1
+    },
+    "green": {
+        "8_17": 1
+    },
+    "matc": {
+        "8_17": 1
+    },
+    "largerangeoflearningrateandwarmupstepsvaluesthatachievetheoptimalresult": {
+        "8_17": 1
+    },
+    "try": {
+        "8_17": 3
+    },
+    "ifthatdoesnothelp": {
+        "8_17": 1
+    },
+    "orifthewarmupstepsaretoohighrelativetotheexpec": {
+        "8_17": 1
+    },
+    "lin": {
+        "8_17": 1
+    },
+    "ear_warmup_rsqrt_decai": {
+        "8_17": 1
+    },
+    "aka": {
+        "8_17": 2
+    },
+    "noam": {
+        "8_17": 3
+    },
+    "simpli": {
+        "8_17": 2
+    },
+    "worker_gpu": {
+        "8_17": 1
+    },
+    "explain": {
+        "8_17": 3
+    },
+    "asing": {
+        "8_17": 1
+    },
+    "gpuexperimentwithbatchs": {
+        "8_17": 1
+    },
+    "shouldgiveexactlythesameresult": {
+        "8_17": 1
+    },
+    "whenconsideringtim": {
+        "8_17": 1
+    },
+    "thefour": {
+        "8_17": 1
+    },
+    "gpuexperimentwillbethefasteston": {
+        "8_17": 1
+    },
+    "asexplain": {
+        "8_17": 1
+    },
+    "andk": {
+        "8_17": 1
+    },
+    "ascouldbeexpec": {
+        "8_17": 1
+    },
+    "trainingwithmoregpusconverg": {
+        "8_17": 1
+    },
+    "whatisinterestingisthetimetillscor": {
+        "8_17": 1
+    },
+    "tableliststheapproximatetrain": {
+        "8_17": 1
+    },
+    "timeandnumberoftrainingexamp": {
+        "8_17": 1
+    },
+    "inmillionsofsubword": {
+        "8_17": 1
+    },
+    "neededtosurpass": {
+        "8_17": 1
+    },
+    "again": {
+        "8_17": 2
+    },
+    "andexamplestillscor": {
+        "8_17": 1
+    },
+    "notethattheexperimentongpuwasendedafterdai": {
+        "8_17": 1
+    },
+    "surpas": {
+        "8_17": 1
+    },
+    "outsid": {
+        "8_17": 1
+    },
+    "hold": {
+        "8_17": 3
+    },
+    "unexpec": {
+        "8_17": 1
+    },
+    "unintuit": {
+        "8_17": 1
+    },
+    "environ": {
+        "8_17": 1
+    },
+    "variab": {
+        "8_17": 1
+    },
+    "CUDA_VISIBLE_DEVICES": {
+        "8_17": 1
+    },
+    "card": {
+        "8_17": 1
+    },
+    "distribut": {
+        "8_17": 3
+    },
+    "experimen": {
+        "8_17": 1
+    },
+    "multi": {
+        "8_17": 3
+    },
+    "synchronou": {
+        "8_17": 1
+    },
+    "black": {
+        "8_17": 1
+    },
+    "line": {
+        "8_17": 1
+    },
+    "lowerexamplestillscor": {
+        "8_17": 1
+    },
+    "eightgpusaremorethan": {
+        "8_17": 1
+    },
+    "vetimesfasterthantwo": {
+        "8_17": 1
+    },
+    "gpusand": {
+        "8_17": 1
+    },
+    "recal": {
+        "8_17": 1
+    },
+    "hasalmostno": {
+        "8_17": 1
+    },
+    "ectonthebleucurv": {
+        "8_17": 1
+    },
+    "whenincreasingthe": {
+        "8_17": 1
+    },
+    "nd": {
+        "8_17": 2
+    },
+    "especi": {
+        "8_17": 1
+    },
+    "tune": {
+        "8_17": 1
+    },
+    "fastest": {
+        "8_17": 1
+    },
+    "ment": {
+        "8_17": 1
+    },
+    "superiorit": {
+        "8_17": 1
+    },
+    "simul": {
+        "8_17": 1
+    },
+    "do": {
+        "8_17": 1
+    },
+    "updateonceafternbatch": {
+        "8_17": 1
+    },
+    "andsummingthegradi": {
+        "8_17": 1
+    },
+    "thisissimilartoth": {
+        "8_17": 1
+    },
+    "ghostbatch": {
+        "8_17": 1
+    },
+    "ofho": {
+        "8_17": 1
+    },
+    "eret": {
+        "8_17": 4
+    },
+    "ghost": {
+        "8_17": 2
+    },
+    "relat": {
+        "8_17": 1
+    },
+    "thereisagrowingnumberofpapersonscalingdeeplearningtomultiplemachin": {
+        "8_17": 1
+    },
+    "withsynchronoussgd": {
+        "8_17": 1
+    },
+    "oritsvari": {
+        "8_17": 1
+    },
+    "byincreasingthe": {
+        "8_17": 1
+    },
+    "ectivebatchs": {
+        "8_17": 2
+    },
+    "wewil": {
+        "8_17": 1
+    },
+    "focu": {
+        "8_17": 1
+    },
+    "adapt": {
+        "8_17": 4
+    },
+    "devic": {
+        "8_17": 1
+    },
+    "kgpu": {
+        "8_17": 1
+    },
+    "krizhevski": {
+        "8_17": 2
+    },
+    "sai": {
+        "8_17": 1
+    },
+    "theori": {
+        "8_17": 2
+    },
+    "byv": {
+        "8_17": 2
+    },
+    "kto": {
+        "8_17": 1
+    },
+    "experimentalparthereportsthatwhatworkedthebest": {
+        "8_17": 1
+    },
+    "wasa": {
+        "8_17": 1
+    },
+    "linearscalingheurist": {
+        "8_17": 1
+    },
+    "nor": {
+        "8_17": 1
+    },
+    "betweenv": {
+        "8_17": 1
+    },
+    "kscale": {
+        "8_17": 3
+    },
+    "linear": {
+        "8_17": 3
+    },
+    "heurist": {
+        "8_17": 1
+    },
+    "popular": {
+        "8_17": 2
+    },
+    "goyalet": {
+        "8_17": 2
+    },
+    "smithet": {
+        "8_17": 1
+    },
+    "andalsotheoreticalexplan": {
+        "8_17": 1
+    },
+    "etal": {
+        "8_17": 2
+    },
+    "jastrzebskiet": {
+        "8_17": 1
+    },
+    "SGD": {
+        "8_17": 5
+    },
+    "anditsvari": {
+        "8_17": 1
+    },
+    "asastochasticdi": {
+        "8_17": 1
+    },
+    "erentialequationandshowthatth": {
+        "8_17": 1
+    },
+    "equalx": {
+        "8_17": 1
+    },
+    "B": {
+        "8_17": 4
+    },
+    "ni": {
+        "8_17": 1
+    },
+    "bi": {
+        "8_17": 1
+    },
+    "drive": {
+        "8_17": 1
+    },
+    "awai": {
+        "8_17": 1
+    },
+    "minima": {
+        "8_17": 4
+    },
+    "therefor": {
+        "8_17": 1
+    },
+    "maxim": {
+        "8_17": 3
+    },
+    "accuraci": {
+        "8_17": 1
+    },
+    "ho": {
+        "8_17": 4
+    },
+    "suggesttousev": {
+        "8_17": 1
+    },
+    "kscalinginsteadofthelinearsc": {
+        "8_17": 1
+    },
+    "claim": {
+        "8_17": 1
+    },
+    "cov": {
+        "8_17": 1
+    },
+    "w": {
+        "8_17": 2
+    },
+    "NB": {
+        "8_17": 1
+    },
+    "thusifwewanttokeepthethecovariancematrixoftheparamet": {
+        "8_17": 1
+    },
+    "win": {
+        "8_17": 1
+    },
+    "learningrateproportionallytothesquarerootof": {
+        "8_17": 1
+    },
+    "theyfoundthatv": {
+        "8_17": 1
+    },
+    "kscalingwork": {
+        "8_17": 1
+    },
+    "CIFAR": {
+        "8_17": 1
+    },
+    "imagenet": {
+        "8_17": 4
+    },
+    "layer": {
+        "8_17": 3
+    },
+    "wise": {
+        "8_17": 1
+    },
+    "wecanseethatlarg": {
+        "8_17": 1
+    },
+    "batchtrainingisstillanopenresearchquest": {
+        "8_17": 1
+    },
+    "mostofth": {
+        "8_17": 1
+    },
+    "paperscitedabovehaveexperimentalsupportonlyfromtheimagerecognitiontask": {
+        "8_17": 1
+    },
+    "usuallyimagenet": {
+        "8_17": 1
+    },
+    "andconvolutionalnetwork": {
+        "8_17": 1
+    },
+    "resnet": {
+        "8_17": 1
+    },
+    "soitisnotclearwheth": {
+        "8_17": 1
+    },
+    "task": {
+        "8_17": 3
+    },
+    "self": {
+        "8_17": 1
+    },
+    "attent": {
+        "8_17": 2
+    },
+    "modernconvolutionalnetworksareusuallytrainedwith": {
+        "8_17": 1
+    },
+    "batchnorm": {
+        "8_17": 2
+    },
+    "io": {
+        "8_17": 2
+    },
+    "eand": {
+        "8_17": 1
+    },
+    "szegedi": {
+        "8_17": 1
+    },
+    "seem": {
+        "8_17": 2
+    },
+    "toclosethegapbetweensmal": {
+        "8_17": 1
+    },
+    "batchtrainingandlarg": {
+        "8_17": 1
+    },
+    "batchtrain": {
+        "8_17": 1
+    },
+    "additiontov": {
+        "8_17": 1
+    },
+    "ghostbatchnorm": {
+        "8_17": 1
+    },
+    "andadaptedtrainingregim": {
+        "8_17": 1
+    },
+    "whichmeansdecai": {
+        "8_17": 1
+    },
+    "normal": {
+        "8_17": 5
+    },
+    "lei": {
+        "8_17": 2
+    },
+    "ba": {
+        "8_17": 2
+    },
+    "superioralso": {
+        "8_17": 1
+    },
+    "togeth": {
+        "8_17": 1
+    },
+    "invers": {
+        "8_17": 2
+    },
+    "squar": {
+        "8_17": 3
+    },
+    "momentum": {
+        "8_17": 1
+    },
+    "piecewis": {
+        "8_17": 2
+    },
+    "decid": {
+        "8_17": 1
+    },
+    "drope": {
+        "8_17": 1
+    },
+    "warmupstepsorbyintroducinggradientclip": {
+        "8_17": 1
+    },
+    "clip_grad_norm": {
+        "8_17": 1
+    },
+    "led": {
+        "8_17": 2
+    },
+    "anywai": {
+        "8_17": 1
+    },
+    "invari": {
+        "8_17": 1
+    },
+    "simultan": {
+        "8_17": 1
+    },
+    "rescal": {
+        "8_17": 1
+    },
+    "break": {
+        "8_17": 1
+    },
+    "stabl": {
+        "8_17": 1
+    },
+    "gputo": {
+        "8_17": 1
+    },
+    "consideringthisinitialhypothesi": {
+        "8_17": 1
+    },
+    "weweresurprisedthatwewereabletoachieveso": {
+        "8_17": 1
+    },
+    "goodtimetillscorewithgpu": {
+        "8_17": 1
+    },
+    "morethantimessmallerrelativetoasinglegpu": {
+        "8_17": 1
+    },
+    "answer": {
+        "8_17": 1
+    },
+    "riddl": {
+        "8_17": 2
+    },
+    "understand": {
+        "8_17": 1
+    },
+    "parametr": {
+        "8_17": 2
+    },
+    "inter": {
+        "8_17": 1
+    },
+    "prete": {
+        "8_17": 1
+    },
+    "setup": {
+        "8_17": 4
+    },
+    "forpiecewis": {
+        "8_17": 1
+    },
+    "constantdecayinimagenettrain": {
+        "8_17": 1
+    },
+    "istodivid": {
+        "8_17": 1
+    },
+    "th": {
+        "8_17": 4
+    },
+    "intt": {
+        "8_17": 1
+    },
+    "itisth": {
+        "8_17": 1
+    },
+    "variablethatisusedasthetimeparamet": {
+        "8_17": 1
+    },
+    "singlegpu": {
+        "8_17": 1
+    },
+    "theactuallearningr": {
+        "8_17": 1
+    },
+    "superiorachievesagivenvalueafterthesamenumberof": {
+        "8_17": 1
+    },
+    "butthismeansaftertimeslesstrainingexamp": {
+        "8_17": 1
+    },
+    "fortheinvers": {
+        "8_17": 1
+    },
+    "superiorapp": {
+        "8_17": 1
+    },
+    "RNN": {
+        "8_17": 2
+    },
+    "switc": {
+        "8_17": 2
+    },
+    "possibli": {
+        "8_17": 1
+    },
+    "superiorexamplesoflearningrateschedulesareinvers": {
+        "8_17": 1
+    },
+    "rootdecai": {
+        "8_17": 1
+    },
+    "timedecai": {
+        "8_17": 1
+    },
+    "exponentiald": {
+        "8_17": 1
+    },
+    "cai": {
+        "8_17": 1
+    },
+    "api_guid": {
+        "8_17": 1
+    },
+    "python": {
+        "8_17": 1
+    },
+    "decaying_the_": {
+        "8_17": 1
+    },
+    "TF": {
+        "8_17": 1
+    },
+    "superiorbyactuallearningratewemeanthelearningrateafterapplyingthedecayschedul": {
+        "8_17": 1
+    },
+    "actual_lr": {
+        "8_17": 2
+    },
+    "equalxcstep": {
+        "8_17": 1
+    },
+    "equalxv": {
+        "8_17": 1
+    },
+    "ci": {
+        "8_17": 1
+    },
+    "thelearning_r": {
+        "8_17": 1
+    },
+    "previou": {
+        "8_17": 1
+    },
+    "ktime": {
+        "8_17": 3
+    },
+    "actuallearningratev": {
+        "8_17": 1
+    },
+    "inaccordancewiththesuggestionofho": {
+        "8_17": 1
+    },
+    "ignor": {
+        "8_17": 1
+    },
+    "bev": {
+        "8_17": 1
+    },
+    "deed": {
+        "8_17": 1
+    },
+    "goyal": {
+        "8_17": 2
+    },
+    "sens": {
+        "8_17": 1
+    },
+    "afterward": {
+        "8_17": 1
+    },
+    "retar": {
+        "8_17": 1
+    },
+    "found": {
+        "8_17": 1
+    },
+    "youcantrydecreasingthewarmupstep": {
+        "8_17": 1
+    },
+    "butlessthanlinearlyandyoushould": {
+        "8_17": 1
+    },
+    "resum": {
+        "8_17": 3
+    },
+    "ttallowstoresumetrainingfromacheckpoint": {
+        "8_17": 1
+    },
+    "simplybypointingth": {
+        "8_17": 1
+    },
+    "output_dir": {
+        "8_17": 1
+    },
+    "parametertoadirectorywithanexistingcheckpoint": {
+        "8_17": 1
+    },
+    "edinth": {
+        "8_17": 1
+    },
+    "thismaybeusefulwhenthetrainingfail": {
+        "8_17": 1
+    },
+    "becauseofhardwareerror": {
+        "8_17": 1
+    },
+    "whenw": {
+        "8_17": 1
+    },
+    "search": {
+        "8_17": 1
+    },
+    "promis": {
+        "8_17": 1
+    },
+    "superiorin": {
+        "8_17": 1
+    },
+    "sugges": {
+        "8_17": 1
+    },
+    "thev": {
+        "8_17": 1
+    },
+    "klear": {
+        "8_17": 1
+    },
+    "close": {
+        "8_17": 3
+    },
+    "absolut": {
+        "8_17": 1
+    },
+    "matter": {
+        "8_17": 1
+    },
+    "view": {
+        "8_17": 1
+    },
+    "wrong": {
+        "8_17": 1
+    },
+    "idea": {
+        "8_17": 1
+    },
+    "momentumintothecheckpoint": {
+        "8_17": 1
+    },
+    "sothetrainingcontinuesalmostasifithadnotbeen": {
+        "8_17": 1
+    },
+    "itdoesnotstorethepositioninthetrainingdataitstartsfroma": {
+        "8_17": 1
+    },
+    "randomposit": {
+        "8_17": 1
+    },
+    "alsotherelativetim": {
+        "8_17": 1
+    },
+    "andwal": {
+        "8_17": 1
+    },
+    "clocktim": {
+        "8_17": 1
+    },
+    "intensorboardgraph": {
+        "8_17": 1
+    },
+    "exploit": {
+        "8_17": 2
+    },
+    "meta": {
+        "8_17": 1
+    },
+    "suggesttoincreasethe": {
+        "8_17": 1
+    },
+    "andnumberofgpu": {
+        "8_17": 1
+    },
+    "yet": {
+        "8_17": 1
+    },
+    "inthiscas": {
+        "8_17": 1
+    },
+    "considereditingalsothelearningrateorlearningrateschedul": {
+        "8_17": 1
+    },
+    "orfak": {
+        "8_17": 1
+    },
+    "theglobal_step": {
+        "8_17": 1
+    },
+    "suggesttoaveragethelastcheckpointssavedin": {
+        "8_17": 1
+    },
+    "interv": {
+        "8_17": 1
+    },
+    "util": {
+        "8_17": 1
+    },
+    "avg_checkpoint": {
+        "8_17": 1
+    },
+    "py": {
+        "8_17": 1
+    },
+    "betterresultsareachievedwithaveragingcheckpointssavedin": {
+        "8_17": 1
+    },
+    "hourinterv": {
+        "8_17": 1
+    },
+    "spent": {
+        "8_17": 1
+    },
+    "twofold": {
+        "8_17": 1
+    },
+    "fast": {
+        "8_17": 1
+    },
+    "fewer": {
+        "8_17": 1
+    },
+    "manual": {
+        "8_17": 3
+    },
+    "av": {
+        "8_17": 2
+    },
+    "z": {
+        "8_17": 1
+    },
+    "TER": {
+        "8_17": 3
+    },
+    "charact": {
+        "8_17": 3
+    },
+    "BEER": {
+        "8_17": 2
+    },
+    "uedin": {
+        "8_17": 1
+    },
+    "nmt": {
+        "8_17": 1
+    },
+    "onlin": {
+        "8_17": 2
+    },
+    "limsi": {
+        "8_17": 1
+    },
+    "LIUM": {
+        "8_17": 2
+    },
+    "FNMT": {
+        "8_17": 1
+    },
+    "CU": {
+        "8_17": 2
+    },
+    "chimera": {
+        "8_17": 2
+    },
+    "PJATK": {
+        "8_17": 1
+    },
+    "wmtsystemsforenglish": {
+        "8_17": 1
+    },
+    "czechandourbesttttrainingrun": {
+        "8_17": 1
+    },
+    "cial": {
+        "8_17": 2
+    },
+    "rane": {
+        "8_17": 1
+    },
+    "metric": {
+        "8_17": 5
+    },
+    "matrix": {
+        "8_17": 1
+    },
+    "bold": {
+        "8_17": 1
+    },
+    "ital": {
+        "8_17": 1
+    },
+    "cover": {
+        "8_17": 1
+    },
+    "proper": {
+        "8_17": 1
+    },
+    "signi": {
+        "8_17": 1
+    },
+    "canc": {
+        "8_17": 1
+    },
+    "bootstrap": {
+        "8_17": 1
+    },
+    "tese": {
+        "8_17": 1
+    },
+    "then": {
+        "8_17": 1
+    },
+    "start": {
+        "8_17": 1
+    },
+    "posit": {
+        "8_17": 1
+    },
+    "fore": {
+        "8_17": 2
+    },
+    "copi": {
+        "8_17": 1
+    },
+    "independentlyinthelaterstagesandthusendingwithdi": {
+        "8_17": 1
+    },
+    "erentweightssavedinth": {
+        "8_17": 1
+    },
+    "semi": {
+        "8_17": 1
+    },
+    "independ": {
+        "8_17": 1
+    },
+    "ascheckpointsfromthesamerun": {
+        "8_17": 1
+    },
+    "asdescribedabov": {
+        "8_17": 1
+    },
+    "ourpreliminaryresultsshow": {
+        "8_17": 1
+    },
+    "top": {
+        "8_17": 1
+    },
+    "boost": {
+        "8_17": 1
+    },
+    "free": {
+        "8_17": 1
+    },
+    "whole": {
+        "8_17": 1
+    },
+    "despit": {
+        "8_17": 2
+    },
+    "rank": {
+        "8_17": 1
+    },
+    "outperform": {
+        "8_17": 1
+    },
+    "back": {
+        "8_17": 1
+    },
+    "reran": {
+        "8_17": 2
+    },
+    "left": {
+        "8_17": 1
+    },
+    "norensemb": {
+        "8_17": 1
+    },
+    "asisthecaseofuedin": {
+        "8_17": 1
+    },
+    "nmtandothersystem": {
+        "8_17": 1
+    },
+    "notethat": {
+        "8_17": 1
+    },
+    "constrain": {
+        "8_17": 1
+    },
+    "conclus": {
+        "8_17": 1
+    },
+    "presen": {
+        "8_17": 1
+    },
+    "broad": {
+        "8_17": 1
+    },
+    "basic": {
+        "8_17": 2
+    },
+    "vaswani": {
+        "8_17": 2
+    },
+    "believ": {
+        "8_17": 1
+    },
+    "sum": {
+        "8_17": 1
+    },
+    "took": {
+        "8_17": 1
+    },
+    "year": {
+        "8_17": 1
+    },
+    "among": {
+        "8_17": 1
+    },
+    "weve": {
+        "8_17": 1
+    },
+    "importantli": {
+        "8_17": 1
+    },
+    "shouldbealwayspref": {
+        "8_17": 1
+    },
+    "thetransformermodelanditsimplementationin": {
+        "8_17": 1
+    },
+    "intens": {
+        "8_17": 1
+    },
+    "andrunningexperimentsoneafteranothershouldbepreferredoverrunningsever": {
+        "8_17": 1
+    },
+    "concurr": {
+        "8_17": 1
+    },
+    "thebestperformingmodelweobtainedongpustrainedfordayshasoutp": {
+        "8_17": 1
+    },
+    "winner": {
+        "8_17": 1
+    },
+    "acknowledg": {
+        "8_17": 1
+    },
+    "grant": {
+        "8_17": 1
+    },
+    "S": {
+        "8_17": 5
+    },
+    "scienc": {
+        "8_17": 1
+    },
+    "foun": {
+        "8_17": 1
+    },
+    "dation": {
+        "8_17": 1
+    },
+    "H": {
+        "8_17": 3
+    },
+    "ICT": {
+        "8_17": 1
+    },
+    "oftheeu": {
+        "8_17": 1
+    },
+    "SVV": {
+        "8_17": 1
+    },
+    "andusinglanguag": {
+        "8_17": 1
+    },
+    "LINDAT": {
+        "8_17": 1
+    },
+    "CLARIN": {
+        "8_17": 1
+    },
+    "ministri": {
+        "8_17": 1
+    },
+    "educ": {
+        "8_17": 1
+    },
+    "youth": {
+        "8_17": 1
+    },
+    "sport": {
+        "8_17": 1
+    },
+    "repub": {
+        "8_17": 2
+    },
+    "LM": {
+        "8_17": 1
+    },
+    "bibliographi": {
+        "8_17": 1
+    },
+    "dzmitri": {
+        "8_17": 1
+    },
+    "kyunghyun": {
+        "8_17": 2
+    },
+    "cho": {
+        "8_17": 2
+    },
+    "yoshua": {
+        "8_17": 2
+    },
+    "bengio": {
+        "8_17": 4
+    },
+    "jointli": {
+        "8_17": 1
+    },
+    "align": {
+        "8_17": 1
+    },
+    "proceed": {
+        "8_17": 7
+    },
+    "ICLR": {
+        "8_17": 2
+    },
+    "zdenek": {
+        "8_17": 1
+    },
+    "abokrtsk": {
+        "8_17": 1
+    },
+    "duek": {
+        "8_17": 2
+    },
+    "petra": {
+        "8_17": 1
+    },
+    "galuckov": {
+        "8_17": 1
+    },
+    "majli": {
+        "8_17": 1
+    },
+    "david": {
+        "8_17": 1
+    },
+    "marecek": {
+        "8_17": 1
+    },
+    "jir": {
+        "8_17": 1
+    },
+    "mark": {
+        "8_17": 1
+    },
+    "michal": {
+        "8_17": 2
+    },
+    "novk": {
+        "8_17": 2
+    },
+    "tamchyna": {
+        "8_17": 1
+    },
+    "joi": {
+        "8_17": 1
+    },
+    "par": {
+        "8_17": 1
+    },
+    "allel": {
+        "8_17": 1
+    },
+    "eighth": {
+        "8_17": 1
+    },
+    "evaluationconfer": {
+        "8_17": 1
+    },
+    "LREC": {
+        "8_17": 1
+    },
+    "page": {
+        "8_17": 9
+    },
+    "istanbul": {
+        "8_17": 1
+    },
+    "turkei": {
+        "8_17": 1
+    },
+    "ELRA": {
+        "8_17": 1
+    },
+    "euro": {
+        "8_17": 1
+    },
+    "pean": {
+        "8_17": 1
+    },
+    "associ": {
+        "8_17": 3
+    },
+    "ISBN": {
+        "8_17": 3
+    },
+    "tom": {
+        "8_17": 1
+    },
+    "kocmi": {
+        "8_17": 1
+    },
+    "jindrich": {
+        "8_17": 1
+    },
+    "libovick": {
+        "8_17": 1
+    },
+    "roman": {
+        "8_17": 1
+    },
+    "sudarikov": {
+        "8_17": 1
+    },
+    "duan": {
+        "8_17": 1
+    },
+    "vari": {
+        "8_17": 1
+    },
+    "enlar": {
+        "8_17": 1
+    },
+    "corpu": {
+        "8_17": 1
+    },
+    "docker": {
+        "8_17": 1
+    },
+    "sojka": {
+        "8_17": 1
+    },
+    "petr": {
+        "8_17": 1
+    },
+    "hork": {
+        "8_17": 1
+    },
+    "ivan": {
+        "8_17": 1
+    },
+    "kopecek": {
+        "8_17": 1
+    },
+    "karel": {
+        "8_17": 1
+    },
+    "pala": {
+        "8_17": 1
+    },
+    "editor": {
+        "8_17": 3
+    },
+    "speech": {
+        "8_17": 1
+    },
+    "dialogu": {
+        "8_17": 1
+    },
+    "confer": {
+        "8_17": 2
+    },
+    "TSD": {
+        "8_17": 1
+    },
+    "lectur": {
+        "8_17": 1
+    },
+    "arti": {
+        "8_17": 1
+    },
+    "intellig": {
+        "8_17": 1
+    },
+    "masaryk": {
+        "8_17": 1
+    },
+    "springer": {
+        "8_17": 2
+    },
+    "publis": {
+        "8_17": 1
+    },
+    "rajenchatterje": {
+        "8_17": 1
+    },
+    "christianfedermann": {
+        "8_17": 1
+    },
+    "yvettegraham": {
+        "8_17": 1
+    },
+    "barryhaddow": {
+        "8_17": 1
+    },
+    "matthia": {
+        "8_17": 1
+    },
+    "huck": {
+        "8_17": 1
+    },
+    "philippkoehn": {
+        "8_17": 1
+    },
+    "varvaralogacheva": {
+        "8_17": 1
+    },
+    "christofmonz": {
+        "8_17": 1
+    },
+    "matteonegri": {
+        "8_17": 1
+    },
+    "mattpost": {
+        "8_17": 1
+    },
+    "raphael": {
+        "8_17": 1
+    },
+    "rubino": {
+        "8_17": 1
+    },
+    "luciaspecia": {
+        "8_17": 1
+    },
+    "andmarcoturchi": {
+        "8_17": 1
+    },
+    "findingsoftheconferenceonmachinetran": {
+        "8_17": 1
+    },
+    "proceedingsofthesecondconferenceonmachinetrans": {
+        "8_17": 1
+    },
+    "copenhagen": {
+        "8_17": 2
+    },
+    "denmark": {
+        "8_17": 2
+    },
+    "septemb": {
+        "8_17": 3
+    },
+    "ACL": {
+        "8_17": 6
+    },
+    "yvett": {
+        "8_17": 1
+    },
+    "graham": {
+        "8_17": 1
+    },
+    "amir": {
+        "8_17": 1
+    },
+    "kamran": {
+        "8_17": 1
+    },
+    "lon": {
+        "8_17": 1
+    },
+    "stochast": {
+        "8_17": 2
+    },
+    "descent": {
+        "8_17": 2
+    },
+    "trick": {
+        "8_17": 2
+    },
+    "berlin": {
+        "8_17": 3
+    },
+    "heidelberg": {
+        "8_17": 2
+    },
+    "doi": {
+        "8_17": 2
+    },
+    "_": {
+        "8_17": 2
+    },
+    "URL": {
+        "8_17": 17
+    },
+    "L": {
+        "8_17": 3
+    },
+    "F": {
+        "8_17": 1
+    },
+    "curti": {
+        "8_17": 1
+    },
+    "J": {
+        "8_17": 4
+    },
+    "noced": {
+        "8_17": 2
+    },
+    "learn": {
+        "8_17": 1
+    },
+    "ing": {
+        "8_17": 1
+    },
+    "print": {
+        "8_17": 3
+    },
+    "june": {
+        "8_17": 1
+    },
+    "ab": {
+        "8_17": 17
+    },
+    "cettolo": {
+        "8_17": 1
+    },
+    "mauro": {
+        "8_17": 1
+    },
+    "marcello": {
+        "8_17": 1
+    },
+    "federico": {
+        "8_17": 1
+    },
+    "luisa": {
+        "8_17": 1
+    },
+    "bentivogli": {
+        "8_17": 1
+    },
+    "jan": {
+        "8_17": 2
+    },
+    "niehu": {
+        "8_17": 1
+    },
+    "sebastian": {
+        "8_17": 1
+    },
+    "stker": {
+        "8_17": 1
+    },
+    "katsuhito": {
+        "8_17": 1
+    },
+    "sudoh": {
+        "8_17": 1
+    },
+    "koichiro": {
+        "8_17": 1
+    },
+    "yoshino": {
+        "8_17": 1
+    },
+    "christian": {
+        "8_17": 1
+    },
+    "federmann": {
+        "8_17": 1
+    },
+    "overview": {
+        "8_17": 1
+    },
+    "IWSLT": {
+        "8_17": 2
+    },
+    "evalua": {
+        "8_17": 1
+    },
+    "tioncampaign": {
+        "8_17": 1
+    },
+    "proceedingsofthethinternationalworkshoponspokenlanguagetrans": {
+        "8_17": 1
+    },
+    "tokyo": {
+        "8_17": 1
+    },
+    "japan": {
+        "8_17": 1
+    },
+    "priya": {
+        "8_17": 1
+    },
+    "piotrdollr": {
+        "8_17": 1
+    },
+    "rossb": {
+        "8_17": 1
+    },
+    "girshick": {
+        "8_17": 1
+    },
+    "pieternoordhui": {
+        "8_17": 1
+    },
+    "lukaszwesolowski": {
+        "8_17": 1
+    },
+    "aapokyrola": {
+        "8_17": 1
+    },
+    "andrewtulloch": {
+        "8_17": 1
+    },
+    "yangqingjia": {
+        "8_17": 1
+    },
+    "andkaimingh": {
+        "8_17": 1
+    },
+    "accur": {
+        "8_17": 1
+    },
+    "largeminibatchsgd": {
+        "8_17": 1
+    },
+    "corr": {
+        "8_17": 8
+    },
+    "elad": {
+        "8_17": 1
+    },
+    "itai": {
+        "8_17": 1
+    },
+    "hubara": {
+        "8_17": 1
+    },
+    "daniel": {
+        "8_17": 1
+    },
+    "soudri": {
+        "8_17": 1
+    },
+    "guyon": {
+        "8_17": 1
+    },
+    "I": {
+        "8_17": 2
+    },
+    "U": {
+        "8_17": 2
+    },
+    "V": {
+        "8_17": 5
+    },
+    "luxburg": {
+        "8_17": 2
+    },
+    "wallach": {
+        "8_17": 2
+    },
+    "R": {
+        "8_17": 5
+    },
+    "fergu": {
+        "8_17": 2
+    },
+    "vishwanathan": {
+        "8_17": 2
+    },
+    "garnett": {
+        "8_17": 2
+    },
+    "ad": {
+        "8_17": 1
+    },
+    "vanc": {
+        "8_17": 1
+    },
+    "curran": {
+        "8_17": 2
+    },
+    "inc": {
+        "8_17": 2
+    },
+    "nip": {
+        "8_17": 2
+    },
+    "cc": {
+        "8_17": 2
+    },
+    "pdf": {
+        "8_17": 2
+    },
+    "sergeyandchristianszegedi": {
+        "8_17": 1
+    },
+    "acceleratingdeepnetworktrain": {
+        "8_17": 1
+    },
+    "byreducinginternalcovariateshift": {
+        "8_17": 1
+    },
+    "stanislaw": {
+        "8_17": 1
+    },
+    "zachari": {
+        "8_17": 1
+    },
+    "kenton": {
+        "8_17": 1
+    },
+    "devansh": {
+        "8_17": 1
+    },
+    "arpit": {
+        "8_17": 1
+    },
+    "nicola": {
+        "8_17": 1
+    },
+    "balla": {
+        "8_17": 1
+    },
+    "asja": {
+        "8_17": 1
+    },
+    "fischer": {
+        "8_17": 1
+    },
+    "amo": {
+        "8_17": 1
+    },
+    "storkei": {
+        "8_17": 1
+    },
+    "nitish": {
+        "8_17": 1
+    },
+    "shirish": {
+        "8_17": 1
+    },
+    "dheevatsa": {
+        "8_17": 1
+    },
+    "mudiger": {
+        "8_17": 1
+    },
+    "jorg": {
+        "8_17": 1
+    },
+    "mikhail": {
+        "8_17": 1
+    },
+    "smelyanskii": {
+        "8_17": 1
+    },
+    "ping": {
+        "8_17": 1
+    },
+    "tak": {
+        "8_17": 1
+    },
+    "peter": {
+        "8_17": 1
+    },
+    "tang": {
+        "8_17": 1
+    },
+    "alex": {
+        "8_17": 1
+    },
+    "weird": {
+        "8_17": 1
+    },
+    "convolut": {
+        "8_17": 1
+    },
+    "jason": {
+        "8_17": 2
+    },
+    "thoma": {
+        "8_17": 1
+    },
+    "hofmann": {
+        "8_17": 1
+    },
+    "explicit": {
+        "8_17": 1
+    },
+    "segment": {
+        "8_17": 1
+    },
+    "kiro": {
+        "8_17": 1
+    },
+    "G": {
+        "8_17": 1
+    },
+    "hinton": {
+        "8_17": 1
+    },
+    "juli": {
+        "8_17": 1
+    },
+    "papineni": {
+        "8_17": 1
+    },
+    "kishor": {
+        "8_17": 1
+    },
+    "salim": {
+        "8_17": 1
+    },
+    "rouko": {
+        "8_17": 1
+    },
+    "todd": {
+        "8_17": 1
+    },
+    "ward": {
+        "8_17": 1
+    },
+    "wei": {
+        "8_17": 1
+    },
+    "jing": {
+        "8_17": 1
+    },
+    "zhu": {
+        "8_17": 1
+    },
+    "au": {
+        "8_17": 1
+    },
+    "tomat": {
+        "8_17": 1
+    },
+    "philadelphia": {
+        "8_17": 1
+    },
+    "pennsylvania": {
+        "8_17": 1
+    },
+    "maja": {
+        "8_17": 1
+    },
+    "chrf": {
+        "8_17": 1
+    },
+    "charactern": {
+        "8_17": 1
+    },
+    "gramf": {
+        "8_17": 1
+    },
+    "scoreforautomaticmtevalu": {
+        "8_17": 1
+    },
+    "proceedingsofth": {
+        "8_17": 1
+    },
+    "tenthworkshoponstatisticalmachinetrans": {
+        "8_17": 1
+    },
+    "lisbon": {
+        "8_17": 1
+    },
+    "portug": {
+        "8_17": 1
+    },
+    "aclweb": {
+        "8_17": 2
+    },
+    "anthologi": {
+        "8_17": 2
+    },
+    "W": {
+        "8_17": 1
+    },
+    "sennrich": {
+        "8_17": 1
+    },
+    "rico": {
+        "8_17": 1
+    },
+    "barri": {
+        "8_17": 1
+    },
+    "haddow": {
+        "8_17": 1
+    },
+    "alexandra": {
+        "8_17": 1
+    },
+    "birch": {
+        "8_17": 1
+    },
+    "rare": {
+        "8_17": 1
+    },
+    "germani": {
+        "8_17": 1
+    },
+    "august": {
+        "8_17": 1
+    },
+    "P": {
+        "8_17": 1
+    },
+    "shazeer": {
+        "8_17": 2
+    },
+    "stern": {
+        "8_17": 1
+    },
+    "sublinear": {
+        "8_17": 1
+    },
+    "cost": {
+        "8_17": 1
+    },
+    "apr": {
+        "8_17": 1
+    },
+    "samuel": {
+        "8_17": 2
+    },
+    "quoc": {
+        "8_17": 3
+    },
+    "bayesian": {
+        "8_17": 2
+    },
+    "perspect": {
+        "8_17": 1
+    },
+    "workshop": {
+        "8_17": 1
+    },
+    "NIPS": {
+        "8_17": 1
+    },
+    "beach": {
+        "8_17": 1
+    },
+    "CA": {
+        "8_17": 1
+    },
+    "USA": {
+        "8_17": 1
+    },
+    "pieter": {
+        "8_17": 1
+    },
+    "kinderman": {
+        "8_17": 1
+    },
+    "ashish": {
+        "8_17": 1
+    },
+    "niki": {
+        "8_17": 1
+    },
+    "parmar": {
+        "8_17": 1
+    },
+    "jakob": {
+        "8_17": 1
+    },
+    "uszkoreit": {
+        "8_17": 1
+    },
+    "llion": {
+        "8_17": 1
+    },
+    "jone": {
+        "8_17": 1
+    },
+    "aidan": {
+        "8_17": 1
+    },
+    "gomez": {
+        "8_17": 1
+    },
+    "lukaszkais": {
+        "8_17": 2
+    },
+    "andilliapolosukhin": {
+        "8_17": 1
+    },
+    "attentionisallyoune": {
+        "8_17": 1
+    },
+    "inguyon": {
+        "8_17": 1
+    },
+    "advanc": {
+        "8_17": 1
+    },
+    "yonghui": {
+        "8_17": 1
+    },
+    "mike": {
+        "8_17": 1
+    },
+    "schuster": {
+        "8_17": 1
+    },
+    "zhifeng": {
+        "8_17": 1
+    },
+    "chen": {
+        "8_17": 1
+    },
+    "mohammad": {
+        "8_17": 1
+    },
+    "norouzi": {
+        "8_17": 1
+    },
+    "wolfgang": {
+        "8_17": 1
+    },
+    "macherei": {
+        "8_17": 1
+    },
+    "maximkrikun": {
+        "8_17": 1
+    },
+    "yuancao": {
+        "8_17": 1
+    },
+    "qingao": {
+        "8_17": 1
+    },
+    "klausmacherei": {
+        "8_17": 1
+    },
+    "je": {
+        "8_17": 1
+    },
+    "klingner": {
+        "8_17": 1
+    },
+    "apurvashah": {
+        "8_17": 1
+    },
+    "melvinjohnson": {
+        "8_17": 1
+    },
+    "xiaobingliu": {
+        "8_17": 1
+    },
+    "stephangouw": {
+        "8_17": 1
+    },
+    "yoshikiyokato": {
+        "8_17": 1
+    },
+    "takukudo": {
+        "8_17": 1
+    },
+    "hidetokazawa": {
+        "8_17": 1
+    },
+    "keithsteven": {
+        "8_17": 1
+    },
+    "georgekurian": {
+        "8_17": 1
+    },
+    "nishantpatil": {
+        "8_17": 1
+    },
+    "weiwang": {
+        "8_17": 1
+    },
+    "cli": {
+        "8_17": 1
+    },
+    "young": {
+        "8_17": 1
+    },
+    "jasonriesa": {
+        "8_17": 1
+    },
+    "alexrudnick": {
+        "8_17": 1
+    },
+    "oriolviny": {
+        "8_17": 1
+    },
+    "gregcorrado": {
+        "8_17": 1
+    },
+    "macdu": {
+        "8_17": 1
+    },
+    "hugh": {
+        "8_17": 1
+    },
+    "andj": {
+        "8_17": 1
+    },
+    "rei": {
+        "8_17": 1
+    },
+    "dean": {
+        "8_17": 1
+    },
+    "googlesneuralmachinetranslationsystem": {
+        "8_17": 1
+    },
+    "bridgingthegapbetweenhumanand": {
+        "8_17": 1
+    },
+    "machinetrans": {
+        "8_17": 1
+    },
+    "yang": {
+        "8_17": 1
+    },
+    "igor": {
+        "8_17": 1
+    },
+    "gitman": {
+        "8_17": 1
+    },
+    "bori": {
+        "8_17": 1
+    },
+    "ginsburg": {
+        "8_17": 1
+    },
+    "K": {
+        "8_17": 1
+    },
+    "malostransk": {
+        "8_17": 1
+    },
+    "nmest": {
+        "8_17": 1
+    },
+    "praha": {
+        "8_17": 1
+    }
+}
