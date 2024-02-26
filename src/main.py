@@ -11,10 +11,7 @@ from utils import log_message, get_logger, metadata_lookup
 
 from typing import List, Tuple, Dict, Optional
 
-# TODO: Fix Tokenizer
 # TODO: Fix Data Pass
-# TODO: Fix Index Loading and Saving
-# TODO: Add Dicitonary Index For Spell Checkers
 
 INDEX_FILES = 'indexes'
 
