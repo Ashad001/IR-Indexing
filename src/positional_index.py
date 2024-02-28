@@ -21,7 +21,7 @@ class PositionalIndex:
             log_message(f"{file_name} not found for loading positional index", logger, level=logging.ERROR)
             pass
         
-    def add_to_index(self, doc_id: str, tokens: List[str]) -> None:
+    def add_to_index(self,doc_id: str, token: str, position: int) -> None:
         """
         adds tokens to index
         
@@ -29,11 +29,9 @@ class PositionalIndex:
             doc_id (str): file id
             tokens (List[str]): list of tokens
         """
-        # Extract Doc Id as digit from file name
-        for position, token in enumerate(tokens):
-            if token not in self.index:
-                self.index[token] = {}
-            if doc_id not in self.index[token]:
-                self.index[token][doc_id] = []
-            self.index[token][doc_id].append(position)
-            
+        if token not in self.index:
+            self.index[token] = {}
+        if doc_id not in self.index[token]:
+            self.index[token][doc_id] = []
+        self.index[token][doc_id].append(position)
+        

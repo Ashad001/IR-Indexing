@@ -24,20 +24,19 @@ class InvertedIndex:
             log_message(f"{file_name} not found for loading positional index", logger, level=logging.ERROR)
             pass
     
-    def add_to_index(self, doc_id: str, tokens: List[str]) -> None:
+    def add_to_index(self, doc_id: str, token: str) -> None:
         """
-        adds tokens to index
+        adds token to index
         
         Args:
+            token (str): token
             doc_id (str): file id
-            tokens (List[str]): list of tokens
         """
-        for token in tokens:
-            if token not in self.index:
-                self.index[token] = {}
-            if doc_id not in self.index[token]:
-                self.index[token][doc_id] = 0
-            self.index[token][doc_id] += 1
+        if token not in self.index:
+            self.index[token] = {}
+        if doc_id not in self.index[token]:
+            self.index[token][doc_id] = 0
+        self.index[token][doc_id] += 1
             
         #! NEEDS FIX: Two Time Data Lookup
         # for token in tokens:
