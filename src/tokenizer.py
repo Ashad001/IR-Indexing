@@ -67,7 +67,7 @@ class Tokenizer:
         cleaned_text = re.sub(r'\d', "", cleaned_text)
         return cleaned_text
 
-    def tokenize(self, text: str) -> Tuple[List[str], Dict[str, int]]:
+    def tokenize_text(self, text: str) -> Tuple[List[str], Dict[str, int]]:
         """
         Tokenize the text (English words; ignore numbers)
         
@@ -94,4 +94,21 @@ class Tokenizer:
         dict_tokens = sorted(dict_tokens.items(), key=lambda x: x[0])
         
         return dict_tokens, stemmed_tokens
+    
+    def tokenize(self, text: str) -> List[str]:
+        """
+        Tokenize the text (English words; ignore numbers)
+        
+        Args:
+        text (str): Extracted English text (with numbers)
+        
+        Returns:
+        List[str]: Preprocessed and tokenized text
+        """ 
+        cleaned_text = self.preprocess(text )
+        tokens: List[str] = re.findall(r"\b\w+\b", cleaned_text)
+
+        return tokens
+
+
 
