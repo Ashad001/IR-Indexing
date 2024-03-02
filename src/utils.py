@@ -2,8 +2,7 @@ import os
 import re
 import json
 import logging
-from typing import Any, Dict, List, Tuple
-
+from typing import Dict, List
 
 
 def read_data(file_name: str) -> List[str]:

@@ -5,11 +5,13 @@ import json
 
 from tokenizer import Tokenizer
 from porter_stemmer import PorterStemmer
+
 from inverted_index import InvertedIndex
 from positional_index import PositionalIndex
+
 from utils import *
 
-from typing import List, Tuple, Dict, Optional
+from typing import List, Dict
 
 # TODO: Fix Data Pass
 

@@ -1,8 +1,8 @@
 import re
 import json
 import logging
-from typing import List, Optional, Dict, Tuple
-from utils import log_message, get_logger
+from typing import List, Dict
+from utils import log_message
 class PositionalIndex:
     def __init__(self) -> None:
         self.index: Dict[str, Dict[str, List[int]]] = {}

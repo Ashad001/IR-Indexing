@@ -2,7 +2,7 @@ import re
 import json
 import heapq
 import logging
-from typing import Any, Tuple, Dict, List, Optional
+from typing import   Dict, List
 from utils import log_message
 class InvertedIndex:
     def __init__(self, load_from_file=False) -> None:

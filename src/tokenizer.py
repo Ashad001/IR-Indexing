@@ -1,5 +1,5 @@
 import re
-from typing import List, Any, Tuple, Dict
+from typing import List, Tuple, Dict
 from porter_stemmer import PorterStemmer
 
 # https://regex101.com/
