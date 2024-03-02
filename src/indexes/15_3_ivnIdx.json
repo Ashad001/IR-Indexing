@@ -1,23 +1,23 @@
 {
-    "see": {
-        "15_3": 2
+    "See": {
+        "15_3": 1
     },
-    "discuss": {
-        "15_3": 2
+    "discussions": {
+        "15_3": 1
     },
     "st": {
         "15_3": 2
     },
-    "at": {
+    "ats": {
         "15_3": 1
     },
     "author": {
-        "15_3": 4
+        "15_3": 2
     },
     "pr": {
         "15_3": 1
     },
-    "ofil": {
+    "ofiles": {
         "15_3": 1
     },
     "f": {
@@ -26,22 +26,22 @@
     "or": {
         "15_3": 3
     },
-    "thi": {
-        "15_3": 16
+    "this": {
+        "15_3": 9
     },
     "public": {
-        "15_3": 3
+        "15_3": 2
     },
     "ation": {
         "15_3": 2
     },
-    "http": {
-        "15_3": 15
+    "https": {
+        "15_3": 10
     },
     "www": {
         "15_3": 7
     },
-    "researchg": {
+    "researchgate": {
         "15_3": 1
     },
     "ne": {
@@ -50,43 +50,43 @@
     "t": {
         "15_3": 1
     },
-    "explain": {
-        "15_3": 62
+    "Explainable": {
+        "15_3": 26
     },
     "AI": {
         "15_3": 61
     },
-    "brief": {
+    "Brief": {
         "15_3": 3
     },
-    "su": {
+    "Su": {
         "15_3": 1
     },
-    "rvei": {
+    "rvey": {
         "15_3": 1
     },
-    "histori": {
+    "History": {
+        "15_3": 3
+    },
+    "Research": {
         "15_3": 4
     },
-    "research": {
-        "15_3": 14
+    "Areas": {
+        "15_3": 2
     },
-    "area": {
-        "15_3": 4
+    "Approaches": {
+        "15_3": 3
     },
-    "approach": {
-        "15_3": 7
+    "Challenges": {
+        "15_3": 3
     },
-    "challeng": {
-        "15_3": 5
-    },
-    "chapt": {
+    "Chapt": {
         "15_3": 1
     },
     "er": {
-        "15_3": 3
+        "15_3": 2
     },
-    "sept": {
+    "Sept": {
         "15_3": 1
     },
     "ember": {
@@ -104,13 +104,13 @@
     "READS": {
         "15_3": 1
     },
-    "": {
+    "s": {
         "15_3": 1
     },
-    "includ": {
-        "15_3": 3
+    "including": {
+        "15_3": 2
     },
-    "feiyu": {
+    "Feiyu": {
         "15_3": 3
     },
     "X": {
@@ -119,7 +119,7 @@
     "u": {
         "15_3": 2
     },
-    "leno": {
+    "Leno": {
         "15_3": 2
     },
     "vo": {
@@ -137,7 +137,7 @@
     "PROFILE": {
         "15_3": 3
     },
-    "han": {
+    "Hans": {
         "15_3": 2
     },
     "U": {
@@ -146,7 +146,7 @@
     "szkoreit": {
         "15_3": 1
     },
-    "deutsch": {
+    "Deutsches": {
         "15_3": 1
     },
     "F": {
@@ -164,10 +164,10 @@
     "K": {
         "15_3": 10
     },
-    "nstlich": {
+    "nstliche": {
         "15_3": 1
     },
-    "int": {
+    "Int": {
         "15_3": 1
     },
     "ellig": {
@@ -176,11 +176,11 @@
     "enz": {
         "15_3": 1
     },
-    "wei": {
+    "Wei": {
         "15_3": 2
     },
     "an": {
-        "15_3": 13
+        "15_3": 10
     },
     "c": {
         "15_3": 10
@@ -197,17 +197,17 @@
     "p": {
         "15_3": 1
     },
-    "ag": {
+    "age": {
         "15_3": 1
     },
-    "wa": {
+    "was": {
         "15_3": 5
     },
     "uplo": {
         "15_3": 1
     },
-    "ad": {
-        "15_3": 4
+    "aded": {
+        "15_3": 2
     },
     "b": {
         "15_3": 4
@@ -215,11 +215,11 @@
     "y": {
         "15_3": 2
     },
-    "januar": {
+    "Januar": {
         "15_3": 1
     },
     "user": {
-        "15_3": 7
+        "15_3": 1
     },
     "equest": {
         "15_3": 1
@@ -239,46 +239,46 @@
     "file": {
         "15_3": 1
     },
-    "survei": {
-        "15_3": 5
+    "Survey": {
+        "15_3": 1
     },
-    "xu": {
+    "Xu": {
         "15_3": 7
     },
-    "uszkoreit": {
+    "Uszkoreit": {
+        "15_3": 1
+    },
+    "Yangzhou": {
+        "15_3": 1
+    },
+    "Du": {
+        "15_3": 1
+    },
+    "Fan": {
+        "15_3": 1
+    },
+    "Dongyan": {
+        "15_3": 1
+    },
+    "Zhao": {
+        "15_3": 1
+    },
+    "Jun": {
+        "15_3": 1
+    },
+    "Zhu": {
+        "15_3": 3
+    },
+    "Lab": {
+        "15_3": 1
+    },
+    "Lenovo": {
         "15_3": 2
     },
-    "yangzhou": {
+    "Group": {
         "15_3": 1
     },
-    "du": {
-        "15_3": 1
-    },
-    "fan": {
-        "15_3": 1
-    },
-    "dongyan": {
-        "15_3": 1
-    },
-    "zhao": {
-        "15_3": 1
-    },
-    "jun": {
-        "15_3": 1
-    },
-    "zhu": {
-        "15_3": 3
-    },
-    "lab": {
-        "15_3": 1
-    },
-    "lenovo": {
-        "15_3": 3
-    },
-    "group": {
-        "15_3": 3
-    },
-    "china": {
+    "China": {
         "15_3": 3
     },
     "fxu": {
@@ -290,23 +290,29 @@
     "fanwei": {
         "15_3": 1
     },
+    "lenovo": {
+        "15_3": 1
+    },
     "com": {
         "15_3": 4
     },
     "DFKI": {
         "15_3": 1
     },
-    "gmbh": {
+    "GmbH": {
         "15_3": 1
     },
-    "germani": {
+    "Germany": {
         "15_3": 1
     },
-    "gianc": {
+    "Giance": {
         "15_3": 1
     },
-    "technologi": {
-        "15_3": 4
+    "Technologies": {
+        "15_3": 1
+    },
+    "uszkoreit": {
+        "15_3": 1
     },
     "dfki": {
         "15_3": 1
@@ -314,22 +320,25 @@
     "de": {
         "15_3": 4
     },
-    "institut": {
+    "Institute": {
         "15_3": 1
     },
-    "comput": {
-        "15_3": 13
+    "Computer": {
+        "15_3": 8
     },
-    "scienc": {
-        "15_3": 4
-    },
-    "peke": {
-        "15_3": 1
-    },
-    "univers": {
+    "Science": {
         "15_3": 2
     },
-    "zhaodi": {
+    "Technology": {
+        "15_3": 2
+    },
+    "Peking": {
+        "15_3": 1
+    },
+    "University": {
+        "15_3": 2
+    },
+    "zhaody": {
         "15_3": 1
     },
     "pku": {
@@ -341,11 +350,11 @@
     "cn": {
         "15_3": 3
     },
-    "depart": {
+    "Department": {
         "15_3": 1
     },
-    "tsinghua": {
-        "15_3": 2
+    "Tsinghua": {
+        "15_3": 1
     },
     "dcszj": {
         "15_3": 1
@@ -353,14 +362,17 @@
     "mail": {
         "15_3": 1
     },
-    "abstract": {
+    "tsinghua": {
         "15_3": 1
     },
-    "deep": {
-        "15_3": 19
+    "Abstract": {
+        "15_3": 1
     },
-    "lear": {
-        "15_3": 25
+    "Deep": {
+        "15_3": 10
+    },
+    "learning": {
+        "15_3": 18
     },
     "made": {
         "15_3": 1
@@ -371,116 +383,125 @@
     "cant": {
         "15_3": 2
     },
-    "contribut": {
-        "15_3": 2
+    "contribution": {
+        "15_3": 1
     },
     "recent": {
-        "15_3": 6
+        "15_3": 5
     },
     "progress": {
         "15_3": 2
     },
     "arti": {
-        "15_3": 12
+        "15_3": 7
     },
     "cial": {
         "15_3": 11
     },
-    "intellig": {
-        "15_3": 14
+    "intelligence": {
+        "15_3": 5
     },
     "comparison": {
         "15_3": 1
     },
-    "tradit": {
+    "traditional": {
         "15_3": 2
     },
-    "machin": {
-        "15_3": 12
+    "machine": {
+        "15_3": 8
     },
-    "method": {
-        "15_3": 14
+    "methods": {
+        "15_3": 9
     },
     "such": {
         "15_3": 6
     },
-    "decis": {
-        "15_3": 25
+    "decision": {
+        "15_3": 17
     },
-    "tree": {
-        "15_3": 8
+    "trees": {
+        "15_3": 4
     },
     "support": {
         "15_3": 3
     },
     "vector": {
+        "15_3": 1
+    },
+    "machines": {
+        "15_3": 1
+    },
+    "deep": {
+        "15_3": 9
+    },
+    "achieved": {
+        "15_3": 2
+    },
+    "substantial": {
+        "15_3": 1
+    },
+    "improvement": {
+        "15_3": 1
+    },
+    "various": {
+        "15_3": 1
+    },
+    "prediction": {
+        "15_3": 14
+    },
+    "tasks": {
+        "15_3": 4
+    },
+    "However": {
         "15_3": 6
     },
-    "achiev": {
-        "15_3": 3
-    },
-    "substanti": {
-        "15_3": 1
-    },
-    "improv": {
-        "15_3": 3
-    },
-    "variou": {
-        "15_3": 1
-    },
-    "predict": {
-        "15_3": 19
-    },
-    "task": {
-        "15_3": 5
-    },
-    "howev": {
-        "15_3": 7
-    },
     "neural": {
-        "15_3": 17
+        "15_3": 9
     },
-    "network": {
-        "15_3": 20
-    },
-    "dnn": {
+    "networks": {
         "15_3": 7
     },
-    "compar": {
+    "DNNs": {
+        "15_3": 7
+    },
+    "comparably": {
         "15_3": 1
     },
     "weak": {
-        "15_3": 2
+        "15_3": 1
+    },
+    "explaining": {
+        "15_3": 4
     },
     "their": {
         "15_3": 9
     },
-    "infer": {
-        "15_3": 6
-    },
-    "process": {
+    "inference": {
         "15_3": 5
+    },
+    "processes": {
+        "15_3": 2
     },
     "nal": {
         "15_3": 3
     },
-    "result": {
-        "15_3": 8
+    "results": {
+        "15_3": 5
     },
-    "thei": {
+    "they": {
         "15_3": 6
     },
-    "typical": {
-        "15_3": 4
+    "typically": {
+        "15_3": 1
     },
-    "treat": {
+    "treated": {
         "15_3": 1
     },
     "black": {
         "15_3": 5
     },
     "box": {
-        "15_3": 8
+        "15_3": 6
     },
     "by": {
         "15_3": 22
@@ -488,23 +509,26 @@
     "both": {
         "15_3": 11
     },
-    "develop": {
-        "15_3": 11
+    "developers": {
+        "15_3": 5
     },
-    "some": {
-        "15_3": 2
+    "users": {
+        "15_3": 6
     },
-    "peopl": {
+    "Some": {
+        "15_3": 1
+    },
+    "people": {
         "15_3": 5
     },
     "even": {
         "15_3": 2
     },
-    "consid": {
-        "15_3": 2
+    "consider": {
+        "15_3": 1
     },
     "current": {
-        "15_3": 4
+        "15_3": 3
     },
     "stage": {
         "15_3": 1
@@ -512,8 +536,8 @@
     "rather": {
         "15_3": 2
     },
-    "alchemi": {
-        "15_3": 6
+    "alchemy": {
+        "15_3": 5
     },
     "than": {
         "15_3": 6
@@ -521,113 +545,140 @@
     "real": {
         "15_3": 5
     },
-    "mani": {
+    "science": {
+        "15_3": 2
+    },
+    "many": {
         "15_3": 2
     },
     "world": {
-        "15_3": 4
-    },
-    "applic": {
-        "15_3": 1
-    },
-    "busi": {
-        "15_3": 1
-    },
-    "optim": {
         "15_3": 2
     },
-    "medic": {
+    "applications": {
+        "15_3": 1
+    },
+    "business": {
+        "15_3": 1
+    },
+    "process": {
         "15_3": 3
     },
-    "diagnosi": {
-        "15_3": 3
-    },
-    "invest": {
+    "optimization": {
         "15_3": 2
     },
-    "recommend": {
+    "medical": {
         "15_3": 3
     },
-    "transpar": {
-        "15_3": 8
+    "diagnosis": {
+        "15_3": 3
+    },
+    "investment": {
+        "15_3": 2
+    },
+    "recommendation": {
+        "15_3": 1
+    },
+    "explainability": {
+        "15_3": 5
+    },
+    "transparency": {
+        "15_3": 5
     },
     "our": {
         "15_3": 3
     },
-    "system": {
-        "15_3": 24
+    "systems": {
+        "15_3": 12
     },
-    "becom": {
-        "15_3": 6
+    "become": {
+        "15_3": 5
     },
-    "particularli": {
+    "particularly": {
         "15_3": 1
     },
-    "essenti": {
+    "essential": {
         "15_3": 1
     },
     "who": {
         "15_3": 4
     },
-    "ec": {
+    "ected": {
+        "15_3": 5
+    },
+    "decisions": {
         "15_3": 6
     },
-    "furthermor": {
+    "furthermore": {
         "15_3": 2
     },
-    "creat": {
+    "researchers": {
+        "15_3": 2
+    },
+    "create": {
         "15_3": 1
     },
-    "solut": {
-        "15_3": 4
+    "solutions": {
+        "15_3": 2
     },
-    "year": {
-        "15_3": 5
+    "years": {
+        "15_3": 4
     },
     "explainabil": {
         "15_3": 1
     },
-    "iti": {
+    "ity": {
         "15_3": 1
     },
-    "receiv": {
+    "explainable": {
+        "15_3": 6
+    },
+    "received": {
         "15_3": 1
     },
-    "increas": {
-        "15_3": 2
+    "increasing": {
+        "15_3": 1
     },
-    "attent": {
+    "attention": {
         "15_3": 2
     },
     "re": {
-        "15_3": 3
+        "15_3": 2
     },
     "search": {
         "15_3": 1
     },
-    "commun": {
+    "community": {
+        "15_3": 1
+    },
+    "industry": {
         "15_3": 2
     },
-    "industri": {
-        "15_3": 2
+    "This": {
+        "15_3": 7
     },
     "paper": {
-        "15_3": 3
+        "15_3": 2
     },
     "rst": {
         "15_3": 1
     },
-    "introduc": {
-        "15_3": 4
+    "introduces": {
+        "15_3": 3
     },
-    "stare": {
+    "history": {
+        "15_3": 1
+    },
+    "starting": {
         "15_3": 3
     },
     "from": {
-        "15_3": 10
+        "15_3": 7
     },
     "expert": {
-        "15_3": 6
+        "15_3": 5
+    },
+    "approaches": {
+        "15_3": 4
     },
     "latest": {
         "15_3": 1
@@ -641,59 +692,77 @@
     "then": {
         "15_3": 3
     },
-    "describ": {
+    "describes": {
         "15_3": 1
     },
     "major": {
         "15_3": 1
     },
+    "research": {
+        "15_3": 7
+    },
+    "areas": {
+        "15_3": 2
+    },
     "state": {
-        "15_3": 3
+        "15_3": 2
     },
     "art": {
         "15_3": 1
     },
-    "end": {
+    "ends": {
         "15_3": 1
     },
     "with": {
         "15_3": 7
     },
-    "futur": {
-        "15_3": 3
+    "discussion": {
+        "15_3": 1
     },
-    "direct": {
+    "challenges": {
+        "15_3": 1
+    },
+    "future": {
         "15_3": 2
     },
-    "keyword": {
+    "directions": {
         "15_3": 1
+    },
+    "Keywords": {
+        "15_3": 1
+    },
+    "intelligible": {
+        "15_3": 2
     },
     "learn": {
-        "15_3": 4
-    },
-    "ingexplain": {
         "15_3": 1
     },
-    "interfac": {
+    "ingexplainable": {
+        "15_3": 1
+    },
+    "interfaces": {
+        "15_3": 1
+    },
+    "XAIinterpretability": {
+        "15_3": 1
+    },
+    "wiktionary": {
         "15_3": 2
-    },
-    "xaiinterpret": {
-        "15_3": 1
-    },
-    "wiktionari": {
-        "15_3": 3
     },
     "word": {
-        "15_3": 2
+        "15_3": 1
     },
-    "mean": {
-        "15_3": 4
+    "explain": {
+        "15_3": 6
     },
-    "human": {
-        "15_3": 13
+    "means": {
+        "15_3": 1
+    },
+    "humans": {
+        "15_3": 7
     },
     "make": {
-        "15_3": 10
+        "15_3": 4
     },
     "plain": {
         "15_3": 1
@@ -704,19 +773,22 @@
     "clear": {
         "15_3": 1
     },
-    "obscur": {
+    "obscurity": {
         "15_3": 1
     },
-    "illustr": {
-        "15_3": 4
+    "illustrate": {
+        "15_3": 3
+    },
+    "meaning": {
+        "15_3": 3
     },
     "scienti": {
         "15_3": 3
     },
-    "explan": {
-        "15_3": 18
+    "explanation": {
+        "15_3": 8
     },
-    "suppos": {
+    "supposed": {
         "15_3": 1
     },
     "cover": {
@@ -726,10 +798,10 @@
         "15_3": 2
     },
     "two": {
-        "15_3": 10
+        "15_3": 9
     },
-    "part": {
-        "15_3": 12
+    "parts": {
+        "15_3": 6
     },
     "et": {
         "15_3": 12
@@ -738,25 +810,28 @@
         "15_3": 12
     },
     "object": {
-        "15_3": 8
+        "15_3": 7
     },
-    "explanandum": {
+    "explained": {
+        "15_3": 4
+    },
+    "Explanandum": {
         "15_3": 1
     },
-    "latin": {
+    "Latin": {
         "15_3": 2
     },
     "content": {
         "15_3": 3
     },
-    "explanan": {
+    "Explanans": {
         "15_3": 1
     },
     "not": {
         "15_3": 9
     },
     "new": {
-        "15_3": 5
+        "15_3": 3
     },
     "topic": {
         "15_3": 2
@@ -765,7 +840,7 @@
         "15_3": 1
     },
     "work": {
-        "15_3": 7
+        "15_3": 6
     },
     "could": {
         "15_3": 7
@@ -773,13 +848,13 @@
     "found": {
         "15_3": 2
     },
-    "literatur": {
+    "literature": {
         "15_3": 1
     },
-    "publis": {
+    "published": {
         "15_3": 2
     },
-    "forti": {
+    "forty": {
         "15_3": 1
     },
     "ago": {
@@ -788,52 +863,64 @@
     "where": {
         "15_3": 2
     },
+    "some": {
+        "15_3": 1
+    },
     "via": {
         "15_3": 2
     },
-    "appli": {
+    "applied": {
         "15_3": 1
     },
-    "rule": {
-        "15_3": 5
+    "rules": {
+        "15_3": 4
     },
-    "sinc": {
-        "15_3": 3
+    "Since": {
+        "15_3": 2
     },
     "began": {
         "15_3": 1
     },
-    "scientist": {
+    "scientists": {
         "15_3": 1
     },
-    "argu": {
+    "argued": {
         "15_3": 1
     },
     "that": {
         "15_3": 22
     },
+    "intelligent": {
+        "15_3": 1
+    },
     "should": {
         "15_3": 6
     },
-    "mostli": {
+    "mostly": {
         "15_3": 2
     },
     "when": {
-        "15_3": 4
+        "15_3": 3
     },
     "it": {
-        "15_3": 18
+        "15_3": 8
     },
-    "come": {
+    "comes": {
         "15_3": 1
     },
-    "if": {
-        "15_3": 5
+    "If": {
+        "15_3": 2
     },
-    "base": {
+    "rule": {
+        "15_3": 1
+    },
+    "based": {
         "15_3": 4
     },
-    "reject": {
+    "system": {
+        "15_3": 11
+    },
+    "rejects": {
         "15_3": 1
     },
     "credit": {
@@ -845,101 +932,137 @@
     "payment": {
         "15_3": 1
     },
-    "reason": {
-        "15_3": 5
+    "reasons": {
+        "15_3": 1
     },
-    "neg": {
-        "15_3": 4
+    "negative": {
+        "15_3": 3
     },
-    "knowledg": {
-        "15_3": 14
+    "knowledge": {
+        "15_3": 12
     },
     "ned": {
         "15_3": 2
     },
-    "formul": {
+    "formulated": {
+        "15_3": 1
+    },
+    "human": {
+        "15_3": 5
+    },
+    "experts": {
         "15_3": 1
     },
     "these": {
-        "15_3": 3
+        "15_3": 2
     },
-    "easi": {
+    "easy": {
         "15_3": 1
     },
     "understand": {
         "15_3": 12
     },
     "interpret": {
-        "15_3": 7
+        "15_3": 1
     },
-    "desig": {
+    "Decision": {
         "15_3": 2
     },
-    "structur": {
+    "tree": {
+        "15_3": 4
+    },
+    "typical": {
+        "15_3": 3
+    },
+    "method": {
+        "15_3": 5
+    },
+    "designed": {
         "15_3": 2
     },
-    "fig": {
+    "structure": {
+        "15_3": 2
+    },
+    "illustrated": {
+        "15_3": 1
+    },
+    "Fig": {
         "15_3": 26
     },
     "top": {
         "15_3": 4
     },
-    "go": {
+    "going": {
         "15_3": 2
     },
     "down": {
         "15_3": 3
     },
+    "solution": {
+        "15_3": 2
+    },
     "path": {
         "15_3": 1
     },
-    "present": {
-        "15_3": 4
+    "presents": {
+        "15_3": 2
     },
-    "examp": {
+    "reasoning": {
+        "15_3": 1
+    },
+    "An": {
+        "15_3": 3
+    },
+    "example": {
         "15_3": 5
     },
-    "us": {
-        "15_3": 11
+    "used": {
+        "15_3": 3
     },
     "level": {
         "15_3": 2
     },
-    "accor": {
+    "according": {
         "15_3": 1
     },
     "logic": {
         "15_3": 1
     },
-    "imag": {
-        "15_3": 27
+    "Image": {
+        "15_3": 10
     },
-    "courtesi": {
+    "courtesy": {
         "15_3": 9
     },
     "J": {
         "15_3": 8
     },
-    "jordan": {
+    "Jordan": {
         "15_3": 1
     },
-    "without": {
-        "15_3": 2
-    },
-    "complet": {
+    "Without": {
         "15_3": 1
     },
-    "explanatori": {
+    "completely": {
+        "15_3": 1
+    },
+    "explanatory": {
         "15_3": 7
     },
-    "mechan": {
+    "mechanisms": {
         "15_3": 1
     },
     "output": {
         "15_3": 2
     },
-    "todai": {
-        "15_3": 2
+    "todays": {
+        "15_3": 1
+    },
+    "Neural": {
+        "15_3": 8
+    },
+    "Networks": {
+        "15_3": 3
     },
     "cannot": {
         "15_3": 3
@@ -947,23 +1070,29 @@
     "neither": {
         "15_3": 2
     },
+    "network": {
+        "15_3": 5
+    },
     "itself": {
         "15_3": 1
     },
     "nor": {
         "15_3": 2
     },
-    "extern": {
+    "external": {
         "15_3": 1
     },
-    "compon": {
-        "15_3": 3
+    "component": {
+        "15_3": 1
+    },
+    "developer": {
+        "15_3": 1
     },
     "know": {
         "15_3": 1
     },
     "there": {
-        "15_3": 4
+        "15_3": 3
     },
     "di": {
         "15_3": 6
@@ -974,20 +1103,20 @@
     "archi": {
         "15_3": 1
     },
-    "tectur": {
+    "tectures": {
         "15_3": 1
     },
     "problem": {
-        "15_3": 4
+        "15_3": 1
     },
-    "class": {
-        "15_3": 8
+    "classes": {
+        "15_3": 1
     },
     "input": {
         "15_3": 8
     },
     "data": {
-        "15_3": 9
+        "15_3": 7
     },
     "CNN": {
         "15_3": 8
@@ -1004,35 +1133,50 @@
     "them": {
         "15_3": 2
     },
+    "considered": {
+        "15_3": 1
+    },
+    "boxes": {
+        "15_3": 2
+    },
     "whose": {
         "15_3": 2
     },
-    "intern": {
-        "15_3": 5
+    "internal": {
+        "15_3": 1
     },
     "known": {
         "15_3": 2
     },
-    "observ": {
+    "observer": {
         "15_3": 1
     },
+    "interpretable": {
+        "15_3": 2
+    },
+    "Explainability": {
+        "15_3": 2
+    },
     "model": {
-        "15_3": 24
+        "15_3": 12
     },
-    "usual": {
+    "usually": {
         "15_3": 2
     },
-    "invers": {
+    "inverse": {
         "15_3": 2
     },
-    "accuraci": {
+    "its": {
+        "15_3": 3
+    },
+    "accuracy": {
         "15_3": 8
     },
     "higher": {
         "15_3": 2
     },
     "lower": {
-        "15_3": 6
+        "15_3": 5
     },
     "DARPA": {
         "15_3": 7
@@ -1041,7 +1185,7 @@
         "15_3": 6
     },
     "program": {
-        "15_3": 6
+        "15_3": 3
     },
     "nice": {
         "15_3": 1
@@ -1049,16 +1193,16 @@
     "chart": {
         "15_3": 2
     },
-    "interes": {
+    "interesting": {
         "15_3": 1
     },
     "phenomena": {
         "15_3": 2
     },
-    "excel": {
+    "excellent": {
         "15_3": 1
     },
-    "degre": {
+    "degree": {
         "15_3": 2
     },
     "but": {
@@ -1073,65 +1217,74 @@
     "among": {
         "15_3": 1
     },
-    "lise": {
+    "listed": {
         "15_3": 1
     },
-    "techniqu": {
+    "techniques": {
         "15_3": 2
     },
     "other": {
-        "15_3": 4
+        "15_3": 3
     },
-    "extrem": {
+    "extreme": {
         "15_3": 1
     },
-    "aretit": {
+    "Learning": {
+        "15_3": 6
+    },
+    "areTitle": {
         "15_3": 1
     },
-    "suppres": {
+    "Suppressed": {
         "15_3": 5
     },
-    "due": {
+    "Due": {
         "15_3": 5
     },
-    "excess": {
+    "Excessive": {
         "15_3": 5
     },
-    "length": {
+    "Length": {
         "15_3": 5
     },
-    "sever": {
+    "several": {
         "15_3": 1
     },
-    "fjodor": {
+    "Fjodor": {
         "15_3": 1
     },
-    "van": {
+    "Van": {
         "15_3": 2
     },
-    "veen": {
+    "Veen": {
         "15_3": 2
     },
     "better": {
         "15_3": 2
     },
-    "capac": {
+    "predictive": {
         "15_3": 1
     },
-    "ani": {
+    "capacity": {
         "15_3": 1
     },
-    "like": {
-        "15_3": 3
-    },
-    "explic": {
+    "any": {
         "15_3": 1
+    },
+    "likely": {
+        "15_3": 1
+    },
+    "explicable": {
+        "15_3": 1
+    },
+    "models": {
+        "15_3": 12
     },
     "appear": {
         "15_3": 3
     },
     "aim": {
-        "15_3": 3
+        "15_3": 1
     },
     "open": {
         "15_3": 1
@@ -1142,10 +1295,13 @@
     "into": {
         "15_3": 1
     },
+    "transparent": {
+        "15_3": 3
+    },
     "main": {
         "15_3": 1
     },
-    "strand": {
+    "strands": {
         "15_3": 1
     },
     "design": {
@@ -1163,49 +1319,55 @@
     "nation": {
         "15_3": 2
     },
-    "reveal": {
+    "reveals": {
         "15_3": 2
     },
     "how": {
-        "15_3": 3
+        "15_3": 2
     },
-    "function": {
-        "15_3": 3
+    "functions": {
+        "15_3": 1
     },
     "view": {
-        "15_3": 3
+        "15_3": 2
     },
-    "tri": {
+    "It": {
+        "15_3": 7
+    },
+    "tries": {
         "15_3": 2
     },
     "e": {
-        "15_3": 14
+        "15_3": 10
     },
     "g": {
         "15_3": 7
     },
-    "construct": {
+    "construction": {
         "15_3": 1
     },
-    "singl": {
+    "single": {
         "15_3": 1
     },
-    "paramet": {
+    "components": {
+        "15_3": 2
+    },
+    "parameter": {
         "15_3": 1
     },
-    "logist": {
+    "logistic": {
         "15_3": 1
     },
-    "regress": {
+    "regression": {
         "15_3": 1
     },
-    "train": {
-        "15_3": 5
+    "training": {
+        "15_3": 3
     },
-    "algorithm": {
-        "15_3": 9
+    "algorithms": {
+        "15_3": 2
     },
-    "seek": {
+    "seeking": {
         "15_3": 1
     },
     "con": {
@@ -1214,8 +1376,17 @@
     "vex": {
         "15_3": 1
     },
+    "explains": {
+        "15_3": 4
+    },
     "why": {
         "15_3": 3
+    },
+    "result": {
+        "15_3": 3
+    },
+    "inferred": {
+        "15_3": 1
     },
     "d": {
         "15_3": 1
@@ -1223,41 +1394,41 @@
     "give": {
         "15_3": 3
     },
-    "analyt": {
+    "analytic": {
         "15_3": 1
     },
-    "statement": {
+    "statements": {
         "15_3": 1
     },
-    "good": {
+    "goods": {
         "15_3": 1
     },
-    "recommen": {
+    "recommended": {
         "15_3": 1
     },
-    "shope": {
+    "shopping": {
         "15_3": 1
     },
-    "websit": {
+    "website": {
         "15_3": 1
     },
-    "visual": {
-        "15_3": 12
+    "visualizations": {
+        "15_3": 1
     },
-    "salienc": {
+    "saliency": {
         "15_3": 4
     },
     "map": {
-        "15_3": 4
+        "15_3": 3
     },
     "show": {
-        "15_3": 7
+        "15_3": 1
     },
     "pixel": {
-        "15_3": 5
+        "15_3": 3
     },
-    "import": {
-        "15_3": 6
+    "importance": {
+        "15_3": 2
     },
     "classi": {
         "15_3": 9
@@ -1268,16 +1439,16 @@
     "ex": {
         "15_3": 3
     },
-    "planat": {
-        "15_3": 2
+    "planations": {
+        "15_3": 1
     },
     "nearest": {
         "15_3": 1
     },
-    "neighbor": {
+    "neighbors": {
         "15_3": 1
     },
-    "histor": {
+    "historical": {
         "15_3": 1
     },
     "dataset": {
@@ -1286,26 +1457,44 @@
     "thorough": {
         "15_3": 2
     },
-    "descript": {
-        "15_3": 2
-    },
-    "categor": {
+    "description": {
         "15_3": 1
     },
-    "lipton": {
-        "15_3": 2
-    },
-    "comprehens": {
+    "categorization": {
         "15_3": 1
     },
-    "provid": {
+    "Lipton": {
+        "15_3": 2
+    },
+    "comprehensive": {
+        "15_3": 1
+    },
+    "survey": {
         "15_3": 3
     },
-    "categori": {
-        "15_3": 4
+    "development": {
+        "15_3": 2
     },
-    "relev": {
-        "15_3": 20
+    "provided": {
+        "15_3": 1
+    },
+    "Two": {
+        "15_3": 1
+    },
+    "categories": {
+        "15_3": 1
+    },
+    "planation": {
+        "15_3": 1
+    },
+    "Relevance": {
+        "15_3": 3
+    },
+    "Increasing": {
+        "15_3": 1
+    },
+    "recently": {
+        "15_3": 1
     },
     "been": {
         "15_3": 3
@@ -1316,34 +1505,55 @@
     "across": {
         "15_3": 1
     },
-    "april": {
+    "April": {
         "15_3": 2
     },
-    "fune": {
+    "funded": {
         "15_3": 1
     },
-    "abl": {
+    "Explain": {
+        "15_3": 2
+    },
+    "able": {
         "15_3": 5
     },
-    "juli": {
+    "aimed": {
         "15_3": 1
     },
-    "chines": {
+    "improving": {
+        "15_3": 1
+    },
+    "July": {
+        "15_3": 1
+    },
+    "Chinese": {
         "15_3": 2
     },
-    "govern": {
+    "government": {
+        "15_3": 1
+    },
+    "released": {
+        "15_3": 1
+    },
+    "Development": {
+        "15_3": 2
+    },
+    "Plan": {
+        "15_3": 2
+    },
+    "New": {
+        "15_3": 2
+    },
+    "Generation": {
         "15_3": 3
     },
-    "releas": {
-        "15_3": 1
+    "Arti": {
+        "15_3": 5
     },
-    "plan": {
-        "15_3": 2
+    "Intelligence": {
+        "15_3": 5
     },
-    "gener": {
-        "15_3": 9
-    },
-    "encourag": {
+    "encourage": {
         "15_3": 1
     },
     "high": {
@@ -1352,20 +1562,26 @@
     "strong": {
         "15_3": 1
     },
-    "extens": {
+    "extensibility": {
         "15_3": 1
     },
-    "mai": {
-        "15_3": 3
-    },
-    "protect": {
-        "15_3": 1
-    },
-    "regula": {
+    "May": {
         "15_3": 2
     },
+    "General": {
+        "15_3": 1
+    },
+    "Data": {
+        "15_3": 2
+    },
+    "Protection": {
+        "15_3": 1
+    },
+    "Regula": {
+        "15_3": 1
+    },
     "tion": {
-        "15_3": 3
+        "15_3": 2
     },
     "GDPR": {
         "15_3": 1
@@ -1373,85 +1589,118 @@
     "which": {
         "15_3": 12
     },
-    "european": {
+    "European": {
         "15_3": 4
     },
-    "union": {
-        "15_3": 2
-    },
-    "grant": {
+    "Union": {
         "15_3": 1
     },
-    "citizen": {
+    "grants": {
+        "15_3": 1
+    },
+    "citizens": {
         "15_3": 1
     },
     "right": {
         "15_3": 3
     },
+    "if": {
+        "15_3": 3
+    },
+    "algorithmic": {
+        "15_3": 2
+    },
+    "making": {
+        "15_3": 4
+    },
     "will": {
         "15_3": 1
     },
-    "increasingli": {
+    "increasingly": {
         "15_3": 1
     },
-    "stakehold": {
+    "important": {
+        "15_3": 4
+    },
+    "groups": {
         "15_3": 1
     },
-    "util": {
-        "15_3": 2
+    "stakeholders": {
+        "15_3": 1
     },
-    "maker": {
+    "utilize": {
+        "15_3": 1
+    },
+    "When": {
+        "15_3": 1
+    },
+    "recommends": {
+        "15_3": 1
+    },
+    "makers": {
         "15_3": 1
     },
     "would": {
         "15_3": 5
     },
     "need": {
-        "15_3": 6
-    },
-    "under": {
         "15_3": 4
+    },
+    "underlying": {
+        "15_3": 2
+    },
+    "reason": {
+        "15_3": 3
     },
     "doctor": {
         "15_3": 1
     },
+    "needs": {
+        "15_3": 2
+    },
     "what": {
         "15_3": 2
     },
-    "patholog": {
+    "pathological": {
         "15_3": 1
     },
-    "featur": {
+    "features": {
         "15_3": 3
     },
     "were": {
         "15_3": 7
     },
-    "guid": {
+    "guiding": {
         "15_3": 1
     },
-    "befor": {
+    "algorithm": {
+        "15_3": 5
+    },
+    "before": {
         "15_3": 3
     },
-    "accep": {
+    "accepting": {
         "15_3": 1
     },
     "auto": {
         "15_3": 1
     },
-    "report": {
+    "generated": {
         "15_3": 1
     },
-    "mainten": {
+    "reports": {
         "15_3": 1
     },
-    "engin": {
+    "maintenance": {
         "15_3": 1
     },
-    "abnorm": {
+    "engineer": {
         "15_3": 1
     },
-    "captur": {
+    "abnormal": {
+        "15_3": 1
+    },
+    "captured": {
         "15_3": 1
     },
     "algo": {
@@ -1460,10 +1709,13 @@
     "rithm": {
         "15_3": 1
     },
-    "follow": {
-        "15_3": 2
+    "following": {
+        "15_3": 1
     },
     "repair": {
+        "15_3": 1
+    },
+    "recommendations": {
         "15_3": 1
     },
     "nancial": {
@@ -1472,58 +1724,64 @@
     "investor": {
         "15_3": 1
     },
-    "want": {
+    "wants": {
         "15_3": 1
     },
-    "uen": {
+    "uencing": {
         "15_3": 1
     },
-    "factor": {
+    "factors": {
+        "15_3": 1
+    },
+    "regarded": {
+        "15_3": 1
+    },
+    "critical": {
         "15_3": 2
     },
-    "regar": {
-        "15_3": 1
-    },
-    "critic": {
+    "ones": {
         "15_3": 2
     },
-    "on": {
-        "15_3": 2
-    },
-    "verifi": {
+    "verify": {
         "15_3": 1
     },
-    "expec": {
+    "works": {
         "15_3": 1
     },
-    "becaus": {
+    "expected": {
+        "15_3": 1
+    },
+    "because": {
         "15_3": 4
     },
     "wrong": {
         "15_3": 2
     },
-    "costli": {
+    "costly": {
         "15_3": 1
     },
-    "danger": {
+    "dangerous": {
         "15_3": 1
     },
-    "caruana": {
+    "Caruana": {
         "15_3": 2
     },
-    "presen": {
+    "presented": {
         "15_3": 3
     },
-    "famou": {
+    "famous": {
         "15_3": 1
     },
-    "pneumonia": {
-        "15_3": 5
+    "Pneumonia": {
+        "15_3": 1
     },
-    "asthma": {
-        "15_3": 3
+    "Asthma": {
+        "15_3": 1
     },
     "point": {
+        "15_3": 1
+    },
+    "trained": {
         "15_3": 2
     },
     "pre": {
@@ -1532,29 +1790,41 @@
     "dict": {
         "15_3": 1
     },
+    "pneumonia": {
+        "15_3": 4
+    },
     "risk": {
         "15_3": 4
     },
     "person": {
+        "15_3": 1
+    },
+    "arrived": {
+        "15_3": 1
+    },
+    "totally": {
+        "15_3": 1
+    },
+    "conclusions": {
+        "15_3": 1
+    },
+    "From": {
         "15_3": 3
     },
-    "arriv": {
-        "15_3": 2
-    },
-    "total": {
+    "learned": {
         "15_3": 1
     },
-    "conclus": {
+    "asthmatic": {
         "15_3": 1
     },
-    "asthmat": {
-        "15_3": 1
-    },
-    "patient": {
+    "patients": {
         "15_3": 2
     },
     "heart": {
         "15_3": 1
+    },
+    "problems": {
+        "15_3": 2
     },
     "much": {
         "15_3": 3
@@ -1562,25 +1832,40 @@
     "dying": {
         "15_3": 2
     },
-    "healthi": {
+    "healthy": {
+        "15_3": 2
+    },
+    "persons": {
         "15_3": 2
     },
     "true": {
         "15_3": 1
     },
-    "ect": {
+    "since": {
         "15_3": 1
     },
-    "recoveri": {
+    "asthma": {
+        "15_3": 2
+    },
+    "factor": {
         "15_3": 1
     },
-    "trainingtit": {
+    "negatively": {
         "15_3": 1
     },
-    "systemat": {
+    "ects": {
         "15_3": 1
     },
-    "bias": {
+    "recovery": {
+        "15_3": 1
+    },
+    "trainingTitle": {
+        "15_3": 1
+    },
+    "systematically": {
+        "15_3": 1
+    },
+    "biased": {
         "15_3": 1
     },
     "contrast": {
@@ -1589,191 +1874,242 @@
     "ma": {
         "15_3": 1
     },
-    "joriti": {
+    "jority": {
         "15_3": 1
+    },
+    "under": {
+        "15_3": 2
     },
     "strict": {
         "15_3": 1
     },
-    "supervis": {
+    "supervision": {
         "15_3": 1
     },
-    "henc": {
+    "Hence": {
         "15_3": 1
     },
-    "note": {
+    "group": {
+        "15_3": 1
+    },
+    "noted": {
         "15_3": 1
     },
     "though": {
         "15_3": 1
     },
-    "probab": {
+    "probably": {
         "15_3": 1
     },
-    "wore": {
+    "worked": {
         "15_3": 1
     },
-    "correctli": {
+    "correctly": {
         "15_3": 3
     },
     "also": {
         "15_3": 2
     },
-    "represen": {
+    "represented": {
         "15_3": 1
     },
-    "case": {
+    "cases": {
         "15_3": 1
     },
     "insight": {
         "15_3": 1
     },
-    "select": {
+    "selection": {
         "15_3": 1
     },
-    "appropri": {
+    "appropriate": {
         "15_3": 2
     },
-    "popul": {
+    "predictions": {
+        "15_3": 4
+    },
+    "ecting": {
+        "15_3": 1
+    },
+    "populations": {
+        "15_3": 1
+    },
+    "may": {
         "15_3": 1
     },
     "remain": {
         "15_3": 1
     },
-    "undiscov": {
+    "undiscovered": {
+        "15_3": 1
+    },
+    "makes": {
         "15_3": 1
     },
     "own": {
         "15_3": 1
     },
-    "brake": {
+    "braking": {
         "15_3": 1
     },
     "car": {
         "15_3": 1
     },
-    "shute": {
+    "shutting": {
         "15_3": 1
     },
     "plant": {
         "15_3": 1
     },
-    "sell": {
+    "selling": {
         "15_3": 1
     },
-    "share": {
+    "shares": {
         "15_3": 1
     },
-    "asses": {
+    "assessing": {
         "15_3": 1
     },
     "job": {
         "15_3": 1
     },
-    "issu": {
+    "issuing": {
         "15_3": 1
     },
     "tra": {
         "15_3": 1
     },
-    "punish": {
+    "punishment": {
         "15_3": 1
     },
     "order": {
         "15_3": 1
     },
     "must": {
-        "15_3": 3
+        "15_3": 2
     },
-    "alreadi": {
+    "There": {
+        "15_3": 1
+    },
+    "already": {
         "15_3": 1
     },
     "legal": {
         "15_3": 1
     },
-    "codifi": {
+    "regula": {
+        "15_3": 1
+    },
+    "tions": {
+        "15_3": 1
+    },
+    "codify": {
         "15_3": 1
     },
     "demand": {
-        "15_3": 2
-    },
-    "houston": {
-        "15_3": 3
-    },
-    "school": {
-        "15_3": 3
-    },
-    "call": {
-        "15_3": 3
-    },
-    "educ": {
         "15_3": 1
     },
-    "valu": {
+    "Houston": {
+        "15_3": 2
+    },
+    "schools": {
+        "15_3": 2
+    },
+    "using": {
+        "15_3": 5
+    },
+    "called": {
         "15_3": 3
     },
-    "assess": {
+    "Educational": {
+        "15_3": 1
+    },
+    "Value": {
+        "15_3": 1
+    },
+    "Added": {
+        "15_3": 1
+    },
+    "Assessment": {
+        "15_3": 1
+    },
+    "System": {
         "15_3": 1
     },
     "EVAAS": {
         "15_3": 1
     },
-    "evalu": {
-        "15_3": 5
-    },
-    "perform": {
+    "evaluate": {
         "15_3": 1
     },
-    "teacher": {
-        "15_3": 5
-    },
-    "successfulli": {
+    "performance": {
         "15_3": 1
     },
-    "contes": {
+    "teachers": {
+        "15_3": 3
+    },
+    "successfully": {
+        "15_3": 1
+    },
+    "contested": {
         "15_3": 1
     },
     "court": {
         "15_3": 1
     },
-    "review": {
+    "reviews": {
         "15_3": 1
     },
     "help": {
         "15_3": 2
     },
-    "detec": {
-        "15_3": 2
-    },
-    "bia": {
+    "improve": {
         "15_3": 1
     },
-    "discov": {
+    "detecting": {
         "15_3": 1
     },
-    "mistak": {
+    "bias": {
         "15_3": 1
     },
-    "remed": {
+    "discovering": {
         "15_3": 1
     },
-    "la": {
+    "mistakes": {
+        "15_3": 1
+    },
+    "remedying": {
+        "15_3": 1
+    },
+    "weakness": {
+        "15_3": 1
+    },
+    "La": {
         "15_3": 1
     },
     "puschkin": {
         "15_3": 1
     },
-    "impress": {
+    "impressive": {
         "15_3": 1
     },
-    "obser": {
+    "observed": {
         "15_3": 2
     },
-    "fisher": {
+    "Fisher": {
         "15_3": 5
     },
-    "recognit": {
-        "15_3": 8
+    "Vector": {
+        "15_3": 4
+    },
+    "shows": {
+        "15_3": 6
+    },
+    "task": {
+        "15_3": 1
+    },
+    "recognition": {
+        "15_3": 5
     },
     "reach": {
         "15_3": 1
@@ -1787,52 +2123,70 @@
     "rate": {
         "15_3": 1
     },
-    "hors": {
+    "category": {
+        "15_3": 3
+    },
+    "horse": {
         "15_3": 3
     },
     "unex": {
         "15_3": 1
     },
-    "pece": {
+    "pected": {
         "15_3": 1
     },
-    "layer": {
-        "15_3": 8
+    "Layer": {
+        "15_3": 1
     },
     "wise": {
         "15_3": 2
     },
-    "propag": {
+    "Propagation": {
+        "15_3": 1
+    },
+    "employed": {
+        "15_3": 1
+    },
+    "analyze": {
+        "15_3": 1
+    },
+    "exactly": {
+        "15_3": 1
+    },
+    "arrive": {
+        "15_3": 1
+    },
+    "authors": {
         "15_3": 2
     },
-    "emploi": {
+    "use": {
+        "15_3": 3
+    },
+    "strategies": {
         "15_3": 1
     },
-    "analyz": {
+    "classify": {
         "15_3": 1
     },
-    "exactli": {
-        "15_3": 1
+    "images": {
+        "15_3": 5
     },
-    "strategi": {
-        "15_3": 1
+    "Network": {
+        "15_3": 5
     },
-    "classifi": {
+    "looked": {
         "15_3": 1
-    },
-    "look": {
-        "15_3": 2
     },
     "contour": {
         "15_3": 1
     },
     "actual": {
-        "15_3": 2
-    },
-    "wherea": {
         "15_3": 1
     },
-    "reli": {
+    "whereas": {
+        "15_3": 1
+    },
+    "relied": {
         "15_3": 1
     },
     "certain": {
@@ -1844,32 +2198,47 @@
     "tag": {
         "15_3": 2
     },
-    "happen": {
+    "happens": {
         "15_3": 1
     },
-    "remov": {
-        "15_3": 2
+    "present": {
+        "15_3": 1
+    },
+    "Removing": {
+        "15_3": 1
     },
     "test": {
+        "15_3": 2
+    },
+    "consequently": {
+        "15_3": 1
+    },
+    "cantly": {
+        "15_3": 1
+    },
+    "decrease": {
+        "15_3": 1
+    },
+    "Upper": {
+        "15_3": 1
+    },
+    "Lower": {
+        "15_3": 1
+    },
+    "Lapuschkin": {
         "15_3": 3
     },
-    "consequ": {
+    "Relevant": {
         "15_3": 1
     },
-    "cantli": {
+    "Problems": {
         "15_3": 1
     },
-    "decreas": {
+    "Current": {
         "15_3": 1
-    },
-    "upper": {
-        "15_3": 1
-    },
-    "lapuschkin": {
-        "15_3": 3
     },
     "three": {
-        "15_3": 4
+        "15_3": 3
     },
     "behavior": {
         "15_3": 1
@@ -1880,35 +2249,56 @@
     "neuron": {
         "15_3": 2
     },
-    "indic": {
-        "15_3": 6
-    },
-    "activ": {
+    "indicates": {
         "15_3": 3
     },
-    "statu": {
+    "activation": {
+        "15_3": 2
+    },
+    "status": {
         "15_3": 1
     },
-    "semant": {
-        "15_3": 2
+    "semantics": {
+        "15_3": 1
     },
     "often": {
         "15_3": 1
     },
-    "readab": {
+    "activated": {
+        "15_3": 1
+    },
+    "part": {
+        "15_3": 6
+    },
+    "generation": {
+        "15_3": 2
+    },
+    "explanations": {
+        "15_3": 8
+    },
+    "readable": {
         "15_3": 1
     },
     "textual": {
         "15_3": 1
     },
-    "tell": {
+    "tells": {
         "15_3": 1
     },
-    "understan": {
+    "Three": {
+        "15_3": 1
+    },
+    "understanding": {
         "15_3": 2
+    },
+    "indicated": {
+        "15_3": 1
     },
     "red": {
         "15_3": 3
+    },
+    "Making": {
+        "15_3": 1
     },
     "DNN": {
         "15_3": 1
@@ -1919,28 +2309,40 @@
     "popular": {
         "15_3": 1
     },
-    "name": {
+    "namely": {
         "15_3": 2
     },
-    "sensit": {
-        "15_3": 2
+    "sensitivity": {
+        "15_3": 1
     },
-    "analysi": {
+    "analysis": {
         "15_3": 1
     },
     "SA": {
         "15_3": 15
     },
+    "layer": {
+        "15_3": 3
+    },
+    "relevance": {
+        "15_3": 4
+    },
+    "propagation": {
+        "15_3": 1
+    },
     "LRP": {
         "15_3": 11
     },
-    "local": {
+    "locally": {
+        "15_3": 1
+    },
+    "evaluated": {
         "15_3": 2
     },
     "gradient": {
         "15_3": 1
     },
-    "ri": {
+    "Ri": {
         "15_3": 1
     },
     "xif": {
@@ -1949,40 +2351,58 @@
     "x": {
         "15_3": 5
     },
-    "assum": {
+    "assumes": {
         "15_3": 1
     },
     "most": {
         "15_3": 4
     },
+    "relevant": {
+        "15_3": 12
+    },
+    "sensitive": {
+        "15_3": 1
+    },
     "doesnt": {
         "15_3": 2
+    },
+    "function": {
+        "15_3": 2
+    },
+    "value": {
+        "15_3": 1
     },
     "quanti": {
         "15_3": 1
     },
-    "each": {
-        "15_3": 6
-    },
-    "variab": {
+    "es": {
         "15_3": 4
+    },
+    "each": {
+        "15_3": 5
+    },
+    "variable": {
+        "15_3": 3
     },
     "xi": {
         "15_3": 1
     },
-    "rel": {
+    "relative": {
         "15_3": 1
     },
     "maximum": {
         "15_3": 1
     },
-    "uncertainti": {
+    "uncertainty": {
         "15_3": 1
     },
-    "redistribut": {
-        "15_3": 3
+    "redistributes": {
+        "15_3": 1
     },
-    "backward": {
+    "backwards": {
+        "15_3": 1
+    },
+    "local": {
         "15_3": 1
     },
     "redistri": {
@@ -1994,74 +2414,95 @@
     "until": {
         "15_3": 1
     },
-    "assign": {
+    "assigns": {
         "15_3": 1
     },
     "score": {
         "15_3": 2
     },
-    "rito": {
+    "Rito": {
         "15_3": 1
     },
-    "riof": {
+    "Riof": {
         "15_3": 1
     },
-    "determin": {
-        "15_3": 2
-    },
-    "importancetit": {
+    "determines": {
         "15_3": 1
     },
-    "iri": {
+    "variables": {
         "15_3": 1
     },
-    "jrj": {
+    "importanceTitle": {
         "15_3": 1
     },
-    "krk": {
+    "iRi": {
         "15_3": 1
     },
-    "conserv": {
+    "jRj": {
         "15_3": 1
     },
-    "kei": {
+    "kRk": {
         "15_3": 1
     },
-    "properti": {
+    "conservation": {
+        "15_3": 1
+    },
+    "key": {
+        "15_3": 1
+    },
+    "property": {
         "15_3": 3
     },
-    "ensur": {
+    "redistribution": {
+        "15_3": 2
+    },
+    "ensures": {
         "15_3": 1
     },
-    "cialli": {
+    "cially": {
         "15_3": 1
     },
-    "dure": {
+    "added": {
         "15_3": 1
     },
-    "thu": {
+    "removed": {
         "15_3": 1
     },
-    "truli": {
+    "during": {
         "15_3": 1
     },
-    "decompos": {
+    "Thus": {
         "15_3": 1
+    },
+    "truly": {
+        "15_3": 1
+    },
+    "decomposes": {
+        "15_3": 1
+    },
+    "values": {
+        "15_3": 1
+    },
+    "Explaining": {
+        "15_3": 3
     },
     "W": {
         "15_3": 8
     },
-    "samek": {
+    "Samek": {
         "15_3": 5
     },
-    "summar": {
+    "summarizes": {
         "15_3": 1
     },
-    "cla": {
+    "clas": {
         "15_3": 1
     },
     "si": {
         "15_3": 1
+    },
+    "image": {
+        "15_3": 12
     },
     "rooster": {
         "15_3": 4
@@ -2069,20 +2510,35 @@
     "yellow": {
         "15_3": 2
     },
-    "ower": {
+    "owers": {
         "15_3": 1
     },
-    "occlud": {
+    "occlude": {
         "15_3": 1
     },
-    "chane": {
+    "changed": {
+        "15_3": 1
+    },
+    "look": {
         "15_3": 1
     },
     "more": {
         "15_3": 2
     },
-    "predic": {
-        "15_3": 4
+    "like": {
+        "15_3": 2
+    },
+    "predicted": {
+        "15_3": 3
+    },
+    "indicate": {
+        "15_3": 2
+    },
+    "pixels": {
+        "15_3": 2
+    },
+    "actually": {
+        "15_3": 1
     },
     "piv": {
         "15_3": 1
@@ -2091,31 +2547,34 @@
         "15_3": 1
     },
     "heatmap": {
-        "15_3": 4
+        "15_3": 1
+    },
+    "computed": {
+        "15_3": 2
     },
     "identi": {
         "15_3": 2
     },
-    "pivot": {
+    "pivotal": {
         "15_3": 1
     },
-    "addition": {
+    "Additionally": {
         "15_3": 1
     },
-    "annot": {
+    "annotation": {
         "15_3": 1
     },
     "text": {
         "15_3": 3
     },
-    "document": {
-        "15_3": 2
+    "documents": {
+        "15_3": 1
     },
-    "action": {
-        "15_3": 2
+    "actions": {
+        "15_3": 1
     },
-    "video": {
-        "15_3": 3
+    "videos": {
+        "15_3": 1
     },
     "ILSVRC": {
         "15_3": 1
@@ -2132,20 +2591,29 @@
     "cup": {
         "15_3": 1
     },
-    "respect": {
+    "respectively": {
         "15_3": 1
     },
     "gure": {
         "15_3": 2
     },
+    "see": {
+        "15_3": 1
+    },
+    "heatmaps": {
+        "15_3": 3
+    },
     "noisier": {
         "15_3": 1
     },
-    "everi": {
+    "every": {
         "15_3": 1
     },
-    "produc": {
-        "15_3": 4
+    "contributes": {
+        "15_3": 1
+    },
+    "produces": {
+        "15_3": 1
     },
     "B": {
         "15_3": 4
@@ -2153,7 +2621,10 @@
     "overlaid": {
         "15_3": 1
     },
-    "newsgroup": {
+    "document": {
+        "15_3": 1
+    },
+    "Newsgroup": {
         "15_3": 1
     },
     "LPR": {
@@ -2168,109 +2639,151 @@
     "tween": {
         "15_3": 1
     },
-    "posit": {
+    "positive": {
         "15_3": 1
     },
-    "evid": {
+    "evidence": {
         "15_3": 1
     },
-    "similarli": {
+    "Similarly": {
         "15_3": 1
     },
     "C": {
         "15_3": 5
     },
-    "onli": {
+    "only": {
         "15_3": 1
     },
-    "locat": {
-        "15_3": 2
+    "visualizes": {
+        "15_3": 1
+    },
+    "locations": {
+        "15_3": 1
+    },
+    "action": {
+        "15_3": 1
     },
     "within": {
+        "15_3": 2
+    },
+    "video": {
         "15_3": 2
     },
     "frame": {
         "15_3": 1
     },
     "time": {
-        "15_3": 4
+        "15_3": 3
     },
-    "sequenc": {
+    "points": {
+        "15_3": 1
+    },
+    "sequence": {
         "15_3": 2
     },
-    "graph": {
-        "15_3": 8
-    },
-    "exis": {
+    "semantic": {
         "15_3": 1
     },
-    "zhang": {
+    "graphs": {
+        "15_3": 1
+    },
+    "existing": {
+        "15_3": 1
+    },
+    "Zhang": {
         "15_3": 4
     },
-    "propos": {
+    "proposes": {
         "15_3": 1
     },
-    "graphic": {
+    "learns": {
         "15_3": 1
     },
-    "planatori": {
+    "graphical": {
         "15_3": 1
     },
-    "hierarchi": {
+    "planatory": {
+        "15_3": 1
+    },
+    "graph": {
+        "15_3": 6
+    },
+    "hierarchy": {
         "15_3": 2
     },
     "hidden": {
         "15_3": 2
     },
-    "insid": {
+    "inside": {
         "15_3": 2
     },
-    "convolut": {
-        "15_3": 5
-    },
-    "consist": {
+    "Convolutional": {
         "15_3": 1
     },
-    "multip": {
+    "consists": {
         "15_3": 1
     },
-    "correspond": {
+    "multiple": {
+        "15_3": 1
+    },
+    "layers": {
+        "15_3": 4
+    },
+    "corresponds": {
+        "15_3": 1
+    },
+    "convolutional": {
+        "15_3": 4
+    },
+    "Each": {
         "15_3": 1
     },
     "node": {
-        "15_3": 3
+        "15_3": 1
     },
-    "repres": {
-        "15_3": 3
+    "represents": {
+        "15_3": 2
     },
     "speci": {
         "15_3": 2
     },
+    "detected": {
+        "15_3": 1
+    },
     "side": {
         "15_3": 1
     },
-    "deriv": {
+    "These": {
         "15_3": 1
     },
-    "spons": {
+    "nodes": {
+        "15_3": 2
+    },
+    "derived": {
         "15_3": 1
     },
-    "lter": {
-        "15_3": 3
-    },
-    "disentang": {
+    "sponses": {
         "15_3": 1
     },
-    "edg": {
+    "lters": {
         "15_3": 1
     },
-    "connec": {
+    "disentangle": {
+        "15_3": 1
+    },
+    "edge": {
+        "15_3": 1
+    },
+    "connecting": {
         "15_3": 1
     },
     "relationship": {
         "15_3": 1
     },
-    "respons": {
+    "lter": {
+        "15_3": 2
+    },
+    "response": {
         "15_3": 1
     },
     "spatial": {
@@ -2282,7 +2795,13 @@
     "tionship": {
         "15_3": 1
     },
-    "granular": {
+    "location": {
+        "15_3": 1
+    },
+    "granularity": {
+        "15_3": 1
+    },
+    "objects": {
         "15_3": 1
     },
     "larger": {
@@ -2294,34 +2813,46 @@
     "smaller": {
         "15_3": 1
     },
-    "adopt": {
+    "however": {
         "15_3": 1
     },
-    "bridg": {
+    "adopts": {
+        "15_3": 1
+    },
+    "bridge": {
         "15_3": 1
     },
     "stand": {
         "15_3": 2
     },
-    "ordinari": {
+    "ordinary": {
         "15_3": 1
     },
     "later": {
         "15_3": 1
     },
-    "addit": {
+    "introduce": {
         "15_3": 1
     },
-    "loss": {
+    "additional": {
         "15_3": 1
     },
-    "forc": {
+    "losses": {
         "15_3": 1
     },
-    "directli": {
+    "force": {
         "15_3": 1
     },
-    "titl": {
+    "represent": {
+        "15_3": 1
+    },
+    "directly": {
+        "15_3": 1
+    },
+    "produce": {
+        "15_3": 3
+    },
+    "Title": {
         "15_3": 1
     },
     "convolu": {
@@ -2330,25 +2861,43 @@
     "tional": {
         "15_3": 1
     },
+    "Explanations": {
+        "15_3": 1
+    },
     "novel": {
         "15_3": 1
     },
     "framework": {
         "15_3": 1
     },
+    "provides": {
+        "15_3": 2
+    },
+    "visual": {
+        "15_3": 5
+    },
+    "Visual": {
+        "15_3": 4
+    },
+    "class": {
+        "15_3": 7
+    },
     "nd": {
         "15_3": 2
     },
-    "sentenc": {
+    "descriptions": {
         "15_3": 1
     },
-    "inform": {
+    "sentence": {
+        "15_3": 1
+    },
+    "information": {
+        "15_3": 1
+    },
+    "necessarily": {
         "15_3": 2
     },
-    "necessarili": {
-        "15_3": 2
-    },
-    "nition": {
+    "nitions": {
         "15_3": 1
     },
     "western": {
@@ -2369,14 +2918,17 @@
     "neck": {
         "15_3": 1
     },
-    "pointi": {
+    "pointy": {
         "15_3": 1
     },
     "beak": {
         "15_3": 1
     },
-    "ey": {
+    "eye": {
         "15_3": 2
+    },
+    "includes": {
+        "15_3": 1
     },
     "between": {
         "15_3": 1
@@ -2387,19 +2939,19 @@
     "albatross": {
         "15_3": 1
     },
-    "therefor": {
+    "Therefore": {
         "15_3": 2
     },
     "cour": {
         "15_3": 1
     },
-    "tesi": {
+    "tesy": {
         "15_3": 1
     },
     "L": {
         "15_3": 6
     },
-    "hendrick": {
+    "Hendricks": {
         "15_3": 4
     },
     "label": {
@@ -2411,10 +2963,10 @@
     "through": {
         "15_3": 1
     },
-    "grain": {
+    "grained": {
         "15_3": 1
     },
-    "pipelin": {
+    "pipeline": {
         "15_3": 1
     },
     "pick": {
@@ -2423,85 +2975,106 @@
     "out": {
         "15_3": 1
     },
-    "nuan": {
+    "nuanced": {
         "15_3": 1
     },
-    "detail": {
+    "details": {
         "15_3": 1
     },
-    "classif": {
+    "classifying": {
         "15_3": 1
     },
-    "forwar": {
+    "forwarded": {
         "15_3": 1
     },
     "stack": {
         "15_3": 1
     },
-    "joint": {
-        "15_3": 2
-    },
-    "languag": {
+    "words": {
         "15_3": 1
     },
-    "face": {
-        "15_3": 3
+    "joint": {
+        "15_3": 1
+    },
+    "language": {
+        "15_3": 1
+    },
+    "Future": {
+        "15_3": 1
+    },
+    "Directions": {
+        "15_3": 1
+    },
+    "facing": {
+        "15_3": 1
     },
     "social": {
         "15_3": 1
     },
+    "demands": {
+        "15_3": 1
+    },
     "expect": {
-        "15_3": 2
+        "15_3": 1
     },
     "mission": {
         "15_3": 1
     },
-    "trustworthi": {
+    "trustworthy": {
         "15_3": 1
     },
     "instead": {
         "15_3": 1
     },
-    "ali": {
+    "Ali": {
         "15_3": 1
     },
-    "rahimi": {
-        "15_3": 4
+    "Rahimi": {
+        "15_3": 3
     },
     "winner": {
         "15_3": 1
     },
     "award": {
+        "15_3": 1
+    },
+    "NeurIPS": {
+        "15_3": 1
+    },
+    "expressed": {
+        "15_3": 1
+    },
+    "expectations": {
+        "15_3": 1
+    },
+    "concerning": {
+        "15_3": 1
+    },
+    "follows": {
+        "15_3": 1
+    },
+    "building": {
+        "15_3": 1
+    },
+    "govern": {
+        "15_3": 1
+    },
+    "healthcare": {
         "15_3": 2
     },
-    "neurip": {
-        "15_3": 1
-    },
-    "expres": {
-        "15_3": 1
-    },
-    "concer": {
-        "15_3": 1
-    },
-    "buil": {
-        "15_3": 1
-    },
-    "healthcar": {
-        "15_3": 2
-    },
-    "mediat": {
+    "mediate": {
         "15_3": 1
     },
     "civic": {
         "15_3": 1
     },
-    "dialogu": {
+    "dialogue": {
         "15_3": 1
     },
-    "uenc": {
+    "uence": {
         "15_3": 1
     },
-    "elect": {
+    "elections": {
         "15_3": 1
     },
     "I": {
@@ -2510,8 +3083,8 @@
     "live": {
         "15_3": 1
     },
-    "societi": {
-        "15_3": 2
+    "society": {
+        "15_3": 1
     },
     "built": {
         "15_3": 1
@@ -2519,16 +3092,16 @@
     "veri": {
         "15_3": 1
     },
-    "rigor": {
+    "rigorous": {
         "15_3": 1
     },
-    "let": {
+    "Lets": {
         "15_3": 1
     },
     "take": {
         "15_3": 1
     },
-    "electr": {
+    "electricity": {
         "15_3": 2
     },
     "term": {
@@ -2537,31 +3110,37 @@
     "speech": {
         "15_3": 1
     },
-    "replac": {
+    "replaced": {
         "15_3": 1
     },
-    "chemistri": {
+    "chemistry": {
         "15_3": 1
     },
-    "perspect": {
+    "perspective": {
         "15_3": 1
     },
-    "inves": {
+    "invested": {
         "15_3": 1
     },
-    "million": {
+    "Million": {
         "15_3": 1
     },
     "USD": {
         "15_3": 1
     },
-    "launc": {
+    "launched": {
+        "15_3": 1
+    },
+    "year": {
         "15_3": 1
     },
     "pro": {
-        "15_3": 2
+        "15_3": 1
     },
     "gram": {
+        "15_3": 1
+    },
+    "aiming": {
         "15_3": 1
     },
     "glass": {
@@ -2570,7 +3149,10 @@
     "loop": {
         "15_3": 1
     },
-    "greatli": {
+    "without": {
+        "15_3": 1
+    },
+    "greatly": {
         "15_3": 1
     },
     "sacri": {
@@ -2582,13 +3164,16 @@
     "perfor": {
         "15_3": 1
     },
-    "manc": {
+    "mance": {
         "15_3": 1
     },
-    "ai": {
+    "Human": {
         "15_3": 1
     },
-    "cognit": {
+    "AIs": {
+        "15_3": 1
+    },
+    "cognition": {
         "15_3": 1
     },
     "after": {
@@ -2597,22 +3182,28 @@
     "might": {
         "15_3": 1
     },
+    "determine": {
+        "15_3": 1
+    },
     "trust": {
         "15_3": 1
     },
-    "distrus": {
+    "distrusted": {
         "15_3": 1
     },
-    "phase": {
+    "Phase": {
         "15_3": 2
     },
-    "plane": {
+    "planned": {
         "15_3": 1
     },
-    "initi": {
+    "achieve": {
         "15_3": 1
     },
-    "implement": {
+    "initial": {
+        "15_3": 1
+    },
+    "implementations": {
         "15_3": 1
     },
     "build": {
@@ -2621,19 +3212,31 @@
     "toolkit": {
         "15_3": 1
     },
-    "librari": {
+    "library": {
         "15_3": 1
     },
-    "consis": {
+    "consisting": {
         "15_3": 1
     },
-    "softwar": {
+    "computer": {
         "15_3": 1
     },
-    "modul": {
+    "interface": {
         "15_3": 1
     },
-    "acquir": {
+    "software": {
+        "15_3": 1
+    },
+    "modules": {
+        "15_3": 1
+    },
+    "utilized": {
+        "15_3": 1
+    },
+    "developing": {
+        "15_3": 1
+    },
+    "acquire": {
         "15_3": 2
     },
     "explicit": {
@@ -2642,104 +3245,146 @@
     "implicit": {
         "15_3": 2
     },
-    "moreov": {
+    "Moreover": {
         "15_3": 1
     },
-    "combin": {
+    "combine": {
+        "15_3": 1
+    },
+    "forms": {
+        "15_3": 1
+    },
+    "require": {
         "15_3": 1
     },
     "form": {
+        "15_3": 1
+    },
+    "probabilistic": {
+        "15_3": 1
+    },
+    "anything": {
+        "15_3": 1
+    },
+    "Other": {
+        "15_3": 1
+    },
+    "Knowledge": {
         "15_3": 2
     },
-    "requir": {
+    "Graphs": {
         "15_3": 1
     },
-    "probabilist": {
+    "Today": {
         "15_3": 1
     },
-    "anyt": {
+    "worlds": {
+        "15_3": 2
+    },
+    "technology": {
         "15_3": 1
     },
     "still": {
         "15_3": 1
     },
-    "larg": {
+    "largely": {
+        "15_3": 1
+    },
+    "separated": {
+        "15_3": 1
+    },
+    "Researchers": {
+        "15_3": 1
+    },
+    "nowTitle": {
+        "15_3": 1
+    },
+    "Concept": {
+        "15_3": 1
+    },
+    "Program": {
         "15_3": 2
     },
-    "separ": {
+    "strengthening": {
         "15_3": 1
     },
-    "nowtit": {
-        "15_3": 1
-    },
-    "concept": {
-        "15_3": 1
-    },
-    "strengthen": {
-        "15_3": 1
-    },
-    "ort": {
+    "orts": {
         "15_3": 1
     },
     "bring": {
         "15_3": 1
     },
-    "togeth": {
+    "together": {
         "15_3": 1
     },
     "driven": {
         "15_3": 1
     },
-    "sourc": {
+    "source": {
         "15_3": 1
     },
     "catalyst": {
         "15_3": 1
     },
-    "dedic": {
+    "dedicated": {
         "15_3": 1
     },
     "grand": {
         "15_3": 1
     },
-    "refer": {
+    "challenge": {
         "15_3": 1
     },
-    "baehren": {
+    "References": {
+        "15_3": 1
+    },
+    "Baehrens": {
         "15_3": 1
     },
     "D": {
         "15_3": 2
     },
-    "schroeter": {
+    "Schroeter": {
         "15_3": 1
     },
     "T": {
         "15_3": 4
     },
-    "harmel": {
+    "Harmeling": {
         "15_3": 1
     },
     "S": {
         "15_3": 7
     },
-    "kawanab": {
+    "Kawanabe": {
         "15_3": 1
     },
     "M": {
         "15_3": 9
     },
-    "hansen": {
+    "Hansen": {
         "15_3": 1
     },
     "uller": {
         "15_3": 3
     },
-    "individu": {
+    "How": {
         "15_3": 1
     },
-    "mach": {
+    "individual": {
         "15_3": 1
+    },
+    "Mach": {
+        "15_3": 1
+    },
+    "Learn": {
+        "15_3": 2
+    },
+    "Res": {
+        "15_3": 1
+    },
+    "http": {
+        "15_3": 5
     },
     "portal": {
         "15_3": 1
@@ -2750,7 +3395,7 @@
     "org": {
         "15_3": 8
     },
-    "citat": {
+    "citation": {
         "15_3": 1
     },
     "cfm": {
@@ -2759,52 +3404,88 @@
     "id": {
         "15_3": 1
     },
-    "cameron": {
+    "Cameron": {
+        "15_3": 1
+    },
+    "Schools": {
+        "15_3": 1
+    },
+    "Must": {
+        "15_3": 1
+    },
+    "Face": {
+        "15_3": 1
+    },
+    "Teacher": {
+        "15_3": 1
+    },
+    "Evaluation": {
+        "15_3": 1
+    },
+    "Lawsuit": {
+        "15_3": 1
+    },
+    "courthousenews": {
+        "15_3": 1
+    },
+    "houston": {
+        "15_3": 1
+    },
+    "face": {
+        "15_3": 1
+    },
+    "teacher": {
+        "15_3": 1
+    },
+    "evaluation": {
         "15_3": 1
     },
     "lawsuit": {
-        "15_3": 2
-    },
-    "courthousenew": {
         "15_3": 1
     },
     "R": {
         "15_3": 9
     },
-    "lou": {
+    "Lou": {
         "15_3": 1
     },
     "Y": {
         "15_3": 3
     },
-    "gehrk": {
+    "Gehrke": {
         "15_3": 1
     },
-    "koch": {
+    "Koch": {
         "15_3": 1
     },
     "P": {
         "15_3": 2
     },
-    "sturm": {
+    "Sturm": {
         "15_3": 1
     },
-    "elhadad": {
+    "Elhadad": {
         "15_3": 1
     },
     "N": {
         "15_3": 4
     },
-    "hospit": {
+    "Intelligible": {
         "15_3": 1
     },
-    "dai": {
+    "Predicting": {
         "15_3": 1
     },
-    "readmiss": {
+    "hospital": {
         "15_3": 1
     },
-    "proceed": {
+    "day": {
+        "15_3": 1
+    },
+    "readmission": {
+        "15_3": 1
+    },
+    "Proceedings": {
         "15_3": 4
     },
     "th": {
@@ -2816,31 +3497,37 @@
     "SIGKDD": {
         "15_3": 1
     },
-    "confer": {
+    "International": {
+        "15_3": 4
+    },
+    "Conference": {
         "15_3": 9
     },
-    "discoveri": {
+    "Discovery": {
         "15_3": 1
     },
-    "mine": {
+    "Mining": {
         "15_3": 1
     },
     "pp": {
         "15_3": 7
     },
-    "deng": {
+    "Deng": {
         "15_3": 1
     },
-    "dong": {
+    "Dong": {
         "15_3": 1
     },
-    "socher": {
+    "Socher": {
         "15_3": 1
     },
-    "li": {
+    "Li": {
         "15_3": 3
     },
-    "imagenet": {
+    "Imagenet": {
+        "15_3": 1
+    },
+    "large": {
         "15_3": 1
     },
     "scale": {
@@ -2852,28 +3539,34 @@
     "chical": {
         "15_3": 1
     },
-    "databas": {
+    "database": {
         "15_3": 1
     },
     "IEEE": {
         "15_3": 3
     },
-    "vision": {
+    "Society": {
+        "15_3": 1
+    },
+    "Vision": {
         "15_3": 5
     },
-    "pattern": {
+    "Pattern": {
+        "15_3": 3
+    },
+    "Recognition": {
         "15_3": 3
     },
     "CVPR": {
         "15_3": 1
     },
-    "june": {
+    "June": {
         "15_3": 1
     },
-    "miami": {
+    "Miami": {
         "15_3": 1
     },
-    "florida": {
+    "Florida": {
         "15_3": 1
     },
     "USA": {
@@ -2885,88 +3578,106 @@
     "CVPRW": {
         "15_3": 2
     },
-    "doilovi": {
+    "Doilovi": {
         "15_3": 1
     },
-    "bri": {
+    "Bri": {
         "15_3": 1
     },
-    "hlupi": {
+    "Hlupi": {
         "15_3": 1
     },
-    "convent": {
+    "Convention": {
         "15_3": 1
     },
-    "tech": {
+    "Information": {
         "15_3": 1
     },
-    "nologi": {
+    "Communication": {
         "15_3": 1
     },
-    "electron": {
+    "Tech": {
         "15_3": 1
     },
-    "microelectron": {
+    "nology": {
+        "15_3": 1
+    },
+    "Electronics": {
+        "15_3": 1
+    },
+    "Microelectronics": {
         "15_3": 1
     },
     "MIPRO": {
         "15_3": 2
     },
-    "goodman": {
+    "Goodman": {
         "15_3": 1
     },
-    "flaxman": {
+    "Flaxman": {
         "15_3": 1
     },
-    "regul": {
+    "union": {
         "15_3": 1
     },
-    "magazin": {
+    "regulations": {
         "15_3": 1
     },
-    "guidotti": {
+    "magazine": {
         "15_3": 1
     },
-    "monreal": {
+    "Guidotti": {
         "15_3": 1
     },
-    "ruggieri": {
+    "Monreale": {
         "15_3": 1
     },
-    "turini": {
+    "Ruggieri": {
         "15_3": 1
     },
-    "giannotti": {
+    "Turini": {
         "15_3": 1
     },
-    "pedreschi": {
+    "Giannotti": {
+        "15_3": 1
+    },
+    "Pedreschi": {
+        "15_3": 1
+    },
+    "Computing": {
+        "15_3": 1
+    },
+    "Surveys": {
         "15_3": 1
     },
     "CSUR": {
         "15_3": 1
     },
-    "akata": {
+    "Akata": {
         "15_3": 2
     },
     "Z": {
         "15_3": 3
     },
-    "rohrbach": {
+    "Rohrbach": {
         "15_3": 2
     },
-    "donahu": {
+    "Donahue": {
         "15_3": 2
     },
-    "schiel": {
+    "Schiele": {
         "15_3": 2
     },
-    "darrel": {
+    "Darrell": {
         "15_3": 2
     },
-    "springer": {
+    "Generating": {
         "15_3": 2
     },
-    "jeremi": {
+    "Springer": {
+        "15_3": 2
+    },
+    "Jeremy": {
         "15_3": 1
     },
     "jeremyjordan": {
@@ -2975,19 +3686,25 @@
     "me": {
         "15_3": 1
     },
-    "binder": {
+    "Binder": {
         "15_3": 2
     },
-    "montavon": {
+    "Montavon": {
         "15_3": 2
     },
     "G": {
         "15_3": 2
     },
-    "muller": {
+    "Muller": {
         "15_3": 1
     },
-    "anali": {
+    "Analyzing": {
+        "15_3": 1
+    },
+    "ers": {
+        "15_3": 1
+    },
+    "vectors": {
         "15_3": 1
     },
     "lrp": {
@@ -2996,22 +3713,31 @@
     "tool": {
         "15_3": 1
     },
-    "journal": {
+    "Journal": {
         "15_3": 2
+    },
+    "Machine": {
+        "15_3": 3
     },
     "jmlr": {
         "15_3": 1
     },
+    "papers": {
+        "15_3": 1
+    },
     "v": {
-        "15_3": 4
+        "15_3": 2
     },
     "html": {
         "15_3": 1
     },
-    "mytho": {
+    "mythos": {
         "15_3": 1
     },
-    "queue": {
+    "interpretability": {
+        "15_3": 1
+    },
+    "Queue": {
         "15_3": 1
     },
     "ing": {
@@ -3020,40 +3746,58 @@
     "NIPS": {
         "15_3": 1
     },
-    "youtub": {
+    "Test": {
+        "15_3": 1
+    },
+    "Time": {
+        "15_3": 1
+    },
+    "Award": {
+        "15_3": 1
+    },
+    "presentation": {
+        "15_3": 1
+    },
+    "youtube": {
         "15_3": 1
     },
     "watch": {
         "15_3": 1
     },
-    "orhfonaezpc": {
+    "ORHFOnaEzPc": {
         "15_3": 1
     },
-    "wiegand": {
+    "Wiegand": {
         "15_3": 1
     },
-    "un": {
+    "Un": {
         "15_3": 1
     },
-    "derstan": {
+    "derstanding": {
         "15_3": 1
     },
-    "arxiv": {
-        "15_3": 3
+    "visualizing": {
+        "15_3": 1
+    },
+    "interpreting": {
+        "15_3": 1
+    },
+    "arXiv": {
+        "15_3": 2
     },
     "preprint": {
         "15_3": 1
     },
-    "scott": {
+    "Scott": {
         "15_3": 1
     },
-    "clancei": {
+    "Clancey": {
         "15_3": 1
     },
-    "davi": {
+    "Davis": {
         "15_3": 1
     },
-    "shortli": {
+    "Shortli": {
         "15_3": 1
     },
     "E": {
@@ -3062,103 +3806,145 @@
     "H": {
         "15_3": 1
     },
-    "capab": {
+    "Explanation": {
         "15_3": 1
     },
-    "product": {
+    "capabilities": {
         "15_3": 1
     },
-    "consult": {
+    "production": {
         "15_3": 1
     },
-    "american": {
+    "consultation": {
         "15_3": 1
     },
-    "lin": {
+    "American": {
         "15_3": 1
     },
-    "guistic": {
+    "Computational": {
         "15_3": 1
     },
-    "simonyan": {
+    "Lin": {
         "15_3": 1
     },
-    "vedaldi": {
+    "guistics": {
         "15_3": 1
     },
-    "zisserman": {
+    "Simonyan": {
         "15_3": 1
     },
-    "visualis": {
+    "Vedaldi": {
         "15_3": 1
     },
-    "represent": {
+    "Zisserman": {
+        "15_3": 1
+    },
+    "Visualising": {
+        "15_3": 1
+    },
+    "maps": {
+        "15_3": 1
+    },
+    "Representations": {
         "15_3": 1
     },
     "ICLR": {
         "15_3": 1
     },
-    "ban": {
+    "Ban": {
         "15_3": 1
     },
     "AB": {
         "15_3": 1
     },
-    "canada": {
+    "Canada": {
         "15_3": 1
     },
-    "workshop": {
+    "Workshop": {
         "15_3": 1
     },
-    "track": {
+    "Track": {
         "15_3": 1
     },
-    "ab": {
+    "arxiv": {
         "15_3": 1
     },
-    "council": {
+    "abs": {
         "15_3": 1
     },
-    "genera": {
+    "State": {
+        "15_3": 1
+    },
+    "Council": {
+        "15_3": 1
+    },
+    "Government": {
+        "15_3": 1
+    },
+    "Genera": {
         "15_3": 1
     },
     "gov": {
         "15_3": 1
     },
-    "zhengc": {
+    "zhengce": {
         "15_3": 1
     },
     "htm": {
         "15_3": 1
     },
-    "swartout": {
+    "Swartout": {
         "15_3": 1
     },
-    "justif": {
+    "justifying": {
         "15_3": 1
     },
-    "consul": {
+    "consulting": {
         "15_3": 1
     },
-    "ceed": {
+    "programs": {
         "15_3": 1
     },
-    "toni": {
+    "Pro": {
         "15_3": 1
     },
-    "lecun": {
+    "ceedings": {
+        "15_3": 1
+    },
+    "Joint": {
+        "15_3": 1
+    },
+    "Tony": {
+        "15_3": 1
+    },
+    "LeCun": {
+        "15_3": 1
+    },
+    "vs": {
         "15_3": 2
+    },
+    "Become": {
+        "15_3": 1
+    },
+    "Alchemy": {
+        "15_3": 1
     },
     "medium": {
         "15_3": 1
     },
-    "synced": {
+    "Synced": {
+        "15_3": 1
+    },
+    "lecun": {
+        "15_3": 1
+    },
+    "rahimi": {
         "15_3": 1
     },
     "cbd": {
         "15_3": 1
     },
-    "turek": {
+    "Turek": {
         "15_3": 1
     },
     "darpa": {
@@ -3167,10 +3953,16 @@
     "mil": {
         "15_3": 1
     },
-    "zoo": {
-        "15_3": 2
+    "Zoo": {
+        "15_3": 1
     },
-    "asimovinstitut": {
+    "asimovinstitute": {
+        "15_3": 1
+    },
+    "zoo": {
+        "15_3": 1
+    },
+    "Wiktionary": {
         "15_3": 1
     },
     "en": {
@@ -3182,28 +3974,40 @@
     "Q": {
         "15_3": 2
     },
-    "cao": {
+    "Cao": {
         "15_3": 1
     },
-    "shi": {
+    "Shi": {
         "15_3": 1
     },
-    "wu": {
+    "Wu": {
         "15_3": 2
+    },
+    "Interpreting": {
+        "15_3": 1
     },
     "cnn": {
         "15_3": 1
     },
-    "thirti": {
+    "Thirty": {
         "15_3": 1
     },
-    "second": {
+    "Second": {
         "15_3": 1
     },
     "AAAI": {
         "15_3": 1
     },
-    "stat": {
+    "Interpretable": {
+        "15_3": 1
+    },
+    "View": {
+        "15_3": 1
+    },
+    "publication": {
+        "15_3": 1
+    },
+    "stats": {
         "15_3": 1
     }
 }

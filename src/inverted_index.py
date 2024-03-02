@@ -10,7 +10,7 @@ class InvertedIndex:
         if load_from_file:
             self.load_index()
     
-    def load_from_index(self, file_name: str, logger: logging.Logger) -> None:
+    def load_from_file(self, file_name: str, logger: logging.Logger) -> None:
         """
         Load saved index from file
 
@@ -19,7 +19,9 @@ class InvertedIndex:
         """
         try:
             with open(file_name, 'r', encoding='utf-8') as f:
-                self.index = json.load(f)
+                local_inv_idx = json.load(f)
+                for doc_id, local_inv in local_inv_idx.items():
+                    self.index.setdefault(doc_id, {}).update(local_inv)
         except FileNotFoundError:
             log_message(f"{file_name} not found for loading positional index", logger, level=logging.ERROR)
             pass
