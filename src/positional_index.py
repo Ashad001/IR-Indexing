@@ -7,7 +7,7 @@ class PositionalIndex:
     def __init__(self) -> None:
         self.index: Dict[str, Dict[str, List[int]]] = {}
         
-    def load_from_index(self, file_name: str, logger: logging.Logger) -> None:
+    def load_from_file(self, file_name: str, logger: logging.Logger) -> None:
         """
         Load saved index from file
 
@@ -16,7 +16,9 @@ class PositionalIndex:
         """
         try:
             with open(file_name, 'r', encoding='utf-8') as f:
-                self.index = json.load(f)
+                local_pos_idx = json.load(f)
+                for doc_id, local_pos in local_pos_idx.items():
+                    self.index.setdefault(doc_id, {}).update(local_pos)
         except FileNotFoundError:
             log_message(f"{file_name} not found for loading positional index", logger, level=logging.ERROR)
             pass

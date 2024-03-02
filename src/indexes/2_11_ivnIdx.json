@@ -1,98 +1,98 @@
 {
-    "time": {
-        "2_11": 4
+    "timely": {
+        "2_11": 1
     },
-    "accur": {
+    "accurate": {
         "2_11": 1
     },
     "heart": {
-        "2_11": 51
+        "2_11": 41
     },
-    "failur": {
+    "failure": {
         "2_11": 44
     },
-    "diagnosi": {
+    "diagnosis": {
         "2_11": 27
     },
-    "gatewai": {
+    "gateway": {
         "2_11": 1
     },
-    "effect": {
+    "effective": {
         "2_11": 1
     },
     "treatment": {
-        "2_11": 4
+        "2_11": 1
     },
     "that": {
         "2_11": 4
     },
-    "improv": {
-        "2_11": 5
+    "improve": {
+        "2_11": 2
     },
-    "qualiti": {
+    "quality": {
         "2_11": 3
     },
     "life": {
         "2_11": 3
     },
-    "prognosi": {
+    "prognosis": {
         "2_11": 2
     },
-    "patient": {
-        "2_11": 23
+    "patients": {
+        "2_11": 18
     },
-    "howev": {
-        "2_11": 3
+    "however": {
+        "2_11": 2
     },
     "almost": {
         "2_11": 1
     },
-    "peopl": {
+    "people": {
         "2_11": 3
     },
-    "receiv": {
+    "receive": {
         "2_11": 2
     },
     "an": {
         "2_11": 3
     },
-    "initi": {
-        "2_11": 3
-    },
-    "follow": {
-        "2_11": 3
-    },
-    "emerg": {
-        "2_11": 2
-    },
-    "admiss": {
-        "2_11": 3
-    },
-    "hospit": {
-        "2_11": 4
-    },
-    "thi": {
-        "2_11": 3
-    },
-    "distres": {
+    "initial": {
         "2_11": 1
     },
-    "famili": {
+    "following": {
+        "2_11": 3
+    },
+    "emergency": {
         "2_11": 2
     },
-    "costli": {
+    "admission": {
+        "2_11": 1
+    },
+    "hospital": {
+        "2_11": 4
+    },
+    "This": {
+        "2_11": 1
+    },
+    "distressing": {
+        "2_11": 1
+    },
+    "families": {
+        "2_11": 1
+    },
+    "costly": {
         "2_11": 2
     },
     "NHS": {
         "2_11": 2
     },
-    "usual": {
+    "usually": {
         "2_11": 1
     },
-    "denot": {
+    "denotes": {
         "2_11": 1
     },
-    "progress": {
+    "progression": {
         "2_11": 1
     },
     "later": {
@@ -101,23 +101,26 @@
     "stage": {
         "2_11": 2
     },
-    "diseas": {
+    "disease": {
         "2_11": 3
     },
-    "british": {
+    "British": {
         "2_11": 5
     },
-    "foundat": {
+    "Heart": {
+        "2_11": 10
+    },
+    "Foundation": {
         "2_11": 4
     },
-    "call": {
+    "called": {
         "2_11": 2
     },
     "earlier": {
-        "2_11": 4
+        "2_11": 3
     },
-    "prioritis": {
-        "2_11": 4
+    "prioritised": {
+        "2_11": 2
     },
     "but": {
         "2_11": 4
@@ -125,14 +128,14 @@
     "what": {
         "2_11": 2
     },
-    "challeng": {
+    "challenges": {
         "2_11": 2
     },
-    "primari": {
-        "2_11": 18
+    "primary": {
+        "2_11": 15
     },
     "care": {
-        "2_11": 21
+        "2_11": 15
     },
     "HEART": {
         "2_11": 1
@@ -143,56 +146,59 @@
     "BURDEN": {
         "2_11": 1
     },
-    "around": {
-        "2_11": 2
+    "Around": {
+        "2_11": 1
     },
     "million": {
         "2_11": 2
     },
-    "england": {
+    "England": {
         "2_11": 2
     },
-    "live": {
+    "living": {
         "2_11": 1
     },
     "with": {
         "2_11": 18
     },
-    "nearli": {
+    "nearly": {
         "2_11": 1
     },
-    "newli": {
+    "newly": {
         "2_11": 1
     },
-    "diagnos": {
+    "diagnosed": {
         "2_11": 2
     },
     "each": {
         "2_11": 1
     },
     "year": {
-        "2_11": 3
+        "2_11": 2
     },
-    "typical": {
+    "Patients": {
         "2_11": 1
     },
-    "experi": {
+    "typically": {
         "2_11": 1
     },
-    "increas": {
-        "2_11": 5
+    "experience": {
+        "2_11": 1
     },
-    "breathless": {
-        "2_11": 7
+    "increasing": {
+        "2_11": 2
     },
-    "fatigu": {
+    "breathlessness": {
+        "2_11": 4
+    },
+    "fatigue": {
         "2_11": 1
     },
     "leg": {
         "2_11": 1
     },
-    "swell": {
-        "2_11": 3
+    "swelling": {
+        "2_11": 1
     },
     "which": {
         "2_11": 3
@@ -206,32 +212,35 @@
     "outlook": {
         "2_11": 1
     },
-    "wors": {
+    "worse": {
         "2_11": 2
     },
     "than": {
         "2_11": 1
     },
-    "mani": {
+    "many": {
         "2_11": 1
     },
     "common": {
         "2_11": 5
     },
-    "cancer": {
+    "cancers": {
+        "2_11": 2
+    },
+    "survival": {
         "2_11": 3
     },
-    "surviv": {
-        "2_11": 3
-    },
-    "rate": {
+    "rates": {
         "2_11": 1
     },
     "not": {
         "2_11": 5
     },
-    "substanti": {
-        "2_11": 2
+    "improved": {
+        "2_11": 1
+    },
+    "substantially": {
+        "2_11": 1
     },
     "last": {
         "2_11": 1
@@ -239,10 +248,13 @@
     "two": {
         "2_11": 1
     },
-    "decad": {
+    "decades": {
         "2_11": 1
     },
-    "spend": {
+    "spends": {
+        "2_11": 1
+    },
+    "around": {
         "2_11": 1
     },
     "billion": {
@@ -257,43 +269,46 @@
     "cost": {
         "2_11": 1
     },
-    "incur": {
+    "incurred": {
         "2_11": 1
     },
     "through": {
         "2_11": 2
     },
-    "depart": {
-        "2_11": 3
-    },
-    "attend": {
+    "department": {
         "2_11": 1
     },
-    "prolon": {
+    "attendance": {
         "2_11": 1
     },
-    "stai": {
+    "prolonged": {
+        "2_11": 1
+    },
+    "stay": {
         "2_11": 1
     },
     "frequent": {
         "2_11": 1
     },
-    "readmiss": {
+    "readmissions": {
         "2_11": 1
     },
-    "carer": {
+    "Families": {
+        "2_11": 1
+    },
+    "carers": {
         "2_11": 1
     },
     "also": {
         "2_11": 6
     },
-    "impac": {
+    "impacted": {
         "2_11": 1
     },
     "often": {
         "2_11": 2
     },
-    "plai": {
+    "play": {
         "2_11": 1
     },
     "vital": {
@@ -302,7 +317,7 @@
     "role": {
         "2_11": 1
     },
-    "suppor": {
+    "supporting": {
         "2_11": 1
     },
     "TREATABLE": {
@@ -311,10 +326,10 @@
     "CONDITION": {
         "2_11": 1
     },
-    "categoris": {
+    "categorised": {
         "2_11": 1
     },
-    "accor": {
+    "according": {
         "2_11": 1
     },
     "left": {
@@ -323,38 +338,44 @@
     "ventricular": {
         "2_11": 1
     },
-    "eject": {
+    "ejection": {
         "2_11": 3
     },
     "fraction": {
         "2_11": 3
     },
-    "guid": {
+    "guide": {
         "2_11": 1
     },
-    "manag": {
+    "management": {
         "2_11": 4
     },
-    "reduc": {
-        "2_11": 2
-    },
-    "hfref": {
-        "2_11": 2
-    },
-    "preser": {
+    "reduced": {
         "2_11": 1
     },
-    "hfpef": {
+    "HFrEF": {
         "2_11": 2
     },
-    "there": {
+    "preserved": {
+        "2_11": 1
+    },
+    "HFpEF": {
+        "2_11": 2
+    },
+    "There": {
         "2_11": 3
     },
-    "evid": {
+    "substantial": {
+        "2_11": 1
+    },
+    "evidence": {
         "2_11": 2
     },
     "base": {
-        "2_11": 3
+        "2_11": 1
+    },
+    "treatments": {
+        "2_11": 2
     },
     "such": {
         "2_11": 4
@@ -362,19 +383,19 @@
     "angiotensin": {
         "2_11": 1
     },
-    "conver": {
+    "converting": {
         "2_11": 1
     },
-    "enzym": {
+    "enzyme": {
         "2_11": 1
     },
-    "inhibitor": {
+    "inhibitors": {
         "2_11": 4
     },
     "beta": {
         "2_11": 1
     },
-    "blocker": {
+    "blockers": {
         "2_11": 1
     },
     "mineralocorticoid": {
@@ -383,13 +404,22 @@
     "receptor": {
         "2_11": 1
     },
-    "antagonist": {
+    "antagonists": {
         "2_11": 1
     },
-    "newer": {
+    "reduce": {
         "2_11": 1
     },
-    "drug": {
+    "admissions": {
+        "2_11": 2
+    },
+    "increase": {
+        "2_11": 1
+    },
+    "Newer": {
+        "2_11": 1
+    },
+    "drugs": {
         "2_11": 1
     },
     "sacubitril": {
@@ -398,40 +428,43 @@
     "valsartan": {
         "2_11": 1
     },
-    "ivabradin": {
+    "ivabradine": {
         "2_11": 1
     },
-    "recent": {
-        "2_11": 4
+    "recently": {
+        "2_11": 3
     },
     "sodium": {
         "2_11": 1
     },
-    "glucos": {
+    "glucose": {
         "2_11": 1
     },
-    "cotransport": {
+    "cotransporter": {
         "2_11": 1
     },
     "SGLT": {
         "2_11": 3
     },
-    "avail": {
+    "available": {
         "2_11": 2
     },
     "specialist": {
         "2_11": 4
     },
-    "prognost": {
+    "initiation": {
         "2_11": 1
     },
-    "benefici": {
+    "Prognostically": {
+        "2_11": 1
+    },
+    "beneficial": {
         "2_11": 1
     },
     "been": {
         "2_11": 3
     },
-    "limit": {
+    "limited": {
         "2_11": 2
     },
     "until": {
@@ -446,52 +479,55 @@
     "empagliflozin": {
         "2_11": 1
     },
-    "show": {
+    "showed": {
         "2_11": 3
     },
-    "promis": {
+    "promising": {
         "2_11": 1
     },
-    "result": {
+    "results": {
         "2_11": 1
     },
-    "clinic": {
-        "2_11": 4
-    },
-    "trial": {
+    "clinical": {
         "2_11": 2
+    },
+    "trials": {
+        "2_11": 2
+    },
+    "Treatment": {
+        "2_11": 1
     },
     "valvular": {
         "2_11": 1
     },
-    "arrhythmia": {
+    "arrhythmias": {
         "2_11": 1
     },
-    "import": {
+    "important": {
         "2_11": 1
     },
     "if": {
-        "2_11": 2
-    },
-    "correct": {
         "2_11": 1
     },
-    "caus": {
-        "2_11": 2
+    "correctable": {
+        "2_11": 1
+    },
+    "cause": {
+        "2_11": 1
     },
     "found": {
         "2_11": 2
     },
-    "type": {
-        "2_11": 2
-    },
-    "diuret": {
+    "types": {
         "2_11": 1
     },
-    "therapi": {
+    "diuretic": {
         "2_11": 1
     },
-    "reliev": {
+    "therapy": {
+        "2_11": 1
+    },
+    "relieve": {
         "2_11": 1
     },
     "fluid": {
@@ -509,53 +545,59 @@
     "TESTING": {
         "2_11": 1
     },
-    "nation": {
+    "National": {
         "2_11": 3
     },
-    "institut": {
+    "Institute": {
         "2_11": 3
     },
-    "health": {
+    "Health": {
+        "2_11": 5
+    },
+    "Care": {
         "2_11": 6
     },
-    "excel": {
+    "Excellence": {
         "2_11": 2
     },
     "NICE": {
         "2_11": 5
     },
     "chronic": {
+        "2_11": 1
+    },
+    "guideline": {
+        "2_11": 1
+    },
+    "recommends": {
         "2_11": 2
     },
-    "guidelin": {
-        "2_11": 4
-    },
-    "recommend": {
+    "presenting": {
         "2_11": 2
     },
-    "presen": {
-        "2_11": 2
+    "symptoms": {
+        "2_11": 8
     },
-    "symptom": {
-        "2_11": 9
-    },
-    "suggest": {
+    "suggestive": {
         "2_11": 2
     },
     "undergo": {
         "2_11": 1
     },
-    "natriuret": {
+    "natriuretic": {
+        "2_11": 9
+    },
+    "peptide": {
         "2_11": 10
     },
-    "peptid": {
-        "2_11": 10
-    },
-    "tese": {
+    "testing": {
         "2_11": 7
     },
     "B": {
         "2_11": 2
+    },
+    "type": {
+        "2_11": 1
     },
     "BNP": {
         "2_11": 2
@@ -563,37 +605,46 @@
     "NT": {
         "2_11": 5
     },
-    "probnp": {
+    "proBNP": {
         "2_11": 5
     },
     "both": {
         "2_11": 1
     },
-    "perform": {
-        "2_11": 2
+    "clinically": {
+        "2_11": 1
     },
-    "similarli": {
+    "perform": {
+        "2_11": 1
+    },
+    "similarly": {
+        "2_11": 1
+    },
+    "If": {
         "2_11": 1
     },
     "level": {
         "2_11": 4
     },
-    "rais": {
-        "2_11": 3
+    "raised": {
+        "2_11": 1
     },
-    "requir": {
-        "2_11": 2
-    },
-    "referr": {
+    "patient": {
         "2_11": 4
     },
-    "echocardiographi": {
+    "requires": {
+        "2_11": 1
+    },
+    "referral": {
+        "2_11": 4
+    },
+    "echocardiography": {
         "2_11": 3
     },
     "further": {
         "2_11": 2
     },
-    "assess": {
+    "assessment": {
         "2_11": 2
     },
     "by": {
@@ -602,7 +653,7 @@
     "confirm": {
         "2_11": 1
     },
-    "threshold": {
+    "Thresholds": {
         "2_11": 1
     },
     "differ": {
@@ -611,46 +662,55 @@
     "between": {
         "2_11": 3
     },
-    "european": {
+    "European": {
         "2_11": 1
     },
-    "explor": {
+    "guidelines": {
+        "2_11": 3
+    },
+    "this": {
+        "2_11": 2
+    },
+    "explored": {
         "2_11": 1
     },
     "our": {
         "2_11": 1
     },
-    "accompan": {
+    "accompanying": {
         "2_11": 1
     },
-    "diagnost": {
+    "diagnostic": {
         "2_11": 5
     },
-    "accuraci": {
+    "accuracy": {
         "2_11": 2
     },
-    "studi": {
+    "study": {
         "2_11": 9
     },
-    "edit": {
+    "edition": {
         "2_11": 1
     },
     "BJGP": {
         "2_11": 3
     },
-    "veri": {
+    "very": {
         "2_11": 1
     },
     "high": {
         "2_11": 1
     },
-    "associ": {
+    "associated": {
         "2_11": 1
+    },
+    "increased": {
+        "2_11": 2
     },
     "risk": {
         "2_11": 1
     },
-    "hospitalis": {
+    "hospitalisation": {
         "2_11": 1
     },
     "so": {
@@ -668,7 +728,7 @@
     "within": {
         "2_11": 2
     },
-    "week": {
+    "weeks": {
         "2_11": 2
     },
     "DIAGNOSTIC": {
@@ -677,65 +737,74 @@
     "DELAYS": {
         "2_11": 1
     },
-    "pathwai": {
-        "2_11": 4
-    },
-    "complex": {
+    "pathway": {
         "2_11": 2
     },
-    "depend": {
+    "complex": {
+        "2_11": 1
+    },
+    "dependent": {
         "2_11": 1
     },
     "clinician": {
-        "2_11": 3
+        "2_11": 1
     },
     "system": {
         "2_11": 2
     },
-    "factor": {
+    "factors": {
         "2_11": 1
     },
     "lead": {
-        "2_11": 2
+        "2_11": 1
     },
-    "delai": {
-        "2_11": 3
+    "delays": {
+        "2_11": 2
     },
     "mean": {
-        "2_11": 3
+        "2_11": 1
     },
-    "ag": {
+    "age": {
         "2_11": 2
+    },
+    "years": {
+        "2_11": 1
     },
     "other": {
         "2_11": 1
     },
     "long": {
-        "2_11": 2
+        "2_11": 1
     },
     "term": {
         "2_11": 3
     },
-    "condit": {
-        "2_11": 5
+    "conditions": {
+        "2_11": 1
     },
     "take": {
         "2_11": 1
     },
-    "sever": {
+    "several": {
         "2_11": 1
     },
-    "medic": {
-        "2_11": 2
+    "medications": {
+        "2_11": 1
     },
     "main": {
         "2_11": 1
     },
-    "varieti": {
+    "variety": {
         "2_11": 1
     },
-    "awar": {
+    "causes": {
+        "2_11": 1
+    },
+    "awareness": {
         "2_11": 5
+    },
+    "condition": {
+        "2_11": 4
     },
     "among": {
         "2_11": 5
@@ -743,19 +812,19 @@
     "public": {
         "2_11": 6
     },
-    "qualit": {
-        "2_11": 2
-    },
-    "interview": {
+    "Qualitative": {
         "2_11": 1
     },
-    "particip": {
+    "interviews": {
         "2_11": 1
     },
-    "normalis": {
+    "participants": {
         "2_11": 1
     },
-    "pute": {
+    "normalised": {
+        "2_11": 1
+    },
+    "putting": {
         "2_11": 1
     },
     "it": {
@@ -770,28 +839,34 @@
     "or": {
         "2_11": 2
     },
-    "anoth": {
+    "another": {
         "2_11": 1
     },
     "led": {
         "2_11": 2
     },
-    "acces": {
-        "2_11": 3
+    "delay": {
+        "2_11": 1
     },
-    "servic": {
+    "accessing": {
+        "2_11": 1
+    },
+    "medical": {
+        "2_11": 1
+    },
+    "services": {
         "2_11": 3
     },
     "itself": {
         "2_11": 1
     },
-    "wa": {
+    "was": {
         "2_11": 1
     },
-    "perceiv": {
+    "perceived": {
         "2_11": 1
     },
-    "frighten": {
+    "frightening": {
         "2_11": 1
     },
     "misunderstood": {
@@ -800,44 +875,50 @@
     "first": {
         "2_11": 1
     },
-    "subsequ": {
+    "subsequent": {
         "2_11": 1
     },
-    "mai": {
+    "Clinicians": {
+        "2_11": 1
+    },
+    "may": {
+        "2_11": 1
+    },
+    "initially": {
         "2_11": 1
     },
     "link": {
         "2_11": 1
     },
-    "exis": {
+    "existing": {
         "2_11": 1
     },
-    "disord": {
+    "disorders": {
         "2_11": 1
     },
-    "examp": {
+    "example": {
         "2_11": 1
     },
     "lung": {
         "2_11": 1
     },
-    "optimis": {
+    "optimise": {
         "2_11": 1
     },
-    "befor": {
+    "before": {
         "2_11": 1
     },
-    "consid": {
-        "2_11": 4
+    "considering": {
+        "2_11": 2
     },
-    "altern": {
+    "alternative": {
         "2_11": 1
     },
     "normal": {
         "2_11": 1
     },
-    "help": {
-        "2_11": 3
+    "helpful": {
+        "2_11": 2
     },
     "rule": {
         "2_11": 1
@@ -845,8 +926,8 @@
     "out": {
         "2_11": 1
     },
-    "univers": {
-        "2_11": 3
+    "universal": {
+        "2_11": 1
     },
     "access": {
         "2_11": 2
@@ -854,43 +935,49 @@
     "rapid": {
         "2_11": 2
     },
-    "need": {
+    "needed": {
         "2_11": 2
     },
-    "larg": {
+    "recent": {
         "2_11": 1
     },
-    "us": {
-        "2_11": 3
+    "large": {
+        "2_11": 1
+    },
+    "using": {
+        "2_11": 2
     },
     "data": {
         "2_11": 3
     },
-    "analys": {
+    "analyse": {
         "2_11": 1
     },
-    "trend": {
-        "2_11": 4
+    "trends": {
+        "2_11": 3
     },
-    "dure": {
+    "during": {
         "2_11": 1
     },
     "period": {
         "2_11": 1
     },
-    "be": {
+    "being": {
         "2_11": 4
     },
-    "favour": {
+    "favoured": {
         "2_11": 1
     },
     "test": {
         "2_11": 4
     },
-    "onli": {
+    "However": {
         "2_11": 1
     },
-    "on": {
+    "only": {
+        "2_11": 1
+    },
+    "one": {
         "2_11": 1
     },
     "four": {
@@ -899,35 +986,35 @@
     "prior": {
         "2_11": 1
     },
-    "capac": {
+    "capacity": {
         "2_11": 2
     },
-    "issu": {
+    "issues": {
         "2_11": 1
     },
-    "analysi": {
+    "analysis": {
         "2_11": 2
     },
-    "timefram": {
+    "timeframes": {
         "2_11": 1
     },
-    "recommen": {
+    "recommended": {
         "2_11": 1
     },
     "formal": {
         "2_11": 1
     },
-    "imag": {
+    "imaging": {
         "2_11": 1
     },
     "were": {
         "2_11": 1
     },
-    "achiev": {
-        "2_11": 2
+    "achieved": {
+        "2_11": 1
     },
-    "practic": {
-        "2_11": 3
+    "practice": {
+        "2_11": 1
     },
     "RAISING": {
         "2_11": 1
@@ -935,37 +1022,52 @@
     "AWARENESS": {
         "2_11": 1
     },
-    "despit": {
+    "Despite": {
         "2_11": 2
     },
-    "malign": {
+    "malignant": {
+        "2_11": 2
+    },
+    "prioritisation": {
         "2_11": 2
     },
     "given": {
         "2_11": 2
     },
-    "understan": {
+    "improving": {
         "2_11": 2
     },
-    "careeditori": {
+    "understanding": {
+        "2_11": 2
+    },
+    "Earlier": {
         "2_11": 1
     },
-    "journal": {
+    "careEditorials": {
+        "2_11": 1
+    },
+    "Journal": {
         "2_11": 2
     },
-    "gener": {
-        "2_11": 3
-    },
-    "januari": {
+    "General": {
         "2_11": 2
     },
-    "campaign": {
+    "Practice": {
         "2_11": 2
     },
-    "successfulli": {
+    "January": {
         "2_11": 2
     },
-    "highligh": {
+    "Cancer": {
+        "2_11": 1
+    },
+    "campaigns": {
+        "2_11": 1
+    },
+    "successfully": {
+        "2_11": 2
+    },
+    "highlighted": {
         "2_11": 1
     },
     "similar": {
@@ -977,16 +1079,19 @@
     "could": {
         "2_11": 1
     },
-    "encourag": {
+    "encourage": {
         "2_11": 1
     },
-    "symptomat": {
+    "symptomatic": {
         "2_11": 1
     },
     "seek": {
         "2_11": 1
     },
-    "inspir": {
+    "help": {
+        "2_11": 1
+    },
+    "Inspired": {
         "2_11": 2
     },
     "FAST": {
@@ -998,7 +1103,7 @@
     "stroke": {
         "2_11": 2
     },
-    "creat": {
+    "created": {
         "2_11": 2
     },
     "BEAT": {
@@ -1007,13 +1112,22 @@
     "HF": {
         "2_11": 3
     },
-    "exhaus": {
+    "Breathless": {
         "2_11": 2
     },
-    "ankl": {
+    "Exhausted": {
         "2_11": 2
     },
-    "simpl": {
+    "Ankle": {
+        "2_11": 2
+    },
+    "Swelling": {
+        "2_11": 2
+    },
+    "Time": {
+        "2_11": 2
+    },
+    "simple": {
         "2_11": 2
     },
     "blood": {
@@ -1022,22 +1136,34 @@
     "aim": {
         "2_11": 2
     },
-    "healthcar": {
+    "raise": {
+        "2_11": 2
+    },
+    "healthcare": {
         "2_11": 3
     },
-    "worker": {
+    "workers": {
         "2_11": 2
     },
-    "secondari": {
+    "secondary": {
         "2_11": 2
     },
-    "chariti": {
+    "consider": {
+        "2_11": 2
+    },
+    "charity": {
         "2_11": 1
     },
-    "pume": {
+    "Pumping": {
         "2_11": 1
     },
-    "marvel": {
+    "Marvellous": {
+        "2_11": 1
+    },
+    "leading": {
+        "2_11": 1
+    },
+    "campaign": {
         "2_11": 1
     },
     "hope": {
@@ -1046,11 +1172,14 @@
     "will": {
         "2_11": 1
     },
-    "adop": {
+    "adopted": {
         "2_11": 1
     },
     "more": {
         "2_11": 3
+    },
+    "generally": {
+        "2_11": 1
     },
     "across": {
         "2_11": 2
@@ -1067,7 +1196,7 @@
     "yet": {
         "2_11": 1
     },
-    "treatab": {
+    "treatable": {
         "2_11": 2
     },
     "syndrome": {
@@ -1082,31 +1211,46 @@
     "clear": {
         "2_11": 1
     },
-    "multimorbid": {
+    "pathways": {
+        "2_11": 2
+    },
+    "complexity": {
         "2_11": 1
     },
-    "realiti": {
+    "multimorbidity": {
         "2_11": 1
     },
-    "journei": {
+    "means": {
+        "2_11": 1
+    },
+    "reality": {
+        "2_11": 1
+    },
+    "journey": {
         "2_11": 1
     },
     "far": {
         "2_11": 1
     },
-    "challen": {
+    "challenging": {
         "2_11": 1
     },
-    "chang": {
-        "2_11": 3
+    "Changes": {
+        "2_11": 1
+    },
+    "required": {
+        "2_11": 1
     },
     "prevent": {
         "2_11": 1
     },
-    "facilit": {
+    "facilitate": {
         "2_11": 1
     },
-    "greater": {
+    "Greater": {
+        "2_11": 1
+    },
+    "clinicians": {
         "2_11": 1
     },
     "new": {
@@ -1115,29 +1259,35 @@
     "onset": {
         "2_11": 2
     },
-    "worsen": {
+    "worsening": {
+        "2_11": 1
+    },
+    "use": {
         "2_11": 1
     },
     "inform": {
         "2_11": 1
     },
-    "decis": {
+    "decision": {
         "2_11": 1
     },
-    "make": {
+    "making": {
         "2_11": 1
     },
-    "invest": {
+    "investment": {
         "2_11": 1
     },
-    "clare": {
-        "2_11": 4
+    "achieve": {
+        "2_11": 1
+    },
+    "Clare": {
+        "2_11": 3
     },
     "J": {
         "2_11": 6
     },
-    "taylor": {
-        "2_11": 8
+    "Taylor": {
+        "2_11": 7
     },
     "ORCID": {
         "2_11": 1
@@ -1145,64 +1295,76 @@
     "GP": {
         "2_11": 1
     },
-    "research": {
+    "Research": {
         "2_11": 1
     },
-    "academ": {
+    "Academic": {
         "2_11": 1
     },
-    "lectur": {
+    "Clinical": {
         "2_11": 1
     },
-    "nuffield": {
+    "Lecturer": {
+        "2_11": 1
+    },
+    "Nuffield": {
         "2_11": 2
     },
-    "scienc": {
+    "Department": {
         "2_11": 2
     },
-    "oxford": {
+    "Primary": {
+        "2_11": 3
+    },
+    "Sciences": {
+        "2_11": 2
+    },
+    "University": {
+        "2_11": 2
+    },
+    "Oxford": {
         "2_11": 4
     },
-    "proven": {
+    "Provenance": {
         "2_11": 1
     },
-    "commiss": {
+    "Commissioned": {
         "2_11": 1
     },
-    "extern": {
+    "externally": {
         "2_11": 1
     },
     "peer": {
         "2_11": 1
     },
-    "review": {
-        "2_11": 2
-    },
-    "compet": {
+    "reviewed": {
         "2_11": 1
     },
-    "interest": {
+    "Competing": {
         "2_11": 1
     },
-    "report": {
+    "interests": {
         "2_11": 1
     },
-    "person": {
+    "reports": {
         "2_11": 1
     },
-    "fee": {
+    "personal": {
+        "2_11": 1
+    },
+    "fees": {
         "2_11": 1
     },
     "from": {
-        "2_11": 2
-    },
-    "roch": {
         "2_11": 1
     },
-    "outsid": {
+    "Roche": {
         "2_11": 1
     },
-    "submit": {
+    "outside": {
+        "2_11": 1
+    },
+    "submitted": {
         "2_11": 1
     },
     "work": {
@@ -1211,7 +1373,7 @@
     "DOI": {
         "2_11": 3
     },
-    "http": {
+    "https": {
         "2_11": 4
     },
     "doi": {
@@ -1220,28 +1382,28 @@
     "org": {
         "2_11": 5
     },
-    "bjgpxaddress": {
+    "bjgpXADDRESS": {
         "2_11": 1
     },
     "CORRESPONDENCE": {
         "2_11": 1
     },
-    "radcliff": {
+    "Radcliffe": {
         "2_11": 2
     },
-    "buil": {
+    "Building": {
         "2_11": 1
     },
-    "observatori": {
+    "Observatory": {
         "2_11": 1
     },
-    "quarter": {
+    "Quarter": {
         "2_11": 1
     },
-    "woodstock": {
+    "Woodstock": {
         "2_11": 1
     },
-    "road": {
+    "Road": {
         "2_11": 1
     },
     "OX": {
@@ -1253,7 +1415,13 @@
     "UK": {
         "2_11": 2
     },
-    "email": {
+    "Email": {
+        "2_11": 1
+    },
+    "clare": {
+        "2_11": 1
+    },
+    "taylor": {
         "2_11": 1
     },
     "phc": {
@@ -1274,13 +1442,16 @@
     "REFERENCES": {
         "2_11": 1
     },
-    "adult": {
+    "Chronic": {
+        "2_11": 1
+    },
+    "adults": {
         "2_11": 1
     },
     "NG": {
         "2_11": 1
     },
-    "london": {
+    "London": {
         "2_11": 1
     },
     "www": {
@@ -1289,22 +1460,25 @@
     "nice": {
         "2_11": 1
     },
-    "guidanc": {
+    "guidance": {
         "2_11": 1
     },
-    "dec": {
+    "accessed": {
         "2_11": 2
     },
-    "bottl": {
+    "Dec": {
+        "2_11": 2
+    },
+    "Bottle": {
         "2_11": 1
     },
-    "kim": {
+    "Kim": {
         "2_11": 2
     },
     "D": {
         "2_11": 3
     },
-    "aylin": {
+    "Aylin": {
         "2_11": 2
     },
     "P": {
@@ -1316,16 +1490,19 @@
     "al": {
         "2_11": 9
     },
-    "rout": {
+    "Routes": {
         "2_11": 1
     },
-    "observ": {
+    "observational": {
         "2_11": 1
     },
-    "line": {
+    "linked": {
         "2_11": 1
     },
     "blueprint": {
+        "2_11": 2
+    },
+    "change": {
         "2_11": 2
     },
     "bhf": {
@@ -1334,70 +1511,79 @@
     "media": {
         "2_11": 1
     },
-    "file": {
+    "files": {
         "2_11": 1
     },
-    "intellig": {
+    "health": {
+        "2_11": 1
+    },
+    "intelligence": {
         "2_11": 1
     },
     "pdf": {
         "2_11": 1
     },
-    "conrad": {
+    "Conrad": {
         "2_11": 1
     },
     "N": {
         "2_11": 2
     },
-    "judg": {
+    "Judge": {
         "2_11": 1
     },
-    "tran": {
+    "Tran": {
         "2_11": 1
     },
-    "tempor": {
+    "Temporal": {
         "2_11": 1
     },
-    "pattern": {
+    "patterns": {
         "2_11": 1
     },
-    "incid": {
+    "incidence": {
         "2_11": 1
     },
-    "popul": {
+    "population": {
         "2_11": 2
     },
-    "individu": {
+    "based": {
+        "2_11": 2
+    },
+    "individuals": {
         "2_11": 1
     },
-    "lancet": {
+    "Lancet": {
         "2_11": 2
     },
     "CJ": {
         "2_11": 4
     },
-    "ordez": {
+    "Ordez": {
         "2_11": 3
     },
-    "mena": {
+    "Mena": {
         "2_11": 3
     },
     "JM": {
         "2_11": 3
     },
-    "roalf": {
+    "Roalfe": {
         "2_11": 2
     },
     "AK": {
         "2_11": 2
     },
+    "Trends": {
+        "2_11": 1
+    },
     "after": {
         "2_11": 1
     },
-    "unit": {
+    "United": {
         "2_11": 1
     },
-    "kingdom": {
+    "Kingdom": {
         "2_11": 1
     },
     "cohort": {
@@ -1409,25 +1595,25 @@
     "I": {
         "2_11": 1
     },
-    "vaduganathan": {
+    "Vaduganathan": {
         "2_11": 1
     },
     "M": {
         "2_11": 1
     },
-    "docherti": {
+    "Docherty": {
         "2_11": 1
     },
     "KF": {
         "2_11": 1
     },
-    "claggett": {
+    "Claggett": {
         "2_11": 1
     },
     "BL": {
         "2_11": 1
     },
-    "comprehens": {
+    "comprehensive": {
         "2_11": 1
     },
     "meta": {
@@ -1436,100 +1622,130 @@
     "five": {
         "2_11": 1
     },
-    "randomis": {
+    "randomised": {
         "2_11": 1
     },
-    "control": {
+    "controlled": {
         "2_11": 1
     },
-    "booth": {
+    "Booth": {
         "2_11": 1
     },
     "RA": {
         "2_11": 1
     },
-    "hill": {
+    "Hill": {
         "2_11": 1
     },
     "SA": {
         "2_11": 1
     },
-    "don": {
+    "Don": {
         "2_11": 1
     },
-    "wauchop": {
+    "Wauchope": {
         "2_11": 1
     },
-    "systemat": {
+    "Performance": {
         "2_11": 1
     },
-    "fail": {
+    "systematic": {
         "2_11": 1
     },
-    "rev": {
+    "review": {
         "2_11": 1
     },
-    "lai": {
+    "Fail": {
+        "2_11": 1
+    },
+    "Rev": {
+        "2_11": 1
+    },
+    "Lay": {
         "2_11": 2
     },
-    "flurri": {
+    "Flurrie": {
         "2_11": 2
     },
     "SL": {
         "2_11": 2
     },
-    "br": {
+    "Natriuretic": {
         "2_11": 1
     },
-    "gen": {
+    "Br": {
         "2_11": 1
     },
-    "pract": {
+    "Gen": {
         "2_11": 1
     },
-    "hobb": {
+    "Pract": {
+        "2_11": 1
+    },
+    "Hobbs": {
         "2_11": 2
     },
     "FD": {
         "2_11": 1
     },
-    "marshal": {
+    "Marshall": {
         "2_11": 1
     },
     "T": {
         "2_11": 1
     },
-    "open": {
+    "From": {
+        "2_11": 1
+    },
+    "breathless": {
+        "2_11": 1
+    },
+    "symptom": {
+        "2_11": 1
+    },
+    "meaning": {
+        "2_11": 1
+    },
+    "qualitative": {
+        "2_11": 1
+    },
+    "Open": {
         "2_11": 2
     },
     "e": {
         "2_11": 1
     },
-    "hayho": {
+    "Hayhoe": {
         "2_11": 1
     },
     "PP": {
         "2_11": 1
     },
-    "adher": {
+    "Adherence": {
         "2_11": 1
     },
-    "eur": {
+    "Long": {
         "2_11": 1
     },
-    "hartshorn": {
+    "Eur": {
         "2_11": 1
     },
-    "evan": {
+    "Hartshorne": {
         "2_11": 1
     },
-    "satchithananda": {
+    "Evans": {
+        "2_11": 1
+    },
+    "Satchithananda": {
         "2_11": 1
     },
     "FDR": {
         "2_11": 1
     },
-    "faster": {
+    "FASTer": {
+        "2_11": 1
+    },
+    "time": {
         "2_11": 1
     },
     "BJGPO": {

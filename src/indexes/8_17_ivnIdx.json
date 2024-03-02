@@ -1,117 +1,117 @@
 {
-    "train": {
-        "8_17": 180
+    "Training": {
+        "8_17": 33
     },
-    "tip": {
+    "Tips": {
+        "8_17": 9
+    },
+    "Transformer": {
         "8_17": 13
     },
-    "transform": {
-        "8_17": 13
-    },
-    "model": {
-        "8_17": 70
-    },
-    "martin": {
-        "8_17": 5
-    },
-    "popel": {
-        "8_17": 5
-    },
-    "ondrej": {
-        "8_17": 7
-    },
-    "bojar": {
-        "8_17": 8
-    },
-    "charl": {
-        "8_17": 2
-    },
-    "univers": {
+    "Model": {
         "8_17": 3
     },
-    "faculti": {
-        "8_17": 2
-    },
-    "mathemat": {
-        "8_17": 2
-    },
-    "physic": {
-        "8_17": 2
-    },
-    "institut": {
-        "8_17": 2
-    },
-    "formal": {
-        "8_17": 2
-    },
-    "appli": {
+    "Martin": {
         "8_17": 5
     },
-    "linguist": {
+    "Popel": {
+        "8_17": 4
+    },
+    "Ondrej": {
+        "8_17": 7
+    },
+    "Bojar": {
+        "8_17": 8
+    },
+    "Charles": {
         "8_17": 2
     },
-    "pragu": {
+    "University": {
+        "8_17": 3
+    },
+    "Faculty": {
+        "8_17": 2
+    },
+    "Mathematics": {
+        "8_17": 2
+    },
+    "Physics": {
+        "8_17": 2
+    },
+    "Institute": {
+        "8_17": 2
+    },
+    "Formal": {
+        "8_17": 2
+    },
+    "Applied": {
+        "8_17": 2
+    },
+    "Linguistics": {
+        "8_17": 2
+    },
+    "Prague": {
         "8_17": 1
     },
-    "czechia": {
+    "Czechia": {
         "8_17": 1
     },
-    "abstract": {
+    "Abstract": {
         "8_17": 1
     },
-    "thi": {
-        "8_17": 51
+    "This": {
+        "8_17": 16
     },
-    "artic": {
+    "article": {
         "8_17": 5
     },
-    "describ": {
-        "8_17": 2
+    "describes": {
+        "8_17": 1
     },
     "our": {
+        "8_17": 33
+    },
+    "experiments": {
         "8_17": 37
     },
-    "experi": {
-        "8_17": 50
-    },
     "neural": {
-        "8_17": 14
+        "8_17": 9
     },
-    "machin": {
-        "8_17": 19
+    "machine": {
+        "8_17": 11
     },
-    "translat": {
-        "8_17": 34
+    "translation": {
+        "8_17": 21
     },
-    "us": {
-        "8_17": 49
+    "using": {
+        "8_17": 13
     },
     "recent": {
         "8_17": 2
     },
-    "ten": {
+    "Ten": {
         "8_17": 1
     },
-    "sortensorframeworkandthetransformersequ": {
+    "sorTensorframeworkandtheTransformersequence": {
         "8_17": 1
     },
     "sequencemodel": {
         "8_17": 1
     },
-    "vaswaniet": {
+    "Vaswanietal": {
         "8_17": 4
     },
-    "examin": {
+    "examine": {
         "8_17": 1
     },
     "some": {
-        "8_17": 12
+        "8_17": 9
     },
-    "critic": {
+    "critical": {
         "8_17": 2
     },
-    "paramet": {
-        "8_17": 28
+    "parameters": {
+        "8_17": 12
     },
     "that": {
         "8_17": 42
@@ -122,47 +122,53 @@
     "nal": {
         "8_17": 5
     },
-    "qualiti": {
+    "quality": {
         "8_17": 9
     },
-    "memori": {
-        "8_17": 8
+    "memory": {
+        "8_17": 7
     },
-    "usag": {
+    "usage": {
         "8_17": 2
     },
-    "stabil": {
+    "training": {
+        "8_17": 121
+    },
+    "stability": {
         "8_17": 2
     },
     "time": {
-        "8_17": 52
+        "8_17": 26
     },
-    "conclud": {
-        "8_17": 3
+    "concluding": {
+        "8_17": 1
     },
     "each": {
         "8_17": 7
     },
+    "experiment": {
+        "8_17": 9
+    },
     "with": {
-        "8_17": 87
+        "8_17": 85
     },
     "set": {
-        "8_17": 21
+        "8_17": 19
     },
     "recom": {
         "8_17": 1
     },
-    "mendat": {
+    "mendations": {
         "8_17": 1
     },
     "fellow": {
         "8_17": 1
     },
-    "research": {
-        "8_17": 5
+    "researchers": {
+        "8_17": 4
     },
-    "addit": {
-        "8_17": 3
+    "addition": {
+        "8_17": 2
     },
     "con": {
         "8_17": 6
@@ -170,8 +176,8 @@
     "rming": {
         "8_17": 1
     },
-    "gener": {
-        "8_17": 15
+    "general": {
+        "8_17": 6
     },
     "mantra": {
         "8_17": 1
@@ -180,73 +186,79 @@
         "8_17": 23
     },
     "data": {
-        "8_17": 40
+        "8_17": 34
     },
     "larger": {
         "8_17": 5
     },
+    "models": {
+        "8_17": 14
+    },
     "address": {
-        "8_17": 2
+        "8_17": 1
     },
-    "scale": {
-        "8_17": 23
+    "scaling": {
+        "8_17": 14
     },
-    "multip": {
-        "8_17": 9
+    "multiple": {
+        "8_17": 5
     },
-    "gpu": {
-        "8_17": 47
+    "GPUs": {
+        "8_17": 46
     },
-    "provid": {
-        "8_17": 8
+    "provide": {
+        "8_17": 4
     },
-    "practic": {
-        "8_17": 8
+    "practical": {
+        "8_17": 4
+    },
+    "tips": {
+        "8_17": 3
     },
     "im": {
         "8_17": 1
     },
-    "prove": {
+    "proved": {
         "8_17": 1
     },
-    "regar": {
+    "regarding": {
         "8_17": 1
     },
     "batch": {
-        "8_17": 98
+        "8_17": 86
     },
     "size": {
-        "8_17": 101
+        "8_17": 86
     },
-    "lear": {
-        "8_17": 67
+    "learning": {
+        "8_17": 55
     },
     "rate": {
-        "8_17": 57
+        "8_17": 49
     },
     "warmup": {
-        "8_17": 25
+        "8_17": 21
     },
-    "step": {
-        "8_17": 44
+    "steps": {
+        "8_17": 35
     },
     "maximum": {
+        "8_17": 10
+    },
+    "sentence": {
         "8_17": 11
     },
-    "sentenc": {
-        "8_17": 25
-    },
     "length": {
-        "8_17": 12
+        "8_17": 10
     },
-    "andcheckpointaverag": {
+    "andcheckpointaveraging": {
         "8_17": 1
     },
-    "wehopethatourobservationswillallowotherstogetbetterresult": {
+    "Wehopethatourobservationswillallowotherstogetbetterresults": {
         "8_17": 1
     },
     "given": {
-        "8_17": 15
+        "8_17": 14
     },
     "their": {
         "8_17": 5
@@ -254,80 +266,80 @@
     "particular": {
         "8_17": 3
     },
-    "hardwar": {
+    "hardware": {
         "8_17": 4
     },
-    "constraint": {
+    "constraints": {
         "8_17": 1
     },
-    "introduct": {
-        "8_17": 2
+    "Introduction": {
+        "8_17": 1
     },
-    "it": {
-        "8_17": 43
+    "It": {
+        "8_17": 4
     },
     "been": {
         "8_17": 3
     },
-    "alreadi": {
+    "already": {
         "8_17": 2
     },
-    "clearli": {
+    "clearly": {
         "8_17": 5
     },
-    "establis": {
+    "established": {
         "8_17": 1
     },
     "NMT": {
         "8_17": 7
     },
     "new": {
-        "8_17": 6
+        "8_17": 3
     },
     "state": {
-        "8_17": 3
+        "8_17": 2
     },
     "art": {
         "8_17": 2
     },
     "see": {
-        "8_17": 21
+        "8_17": 20
     },
     "e": {
-        "8_17": 50
+        "8_17": 49
     },
     "g": {
         "8_17": 22
     },
     "most": {
+        "8_17": 6
+    },
+    "evaluation": {
         "8_17": 7
     },
-    "evalu": {
-        "8_17": 17
-    },
-    "campaign": {
+    "campaigns": {
         "8_17": 1
     },
-    "bojaret": {
+    "Bojaretal": {
         "8_17": 1
     },
-    "cettoloet": {
+    "Cettoloetal": {
         "8_17": 1
     },
-    "manyfundamentalchangesofth": {
+    "Manyfundamentalchangesofthe": {
         "8_17": 1
     },
-    "under": {
-        "8_17": 2
+    "underlying": {
+        "8_17": 1
     },
     "network": {
-        "8_17": 8
+        "8_17": 4
     },
-    "architectur": {
-        "8_17": 2
+    "architecture": {
+        "8_17": 1
     },
     "nevertheless": {
-        "8_17": 2
+        "8_17": 1
     },
     "still": {
         "8_17": 7
@@ -335,7 +347,10 @@
     "frequent": {
         "8_17": 1
     },
-    "veri": {
+    "it": {
+        "8_17": 32
+    },
+    "very": {
         "8_17": 5
     },
     "di": {
@@ -350,73 +365,79 @@
     "which": {
         "8_17": 24
     },
-    "best": {
-        "8_17": 9
-    },
-    "combin": {
+    "architectures": {
         "8_17": 1
     },
-    "properti": {
+    "best": {
+        "8_17": 8
+    },
+    "combination": {
+        "8_17": 1
+    },
+    "properties": {
         "8_17": 1
     },
     "towininthelongterm": {
         "8_17": 1
     },
-    "consideringallrelevantcriterialiketranslationqu": {
+    "consideringallrelevantcriterialiketranslationquality": {
         "8_17": 1
     },
-    "speed": {
-        "8_17": 22
+    "model": {
+        "8_17": 53
     },
-    "interpret": {
-        "8_17": 3
+    "speed": {
+        "8_17": 18
+    },
+    "interpretability": {
+        "8_17": 1
     },
     "but": {
         "8_17": 29
     },
     "also": {
-        "8_17": 22
+        "8_17": 19
     },
-    "avail": {
-        "8_17": 3
-    },
-    "goodimplement": {
+    "availability": {
         "8_17": 1
     },
-    "aconsiderablepartofamodelssuccessintranslationqu": {
+    "goodimplementations": {
         "8_17": 1
     },
-    "consist": {
+    "Aconsiderablepartofamodelssuccessintranslationquality": {
         "8_17": 1
     },
-    "sensit": {
-        "8_17": 3
+    "consists": {
+        "8_17": 1
     },
-    "nois": {
+    "sensitivity": {
+        "8_17": 2
+    },
+    "noise": {
         "8_17": 5
     },
     "wide": {
         "8_17": 1
     },
-    "rang": {
+    "range": {
         "8_17": 5
     },
     "hyper": {
         "8_17": 11
     },
-    "have": {
+    "Having": {
         "8_17": 1
     },
     "right": {
         "8_17": 3
     },
-    "sete": {
-        "8_17": 11
+    "setting": {
+        "8_17": 7
     },
     "them": {
         "8_17": 3
     },
-    "turn": {
+    "turns": {
         "8_17": 1
     },
     "out": {
@@ -425,103 +446,112 @@
     "often": {
         "8_17": 1
     },
-    "compon": {
+    "component": {
         "8_17": 1
     },
     "success": {
-        "8_17": 2
+        "8_17": 1
     },
-    "arxiv": {
-        "8_17": 16
+    "arXiv": {
+        "8_17": 1
     },
     "v": {
-        "8_17": 7
-    },
-    "c": {
         "8_17": 5
+    },
+    "cs": {
+        "8_17": 3
     },
     "CL": {
         "8_17": 1
     },
-    "mai": {
-        "8_17": 7
+    "May": {
+        "8_17": 2
     },
-    "inthisartic": {
+    "Inthisarticle": {
         "8_17": 1
     },
-    "weexperimentwitharelativelynewnmtmodel": {
+    "weexperimentwitharelativelynewNMTmodel": {
         "8_17": 1
     },
-    "calledtransform": {
+    "calledTransformer": {
         "8_17": 1
     },
-    "asimplementedinthetensortensor": {
+    "asimplementedintheTensorTensor": {
         "8_17": 1
     },
-    "on": {
-        "8_17": 49
+    "one": {
+        "8_17": 47
     },
     "superior": {
-        "8_17": 34
+        "8_17": 33
     },
-    "abbreviatedtt": {
+    "abbreviatedTT": {
         "8_17": 1
     },
     "toolkit": {
         "8_17": 1
     },
     "version": {
-        "8_17": 8
+        "8_17": 6
     },
-    "themodelandthetoolkithavebeenreleasedshortlyaftertheevalu": {
+    "Themodelandthetoolkithavebeenreleasedshortlyaftertheevaluation": {
         "8_17": 1
     },
-    "campaignatwmt": {
+    "campaignatWMT": {
         "8_17": 1
     },
     "two": {
         "8_17": 48
     },
-    "superioranditsbehavioronlarg": {
+    "superioranditsbehavioronlarge": {
         "8_17": 1
     },
-    "datanewstranslationisnotyetfulli": {
+    "datanewstranslationisnotyetfully": {
         "8_17": 1
     },
-    "explor": {
-        "8_17": 3
+    "explored": {
+        "8_17": 1
     },
     "want": {
         "8_17": 3
     },
-    "empir": {
-        "8_17": 5
-    },
-    "import": {
+    "empirically": {
         "8_17": 4
     },
-    "hopefulli": {
-        "8_17": 2
+    "explore": {
+        "8_17": 1
     },
-    "observ": {
-        "8_17": 6
+    "important": {
+        "8_17": 4
+    },
+    "Hopefully": {
+        "8_17": 1
+    },
+    "observations": {
+        "8_17": 4
     },
     "will": {
         "8_17": 6
     },
+    "useful": {
+        "8_17": 2
+    },
     "other": {
         "8_17": 8
     },
-    "consid": {
-        "8_17": 3
-    },
-    "framework": {
+    "considering": {
         "8_17": 2
     },
-    "whileinvestigationsintothe": {
+    "this": {
+        "8_17": 35
+    },
+    "framework": {
         "8_17": 1
     },
-    "ectofhyp": {
+    "Whileinvestigationsintothee": {
+        "8_17": 1
+    },
+    "ectofhyper": {
         "8_17": 1
     },
     "parameterslikelearningrateandbatch": {
@@ -530,61 +560,61 @@
     "sizeareavailableinthedeep": {
         "8_17": 1
     },
-    "learningcommun": {
+    "learningcommunity": {
         "8_17": 2
     },
-    "bottouet": {
+    "Bottouetal": {
         "8_17": 1
     },
-    "smithand": {
-        "8_17": 3
+    "Smithand": {
+        "8_17": 1
     },
-    "le": {
-        "8_17": 9
+    "Le": {
+        "8_17": 5
     },
-    "jastrzebski": {
+    "Jastrzebski": {
         "8_17": 3
     },
     "et": {
         "8_17": 16
     },
     "al": {
-        "8_17": 18
+        "8_17": 16
     },
     "these": {
-        "8_17": 8
+        "8_17": 6
     },
     "either": {
         "8_17": 2
     },
-    "mostli": {
+    "mostly": {
         "8_17": 2
     },
-    "theoret": {
-        "8_17": 2
+    "theoretic": {
+        "8_17": 1
     },
     "or": {
         "8_17": 32
     },
-    "experiment": {
-        "8_17": 2
+    "experimentally": {
+        "8_17": 1
     },
-    "suppor": {
+    "supported": {
         "8_17": 2
     },
     "from": {
-        "8_17": 24
+        "8_17": 23
     },
-    "domain": {
-        "8_17": 4
+    "domains": {
+        "8_17": 1
     },
     "like": {
         "8_17": 1
     },
-    "imag": {
+    "image": {
         "8_17": 1
     },
-    "recognit": {
+    "recognition": {
         "8_17": 1
     },
     "rather": {
@@ -597,22 +627,34 @@
         "8_17": 1
     },
     "gap": {
-        "8_17": 5
+        "8_17": 4
     },
     "by": {
-        "8_17": 40
+        "8_17": 37
     },
-    "focus": {
-        "8_17": 2
+    "focusing": {
+        "8_17": 1
     },
-    "exclus": {
+    "exclusively": {
         "8_17": 1
     },
     "MT": {
         "8_17": 1
     },
-    "onli": {
+    "only": {
         "8_17": 13
+    },
+    "providing": {
+        "8_17": 1
+    },
+    "hopefully": {
+        "8_17": 1
+    },
+    "practices": {
+        "8_17": 1
+    },
+    "Some": {
+        "8_17": 3
     },
     "rm": {
         "8_17": 2
@@ -620,53 +662,56 @@
     "wisdom": {
         "8_17": 1
     },
-    "aregenerallybett": {
+    "aregenerallybetter": {
         "8_17": 1
     },
-    "andquantifythebehavioronenglish": {
+    "andquantifythebehavioronEnglish": {
         "8_17": 1
     },
-    "czechtranslationexp": {
+    "Czechtranslationexper": {
         "8_17": 1
     },
-    "iment": {
+    "iments": {
         "8_17": 1
     },
     "somewhat": {
         "8_17": 4
     },
-    "surpris": {
+    "surprising": {
         "8_17": 2
     },
     "three": {
-        "8_17": 27
+        "8_17": 26
+    },
+    "times": {
+        "8_17": 18
     },
     "faster": {
         "8_17": 9
     },
-    "singl": {
-        "8_17": 28
+    "single": {
+        "8_17": 27
     },
     "GPU": {
         "8_17": 44
     },
-    "nding": {
+    "ndings": {
         "8_17": 1
     },
     "about": {
         "8_17": 10
     },
-    "interact": {
+    "interaction": {
         "8_17": 1
     },
     "between": {
         "8_17": 6
     },
-    "thearticleisstructuredasfollow": {
+    "Thearticleisstructuredasfollows": {
         "8_17": 1
     },
-    "insect": {
-        "8_17": 2
+    "InSection": {
+        "8_17": 1
     },
     "wediscussourevaluationmethod": {
         "8_17": 1
@@ -674,118 +719,139 @@
     "ologyandmaincriteria": {
         "8_17": 1
     },
-    "translationqualityandspeedoftrain": {
+    "translationqualityandspeedoftraining": {
         "8_17": 1
     },
-    "sectiondescrib": {
+    "Sectiondescribes": {
         "8_17": 1
     },
     "dataset": {
-        "8_17": 14
+        "8_17": 12
     },
-    "prepar": {
+    "its": {
+        "8_17": 7
+    },
+    "preparations": {
         "8_17": 1
     },
-    "section": {
-        "8_17": 24
+    "Section": {
+        "8_17": 20
     },
     "main": {
         "8_17": 6
     },
-    "contribut": {
+    "contribution": {
         "8_17": 1
     },
-    "commen": {
+    "commented": {
         "8_17": 1
     },
-    "recommend": {
+    "recommendations": {
+        "8_17": 1
+    },
+    "Finally": {
+        "8_17": 1
+    },
+    "Sec": {
+        "8_17": 1
+    },
+    "tioncomparesourbestTransformerrunwithsystemsparticipatinginWMT": {
+        "8_17": 1
+    },
+    "conclude": {
         "8_17": 2
     },
-    "final": {
-        "8_17": 2
+    "Evaluation": {
+        "8_17": 3
     },
-    "sec": {
-        "8_17": 2
-    },
-    "tioncomparesourbesttransformerrunwithsystemsparticipatinginwmt": {
+    "Methodology": {
         "8_17": 1
     },
-    "methodologi": {
-        "8_17": 1
+    "Machine": {
+        "8_17": 7
     },
-    "mani": {
-        "8_17": 5
+    "evaluated": {
+        "8_17": 4
     },
-    "wai": {
-        "8_17": 6
+    "many": {
+        "8_17": 4
     },
-    "form": {
+    "ways": {
+        "8_17": 2
+    },
+    "forms": {
         "8_17": 1
     },
     "human": {
         "8_17": 2
     },
     "judgment": {
-        "8_17": 2
+        "8_17": 1
     },
     "should": {
         "8_17": 7
     },
-    "alwai": {
+    "always": {
         "8_17": 6
     },
-    "ultim": {
+    "used": {
+        "8_17": 6
+    },
+    "ultimate": {
         "8_17": 1
     },
-    "resolut": {
+    "resolution": {
         "8_17": 1
     },
-    "ani": {
+    "any": {
         "8_17": 12
     },
-    "applic": {
-        "8_17": 3
+    "application": {
+        "8_17": 1
     },
-    "thecommonpracticeinmtresearchistoevaluatethemodelperformanceonatestset": {
+    "ThecommonpracticeinMTresearchistoevaluatethemodelperformanceonatestset": {
         "8_17": 1
     },
     "against": {
         "8_17": 4
     },
-    "refer": {
+    "reference": {
         "8_17": 4
+    },
+    "translations": {
+        "8_17": 2
     },
     "widespread": {
         "8_17": 1
     },
-    "automat": {
-        "8_17": 9
+    "automatic": {
+        "8_17": 6
     },
-    "metricisundoubtedlythebleuscor": {
+    "metricisundoubtedlytheBLEUscore": {
         "8_17": 1
     },
-    "papineniet": {
+    "Papinenietal": {
         "8_17": 1
     },
-    "despiteitsacknowled": {
+    "despiteitsacknowledged": {
         "8_17": 1
     },
-    "problem": {
+    "problems": {
         "8_17": 1
     },
     "better": {
         "8_17": 18
     },
-    "perfor": {
+    "performing": {
         "8_17": 1
     },
-    "altern": {
-        "8_17": 2
+    "alternatives": {
+        "8_17": 1
     },
     "b": {
         "8_17": 4
     },
-    "simplic": {
+    "simplicity": {
         "8_17": 1
     },
     "stick": {
@@ -797,8 +863,11 @@
     "too": {
         "8_17": 9
     },
-    "result": {
-        "8_17": 28
+    "results": {
+        "8_17": 25
+    },
+    "c": {
+        "8_17": 2
     },
     "sc": {
         "8_17": 2
@@ -809,40 +878,43 @@
     "r": {
         "8_17": 1
     },
-    "scf": {
+    "scF": {
         "8_17": 1
     },
-    "popov": {
+    "Popovic": {
         "8_17": 2
     },
     "foundnosubstantialdi": {
         "8_17": 1
     },
-    "erencesfrombleu": {
+    "erencesfromBLEU": {
         "8_17": 1
     },
-    "inparticular": {
+    "Inparticular": {
         "8_17": 1
     },
-    "weusethecas": {
+    "weusethecase": {
         "8_17": 1
     },
-    "insensit": {
+    "insensitive": {
         "8_17": 2
     },
-    "sacrbleu": {
+    "sacrBLEU": {
         "8_17": 2
     },
     "superiorwhich": {
         "8_17": 1
     },
+    "uses": {
+        "8_17": 7
+    },
     "xed": {
         "8_17": 4
     },
-    "token": {
-        "8_17": 7
+    "tokenization": {
+        "8_17": 5
     },
-    "ident": {
+    "identical": {
         "8_17": 1
     },
     "mteval": {
@@ -854,20 +926,23 @@
     "interna": {
         "8_17": 1
     },
-    "superiorhttp": {
-        "8_17": 5
+    "superiorhttps": {
+        "8_17": 3
     },
     "github": {
         "8_17": 6
     },
     "com": {
-        "8_17": 8
-    },
-    "tensorflow": {
         "8_17": 7
     },
+    "tensorflow": {
+        "8_17": 6
+    },
     "tensortensor": {
-        "8_17": 8
+        "8_17": 5
+    },
+    "superiorhttp": {
+        "8_17": 2
     },
     "www": {
         "8_17": 4
@@ -881,10 +956,10 @@
     "wmt": {
         "8_17": 4
     },
-    "awslab": {
+    "awslabs": {
         "8_17": 1
     },
-    "sockey": {
+    "sockeye": {
         "8_17": 1
     },
     "tree": {
@@ -899,20 +974,20 @@
     "sacrebleu": {
         "8_17": 1
     },
-    "signatur": {
+    "signature": {
         "8_17": 1
     },
-    "score": {
-        "8_17": 18
+    "scores": {
+        "8_17": 3
     },
-    "repor": {
-        "8_17": 6
+    "reported": {
+        "8_17": 4
     },
     "paper": {
-        "8_17": 8
+        "8_17": 4
     },
     "case": {
-        "8_17": 14
+        "8_17": 11
     },
     "lc": {
         "8_17": 1
@@ -923,7 +998,7 @@
     "en": {
         "8_17": 2
     },
-    "numref": {
+    "numrefs": {
         "8_17": 1
     },
     "smooth": {
@@ -944,7 +1019,10 @@
     "tional": {
         "8_17": 1
     },
-    "download": {
+    "automatically": {
+        "8_17": 1
+    },
+    "downloads": {
         "8_17": 1
     },
     "WMT": {
@@ -953,22 +1031,22 @@
     "testset": {
         "8_17": 1
     },
-    "consider": {
-        "8_17": 2
+    "Considerations": {
+        "8_17": 1
     },
-    "stope": {
-        "8_17": 6
+    "Stopping": {
+        "8_17": 1
     },
-    "criterion": {
-        "8_17": 2
+    "Criterion": {
+        "8_17": 1
     },
-    "situat": {
+    "situation": {
         "8_17": 1
     },
     "further": {
-        "8_17": 4
+        "8_17": 3
     },
-    "complic": {
+    "complicated": {
         "8_17": 1
     },
     "fact": {
@@ -977,47 +1055,53 @@
     "systemsisusuallynon": {
         "8_17": 1
     },
-    "determinist": {
+    "deterministic": {
         "8_17": 1
     },
     "esp": {
         "8_17": 1
     },
-    "withthemostrecentmodel": {
+    "withthemostrecentmodels": {
         "8_17": 1
     },
-    "hardli": {
+    "hardly": {
         "8_17": 1
     },
-    "everconvergesorstartsov": {
+    "everconvergesorstartsover": {
         "8_17": 1
     },
     "tting": {
         "8_17": 3
     },
-    "onreasonablybigdataset": {
+    "onreasonablybigdatasets": {
         "8_17": 1
     },
-    "thisleadstolear": {
+    "Thisleadstolearning": {
         "8_17": 1
     },
-    "curvesthatneverfulli": {
+    "curvesthatneverfully": {
         "8_17": 1
     },
-    "attenletalonestartdecreas": {
+    "attenletalonestartdecreasing": {
         "8_17": 1
     },
-    "seesect": {
+    "seeSection": {
         "8_17": 4
     },
-    "thecommon": {
+    "Thecommon": {
         "8_17": 1
     },
-    "when": {
-        "8_17": 29
-    },
-    "stare": {
+    "practice": {
         "8_17": 3
+    },
+    "evaluate": {
+        "8_17": 3
+    },
+    "when": {
+        "8_17": 27
+    },
+    "started": {
+        "8_17": 1
     },
     "over": {
         "8_17": 9
@@ -1028,40 +1112,58 @@
     "sooner": {
         "8_17": 1
     },
-    "thu": {
-        "8_17": 12
+    "thus": {
+        "8_17": 10
     },
     "not": {
         "8_17": 40
     },
-    "specifi": {
+    "applicable": {
+        "8_17": 2
+    },
+    "Many": {
         "8_17": 1
+    },
+    "papers": {
+        "8_17": 4
+    },
+    "specify": {
+        "8_17": 1
+    },
+    "stopping": {
+        "8_17": 4
     },
     "criteria": {
         "8_17": 1
     },
-    "whatsoev": {
+    "whatsoever": {
         "8_17": 1
     },
-    "sometim": {
-        "8_17": 2
+    "Sometimes": {
+        "8_17": 1
     },
     "theymentiononlyanapproximatenumberofdaysthemodel": {
         "8_17": 1
     },
-    "wa": {
+    "was": {
         "8_17": 11
     },
-    "bahdanau": {
+    "trained": {
+        "8_17": 13
+    },
+    "Bahdanau": {
         "8_17": 2
+    },
+    "sometimes": {
+        "8_17": 1
     },
     "exact": {
         "8_17": 2
     },
     "number": {
-        "8_17": 39
+        "8_17": 35
     },
-    "indic": {
+    "indication": {
         "8_17": 1
     },
     "how": {
@@ -1070,34 +1172,37 @@
     "much": {
         "8_17": 4
     },
-    "conver": {
-        "8_17": 5
+    "converged": {
+        "8_17": 4
     },
     "point": {
-        "8_17": 5
+        "8_17": 4
     },
-    "mostprob": {
+    "Mostprobably": {
         "8_17": 1
     },
-    "thetrainingwasrununtilnofurth": {
+    "thetrainingwasrununtilnofurther": {
         "8_17": 1
     },
     "improvementswereclearlyapparentonthedevelopmenttestset": {
         "8_17": 1
     },
-    "andthemodelwa": {
+    "andthemodelwas": {
         "8_17": 1
     },
-    "such": {
-        "8_17": 5
+    "Such": {
+        "8_17": 2
     },
     "an": {
-        "8_17": 9
+        "8_17": 8
     },
-    "approxim": {
-        "8_17": 4
+    "approximate": {
+        "8_17": 2
     },
-    "riski": {
+    "criterion": {
+        "8_17": 1
+    },
+    "risky": {
         "8_17": 1
     },
     "conceivablethatdi": {
@@ -1110,19 +1215,19 @@
         "8_17": 1
     },
     "comparison": {
-        "8_17": 3
+        "8_17": 2
     },
     "fair": {
         "8_17": 1
     },
-    "reliab": {
+    "reliable": {
         "8_17": 2
     },
     "method": {
-        "8_17": 4
+        "8_17": 2
     },
     "keep": {
-        "8_17": 9
+        "8_17": 4
     },
     "speci": {
         "8_17": 6
@@ -1130,46 +1235,46 @@
     "ed": {
         "8_17": 4
     },
-    "iter": {
+    "iterations": {
         "8_17": 2
     },
     "certain": {
         "8_17": 3
     },
-    "epoch": {
-        "8_17": 14
+    "epochs": {
+        "8_17": 11
     },
-    "howev": {
-        "8_17": 15
+    "however": {
+        "8_17": 1
     },
     "perfect": {
         "8_17": 1
     },
-    "solut": {
+    "solution": {
         "8_17": 4
     },
     "if": {
-        "8_17": 10
+        "8_17": 7
     },
-    "quit": {
+    "quite": {
         "8_17": 4
     },
-    "erenc": {
-        "8_17": 10
+    "erence": {
+        "8_17": 8
     },
-    "perform": {
-        "8_17": 4
+    "performance": {
+        "8_17": 3
     },
     "su": {
         "8_17": 1
     },
-    "cientli": {
+    "ciently": {
         "8_17": 1
     },
-    "larg": {
-        "8_17": 12
+    "large": {
+        "8_17": 10
     },
-    "possib": {
+    "possible": {
         "8_17": 6
     },
     "complex": {
@@ -1179,33 +1284,45 @@
         "8_17": 7
     },
     "need": {
-        "8_17": 22
+        "8_17": 12
     },
     "few": {
         "8_17": 6
     },
-    "eventu": {
+    "eventually": {
         "8_17": 1
     },
-    "arriv": {
+    "arrived": {
         "8_17": 1
     },
     "higher": {
         "8_17": 17
     },
+    "score": {
+        "8_17": 5
+    },
     "competitor": {
         "8_17": 1
     },
-    "durat": {
+    "Also": {
+        "8_17": 3
+    },
+    "duration": {
         "8_17": 1
     },
-    "er": {
-        "8_17": 6
+    "step": {
+        "8_17": 4
+    },
+    "epoch": {
+        "8_17": 2
+    },
+    "ers": {
+        "8_17": 1
     },
     "andfromthepracticalpointofview": {
         "8_17": 1
     },
-    "wearemostlyinteres": {
+    "wearemostlyinterested": {
         "8_17": 1
     },
     "wall": {
@@ -1214,19 +1331,22 @@
     "clock": {
         "8_17": 2
     },
-    "tri": {
+    "When": {
+        "8_17": 2
+    },
+    "tried": {
         "8_17": 2
     },
     "standard": {
-        "8_17": 2
-    },
-    "techniqu": {
         "8_17": 1
     },
-    "earli": {
+    "technique": {
+        "8_17": 1
+    },
+    "early": {
         "8_17": 3
     },
-    "nsubsequ": {
+    "Nsubsequent": {
         "8_17": 1
     },
     "evaluationsonthedevelopmenttestsetdonotgiveimprovementslargerthanagiven": {
@@ -1238,10 +1358,10 @@
     "wesawabigvarianceinthetrainingtimeand": {
         "8_17": 1
     },
-    "nalbleu": {
+    "nalBLEU": {
         "8_17": 1
     },
-    "evenforexperi": {
+    "evenforexperiments": {
         "8_17": 1
     },
     "same": {
@@ -1259,97 +1379,121 @@
     "seed": {
         "8_17": 1
     },
-    "moreov": {
+    "Moreover": {
         "8_17": 1
     },
     "get": {
-        "8_17": 4
+        "8_17": 2
     },
-    "nand": {
+    "use": {
+        "8_17": 20
+    },
+    "Nand": {
         "8_17": 1
     },
     "small": {
         "8_17": 6
     },
-    "evenifw": {
+    "Evenifwe": {
         "8_17": 1
     },
-    "xtherandomse": {
+    "xtherandomseed": {
         "8_17": 1
     },
-    "whichwasnotdoneproperlyinttv": {
+    "whichwasnotdoneproperlyinTTv": {
         "8_17": 1
     },
-    "achangeofsomehyp": {
+    "achangeofsomehyper": {
         "8_17": 1
     },
-    "becaus": {
+    "may": {
+        "8_17": 5
+    },
+    "because": {
         "8_17": 11
     },
-    "chang": {
-        "8_17": 3
+    "change": {
+        "8_17": 2
     },
     "itself": {
         "8_17": 2
     },
-    "uen": {
-        "8_17": 3
+    "uenced": {
+        "8_17": 2
     },
-    "initi": {
+    "initialization": {
+        "8_17": 1
+    },
+    "By": {
         "8_17": 3
     },
     "mean": {
-        "8_17": 7
+        "8_17": 2
     },
     "here": {
         "8_17": 4
     },
-    "begin": {
+    "begins": {
         "8_17": 1
     },
     "worsen": {
         "8_17": 1
     },
     "while": {
-        "8_17": 14
+        "8_17": 11
     },
     "loss": {
         "8_17": 3
     },
-    "improv": {
-        "8_17": 9
-    },
-    "choic": {
+    "keeps": {
         "8_17": 1
     },
-    "full": {
+    "improving": {
+        "8_17": 3
+    },
+    "Our": {
+        "8_17": 4
+    },
+    "Final": {
         "8_17": 1
     },
-    "curv": {
-        "8_17": 20
-    },
-    "basedonthediscussionabov": {
+    "Choice": {
         "8_17": 1
     },
-    "wedecidedtoreportalwaysthefulllearningcurv": {
+    "Full": {
         "8_17": 1
     },
-    "doe": {
+    "Learning": {
+        "8_17": 11
+    },
+    "Curves": {
+        "8_17": 1
+    },
+    "Basedonthediscussionabove": {
+        "8_17": 1
+    },
+    "wedecidedtoreportalwaysthefulllearningcurves": {
+        "8_17": 1
+    },
+    "does": {
         "8_17": 7
     },
-    "fulli": {
-        "8_17": 6
+    "fully": {
+        "8_17": 5
     },
     "prevent": {
-        "8_17": 5
+        "8_17": 4
     },
     "risk": {
         "8_17": 1
     },
-    "prematur": {
+    "premature": {
         "8_17": 1
     },
-    "butthereaderscanatleastjudgeforthemselvesiftheywouldexpectani": {
+    "judgments": {
+        "8_17": 1
+    },
+    "butthereaderscanatleastjudgeforthemselvesiftheywouldexpectany": {
         "8_17": 1
     },
     "sudden": {
@@ -1358,73 +1502,79 @@
     "twist": {
         "8_17": 1
     },
+    "cases": {
+        "8_17": 3
+    },
     "plot": {
         "8_17": 2
     },
-    "hour": {
-        "8_17": 36
+    "hours": {
+        "8_17": 25
     },
-    "obvious": {
+    "obviously": {
         "8_17": 2
     },
-    "depend": {
-        "8_17": 3
+    "depends": {
+        "8_17": 2
     },
     "chosen": {
         "8_17": 1
     },
     "so": {
-        "8_17": 19
+        "8_17": 15
     },
-    "usedthesameequip": {
+    "usedthesameequipment": {
         "8_17": 1
     },
-    "oneuptoeightgeforcegtxtigpuswithnvidia": {
+    "oneuptoeightGeForceGTXTiGPUswithNVIDIA": {
         "8_17": 1
     },
     "driver": {
         "8_17": 2
     },
-    "variat": {
+    "variation": {
         "8_17": 3
     },
-    "measur": {
-        "8_17": 6
-    },
-    "unfortun": {
+    "measurements": {
         "8_17": 1
     },
-    "unavoid": {
+    "unfortunately": {
+        "8_17": 1
+    },
+    "unavoidable": {
         "8_17": 1
     },
     "could": {
         "8_17": 3
     },
-    "isol": {
+    "isolate": {
         "8_17": 1
     },
-    "comput": {
-        "8_17": 15
+    "computation": {
+        "8_17": 7
     },
-    "process": {
-        "8_17": 2
+    "processes": {
+        "8_17": 1
     },
     "tra": {
         "8_17": 1
     },
-    "base": {
-        "8_17": 3
-    },
-    "replic": {
+    "based": {
         "8_17": 2
     },
-    "neglig": {
+    "replicated": {
         "8_17": 1
     },
-    "terminologi": {
+    "such": {
+        "8_17": 3
+    },
+    "negligible": {
         "8_17": 1
     },
-    "clariti": {
+    "Terminology": {
+        "8_17": 1
+    },
+    "clarity": {
         "8_17": 1
     },
     "de": {
@@ -1433,37 +1583,46 @@
     "ne": {
         "8_17": 3
     },
-    "follow": {
-        "8_17": 3
-    },
-    "term": {
+    "following": {
         "8_17": 2
     },
-    "adher": {
+    "terms": {
+        "8_17": 2
+    },
+    "adhere": {
         "8_17": 1
     },
     "rest": {
         "8_17": 2
     },
-    "estim": {
-        "8_17": 3
+    "Translation": {
+        "8_17": 6
+    },
+    "estimate": {
+        "8_17": 2
     },
     "well": {
         "8_17": 6
     },
-    "carri": {
+    "carried": {
         "8_17": 1
     },
-    "express": {
+    "expresses": {
         "8_17": 1
     },
-    "sourc": {
+    "meaning": {
+        "8_17": 2
+    },
+    "source": {
+        "8_17": 4
+    },
+    "solely": {
+        "8_17": 1
+    },
+    "Steps": {
         "8_17": 5
     },
-    "sole": {
-        "8_17": 1
-    },
-    "denot": {
+    "denote": {
         "8_17": 1
     },
     "i": {
@@ -1475,118 +1634,145 @@
     "mizer": {
         "8_17": 1
     },
-    "updat": {
-        "8_17": 4
+    "update": {
+        "8_17": 2
     },
     "run": {
         "8_17": 3
     },
-    "equal": {
+    "equals": {
         "8_17": 3
     },
     "mini": {
         "8_17": 1
     },
+    "batches": {
+        "8_17": 4
+    },
     "were": {
         "8_17": 9
     },
-    "proces": {
-        "8_17": 6
+    "processed": {
+        "8_17": 2
     },
-    "isthenumberoftrainingexamplesusedbyonegpuinonetrainingstep": {
+    "Batch": {
+        "8_17": 8
+    },
+    "Size": {
+        "8_17": 10
+    },
+    "isthenumberoftrainingexamplesusedbyoneGPUinonetrainingstep": {
         "8_17": 1
     },
-    "sequenc": {
+    "sequence": {
         "8_17": 4
     },
-    "usual": {
+    "usually": {
         "8_17": 5
     },
-    "ofsentencepair": {
+    "ofsentencepairs": {
         "8_17": 1
     },
-    "theparamet": {
-        "8_17": 3
+    "However": {
+        "8_17": 14
     },
-    "batch_siz": {
+    "theparameter": {
+        "8_17": 2
+    },
+    "batch_size": {
         "8_17": 22
     },
-    "intttranslationspeci": {
+    "inTTtranslationspeci": {
         "8_17": 1
     },
-    "subword": {
-        "8_17": 20
+    "es": {
+        "8_17": 1
     },
-    "allow": {
+    "tokens": {
+        "8_17": 2
+    },
+    "subwords": {
+        "8_17": 15
+    },
+    "allows": {
         "8_17": 5
     },
     "short": {
         "8_17": 1
     },
+    "sentences": {
+        "8_17": 13
+    },
     "smaller": {
         "8_17": 16
     },
     "long": {
-        "8_17": 5
+        "8_17": 4
     },
     "E": {
         "8_17": 12
     },
-    "ectiv": {
+    "ective": {
         "8_17": 11
     },
-    "examp": {
-        "8_17": 14
+    "examples": {
+        "8_17": 9
     },
-    "consum": {
+    "consumed": {
         "8_17": 2
     },
-    "whentrainingonmultiplegpu": {
+    "WhentrainingonmultipleGPUs": {
         "8_17": 1
     },
-    "isinterpret": {
+    "isinterpreted": {
         "8_17": 1
     },
-    "pergpu": {
+    "perGPU": {
         "8_17": 1
     },
-    "thati": {
+    "Thatis": {
         "8_17": 1
     },
-    "andgpu": {
+    "andGPUs": {
         "8_17": 2
     },
-    "thesystemactuallydigest": {
+    "thesystemactuallydigests": {
         "8_17": 1
     },
     "k": {
         "8_17": 40
     },
-    "languag": {
-        "8_17": 3
+    "language": {
+        "8_17": 1
     },
-    "correspond": {
+    "Epoch": {
+        "8_17": 1
+    },
+    "corresponds": {
+        "8_17": 1
+    },
+    "complete": {
         "8_17": 2
-    },
-    "complet": {
-        "8_17": 4
     },
     "pass": {
         "8_17": 1
     },
-    "unfortu": {
+    "Unfortu": {
         "8_17": 1
     },
-    "nate": {
+    "nately": {
         "8_17": 1
     },
-    "easi": {
+    "easy": {
         "8_17": 1
+    },
+    "measure": {
+        "8_17": 2
     },
     "TT": {
         "8_17": 22
     },
-    "purpos": {
+    "purpose": {
         "8_17": 1
     },
     "ned": {
@@ -1595,29 +1781,35 @@
     "target": {
         "8_17": 3
     },
-    "ttalsodoesreorderingandbucketingofthesentencesbytheirlengthtominimizetheuseof": {
+    "TTalsodoesreorderingandbucketingofthesentencesbytheirlengthtominimizetheuseof": {
         "8_17": 1
     },
-    "pade": {
+    "padding": {
         "8_17": 3
     },
-    "symbol": {
+    "symbols": {
+        "8_17": 1
+    },
+    "needed": {
+        "8_17": 10
+    },
+    "approximates": {
         "8_17": 1
     },
     "actual": {
-        "8_17": 13
+        "8_17": 8
     },
     "non": {
         "8_17": 2
     },
-    "http": {
-        "8_17": 23
+    "https": {
+        "8_17": 7
     },
-    "issu": {
+    "issues": {
         "8_17": 4
     },
-    "report": {
-        "8_17": 4
+    "reports": {
+        "8_17": 1
     },
     "order": {
         "8_17": 3
@@ -1625,122 +1817,164 @@
     "convert": {
         "8_17": 1
     },
-    "multipli": {
-        "8_17": 4
+    "multiply": {
+        "8_17": 2
     },
-    "divid": {
-        "8_17": 4
+    "divide": {
+        "8_17": 3
     },
     "thenumberofsubwordsinthetrainingdata": {
         "8_17": 1
     },
-    "thesegment": {
+    "Thesegmentation": {
         "8_17": 1
     },
-    "ofthetrainingdataintosubwordsisusuallyhiddentotheuserandthenumb": {
+    "ofthetrainingdataintosubwordsisusuallyhiddentotheuserandthenumber": {
         "8_17": 1
     },
     "must": {
         "8_17": 2
     },
+    "computed": {
+        "8_17": 1
+    },
     "special": {
         "8_17": 1
     },
     "script": {
-        "8_17": 5
+        "8_17": 2
+    },
+    "Computation": {
+        "8_17": 6
+    },
+    "Speed": {
+        "8_17": 4
     },
     "issimplytheobservednumberoftrainingstepsperhour": {
         "8_17": 1
     },
-    "putat": {
+    "Com": {
+        "8_17": 1
+    },
+    "putation": {
         "8_17": 2
     },
     "CPU": {
         "8_17": 1
     },
-    "commun": {
+    "communication": {
         "8_17": 1
     },
-    "softwar": {
+    "software": {
         "8_17": 1
     },
     "CUDA": {
         "8_17": 1
     },
-    "librari": {
+    "library": {
         "8_17": 1
     },
-    "impl": {
+    "imple": {
         "8_17": 1
     },
-    "mentat": {
+    "mentation": {
         "8_17": 1
     },
-    "ec": {
-        "8_17": 2
-    },
-    "optimizerandothersettingsthatdirectlymodifytheformulaoftheneur": {
+    "ecting": {
         "8_17": 1
     },
-    "throughput": {
-        "8_17": 18
+    "optimizerandothersettingsthatdirectlymodifytheformulaoftheneural": {
+        "8_17": 1
+    },
+    "Throughput": {
+        "8_17": 4
     },
     "amount": {
         "8_17": 1
     },
-    "diges": {
+    "digested": {
         "8_17": 1
+    },
+    "report": {
+        "8_17": 3
+    },
+    "throughput": {
+        "8_17": 14
     },
     "per": {
         "8_17": 4
     },
-    "converg": {
-        "8_17": 9
+    "hour": {
+        "8_17": 10
     },
-    "orbleuconverg": {
+    "multiplied": {
+        "8_17": 2
+    },
+    "Convergence": {
+        "8_17": 2
+    },
+    "orBLEUConvergence": {
         "8_17": 1
     },
-    "istheincreaseinbleudividedbytim": {
+    "istheincreaseinBLEUdividedbytime": {
         "8_17": 1
     },
-    "heavili": {
+    "changes": {
         "8_17": 1
     },
-    "dure": {
+    "heavily": {
+        "8_17": 1
+    },
+    "during": {
         "8_17": 4
+    },
+    "starting": {
+        "8_17": 2
     },
     "high": {
         "8_17": 10
     },
-    "decreas": {
-        "8_17": 8
+    "decreasing": {
+        "8_17": 4
     },
-    "progress": {
-        "8_17": 3
+    "progresses": {
+        "8_17": 1
     },
-    "genc": {
+    "conver": {
+        "8_17": 1
+    },
+    "gence": {
         "8_17": 1
     },
     "zero": {
         "8_17": 2
     },
-    "till": {
+    "Time": {
+        "8_17": 8
+    },
+    "Till": {
         "8_17": 9
     },
-    "achiev": {
-        "8_17": 6
+    "Score": {
+        "8_17": 9
+    },
+    "achieve": {
+        "8_17": 4
     },
     "level": {
-        "8_17": 5
+        "8_17": 4
     },
-    "inform": {
-        "8_17": 3
+    "informal": {
+        "8_17": 1
     },
     "clear": {
         "8_17": 1
     },
     "moment": {
-        "8_17": 3
+        "8_17": 2
+    },
+    "achieving": {
+        "8_17": 1
     },
     "after": {
         "8_17": 26
@@ -1748,44 +1982,62 @@
     "never": {
         "8_17": 4
     },
-    "fall": {
-        "8_17": 2
+    "falls": {
+        "8_17": 1
     },
     "below": {
         "8_17": 4
     },
-    "tool": {
-        "8_17": 3
+    "Examples": {
+        "8_17": 2
+    },
+    "Tools": {
+        "8_17": 2
     },
     "within": {
         "8_17": 5
     },
-    "be": {
+    "TensorTensor": {
+        "8_17": 3
+    },
+    "being": {
         "8_17": 2
     },
-    "implemen": {
+    "implemented": {
         "8_17": 3
+    },
+    "TensorFlow": {
+        "8_17": 1
+    },
+    "provides": {
+        "8_17": 2
     },
     "nice": {
         "8_17": 1
     },
-    "tensorboard": {
+    "TensorBoard": {
         "8_17": 2
     },
-    "visual": {
+    "visualizations": {
         "8_17": 1
     },
-    "origin": {
+    "progress": {
+        "8_17": 2
+    },
+    "original": {
         "8_17": 3
     },
-    "implement": {
-        "8_17": 4
-    },
-    "optim": {
-        "8_17": 7
-    },
-    "toward": {
+    "implementation": {
         "8_17": 3
+    },
+    "optimized": {
+        "8_17": 1
+    },
+    "towards": {
+        "8_17": 3
+    },
+    "standards": {
+        "8_17": 1
     },
     "eld": {
         "8_17": 1
@@ -1796,23 +2048,29 @@
     "bleubydefault": {
         "8_17": 1
     },
-    "whichiscomputedontheinternalsubword": {
+    "whichiscomputedontheinternalsubwords": {
         "8_17": 1
     },
-    "expos": {
+    "exposed": {
         "8_17": 1
     },
     "user": {
-        "8_17": 2
+        "8_17": 1
+    },
+    "actually": {
+        "8_17": 5
     },
     "instead": {
         "8_17": 9
     },
-    "word": {
-        "8_17": 11
+    "words": {
+        "8_17": 8
     },
-    "accor": {
-        "8_17": 3
+    "according": {
+        "8_17": 1
+    },
+    "result": {
+        "8_17": 2
     },
     "approx": {
         "8_17": 1
@@ -1823,61 +2081,76 @@
     "real": {
         "8_17": 1
     },
-    "due": {
-        "8_17": 3
-    },
-    "vocabulari": {
-        "8_17": 3
-    },
-    "easili": {
-        "8_17": 2
-    },
-    "reproduc": {
+    "Due": {
         "8_17": 1
     },
-    "vare": {
+    "dependence": {
+        "8_17": 1
+    },
+    "subword": {
         "8_17": 4
     },
-    "suitab": {
+    "vocabulary": {
+        "8_17": 3
+    },
+    "easily": {
         "8_17": 2
     },
-    "public": {
+    "reproducible": {
+        "8_17": 1
+    },
+    "varying": {
+        "8_17": 4
+    },
+    "suitable": {
+        "8_17": 2
+    },
+    "reporting": {
+        "8_17": 2
+    },
+    "publications": {
         "8_17": 1
     },
     "nition": {
         "8_17": 1
     },
-    "lead": {
-        "8_17": 5
-    },
-    "varianc": {
-        "8_17": 4
-    },
-    "valu": {
-        "8_17": 9
-    },
-    "rel": {
-        "8_17": 5
-    },
-    "subsequ": {
-        "8_17": 2
-    },
-    "checkpoint": {
-        "8_17": 23
-    },
-    "visib": {
+    "leads": {
         "8_17": 3
     },
-    "icker": {
+    "variance": {
+        "8_17": 4
+    },
+    "values": {
+        "8_17": 6
+    },
+    "relatively": {
         "8_17": 2
     },
-    "gure": {
-        "8_17": 4
+    "subsequent": {
+        "8_17": 2
+    },
+    "checkpoints": {
+        "8_17": 10
+    },
+    "visible": {
+        "8_17": 3
+    },
+    "ickering": {
+        "8_17": 2
+    },
+    "curves": {
+        "8_17": 9
+    },
+    "gures": {
+        "8_17": 3
+    },
+    "decrease": {
+        "8_17": 3
     },
     "bigger": {
         "8_17": 13
     },
-    "develop": {
+    "development": {
         "8_17": 4
     },
     "EN": {
@@ -1886,41 +2159,50 @@
     "CS": {
         "8_17": 1
     },
-    "czeng": {
-        "8_17": 24
+    "CzEng": {
+        "8_17": 22
     },
     "M": {
         "8_17": 41
     },
-    "europar": {
-        "8_17": 2
-    },
-    "commentari": {
-        "8_17": 2
-    },
-    "commoncraw": {
+    "europarl": {
         "8_17": 1
     },
-    "total": {
-        "8_17": 3
+    "news": {
+        "8_17": 2
     },
-    "tabl": {
+    "commentary": {
+        "8_17": 1
+    },
+    "commoncrawl": {
+        "8_17": 1
+    },
+    "Total": {
+        "8_17": 1
+    },
+    "Table": {
         "8_17": 16
     },
-    "resourc": {
-        "8_17": 5
+    "resources": {
+        "8_17": 3
     },
-    "weimplementedahelperscript": {
+    "Weimplementedahelperscript": {
         "8_17": 1
     },
     "tt": {
         "8_17": 6
     },
-    "whichcomputestherealbleu": {
+    "whichcomputestherealBLEU": {
         "8_17": 1
     },
-    "give": {
-        "8_17": 5
+    "giving": {
+        "8_17": 2
+    },
+    "translated": {
+        "8_17": 2
+    },
+    "le": {
+        "8_17": 3
     },
     "my": {
         "8_17": 1
@@ -1928,29 +2210,38 @@
     "wmt_deen": {
         "8_17": 1
     },
-    "directori": {
+    "directory": {
         "8_17": 2
     },
-    "creat": {
+    "created": {
+        "8_17": 2
+    },
+    "translate": {
         "8_17": 2
     },
     "store": {
-        "8_17": 3
+        "8_17": 2
     },
-    "event": {
+    "events": {
         "8_17": 1
     },
-    "wealsoimplemen": {
+    "way": {
+        "8_17": 4
+    },
+    "Wealsoimplemented": {
         "8_17": 1
     },
     "avg": {
         "8_17": 1
     },
-    "whichtrans": {
+    "scripts": {
+        "8_17": 3
+    },
+    "whichtranslate": {
         "8_17": 1
     },
-    "averag": {
-        "8_17": 20
+    "average": {
+        "8_17": 3
     },
     "window": {
         "8_17": 1
@@ -1961,52 +2252,88 @@
     "check": {
         "8_17": 1
     },
-    "respect": {
+    "points": {
+        "8_17": 1
+    },
+    "respectively": {
         "8_17": 2
     },
-    "detail": {
-        "8_17": 3
+    "details": {
+        "8_17": 2
     },
-    "select": {
-        "8_17": 1
+    "averaging": {
+        "8_17": 12
     },
-    "preproces": {
-        "8_17": 5
-    },
-    "english": {
+    "Data": {
         "8_17": 6
     },
-    "czech": {
-        "8_17": 10
-    },
-    "direct": {
+    "Selection": {
         "8_17": 1
     },
-    "come": {
+    "Preprocessing": {
+        "8_17": 3
+    },
+    "focused": {
+        "8_17": 1
+    },
+    "English": {
+        "8_17": 6
+    },
+    "Czech": {
+        "8_17": 10
+    },
+    "direction": {
+        "8_17": 1
+    },
+    "Most": {
+        "8_17": 1
+    },
+    "comes": {
         "8_17": 3
     },
     "parallel": {
-        "8_17": 5
+        "8_17": 3
     },
     "treebank": {
         "8_17": 1
     },
-    "pair": {
-        "8_17": 8
+    "pairs": {
+        "8_17": 6
     },
-    "common": {
-        "8_17": 3
-    },
-    "crawl": {
+    "sources": {
         "8_17": 1
     },
-    "substitut": {
+    "Europarl": {
+        "8_17": 1
+    },
+    "News": {
+        "8_17": 1
+    },
+    "Commentary": {
+        "8_17": 1
+    },
+    "Common": {
+        "8_17": 1
+    },
+    "Crawl": {
+        "8_17": 1
+    },
+    "detailed": {
+        "8_17": 1
+    },
+    "Sections": {
+        "8_17": 1
+    },
+    "substitute": {
         "8_17": 1
     },
     "older": {
         "8_17": 2
     },
-    "contain": {
+    "considerably": {
+        "8_17": 1
+    },
+    "containing": {
         "8_17": 2
     },
     "throughout": {
@@ -2015,14 +2342,17 @@
     "newstest": {
         "8_17": 2
     },
-    "overlap": {
+    "overlapping": {
         "8_17": 1
     },
-    "jude": {
+    "apply": {
         "8_17": 1
     },
-    "system": {
-        "8_17": 6
+    "judged": {
+        "8_17": 1
+    },
+    "systems": {
+        "8_17": 1
     },
     "now": {
         "8_17": 1
@@ -2030,17 +2360,17 @@
     "mergedin": {
         "8_17": 1
     },
-    "trainingi": {
+    "trainingis": {
         "8_17": 1
     },
-    "thei": {
-        "8_17": 3
+    "they": {
+        "8_17": 2
     },
     "wait": {
         "8_17": 1
     },
-    "minut": {
-        "8_17": 3
+    "minutes": {
+        "8_17": 2
     },
     "appear": {
         "8_17": 1
@@ -2057,25 +2387,37 @@
     "cz": {
         "8_17": 2
     },
+    "czeng": {
+        "8_17": 2
+    },
     "subset": {
         "8_17": 2
     },
-    "truecas": {
+    "preprocessing": {
+        "8_17": 2
+    },
+    "truecasing": {
         "8_17": 1
     },
-    "importantpartofthesetupofstatisticalmachinetranslationsystem": {
+    "importantpartofthesetupofstatisticalmachinetranslationsystems": {
         "8_17": 1
     },
-    "ahugeleapin": {
+    "Ahugeleapin": {
         "8_17": 1
     },
-    "realist": {
+    "realistic": {
         "8_17": 1
     },
-    "unit": {
-        "8_17": 3
+    "achieved": {
+        "8_17": 1
     },
-    "sennrichet": {
+    "introduction": {
+        "8_17": 1
+    },
+    "units": {
+        "8_17": 2
+    },
+    "Sennrichetal": {
         "8_17": 1
     },
     "butthelong": {
@@ -2084,11 +2426,11 @@
     "termvisionofthedeep": {
         "8_17": 1
     },
-    "leav": {
+    "leave": {
         "8_17": 3
     },
-    "technic": {
-        "8_17": 2
+    "technicalities": {
+        "8_17": 1
     },
     "feed": {
         "8_17": 1
@@ -2096,19 +2438,19 @@
     "input": {
         "8_17": 1
     },
-    "lee": {
+    "Lee": {
         "8_17": 2
     },
-    "adopt": {
+    "adopts": {
         "8_17": 1
     },
     "vision": {
         "8_17": 1
     },
-    "support": {
-        "8_17": 2
+    "supports": {
+        "8_17": 1
     },
-    "extern": {
+    "external": {
         "8_17": 1
     },
     "own": {
@@ -2120,29 +2462,35 @@
     "similar": {
         "8_17": 2
     },
-    "piec": {
+    "word": {
+        "8_17": 2
+    },
+    "piece": {
         "8_17": 1
     },
     "algorithm": {
         "8_17": 1
     },
-    "wu": {
+    "Wu": {
         "8_17": 2
     },
-    "anddoesnotexpecttheinputtobeeventoken": {
+    "anddoesnotexpecttheinputtobeeventokenized": {
         "8_17": 1
     },
-    "basedonasmallsampleof": {
+    "Basedonasmallsampleof": {
         "8_17": 1
     },
     "thetrainingdata": {
         "8_17": 1
     },
-    "ttwilltrainasubwordvocabularyandapplyittoallthetrain": {
+    "TTwilltrainasubwordvocabularyandapplyittoallthetraining": {
         "8_17": 1
     },
     "later": {
         "8_17": 2
+    },
+    "follow": {
+        "8_17": 1
     },
     "default": {
         "8_17": 18
@@ -2154,54 +2502,75 @@
         "8_17": 1
     },
     "text": {
+        "8_17": 1
+    },
+    "shared": {
+        "8_17": 1
+    },
+    "superiorAfter": {
+        "8_17": 1
+    },
+    "total": {
         "8_17": 2
     },
-    "share": {
+    "millions": {
+        "8_17": 1
+    },
+    "taking": {
         "8_17": 2
     },
-    "superioraft": {
+    "lengths": {
+        "8_17": 1
+    },
+    "pair": {
+        "8_17": 1
+    },
+    "computing": {
         "8_17": 1
     },
     "million": {
-        "8_17": 4
-    },
-    "take": {
-        "8_17": 4
+        "8_17": 3
     },
     "both": {
-        "8_17": 5
+        "8_17": 2
     },
     "space": {
         "8_17": 1
     },
-    "delimit": {
+    "delimited": {
         "8_17": 1
     },
-    "evenwhenfollowingthedefault": {
+    "Evenwhenfollowingthedefaults": {
         "8_17": 1
     },
-    "therearesomeimportantdetailsthatshouldb": {
+    "therearesomeimportantdetailsthatshouldbe": {
+        "8_17": 1
+    },
+    "considered": {
         "8_17": 1
     },
     "rst": {
         "8_17": 10
     },
-    "makesurethatthesubwordvocabularyistrainedonasu": {
+    "technical": {
         "8_17": 1
     },
-    "cientlylargesamp": {
+    "Makesurethatthesubwordvocabularyistrainedonasu": {
         "8_17": 1
     },
-    "asdiscussedinsect": {
+    "cientlylargesample": {
         "8_17": 1
     },
-    "ahigherbatchsizemaybeben": {
+    "AsdiscussedinSection": {
         "8_17": 1
     },
-    "cialforthetrain": {
+    "ahigherbatchsizemaybebene": {
         "8_17": 1
     },
-    "exclud": {
+    "cialforthetraining": {
+        "8_17": 1
+    },
+    "excluding": {
         "8_17": 2
     },
     "longer": {
@@ -2210,40 +2579,52 @@
     "threshold": {
         "8_17": 3
     },
-    "control": {
+    "controlled": {
         "8_17": 2
+    },
+    "parameter": {
+        "8_17": 16
     },
     "max_length": {
         "8_17": 31
     },
-    "butitmaybeagoodideatoexcludetoolongsentencesevenbefor": {
+    "butitmaybeagoodideatoexcludetoolongsentencesevenbefore": {
         "8_17": 1
     },
-    "preparingthetrainingdataus": {
+    "preparingthetrainingdatausing": {
         "8_17": 1
     },
     "datagen": {
         "8_17": 1
     },
-    "thiswaythetfrecordstrain": {
+    "ThiswaytheTFRecordstraining": {
         "8_17": 1
     },
-    "superiormoredetailsonttwithbpesubwordunitsbysennrichet": {
+    "les": {
         "8_17": 1
     },
-    "theinternalimplement": {
+    "processing": {
         "8_17": 1
     },
-    "canbefoundinthetechnicalreportmorphologicalandlanguag": {
+    "superiorMoredetailsonTTwithBPEsubwordunitsbySennrichetal": {
         "8_17": 1
     },
-    "agnosticwordsegmentationfornmt": {
+    "vs": {
+        "8_17": 2
+    },
+    "theinternalimplementation": {
         "8_17": 1
     },
-    "attac": {
+    "canbefoundinthetechnicalreportMorphologicalandLanguage": {
         "8_17": 1
     },
-    "deliver": {
+    "AgnosticWordSegmentationforNMT": {
+        "8_17": 1
+    },
+    "attached": {
+        "8_17": 1
+    },
+    "Deliverable": {
         "8_17": 1
     },
     "project": {
@@ -2252,13 +2633,16 @@
     "QT": {
         "8_17": 2
     },
+    "http": {
+        "8_17": 16
+    },
     "qt": {
         "8_17": 1
     },
     "eu": {
         "8_17": 1
     },
-    "superiorthi": {
+    "superiorThis": {
         "8_17": 2
     },
     "file_byte_budget": {
@@ -2267,32 +2651,35 @@
     "constant": {
         "8_17": 6
     },
-    "chane": {
-        "8_17": 2
+    "changed": {
+        "8_17": 1
     },
-    "directli": {
+    "directly": {
         "8_17": 1
     },
     "code": {
         "8_17": 1
     },
-    "inttv": {
+    "inTTv": {
         "8_17": 1
     },
-    "asignoftoosmalltrainingdataforthesubwordvocabularyisthatth": {
+    "Asignoftoosmalltrainingdataforthesubwordvocabularyisthatthe": {
         "8_17": 1
     },
     "min_count": {
         "8_17": 1
     },
-    "asrepor": {
+    "asreported": {
         "8_17": 1
     },
-    "log": {
+    "logs": {
         "8_17": 1
     },
     "low": {
         "8_17": 2
+    },
+    "estimated": {
+        "8_17": 1
     },
     "seen": {
         "8_17": 3
@@ -2300,7 +2687,7 @@
     "twice": {
         "8_17": 1
     },
-    "superiorw": {
+    "superiorWe": {
         "8_17": 5
     },
     "did": {
@@ -2309,22 +2696,34 @@
     "pre": {
         "8_17": 3
     },
-    "ltere": {
+    "ltering": {
         "8_17": 1
     },
-    "present": {
+    "Experiments": {
         "8_17": 2
     },
-    "sever": {
-        "8_17": 5
-    },
-    "summar": {
+    "section": {
         "8_17": 3
     },
-    "obser": {
+    "present": {
+        "8_17": 1
+    },
+    "several": {
+        "8_17": 5
+    },
+    "summarizing": {
         "8_17": 2
     },
-    "vation": {
+    "obser": {
+        "8_17": 1
+    },
+    "vations": {
+        "8_17": 1
+    },
+    "generally": {
+        "8_17": 1
+    },
+    "learned": {
         "8_17": 1
     },
     "done": {
@@ -2333,10 +2732,16 @@
     "unless": {
         "8_17": 1
     },
-    "otherwis": {
+    "stated": {
+        "8_17": 1
+    },
+    "otherwise": {
         "8_17": 2
     },
-    "tran": {
+    "sets": {
+        "8_17": 1
+    },
+    "trans": {
         "8_17": 6
     },
     "former_big_single_gpu": {
@@ -2351,11 +2756,14 @@
     "BASE": {
         "8_17": 31
     },
-    "mainli": {
+    "er": {
+        "8_17": 5
+    },
+    "mainly": {
         "8_17": 1
     },
-    "note": {
-        "8_17": 4
+    "Note": {
+        "8_17": 2
     },
     "transformer_big_single_gpu": {
         "8_17": 3
@@ -2363,28 +2771,34 @@
     "former_base_single_gpu": {
         "8_17": 1
     },
-    "name": {
+    "names": {
+        "8_17": 1
+    },
+    "applied": {
         "8_17": 2
     },
     "even": {
-        "8_17": 13
+        "8_17": 12
     },
-    "baselineset": {
+    "baselinesetting": {
         "8_17": 1
     },
-    "thebig": {
+    "theBIG": {
         "8_17": 1
     },
-    "withit": {
+    "withits": {
         "8_17": 1
     },
     "parametersexcept": {
         "8_17": 1
     },
-    "discuss": {
+    "discussion": {
         "8_17": 1
     },
-    "train_step": {
+    "sizes": {
+        "8_17": 5
+    },
+    "train_steps": {
         "8_17": 1
     },
     "highenough": {
@@ -2393,91 +2807,100 @@
     "sowecanstopeachexperimentman": {
         "8_17": 1
     },
-    "ualli": {
+    "ually": {
         "8_17": 1
     },
-    "save_checkpoints_sec": {
+    "save_checkpoints_secs": {
         "8_17": 1
     },
-    "forc": {
+    "forces": {
         "8_17": 1
     },
-    "save": {
-        "8_17": 4
+    "checkpoint": {
+        "8_17": 11
     },
-    "schedul": {
-        "8_17": 10
+    "saving": {
+        "8_17": 2
     },
-    "disab": {
+    "schedule": {
+        "8_17": 6
+    },
+    "train": {
+        "8_17": 11
+    },
+    "disables": {
         "8_17": 1
     },
-    "intern": {
-        "8_17": 4
+    "internal": {
+        "8_17": 1
     },
     "approx_bleu": {
         "8_17": 1
     },
-    "make": {
-        "8_17": 6
+    "makes": {
+        "8_17": 3
     },
-    "primarili": {
+    "primarily": {
         "8_17": 1
     },
-    "interes": {
-        "8_17": 2
-    },
-    "timetillscor": {
+    "interested": {
         "8_17": 1
     },
-    "andwediscussitinthefollowingsect": {
+    "TimeTillScore": {
         "8_17": 1
     },
-    "inthissect": {
+    "andwediscussitinthefollowingsections": {
         "8_17": 1
     },
-    "focushoweveronlyonth": {
+    "Inthissection": {
         "8_17": 1
     },
-    "computationspe": {
+    "focushoweveronlyonthe": {
+        "8_17": 1
+    },
+    "computationspeed": {
         "8_17": 1
     },
     "andtrainingthroughput": {
         "8_17": 1
     },
-    "botharea": {
+    "Botharea": {
         "8_17": 1
     },
-    "factor": {
-        "8_17": 4
+    "ected": {
+        "8_17": 1
+    },
+    "factors": {
+        "8_17": 1
     },
     "almost": {
         "8_17": 7
     },
-    "show": {
-        "8_17": 12
+    "shows": {
+        "8_17": 7
     },
-    "variou": {
+    "various": {
         "8_17": 5
     },
-    "cell": {
+    "cells": {
         "8_17": 1
     },
     "where": {
         "8_17": 6
     },
-    "resul": {
+    "resulted": {
         "8_17": 3
     },
-    "error": {
+    "errors": {
         "8_17": 4
     },
-    "mare": {
+    "marked": {
         "8_17": 2
     },
     "OOM": {
         "8_17": 8
     },
-    "superioraccor": {
+    "superiorAccording": {
         "8_17": 1
     },
     "former_big": {
@@ -2486,38 +2909,53 @@
     "although": {
         "8_17": 2
     },
-    "suggest": {
-        "8_17": 6
-    },
-    "author": {
+    "naming": {
         "8_17": 1
     },
-    "opposit": {
+    "suggests": {
+        "8_17": 3
+    },
+    "authors": {
         "8_17": 1
     },
-    "superioralsotherearesomeproblemswiththealternativeschedul": {
+    "opposite": {
         "8_17": 1
     },
-    "train_and_evalu": {
+    "experience": {
+        "8_17": 1
+    },
+    "superiorAlsotherearesomeproblemswiththealternativeschedules": {
+        "8_17": 1
+    },
+    "train_and_evaluate": {
         "8_17": 1
     },
     "itneedsmoremem": {
         "8_17": 1
     },
-    "ori": {
+    "ory": {
         "8_17": 1
     },
-    "continuous_train_and_ev": {
+    "continuous_train_and_eval": {
         "8_17": 1
     },
-    "superiortensorboard": {
+    "superiorTensorBoard": {
         "8_17": 1
     },
     "global_step": {
         "8_17": 2
     },
-    "statist": {
+    "sec": {
         "8_17": 1
+    },
+    "statistics": {
+        "8_17": 1
+    },
+    "curve": {
+        "8_17": 10
+    },
+    "These": {
+        "8_17": 2
     },
     "experimentsarealmostconstantforthewholetrainingwithvariationwithin": {
         "8_17": 1
@@ -2525,44 +2963,56 @@
     "exceptformomentswhen": {
         "8_17": 1
     },
+    "saved": {
+        "8_17": 1
+    },
     "slower": {
         "8_17": 2
     },
-    "superiorfor": {
+    "superiorFor": {
         "8_17": 1
     },
-    "abl": {
+    "able": {
         "8_17": 4
     },
-    "chece": {
+    "additional": {
+        "8_17": 1
+    },
+    "checked": {
         "8_17": 2
     },
-    "increas": {
-        "8_17": 17
-    },
-    "oper": {
+    "decreases": {
         "8_17": 1
     },
-    "paralleliz": {
+    "increasing": {
+        "8_17": 8
+    },
+    "operations": {
         "8_17": 1
     },
-    "grow": {
-        "8_17": 5
+    "parallelizable": {
+        "8_17": 1
+    },
+    "grows": {
+        "8_17": 4
     },
     "sub": {
         "8_17": 1
     },
-    "linearli": {
+    "linearly": {
         "8_17": 2
     },
     "there": {
-        "8_17": 7
+        "8_17": 6
     },
-    "advantag": {
+    "advantage": {
+        "8_17": 3
+    },
+    "value": {
         "8_17": 3
     },
     "return": {
-        "8_17": 2
+        "8_17": 1
     },
     "question": {
         "8_17": 2
@@ -2573,55 +3023,88 @@
     "account": {
         "8_17": 1
     },
+    "approximately": {
+        "8_17": 1
+    },
+    "relative": {
+        "8_17": 3
+    },
+    "numbers": {
+        "8_17": 2
+    },
     "overhead": {
         "8_17": 4
     },
-    "synchroniz": {
+    "synchronization": {
         "8_17": 1
     },
-    "appar": {
+    "apparent": {
+        "8_17": 1
+    },
+    "Nevertheless": {
+        "8_17": 1
+    },
+    "process": {
         "8_17": 1
     },
     "without": {
         "8_17": 9
     },
-    "hypothet": {
+    "hypothetically": {
         "8_17": 1
     },
     "expect": {
+        "8_17": 2
+    },
+    "days": {
+        "8_17": 17
+    },
+    "Figure": {
+        "8_17": 20
+    },
+    "alternative": {
+        "8_17": 1
+    },
+    "Both": {
         "8_17": 3
     },
-    "dai": {
-        "8_17": 20
+    "Scaling": {
+        "8_17": 3
     },
-    "figur": {
-        "8_17": 20
+    "increases": {
+        "8_17": 2
     },
-    "forthisexperi": {
+    "Forthisexperiment": {
         "8_17": 1
     },
-    "wesubstitutedczeng": {
+    "wesubstitutedCzEng": {
         "8_17": 1
     },
-    "withczeng": {
+    "withCzEng": {
         "8_17": 1
     },
     "inthetrainingdata": {
         "8_17": 1
     },
-    "sothetotaltrainingsizeismillionsentencepair": {
+    "sothetotaltrainingsizeismillionsentencepairs": {
         "8_17": 1
     },
-    "mofenglish": {
+    "MofEnglish": {
         "8_17": 1
     },
-    "figurecomparesthebleulearningcurvesoftwoexperimentswhichdi": {
+    "FigurecomparestheBLEUlearningcurvesoftwoexperimentswhichdi": {
         "8_17": 1
     },
-    "baselin": {
+    "baseline": {
         "8_17": 5
     },
-    "versu": {
+    "versus": {
+        "8_17": 2
+    },
+    "converges": {
+        "8_17": 1
+    },
+    "improve": {
         "8_17": 2
     },
     "next": {
@@ -2630,10 +3113,13 @@
     "week": {
         "8_17": 2
     },
-    "slightli": {
+    "gives": {
+        "8_17": 2
+    },
+    "slightly": {
         "8_17": 6
     },
-    "wors": {
+    "worse": {
         "8_17": 3
     },
     "eight": {
@@ -2645,37 +3131,49 @@
     "graph": {
         "8_17": 1
     },
-    "reac": {
+    "reaching": {
+        "8_17": 2
+    },
+    "With": {
         "8_17": 2
     },
     "trainingoneepochofthesmallerdataset": {
         "8_17": 1
     },
-    "takeskstep": {
+    "takesksteps": {
         "8_17": 1
     },
-    "hoursoftrain": {
+    "hoursoftraining": {
         "8_17": 1
     },
-    "comparedtokstep": {
+    "comparedtoksteps": {
         "8_17": 1
     },
-    "compar": {
-        "8_17": 4
+    "means": {
+        "8_17": 3
     },
-    "anoth": {
+    "convergence": {
+        "8_17": 6
+    },
+    "compared": {
+        "8_17": 2
+    },
+    "datasets": {
+        "8_17": 2
+    },
+    "another": {
         "8_17": 7
     },
     "gave": {
         "8_17": 1
     },
-    "hypothes": {
+    "hypothesize": {
         "8_17": 1
     },
     "cleaner": {
         "8_17": 2
     },
-    "datasetstartsbeingclearlybett": {
+    "datasetstartsbeingclearlybetter": {
         "8_17": 1
     },
     "evenepochsinthebiggerdatasetwerenot": {
@@ -2687,10 +3185,13 @@
     "reach": {
         "8_17": 5
     },
+    "comparing": {
+        "8_17": 1
+    },
     "noisier": {
         "8_17": 1
     },
-    "mislead": {
+    "misleading": {
         "8_17": 1
     },
     "half": {
@@ -2699,29 +3200,35 @@
     "gigaword": {
         "8_17": 1
     },
+    "improves": {
+        "8_17": 1
+    },
     "cannot": {
         "8_17": 2
     },
-    "interpol": {
+    "interpolate": {
         "8_17": 1
     },
-    "continu": {
-        "8_17": 4
+    "While": {
+        "8_17": 3
     },
-    "choos": {
-        "8_17": 1
-    },
-    "reason": {
+    "continues": {
         "8_17": 2
+    },
+    "Choosing": {
+        "8_17": 1
+    },
+    "reasons": {
+        "8_17": 1
     },
     "maynot": {
         "8_17": 1
     },
-    "tanymoreonyourgpuortheymayrequiretouseaverysmallbatchs": {
+    "tanymoreonyourGPUortheymayrequiretouseaverysmallbatchsize": {
         "8_17": 1
     },
-    "superiora": {
-        "8_17": 3
+    "superioras": {
+        "8_17": 1
     },
     "transfor": {
         "8_17": 1
@@ -2732,101 +3239,116 @@
     "four": {
         "8_17": 2
     },
-    "hidden_s": {
+    "summarized": {
         "8_17": 1
     },
-    "lter_siz": {
+    "hidden_size": {
         "8_17": 1
     },
-    "num_head": {
+    "lter_size": {
+        "8_17": 1
+    },
+    "num_heads": {
         "8_17": 1
     },
     "adam_beta": {
         "8_17": 1
     },
-    "figureshowsthatonasinglegpu": {
+    "erences": {
+        "8_17": 2
+    },
+    "FigureshowsthatonasingleGPU": {
         "8_17": 1
     },
-    "thebigmodelbecomesclearlybetterthanth": {
+    "theBIGmodelbecomesclearlybetterthanthe": {
         "8_17": 1
     },
-    "basemodelafterhoursoftrainingifwekeepthebatchsizethesam": {
+    "BASEmodelafterhoursoftrainingifwekeepthebatchsizethesame": {
         "8_17": 1
     },
-    "andw": {
+    "andwe": {
         "8_17": 1
     },
     "rmed": {
         "8_17": 2
     },
-    "lessmemori": {
+    "takes": {
+        "8_17": 2
+    },
+    "lessmemory": {
         "8_17": 1
     },
     "sowecana": {
         "8_17": 1
     },
-    "ordahigherbatchs": {
+    "ordahigherbatchsize": {
         "8_17": 1
     },
-    "inourcas": {
+    "inourcase": {
         "8_17": 1
     },
     "withno": {
         "8_17": 1
     },
-    "restrict": {
-        "8_17": 4
+    "restriction": {
+        "8_17": 3
     },
-    "seethenextsect": {
+    "seethenextsection": {
         "8_17": 1
     },
-    "whichimprovesthebleu": {
+    "whichimprovestheBLEU": {
         "8_17": 1
     },
-    "buteven": {
+    "Buteven": {
         "8_17": 1
     },
-    "althoughsuchanexpectationmayseemnav": {
+    "Althoughsuchanexpectationmayseemnave": {
         "8_17": 1
     },
     "wecan": {
         "8_17": 1
     },
-    "nditinliteratur": {
+    "nditinliterature": {
         "8_17": 1
     },
-    "forexamp": {
+    "Forexample": {
         "8_17": 2
     },
-    "bottou": {
+    "Bottou": {
         "8_17": 5
     },
-    "write": {
+    "inSection": {
         "8_17": 1
     },
-    "expectthevalidationperformancetoplateauafteranumberofepochsroughlycomparableto": {
+    "writes": {
+        "8_17": 1
+    },
+    "Expectthevalidationperformancetoplateauafteranumberofepochsroughlycomparableto": {
         "8_17": 1
     },
     "dont": {
-        "8_17": 2
+        "8_17": 1
     },
     "less": {
         "8_17": 6
     },
-    "becom": {
+    "day": {
         "8_17": 3
     },
-    "figurecon": {
+    "becomes": {
+        "8_17": 2
+    },
+    "Figurecon": {
         "8_17": 1
     },
-    "rmsthiswithgpusherebigwithbatchsizebecomesclearli": {
+    "rmsthiswithGPUshereBIGwithbatchsizebecomesclearly": {
         "8_17": 1
     },
-    "prefer": {
+    "Prefer": {
         "8_17": 1
     },
     "you": {
-        "8_17": 7
+        "8_17": 5
     },
     "plan": {
         "8_17": 1
@@ -2834,76 +3356,106 @@
     "GB": {
         "8_17": 2
     },
+    "available": {
+        "8_17": 2
+    },
     "benchmark": {
         "8_17": 1
     },
-    "adam": {
+    "Adam": {
         "8_17": 8
     },
-    "adafactor": {
+    "Adafactor": {
         "8_17": 5
     },
     "none": {
         "8_17": 2
     },
-    "maximumbatchsizewhich": {
+    "Maximumbatchsizewhich": {
         "8_17": 1
     },
-    "tsintogbmemoryforvariouscombin": {
+    "tsintoGBmemoryforvariouscombinations": {
         "8_17": 1
     },
     "ofmax_length": {
         "8_17": 1
     },
+    "base": {
+        "8_17": 1
+    },
     "big": {
+        "8_17": 1
+    },
+    "optimizer": {
         "8_17": 1
     },
     "last": {
         "8_17": 4
     },
-    "column": {
+    "columns": {
         "8_17": 2
     },
-    "percentag": {
+    "show": {
+        "8_17": 5
+    },
+    "percentage": {
         "8_17": 2
     },
-    "forfastdebug": {
+    "Forfastdebugging": {
         "8_17": 1
     },
     "ofmodel": {
         "8_17": 1
     },
-    "unrelatedaspect": {
+    "unrelatedaspects": {
         "8_17": 1
     },
-    "useamodelcal": {
+    "useamodelcalled": {
         "8_17": 1
     },
-    "former_tini": {
+    "former_tiny": {
         "8_17": 1
     },
-    "esthemaximumlengthofasentenceinsubword": {
+    "Maximum": {
         "8_17": 1
     },
-    "longersent": {
+    "Sentence": {
         "8_17": 1
     },
-    "eitherinsourceortargetlanguag": {
+    "Length": {
         "8_17": 1
     },
-    "areexcludedfromthetrain": {
+    "Theparameter": {
         "8_17": 1
     },
-    "loweringth": {
+    "esthemaximumlengthofasentenceinsubwords": {
+        "8_17": 1
+    },
+    "Longersentences": {
+        "8_17": 1
+    },
+    "eitherinsourceortargetlanguage": {
+        "8_17": 1
+    },
+    "areexcludedfromthetraining": {
+        "8_17": 1
+    },
+    "completely": {
+        "8_17": 2
+    },
+    "If": {
+        "8_17": 3
+    },
+    "Loweringthe": {
         "8_17": 1
     },
     "allowstouseahigherbatchsizeorabiggermodel": {
         "8_17": 1
     },
-    "sinc": {
+    "Since": {
         "8_17": 1
     },
-    "suddenli": {
+    "suddenly": {
         "8_17": 1
     },
     "good": {
@@ -2912,22 +3464,31 @@
     "know": {
         "8_17": 2
     },
-    "t": {
-        "8_17": 3
+    "ts": {
+        "8_17": 1
     },
     "your": {
+        "8_17": 1
+    },
+    "presents": {
         "8_17": 1
     },
     "what": {
         "8_17": 3
     },
-    "superioroptim": {
+    "measured": {
+        "8_17": 2
+    },
+    "superioroptimizers": {
         "8_17": 1
     },
-    "toolowwouldresultinexcludingtoomanytrainingsent": {
+    "Setting": {
+        "8_17": 3
+    },
+    "toolowwouldresultinexcludingtoomanytrainingsentences": {
         "8_17": 1
     },
-    "bias": {
+    "biasing": {
         "8_17": 1
     },
     "shorter": {
@@ -2942,58 +3503,67 @@
     "resp": {
         "8_17": 3
     },
-    "detriment": {
+    "detrimental": {
         "8_17": 1
     },
-    "bia": {
+    "bias": {
         "8_17": 1
     },
-    "minim": {
+    "minimal": {
         "8_17": 2
     },
-    "strang": {
+    "strange": {
         "8_17": 1
     },
     "drop": {
-        "8_17": 3
+        "8_17": 2
     },
     "lower": {
-        "8_17": 5
+        "8_17": 4
     },
-    "nallygivesthesameresultasnotusingani": {
+    "Even": {
         "8_17": 1
     },
-    "superiortheadafactoroptim": {
+    "nallygivesthesameresultasnotusingany": {
         "8_17": 1
     },
-    "shazeerandstern": {
+    "superiorTheAdafactoroptimizer": {
         "8_17": 1
     },
-    "isavailableonlyintt": {
+    "ShazeerandStern": {
         "8_17": 1
     },
-    "ornewerandhasthre": {
+    "isavailableonlyinTT": {
+        "8_17": 1
+    },
+    "ornewerandhasthree": {
         "8_17": 1
     },
     "second": {
-        "8_17": 4
+        "8_17": 2
     },
-    "weight": {
+    "moments": {
         "8_17": 1
     },
-    "futur": {
+    "weights": {
+        "8_17": 1
+    },
+    "future": {
         "8_17": 3
     },
     "work": {
-        "8_17": 4
+        "8_17": 2
     },
     "max": {
         "8_17": 6
     },
-    "restric": {
+    "restricting": {
         "8_17": 1
     },
-    "thetraininglossof": {
+    "An": {
+        "8_17": 1
+    },
+    "Thetraininglossof": {
         "8_17": 1
     },
     "andand": {
@@ -3002,73 +3572,94 @@
     "hashighvarianceand": {
         "8_17": 1
     },
-    "stop": {
+    "stops": {
         "8_17": 1
     },
-    "diver": {
+    "increase": {
+        "8_17": 4
+    },
+    "diverged": {
         "8_17": 6
     },
-    "discus": {
+    "discussed": {
         "8_17": 1
     },
-    "explan": {
+    "explanation": {
         "8_17": 2
     },
     "phenomenon": {
         "8_17": 1
     },
-    "slowergrowingbleucurv": {
+    "slowergrowingBLEUcurves": {
         "8_17": 1
     },
     "butandhigherhasthesamecurveasno": {
         "8_17": 1
     },
-    "thattheyarenotabletoproducelongertranslationsthanwhatwasthemaximumlengthus": {
+    "So": {
+        "8_17": 4
+    },
+    "observed": {
         "8_17": 1
     },
-    "decod": {
+    "thattheyarenotabletoproducelongertranslationsthanwhatwasthemaximumlengthused": {
+        "8_17": 1
+    },
+    "decoding": {
         "8_17": 1
     },
     "alpha": {
         "8_17": 1
     },
-    "isahigherchancethatthetrainingwillfaileitherimmedi": {
+    "Set": {
         "8_17": 1
     },
-    "ifthebatchs": {
+    "reasonably": {
         "8_17": 1
     },
-    "setareasonablyhigh": {
+    "prevents": {
         "8_17": 1
     },
-    "considerthepercentageofsentencesexclud": {
+    "isahigherchancethatthetrainingwillfaileitherimmediately": {
+        "8_17": 1
+    },
+    "ifthebatchsize": {
+        "8_17": 1
+    },
+    "Setareasonablyhigh": {
+        "8_17": 1
+    },
+    "Considerthepercentageofsentencesexcluded": {
         "8_17": 1
     },
     "fromtrainingandfromthetargeteddevelopmenttestsetandalsowatchforun": {
         "8_17": 1
     },
-    "expecteddrop": {
+    "expecteddrops": {
         "8_17": 1
     },
-    "orstagn": {
+    "orstagnations": {
         "8_17": 1
     },
-    "ofthebleucurveinth": {
+    "oftheBLEUcurveinthe": {
         "8_17": 1
     },
-    "rsthoursoftrain": {
+    "rsthoursoftraining": {
         "8_17": 1
     },
-    "thedefault": {
+    "Thedefault": {
         "8_17": 1
     },
-    "valueinrecentttversionsissubwordsforallmodel": {
+    "valueinrecentTTversionsissubwordsforallmodels": {
         "8_17": 1
     },
     "except": {
         "8_17": 2
     },
-    "explicitli": {
+    "recommend": {
+        "8_17": 1
+    },
+    "explicitly": {
         "8_17": 1
     },
     "superioror": {
@@ -3077,37 +3668,49 @@
     "least": {
         "8_17": 3
     },
-    "figureshowslearningcurvesfor": {
+    "make": {
+        "8_17": 2
+    },
+    "note": {
+        "8_17": 1
+    },
+    "experimental": {
+        "8_17": 1
+    },
+    "Figureshowslearningcurvesfor": {
         "8_17": 1
     },
     "vedi": {
         "8_17": 1
     },
-    "erentbatchs": {
+    "erentbatchsizes": {
+        "8_17": 1
+    },
+    "superiorA": {
         "8_17": 1
     },
     "sizeup": {
         "8_17": 1
     },
-    "examplestillscoremetricsd": {
+    "ExamplesTillScoremetricsde": {
         "8_17": 1
     },
-    "nedinsect": {
+    "nedinSection": {
         "8_17": 1
     },
-    "togetoverbleuof": {
+    "togetoverBLEUof": {
         "8_17": 1
     },
-    "weneedhour": {
+    "weneedhours": {
         "8_17": 1
     },
-    "mexamp": {
+    "Mexamples": {
         "8_17": 1
     },
     "andwith": {
         "8_17": 1
     },
-    "fromtableaweknowthatbiggerbatcheshaveslowercomputationspe": {
+    "FromTableaweknowthatbiggerbatcheshaveslowercomputationspeed": {
         "8_17": 1
     },
     "sowhen": {
@@ -3116,14 +3719,17 @@
     "re": {
         "8_17": 3
     },
-    "plote": {
+    "plotting": {
         "8_17": 2
     },
     "x": {
         "8_17": 3
     },
-    "axi": {
+    "axis": {
         "8_17": 3
+    },
+    "From": {
+        "8_17": 1
     },
     "exceptionisthedi": {
         "8_17": 1
@@ -3134,176 +3740,233 @@
     "whichisverysmalland": {
         "8_17": 1
     },
-    "hparam": {
+    "superiore": {
         "8_17": 1
     },
-    "learning_r": {
+    "hparams": {
+        "8_17": 1
+    },
+    "learning_rate": {
         "8_17": 8
     },
-    "learning_rate_warmup_step": {
+    "learning_rate_warmup_steps": {
         "8_17": 4
     },
     "power": {
         "8_17": 1
     },
-    "superioral": {
+    "superiorAll": {
         "8_17": 1
     },
     "got": {
         "8_17": 1
     },
-    "rune": {
+    "running": {
         "8_17": 2
     },
-    "fail": {
+    "restrictions": {
         "8_17": 1
     },
-    "canbefullyexplainedbythefactthatbatchsizeha": {
+    "failed": {
+        "8_17": 1
+    },
+    "canbefullyexplainedbythefactthatbatchsizehas": {
         "8_17": 1
     },
     "higherthroughputthan": {
         "8_17": 1
     },
-    "sofor": {
+    "Sofor": {
         "8_17": 1
     },
     "dimin": {
         "8_17": 1
     },
-    "is": {
+    "ishing": {
         "8_17": 1
     },
-    "goe": {
+    "returns": {
         "8_17": 1
     },
-    "knowledg": {
+    "observation": {
+        "8_17": 2
+    },
+    "goes": {
+        "8_17": 1
+    },
+    "common": {
+        "8_17": 2
+    },
+    "knowledge": {
+        "8_17": 1
+    },
+    "frameworks": {
         "8_17": 1
     },
     "deep": {
-        "8_17": 3
+        "8_17": 1
     },
-    "keskar": {
+    "Keskar": {
         "8_17": 2
     },
-    "proceedslow": {
+    "proceedslower": {
         "8_17": 1
     },
     "trainingexamplesperhour": {
         "8_17": 1
     },
-    "butresultinbettergener": {
+    "butresultinbettergeneralization": {
         "8_17": 1
     },
     "end": {
         "8_17": 1
     },
-    "expec": {
+    "expected": {
         "8_17": 2
     },
-    "interestingli": {
+    "Interestingly": {
         "8_17": 1
     },
-    "erentresult": {
+    "replicating": {
         "8_17": 1
     },
-    "asshowninfigur": {
+    "erentresults": {
         "8_17": 1
     },
-    "thebigmodelneedsacertainminimalbatchs": {
+    "asshowninFigure": {
         "8_17": 1
     },
-    "tostartconvergingatal": {
+    "TheBIGmodelneedsacertainminimalbatchsize": {
+        "8_17": 1
+    },
+    "tostartconvergingatall": {
         "8_17": 1
     },
     "butforhigherbatchsizesthereisalmostnodi": {
         "8_17": 1
     },
-    "erenceinth": {
+    "erenceinthe": {
         "8_17": 1
     },
-    "bleucurv": {
+    "BLEUcurves": {
         "8_17": 1
     },
-    "butstil": {
+    "butstill": {
         "8_17": 1
     },
-    "biggerbatchnevermakesthebleuworseinourexperi": {
+    "biggerbatchnevermakestheBLEUworseinourexperiments": {
         "8_17": 1
     },
     "sharp": {
-        "8_17": 3
+        "8_17": 2
+    },
+    "trains": {
+        "8_17": 1
+    },
+    "drops": {
+        "8_17": 1
     },
     "o": {
         "8_17": 2
     },
-    "recov": {
+    "recovering": {
         "8_17": 1
     },
-    "slowli": {
+    "slowly": {
         "8_17": 2
     },
-    "smith": {
+    "According": {
+        "8_17": 2
+    },
+    "Smith": {
         "8_17": 6
     },
     "gradient": {
-        "8_17": 8
+        "8_17": 6
+    },
+    "scale": {
+        "8_17": 5
     },
     "scaleofrandom": {
         "8_17": 1
     },
-    "uctuationsinthesgd": {
+    "uctuationsintheSGD": {
         "8_17": 1
     },
-    "oradametc": {
+    "orAdametc": {
         "8_17": 1
     },
-    "dynamic": {
+    "dynamics": {
         "8_17": 1
     },
-    "isproport": {
+    "isproportional": {
+        "8_17": 1
+    },
+    "divided": {
         "8_17": 1
     },
     "cf": {
         "8_17": 4
     },
-    "batchsiz": {
-        "8_17": 1
-    },
-    "weincreasethenoisescaleandthetrainingmai": {
-        "8_17": 1
-    },
-    "diverg": {
-        "8_17": 9
-    },
-    "thismaybeeith": {
-        "8_17": 1
-    },
-    "perman": {
-        "8_17": 1
-    },
-    "temporari": {
+    "Thus": {
         "8_17": 2
+    },
+    "lowering": {
+        "8_17": 1
+    },
+    "batchsize": {
+        "8_17": 1
+    },
+    "weincreasethenoisescaleandthetrainingmay": {
+        "8_17": 1
+    },
+    "diverge": {
+        "8_17": 1
+    },
+    "Thismaybeeither": {
+        "8_17": 1
+    },
+    "permanent": {
+        "8_17": 1
+    },
+    "temporary": {
+        "8_17": 2
+    },
+    "grow": {
+        "8_17": 1
     },
     "sure": {
         "8_17": 3
     },
-    "caus": {
+    "causes": {
         "8_17": 1
     },
-    "regard": {
+    "regards": {
         "8_17": 1
     },
-    "hypothesi": {
+    "One": {
         "8_17": 2
+    },
+    "hypothesis": {
+        "8_17": 2
+    },
+    "initialize": {
+        "8_17": 1
+    },
+    "sensitive": {
+        "8_17": 1
+    },
+    "divergence": {
+        "8_17": 8
     },
     "phase": {
-        "8_17": 4
+        "8_17": 2
     },
-    "highli": {
+    "highly": {
         "8_17": 1
     },
-    "help": {
-        "8_17": 2
+    "helpful": {
+        "8_17": 1
     },
     "until": {
         "8_17": 1
@@ -3311,16 +3974,22 @@
     "limit": {
         "8_17": 2
     },
-    "preven": {
+    "preventing": {
         "8_17": 1
     },
-    "reserv": {
+    "Tip": {
         "8_17": 1
     },
-    "hite": {
+    "keeping": {
+        "8_17": 3
+    },
+    "reserve": {
         "8_17": 1
     },
-    "advis": {
+    "hitting": {
+        "8_17": 1
+    },
+    "advisable": {
         "8_17": 1
     },
     "establish": {
@@ -3329,91 +3998,115 @@
     "largest": {
         "8_17": 1
     },
-    "befor": {
+    "before": {
+        "8_17": 1
+    },
+    "Rate": {
+        "8_17": 7
+    },
+    "Warmup": {
+        "8_17": 4
+    },
+    "Single": {
         "8_17": 1
     },
     "learningratetoolow": {
         "8_17": 1
     },
-    "resultsinnotablyslowerconverg": {
+    "resultsinnotablyslowerconvergence": {
         "8_17": 1
     },
-    "settingthelear": {
+    "Settingthelearning": {
         "8_17": 1
     },
-    "divergedtrain": {
+    "gure": {
         "8_17": 1
     },
-    "inthiscasethatthelearningcurvestartsgrowingasusu": {
+    "divergedtraining": {
         "8_17": 1
     },
-    "butatonemomentdrop": {
+    "inthiscasethatthelearningcurvestartsgrowingasusual": {
+        "8_17": 1
+    },
+    "butatonemomentdrops": {
         "8_17": 1
     },
     "down": {
         "8_17": 2
     },
-    "stai": {
+    "stays": {
         "8_17": 2
     },
-    "forev": {
+    "forever": {
         "8_17": 1
     },
-    "introduc": {
+    "introduce": {
         "8_17": 2
     },
-    "clipe": {
+    "clipping": {
         "8_17": 2
     },
-    "linear_warmup_rsqrt_decai": {
+    "linear_warmup_rsqrt_decay": {
         "8_17": 2
     },
     "superiorand": {
         "8_17": 2
     },
-    "superiorth": {
-        "8_17": 2
+    "superiorThe": {
+        "8_17": 1
     },
-    "call": {
+    "called": {
         "8_17": 2
     },
     "noamin": {
         "8_17": 1
     },
-    "rstkstepsthelearningrategrowslinearlyandthenfollowsaninversesquar": {
+    "versions": {
+        "8_17": 2
+    },
+    "rstkstepsthelearningrategrowslinearlyandthenfollowsaninversesquare": {
         "8_17": 1
     },
     "root": {
         "8_17": 3
     },
-    "decai": {
-        "8_17": 7
+    "decay": {
+        "8_17": 5
+    },
+    "t": {
+        "8_17": 2
     },
     "highest": {
         "8_17": 2
     },
     "happen": {
-        "8_17": 2
-    },
-    "look": {
         "8_17": 1
     },
-    "similarli": {
-        "8_17": 3
-    },
-    "baselineon": {
+    "happens": {
         "8_17": 1
     },
-    "withdefaultvaluesofkwarmupstepsandlearningr": {
+    "increased": {
         "8_17": 1
     },
-    "tryinglearningr": {
+    "looked": {
+        "8_17": 1
+    },
+    "similarly": {
+        "8_17": 1
+    },
+    "baselineone": {
+        "8_17": 1
+    },
+    "withdefaultvaluesofkwarmupstepsandlearningrate": {
+        "8_17": 1
+    },
+    "tryinglearningrate": {
         "8_17": 1
     },
     "wehadtoincreasewarmupstepstok": {
         "8_17": 1
     },
-    "withkthetrain": {
+    "withkthetraining": {
         "8_17": 1
     },
     "divergedafteronehour": {
@@ -3422,16 +4115,16 @@
     "thisresultedinaslowerconvergenceat": {
         "8_17": 1
     },
-    "aboutbleu": {
+    "aboutBLEU": {
         "8_17": 1
     },
-    "lowerthanthebaselineafterhoursoftrain": {
+    "lowerthanthebaselineafterhoursoftraining": {
         "8_17": 1
     },
-    "butafterdaysoftraininghav": {
+    "butafterdaysoftraininghaving": {
         "8_17": 1
     },
-    "figureshowsthe": {
+    "Figureshowsthee": {
         "8_17": 1
     },
     "ectofdi": {
@@ -3440,94 +4133,103 @@
     "erentwarmupstepswitha": {
         "8_17": 1
     },
-    "xedlearningr": {
+    "xedlearningrate": {
         "8_17": 1
     },
-    "settingwarmupstepstoolow": {
+    "Settingwarmupstepstoolow": {
         "8_17": 1
     },
-    "resultsindivergedtrain": {
+    "resultsindivergedtraining": {
         "8_17": 1
     },
     "green": {
         "8_17": 1
     },
-    "matc": {
+    "matching": {
         "8_17": 1
     },
-    "largerangeoflearningrateandwarmupstepsvaluesthatachievetheoptimalresult": {
+    "largerangeoflearningrateandwarmupstepsvaluesthatachievetheoptimalresults": {
         "8_17": 1
     },
     "try": {
         "8_17": 3
     },
-    "ifthatdoesnothelp": {
+    "Ifthatdoesnothelp": {
         "8_17": 1
     },
-    "orifthewarmupstepsaretoohighrelativetotheexpec": {
+    "orifthewarmupstepsaretoohighrelativetotheexpected": {
         "8_17": 1
     },
     "lin": {
         "8_17": 1
     },
-    "ear_warmup_rsqrt_decai": {
+    "ear_warmup_rsqrt_decay": {
         "8_17": 1
     },
     "aka": {
         "8_17": 2
     },
     "noam": {
-        "8_17": 3
-    },
-    "simpli": {
         "8_17": 2
     },
-    "worker_gpu": {
+    "Number": {
+        "8_17": 2
+    },
+    "simply": {
+        "8_17": 2
+    },
+    "worker_gpus": {
         "8_17": 1
     },
-    "explain": {
-        "8_17": 3
-    },
-    "asing": {
+    "superiorAs": {
         "8_17": 1
     },
-    "gpuexperimentwithbatchs": {
+    "explained": {
         "8_17": 1
     },
-    "shouldgiveexactlythesameresult": {
+    "interpreted": {
         "8_17": 1
     },
-    "whenconsideringtim": {
+    "Asingle": {
+        "8_17": 1
+    },
+    "GPUexperimentwithbatchsize": {
+        "8_17": 1
+    },
+    "shouldgiveexactlythesameresults": {
+        "8_17": 1
+    },
+    "Whenconsideringtime": {
         "8_17": 1
     },
     "thefour": {
         "8_17": 1
     },
-    "gpuexperimentwillbethefasteston": {
+    "GPUexperimentwillbethefastestone": {
         "8_17": 1
     },
-    "asexplain": {
+    "asexplained": {
         "8_17": 1
     },
     "andk": {
         "8_17": 1
     },
-    "ascouldbeexpec": {
+    "Ascouldbeexpected": {
         "8_17": 1
     },
-    "trainingwithmoregpusconverg": {
+    "trainingwithmoreGPUsconverges": {
         "8_17": 1
     },
-    "whatisinterestingisthetimetillscor": {
+    "WhatisinterestingistheTimeTillScore": {
         "8_17": 1
     },
-    "tableliststheapproximatetrain": {
+    "Tableliststheapproximatetraining": {
         "8_17": 1
     },
-    "timeandnumberoftrainingexamp": {
+    "timeandnumberoftrainingexamples": {
         "8_17": 1
     },
-    "inmillionsofsubword": {
+    "inmillionsofsubwords": {
         "8_17": 1
     },
     "neededtosurpass": {
@@ -3536,50 +4238,68 @@
     "again": {
         "8_17": 2
     },
-    "andexamplestillscor": {
+    "fall": {
         "8_17": 1
     },
-    "notethattheexperimentongpuwasendedafterdai": {
+    "andExamplesTillScore": {
         "8_17": 1
     },
-    "surpas": {
+    "NotethattheexperimentonGPUwasendedafterdays": {
         "8_17": 1
     },
-    "outsid": {
+    "surpassing": {
         "8_17": 1
     },
-    "hold": {
+    "outside": {
+        "8_17": 1
+    },
+    "holds": {
         "8_17": 3
     },
-    "unexpec": {
+    "unexpected": {
         "8_17": 1
     },
-    "unintuit": {
+    "unintuitive": {
         "8_17": 1
     },
-    "environ": {
+    "users": {
         "8_17": 1
     },
-    "variab": {
+    "making": {
+        "8_17": 1
+    },
+    "environment": {
+        "8_17": 1
+    },
+    "variable": {
         "8_17": 1
     },
     "CUDA_VISIBLE_DEVICES": {
         "8_17": 1
     },
-    "card": {
+    "cards": {
         "8_17": 1
     },
-    "distribut": {
+    "distributed": {
         "8_17": 3
     },
-    "experimen": {
+    "machines": {
+        "8_17": 1
+    },
+    "experimented": {
         "8_17": 1
     },
     "multi": {
         "8_17": 3
     },
-    "synchronou": {
+    "gpu": {
         "8_17": 1
+    },
+    "synchronous": {
+        "8_17": 1
+    },
+    "updates": {
+        "8_17": 2
     },
     "black": {
         "8_17": 1
@@ -3587,115 +4307,142 @@
     "line": {
         "8_17": 1
     },
-    "lowerexamplestillscor": {
+    "measuring": {
         "8_17": 1
     },
-    "eightgpusaremorethan": {
+    "lowerExamplesTillScore": {
+        "8_17": 1
+    },
+    "Similarly": {
+        "8_17": 2
+    },
+    "eightGPUsaremorethan": {
         "8_17": 1
     },
     "vetimesfasterthantwo": {
         "8_17": 1
     },
-    "gpusand": {
+    "GPUsand": {
         "8_17": 1
     },
-    "recal": {
+    "Recall": {
         "8_17": 1
     },
-    "hasalmostno": {
+    "hasalmostnoe": {
         "8_17": 1
     },
-    "ectonthebleucurv": {
+    "ectontheBLEUcurve": {
         "8_17": 1
     },
-    "whenincreasingthe": {
+    "whenincreasingthee": {
+        "8_17": 1
+    },
+    "improvement": {
         "8_17": 1
     },
     "nd": {
         "8_17": 2
     },
-    "especi": {
+    "especially": {
         "8_17": 1
     },
-    "tune": {
+    "tuned": {
         "8_17": 1
     },
     "fastest": {
         "8_17": 1
     },
-    "ment": {
+    "experi": {
         "8_17": 1
     },
-    "superiorit": {
+    "ments": {
         "8_17": 1
     },
-    "simul": {
+    "example": {
+        "8_17": 3
+    },
+    "superiorIt": {
         "8_17": 1
     },
-    "do": {
+    "interesting": {
         "8_17": 1
     },
-    "updateonceafternbatch": {
+    "simulating": {
         "8_17": 1
     },
-    "andsummingthegradi": {
+    "doing": {
         "8_17": 1
     },
-    "thisissimilartoth": {
+    "updateonceafterNbatches": {
         "8_17": 1
     },
-    "ghostbatch": {
+    "andsummingthegradients": {
         "8_17": 1
     },
-    "ofho": {
+    "Thisissimilartothe": {
         "8_17": 1
     },
-    "eret": {
+    "ghostbatches": {
+        "8_17": 1
+    },
+    "ofHo": {
+        "8_17": 1
+    },
+    "eretal": {
         "8_17": 4
     },
     "ghost": {
         "8_17": 2
     },
-    "relat": {
-        "8_17": 1
-    },
-    "thereisagrowingnumberofpapersonscalingdeeplearningtomultiplemachin": {
-        "8_17": 1
-    },
-    "withsynchronoussgd": {
-        "8_17": 1
-    },
-    "oritsvari": {
-        "8_17": 1
-    },
-    "byincreasingthe": {
-        "8_17": 1
-    },
-    "ectivebatchs": {
+    "Multiple": {
         "8_17": 2
     },
-    "wewil": {
+    "Related": {
         "8_17": 1
     },
-    "focu": {
+    "Work": {
+        "8_17": 1
+    },
+    "Thereisagrowingnumberofpapersonscalingdeeplearningtomultiplemachines": {
+        "8_17": 1
+    },
+    "withsynchronousSGD": {
+        "8_17": 1
+    },
+    "oritsvariants": {
+        "8_17": 1
+    },
+    "byincreasingthee": {
+        "8_17": 1
+    },
+    "ectivebatchsize": {
+        "8_17": 2
+    },
+    "Wewill": {
+        "8_17": 1
+    },
+    "focus": {
         "8_17": 1
     },
     "adapt": {
-        "8_17": 4
-    },
-    "devic": {
         "8_17": 1
     },
-    "kgpu": {
+    "device": {
         "8_17": 1
     },
-    "krizhevski": {
+    "kGPUs": {
+        "8_17": 1
+    },
+    "Krizhevsky": {
         "8_17": 2
     },
-    "sai": {
+    "says": {
         "8_17": 1
     },
-    "theori": {
+    "Theory": {
+        "8_17": 1
+    },
+    "multiplying": {
         "8_17": 2
     },
     "byv": {
@@ -3704,13 +4451,22 @@
     "kto": {
         "8_17": 1
     },
+    "expectation": {
+        "8_17": 1
+    },
+    "explaining": {
+        "8_17": 1
+    },
+    "theory": {
+        "8_17": 1
+    },
     "experimentalparthereportsthatwhatworkedthebest": {
         "8_17": 1
     },
     "wasa": {
         "8_17": 1
     },
-    "linearscalingheurist": {
+    "linearscalingheuristics": {
         "8_17": 1
     },
     "nor": {
@@ -3719,43 +4475,55 @@
     "betweenv": {
         "8_17": 1
     },
-    "kscale": {
+    "kscaling": {
         "8_17": 3
     },
     "linear": {
         "8_17": 3
     },
-    "heurist": {
+    "heuristics": {
+        "8_17": 1
+    },
+    "become": {
         "8_17": 1
     },
     "popular": {
         "8_17": 2
     },
-    "goyalet": {
-        "8_17": 2
-    },
-    "smithet": {
+    "leading": {
         "8_17": 1
     },
-    "andalsotheoreticalexplan": {
+    "Goyaletal": {
+        "8_17": 2
+    },
+    "Smithetal": {
+        "8_17": 1
+    },
+    "andalsotheoreticalexplanations": {
         "8_17": 1
     },
     "etal": {
         "8_17": 2
     },
-    "jastrzebskiet": {
+    "SmithandLe": {
+        "8_17": 2
+    },
+    "Jastrzebskietal": {
+        "8_17": 1
+    },
+    "interpret": {
         "8_17": 1
     },
     "SGD": {
         "8_17": 5
     },
-    "anditsvari": {
+    "anditsvariants": {
         "8_17": 1
     },
     "asastochasticdi": {
         "8_17": 1
     },
-    "erentialequationandshowthatth": {
+    "erentialequationandshowthatthe": {
         "8_17": 1
     },
     "equalx": {
@@ -3764,40 +4532,58 @@
     "B": {
         "8_17": 4
     },
-    "ni": {
+    "Nis": {
         "8_17": 1
     },
-    "bi": {
+    "Bis": {
         "8_17": 1
     },
-    "drive": {
+    "drives": {
         "8_17": 1
     },
-    "awai": {
+    "away": {
         "8_17": 1
     },
     "minima": {
+        "8_17": 2
+    },
+    "therefore": {
+        "8_17": 1
+    },
+    "optimal": {
         "8_17": 4
     },
-    "therefor": {
+    "maximizes": {
         "8_17": 1
     },
-    "maxim": {
+    "accuracy": {
+        "8_17": 1
+    },
+    "generalize": {
         "8_17": 3
     },
-    "accuraci": {
-        "8_17": 1
-    },
-    "ho": {
+    "Ho": {
         "8_17": 4
     },
     "suggesttousev": {
         "8_17": 1
     },
-    "kscalinginsteadofthelinearsc": {
+    "kscalinginsteadofthelinearscaling": {
+        "8_17": 1
+    },
+    "theoretical": {
+        "8_17": 1
+    },
+    "empirical": {
+        "8_17": 1
+    },
+    "support": {
         "8_17": 1
     },
     "claim": {
+        "8_17": 1
+    },
+    "They": {
         "8_17": 1
     },
     "cov": {
@@ -3809,7 +4595,7 @@
     "NB": {
         "8_17": 1
     },
-    "thusifwewanttokeepthethecovariancematrixoftheparamet": {
+    "thusifwewanttokeepthethecovariancematrixoftheparameters": {
         "8_17": 1
     },
     "win": {
@@ -3818,130 +4604,157 @@
     "learningrateproportionallytothesquarerootof": {
         "8_17": 1
     },
-    "theyfoundthatv": {
+    "Theyfoundthatv": {
         "8_17": 1
     },
-    "kscalingwork": {
+    "kscalingworks": {
         "8_17": 1
     },
     "CIFAR": {
         "8_17": 1
     },
-    "imagenet": {
+    "You": {
+        "8_17": 2
+    },
+    "perform": {
+        "8_17": 1
+    },
+    "ImageNet": {
         "8_17": 4
     },
-    "layer": {
-        "8_17": 3
+    "suggest": {
+        "8_17": 2
+    },
+    "Layer": {
+        "8_17": 2
     },
     "wise": {
         "8_17": 1
     },
-    "wecanseethatlarg": {
+    "Adaptive": {
+        "8_17": 2
+    },
+    "Wecanseethatlarge": {
         "8_17": 1
     },
-    "batchtrainingisstillanopenresearchquest": {
+    "batchtrainingisstillanopenresearchquestion": {
         "8_17": 1
     },
-    "mostofth": {
+    "Mostofthe": {
         "8_17": 1
     },
-    "paperscitedabovehaveexperimentalsupportonlyfromtheimagerecognitiontask": {
+    "paperscitedabovehaveexperimentalsupportonlyfromtheimagerecognitiontasks": {
         "8_17": 1
     },
-    "usuallyimagenet": {
+    "usuallyImageNet": {
         "8_17": 1
     },
-    "andconvolutionalnetwork": {
+    "andconvolutionalnetworks": {
         "8_17": 1
     },
-    "resnet": {
+    "ResNet": {
         "8_17": 1
     },
-    "soitisnotclearwheth": {
+    "soitisnotclearwhether": {
         "8_17": 1
     },
-    "task": {
-        "8_17": 3
+    "suggestions": {
+        "8_17": 1
+    },
+    "tasks": {
+        "8_17": 1
     },
     "self": {
         "8_17": 1
     },
-    "attent": {
-        "8_17": 2
-    },
-    "modernconvolutionalnetworksareusuallytrainedwith": {
+    "attentional": {
         "8_17": 1
     },
-    "batchnorm": {
-        "8_17": 2
+    "networks": {
+        "8_17": 4
     },
-    "io": {
+    "There": {
+        "8_17": 1
+    },
+    "Modernconvolutionalnetworksareusuallytrainedwith": {
+        "8_17": 1
+    },
+    "batchnormalization": {
+        "8_17": 1
+    },
+    "Io": {
         "8_17": 2
     },
     "eand": {
         "8_17": 1
     },
-    "szegedi": {
+    "Szegedy": {
         "8_17": 1
     },
-    "seem": {
+    "seems": {
         "8_17": 2
     },
-    "toclosethegapbetweensmal": {
+    "Toclosethegapbetweensmall": {
         "8_17": 1
     },
-    "batchtrainingandlarg": {
+    "batchtrainingandlarge": {
         "8_17": 1
     },
-    "batchtrain": {
+    "batchtraining": {
         "8_17": 1
     },
     "additiontov": {
         "8_17": 1
     },
-    "ghostbatchnorm": {
+    "ghostbatchnormalization": {
         "8_17": 1
     },
-    "andadaptedtrainingregim": {
+    "andadaptedtrainingregime": {
         "8_17": 1
     },
-    "whichmeansdecai": {
+    "whichmeansdecaying": {
         "8_17": 1
     },
-    "normal": {
-        "8_17": 5
+    "layer": {
+        "8_17": 1
     },
-    "lei": {
+    "normalization": {
+        "8_17": 4
+    },
+    "Lei": {
         "8_17": 2
     },
-    "ba": {
+    "Ba": {
         "8_17": 2
     },
-    "superioralso": {
+    "superiorAlso": {
         "8_17": 1
     },
-    "togeth": {
+    "together": {
         "8_17": 1
     },
-    "invers": {
+    "inverse": {
         "8_17": 2
     },
-    "squar": {
+    "square": {
         "8_17": 3
     },
     "momentum": {
         "8_17": 1
     },
-    "piecewis": {
+    "piecewise": {
         "8_17": 2
     },
-    "decid": {
+    "decided": {
         "8_17": 1
     },
-    "drope": {
+    "Increasing": {
         "8_17": 1
     },
-    "warmupstepsorbyintroducinggradientclip": {
+    "dropped": {
+        "8_17": 1
+    },
+    "warmupstepsorbyintroducinggradientclipping": {
         "8_17": 1
     },
     "clip_grad_norm": {
@@ -3950,166 +4763,208 @@
     "led": {
         "8_17": 2
     },
-    "anywai": {
+    "anyway": {
         "8_17": 1
     },
-    "invari": {
+    "improvements": {
+        "8_17": 2
+    },
+    "invariance": {
         "8_17": 1
     },
-    "simultan": {
+    "under": {
         "8_17": 1
     },
-    "rescal": {
+    "simultaneous": {
         "8_17": 1
     },
-    "break": {
+    "rescaling": {
         "8_17": 1
     },
-    "stabl": {
+    "breaks": {
         "8_17": 1
     },
-    "gputo": {
+    "gets": {
+        "8_17": 2
+    },
+    "initial": {
         "8_17": 1
     },
-    "consideringthisinitialhypothesi": {
+    "maximal": {
+        "8_17": 2
+    },
+    "stable": {
+        "8_17": 1
+    },
+    "GPUto": {
+        "8_17": 1
+    },
+    "Consideringthisinitialhypothesis": {
         "8_17": 1
     },
     "weweresurprisedthatwewereabletoachieveso": {
         "8_17": 1
     },
-    "goodtimetillscorewithgpu": {
+    "goodTimeTillScorewithGPUs": {
         "8_17": 1
     },
-    "morethantimessmallerrelativetoasinglegpu": {
+    "morethantimessmallerrelativetoasingleGPU": {
         "8_17": 1
     },
     "answer": {
         "8_17": 1
     },
-    "riddl": {
+    "riddle": {
         "8_17": 2
     },
     "understand": {
         "8_17": 1
     },
-    "parametr": {
-        "8_17": 2
+    "schedules": {
+        "8_17": 3
+    },
+    "Parametrization": {
+        "8_17": 1
+    },
+    "Schedules": {
+        "8_17": 1
+    },
+    "works": {
+        "8_17": 1
+    },
+    "superiorthe": {
+        "8_17": 1
     },
     "inter": {
         "8_17": 1
     },
-    "prete": {
+    "preted": {
         "8_17": 1
     },
     "setup": {
-        "8_17": 4
+        "8_17": 2
     },
-    "forpiecewis": {
+    "forpiecewise": {
         "8_17": 1
     },
-    "constantdecayinimagenettrain": {
+    "constantdecayinImageNettraining": {
         "8_17": 1
     },
-    "istodivid": {
+    "istodivide": {
+        "8_17": 1
+    },
+    "factor": {
         "8_17": 1
     },
     "th": {
         "8_17": 4
     },
-    "intt": {
+    "inTT": {
         "8_17": 1
     },
-    "itisth": {
+    "itisthe": {
         "8_17": 1
     },
-    "variablethatisusedasthetimeparamet": {
+    "variablethatisusedasthetimeparameter": {
         "8_17": 1
     },
-    "singlegpu": {
+    "singleGPU": {
         "8_17": 1
     },
-    "theactuallearningr": {
+    "theactuallearningrate": {
         "8_17": 1
     },
     "superiorachievesagivenvalueafterthesamenumberof": {
         "8_17": 1
     },
-    "butthismeansaftertimeslesstrainingexamp": {
+    "butthismeansaftertimeslesstrainingexamples": {
         "8_17": 1
     },
-    "fortheinvers": {
+    "Fortheinverse": {
         "8_17": 1
     },
-    "superiorapp": {
+    "superiorApplying": {
         "8_17": 1
     },
     "RNN": {
         "8_17": 2
     },
-    "switc": {
+    "successful": {
+        "8_17": 1
+    },
+    "switching": {
         "8_17": 2
     },
-    "possibli": {
+    "possibly": {
         "8_17": 1
     },
-    "superiorexamplesoflearningrateschedulesareinvers": {
+    "due": {
+        "8_17": 2
+    },
+    "superiorExamplesoflearningrateschedulesareinverse": {
         "8_17": 1
     },
-    "rootdecai": {
+    "rootdecay": {
         "8_17": 1
     },
-    "timedecai": {
+    "timedecay": {
         "8_17": 1
     },
-    "exponentiald": {
+    "exponentialde": {
         "8_17": 1
     },
-    "cai": {
+    "cay": {
         "8_17": 1
     },
-    "api_guid": {
+    "api_guides": {
         "8_17": 1
     },
     "python": {
         "8_17": 1
     },
-    "decaying_the_": {
+    "Decaying_the_": {
         "8_17": 1
     },
     "TF": {
         "8_17": 1
     },
-    "superiorbyactuallearningratewemeanthelearningrateafterapplyingthedecayschedul": {
+    "implementations": {
+        "8_17": 1
+    },
+    "superiorByactuallearningratewemeanthelearningrateafterapplyingthedecayschedule": {
         "8_17": 1
     },
     "actual_lr": {
         "8_17": 2
     },
-    "equalxcstep": {
+    "equalxcsteps": {
         "8_17": 1
     },
     "equalxv": {
         "8_17": 1
     },
-    "ci": {
+    "cis": {
         "8_17": 1
     },
-    "thelearning_r": {
+    "thelearning_rate": {
         "8_17": 1
     },
-    "previou": {
+    "explains": {
         "8_17": 1
     },
-    "ktime": {
+    "previous": {
+        "8_17": 1
+    },
+    "ktimes": {
         "8_17": 3
     },
     "actuallearningratev": {
         "8_17": 1
     },
-    "inaccordancewiththesuggestionofho": {
+    "inaccordancewiththesuggestionofHo": {
         "8_17": 1
     },
-    "ignor": {
+    "ignoring": {
         "8_17": 1
     },
     "bev": {
@@ -4118,34 +4973,40 @@
     "deed": {
         "8_17": 1
     },
-    "goyal": {
+    "Goyal": {
         "8_17": 2
     },
-    "sens": {
+    "sense": {
         "8_17": 1
     },
-    "afterward": {
+    "afterwards": {
         "8_17": 1
     },
-    "retar": {
+    "Further": {
+        "8_17": 1
+    },
+    "retarded": {
+        "8_17": 1
+    },
+    "Keep": {
         "8_17": 1
     },
     "found": {
         "8_17": 1
     },
-    "youcantrydecreasingthewarmupstep": {
+    "Youcantrydecreasingthewarmupsteps": {
         "8_17": 1
     },
     "butlessthanlinearlyandyoushould": {
         "8_17": 1
     },
-    "resum": {
-        "8_17": 3
+    "Resumed": {
+        "8_17": 2
     },
-    "ttallowstoresumetrainingfromacheckpoint": {
+    "TTallowstoresumetrainingfromacheckpoint": {
         "8_17": 1
     },
-    "simplybypointingth": {
+    "simplybypointingthe": {
         "8_17": 1
     },
     "output_dir": {
@@ -4154,43 +5015,55 @@
     "parametertoadirectorywithanexistingcheckpoint": {
         "8_17": 1
     },
-    "edinth": {
+    "edinthe": {
         "8_17": 1
     },
-    "thismaybeusefulwhenthetrainingfail": {
+    "Thismaybeusefulwhenthetrainingfails": {
         "8_17": 1
     },
     "becauseofhardwareerror": {
         "8_17": 1
     },
-    "whenw": {
+    "whenwe": {
         "8_17": 1
+    },
+    "continue": {
+        "8_17": 2
     },
     "search": {
         "8_17": 1
     },
-    "promis": {
+    "promising": {
         "8_17": 1
     },
-    "superiorin": {
+    "setups": {
+        "8_17": 2
+    },
+    "saves": {
         "8_17": 1
     },
-    "sugges": {
+    "superiorIn": {
+        "8_17": 1
+    },
+    "suggesting": {
         "8_17": 1
     },
     "thev": {
         "8_17": 1
     },
-    "klear": {
+    "klearning": {
         "8_17": 1
     },
     "close": {
-        "8_17": 3
-    },
-    "absolut": {
         "8_17": 1
     },
-    "matter": {
+    "generalization": {
+        "8_17": 3
+    },
+    "absolute": {
+        "8_17": 1
+    },
+    "matters": {
         "8_17": 1
     },
     "view": {
@@ -4208,61 +5081,91 @@
     "sothetrainingcontinuesalmostasifithadnotbeen": {
         "8_17": 1
     },
+    "stopped": {
+        "8_17": 1
+    },
     "itdoesnotstorethepositioninthetrainingdataitstartsfroma": {
         "8_17": 1
     },
-    "randomposit": {
+    "randomposition": {
         "8_17": 1
     },
-    "alsotherelativetim": {
+    "Alsotherelativetime": {
         "8_17": 1
     },
-    "andwal": {
+    "andwall": {
         "8_17": 1
     },
-    "clocktim": {
+    "clocktime": {
         "8_17": 1
     },
-    "intensorboardgraph": {
+    "inTensorBoardgraphs": {
         "8_17": 1
     },
-    "exploit": {
+    "exploited": {
         "8_17": 2
+    },
+    "changing": {
+        "8_17": 1
     },
     "meta": {
         "8_17": 1
     },
-    "suggesttoincreasethe": {
+    "parametrized": {
         "8_17": 1
     },
-    "andnumberofgpu": {
+    "suggesttoincreasethee": {
         "8_17": 1
     },
-    "yet": {
+    "andnumberofGPUs": {
         "8_17": 1
     },
-    "inthiscas": {
+    "decaying": {
         "8_17": 1
     },
-    "considereditingalsothelearningrateorlearningrateschedul": {
+    "Yet": {
         "8_17": 1
     },
-    "orfak": {
+    "domain": {
+        "8_17": 3
+    },
+    "adaptation": {
+        "8_17": 1
+    },
+    "Inthiscase": {
+        "8_17": 1
+    },
+    "considereditingalsothelearningrateorlearningrateschedule": {
+        "8_17": 1
+    },
+    "orfaking": {
         "8_17": 1
     },
     "theglobal_step": {
         "8_17": 1
     },
+    "stored": {
+        "8_17": 1
+    },
+    "Checkpoint": {
+        "8_17": 2
+    },
+    "Averaging": {
+        "8_17": 3
+    },
     "suggesttoaveragethelastcheckpointssavedin": {
         "8_17": 1
     },
-    "interv": {
+    "minute": {
         "8_17": 1
     },
-    "util": {
+    "intervals": {
         "8_17": 1
     },
-    "avg_checkpoint": {
+    "utils": {
+        "8_17": 1
+    },
+    "avg_checkpoints": {
         "8_17": 1
     },
     "py": {
@@ -4271,7 +5174,7 @@
     "betterresultsareachievedwithaveragingcheckpointssavedin": {
         "8_17": 1
     },
-    "hourinterv": {
+    "hourintervals": {
         "8_17": 1
     },
     "spent": {
@@ -4280,16 +5183,28 @@
     "twofold": {
         "8_17": 1
     },
+    "averaged": {
+        "8_17": 2
+    },
+    "phases": {
+        "8_17": 2
+    },
     "fast": {
         "8_17": 1
     },
     "fewer": {
         "8_17": 1
     },
-    "manual": {
-        "8_17": 3
+    "Manual": {
+        "8_17": 2
     },
-    "av": {
+    "Automatic": {
+        "8_17": 2
+    },
+    "Scores": {
+        "8_17": 1
+    },
+    "Ave": {
         "8_17": 2
     },
     "z": {
@@ -4298,11 +5213,14 @@
     "TER": {
         "8_17": 3
     },
-    "charact": {
-        "8_17": 3
+    "CharacTER": {
+        "8_17": 2
     },
     "BEER": {
         "8_17": 2
+    },
+    "System": {
+        "8_17": 1
     },
     "uedin": {
         "8_17": 1
@@ -4310,10 +5228,13 @@
     "nmt": {
         "8_17": 1
     },
-    "onlin": {
+    "online": {
         "8_17": 2
     },
     "limsi": {
+        "8_17": 1
+    },
+    "factored": {
         "8_17": 1
     },
     "LIUM": {
@@ -4325,37 +5246,46 @@
     "CU": {
         "8_17": 2
     },
-    "chimera": {
+    "Chimera": {
         "8_17": 2
     },
     "PJATK": {
         "8_17": 1
     },
-    "wmtsystemsforenglish": {
+    "WMTsystemsforEnglish": {
         "8_17": 1
     },
-    "czechandourbesttttrainingrun": {
+    "CzechandourbestTTtrainingrun": {
         "8_17": 1
     },
     "cial": {
         "8_17": 2
     },
-    "rane": {
+    "ranking": {
         "8_17": 1
     },
-    "metric": {
-        "8_17": 5
+    "metrics": {
+        "8_17": 4
+    },
+    "provided": {
+        "8_17": 1
     },
     "matrix": {
+        "8_17": 1
+    },
+    "Best": {
         "8_17": 1
     },
     "bold": {
         "8_17": 1
     },
-    "ital": {
+    "italics": {
         "8_17": 1
     },
-    "cover": {
+    "covering": {
+        "8_17": 1
+    },
+    "give": {
         "8_17": 1
     },
     "proper": {
@@ -4364,52 +5294,64 @@
     "signi": {
         "8_17": 1
     },
-    "canc": {
+    "cance": {
+        "8_17": 1
+    },
+    "paired": {
         "8_17": 1
     },
     "bootstrap": {
         "8_17": 1
     },
-    "tese": {
+    "testing": {
         "8_17": 1
     },
     "then": {
         "8_17": 1
     },
-    "start": {
+    "resumed": {
         "8_17": 1
     },
-    "posit": {
+    "starts": {
         "8_17": 1
     },
-    "fore": {
-        "8_17": 2
+    "position": {
+        "8_17": 1
     },
-    "copi": {
+    "forking": {
+        "8_17": 1
+    },
+    "copies": {
         "8_17": 1
     },
     "independentlyinthelaterstagesandthusendingwithdi": {
         "8_17": 1
     },
-    "erentweightssavedinth": {
+    "erentweightssavedinthe": {
         "8_17": 1
     },
     "semi": {
         "8_17": 1
     },
-    "independ": {
+    "independent": {
         "8_17": 1
     },
     "ascheckpointsfromthesamerun": {
         "8_17": 1
     },
-    "asdescribedabov": {
+    "asdescribedabove": {
         "8_17": 1
     },
-    "ourpreliminaryresultsshow": {
+    "Ourpreliminaryresultsshow": {
+        "8_17": 1
+    },
+    "helps": {
         "8_17": 1
     },
     "top": {
+        "8_17": 1
+    },
+    "Use": {
         "8_17": 1
     },
     "boost": {
@@ -4421,43 +5363,70 @@
     "whole": {
         "8_17": 1
     },
-    "despit": {
+    "See": {
+        "8_17": 1
+    },
+    "tools": {
+        "8_17": 1
+    },
+    "described": {
+        "8_17": 1
+    },
+    "Comparison": {
+        "8_17": 1
+    },
+    "Systems": {
+        "8_17": 3
+    },
+    "task": {
+        "8_17": 1
+    },
+    "despite": {
         "8_17": 2
+    },
+    "manual": {
+        "8_17": 1
     },
     "rank": {
         "8_17": 1
     },
-    "outperform": {
+    "outperforms": {
+        "8_17": 1
+    },
+    "system": {
         "8_17": 1
     },
     "back": {
         "8_17": 1
     },
-    "reran": {
+    "reranking": {
         "8_17": 2
     },
     "left": {
         "8_17": 1
     },
-    "norensemb": {
+    "norensembling": {
         "8_17": 1
     },
     "asisthecaseofuedin": {
         "8_17": 1
     },
-    "nmtandothersystem": {
+    "nmtandothersystems": {
         "8_17": 1
     },
-    "notethat": {
+    "Notethat": {
         "8_17": 1
     },
-    "constrain": {
+    "constrained": {
         "8_17": 1
     },
-    "conclus": {
+    "comparable": {
         "8_17": 1
     },
-    "presen": {
+    "Conclusion": {
+        "8_17": 1
+    },
+    "presented": {
         "8_17": 1
     },
     "broad": {
@@ -4466,10 +5435,16 @@
     "basic": {
         "8_17": 2
     },
-    "vaswani": {
+    "Vaswani": {
         "8_17": 2
     },
-    "believ": {
+    "exploration": {
+        "8_17": 1
+    },
+    "settings": {
+        "8_17": 1
+    },
+    "believe": {
         "8_17": 1
     },
     "sum": {
@@ -4478,52 +5453,64 @@
     "took": {
         "8_17": 1
     },
-    "year": {
+    "years": {
         "8_17": 1
     },
-    "among": {
+    "Among": {
         "8_17": 1
     },
     "weve": {
         "8_17": 1
     },
-    "importantli": {
+    "lead": {
         "8_17": 1
     },
-    "shouldbealwayspref": {
+    "importantly": {
         "8_17": 1
     },
-    "thetransformermodelanditsimplementationin": {
+    "Given": {
         "8_17": 1
     },
-    "intens": {
+    "shouldbealwayspreferred": {
         "8_17": 1
     },
-    "andrunningexperimentsoneafteranothershouldbepreferredoverrunningsever": {
+    "TheTransformermodelanditsimplementationin": {
         "8_17": 1
     },
-    "concurr": {
+    "intense": {
         "8_17": 1
     },
-    "thebestperformingmodelweobtainedongpustrainedfordayshasoutp": {
+    "andrunningexperimentsoneafteranothershouldbepreferredoverrunningseveral": {
+        "8_17": 1
+    },
+    "concurrently": {
+        "8_17": 1
+    },
+    "ThebestperformingmodelweobtainedonGPUstrainedfordayshasoutper": {
+        "8_17": 1
+    },
+    "formed": {
         "8_17": 1
     },
     "winner": {
         "8_17": 1
     },
-    "acknowledg": {
+    "Acknowledgements": {
         "8_17": 1
     },
-    "grant": {
+    "research": {
+        "8_17": 1
+    },
+    "grants": {
         "8_17": 1
     },
     "S": {
         "8_17": 5
     },
-    "scienc": {
+    "Science": {
         "8_17": 1
     },
-    "foun": {
+    "Foun": {
         "8_17": 1
     },
     "dation": {
@@ -4535,13 +5522,13 @@
     "ICT": {
         "8_17": 1
     },
-    "oftheeu": {
+    "oftheEU": {
         "8_17": 1
     },
     "SVV": {
         "8_17": 1
     },
-    "andusinglanguag": {
+    "andusinglanguage": {
         "8_17": 1
     },
     "LINDAT": {
@@ -4550,313 +5537,361 @@
     "CLARIN": {
         "8_17": 1
     },
-    "ministri": {
+    "Ministry": {
         "8_17": 1
     },
-    "educ": {
+    "Education": {
         "8_17": 1
     },
-    "youth": {
+    "Youth": {
         "8_17": 1
     },
-    "sport": {
+    "Sports": {
         "8_17": 1
     },
-    "repub": {
+    "Republic": {
         "8_17": 2
     },
     "LM": {
         "8_17": 1
     },
-    "bibliographi": {
+    "Bibliography": {
         "8_17": 1
     },
-    "dzmitri": {
+    "Dzmitry": {
         "8_17": 1
     },
-    "kyunghyun": {
+    "Kyunghyun": {
         "8_17": 2
     },
-    "cho": {
+    "Cho": {
         "8_17": 2
     },
-    "yoshua": {
+    "Yoshua": {
         "8_17": 2
     },
-    "bengio": {
+    "Bengio": {
         "8_17": 4
     },
-    "jointli": {
+    "Neural": {
+        "8_17": 5
+    },
+    "Jointly": {
         "8_17": 1
     },
-    "align": {
+    "Align": {
         "8_17": 1
     },
-    "proceed": {
+    "Translate": {
+        "8_17": 1
+    },
+    "Proceedings": {
         "8_17": 7
     },
     "ICLR": {
         "8_17": 2
     },
-    "zdenek": {
+    "Zdenek": {
         "8_17": 1
     },
     "abokrtsk": {
         "8_17": 1
     },
-    "duek": {
+    "Duek": {
         "8_17": 2
     },
-    "petra": {
+    "Petra": {
         "8_17": 1
     },
-    "galuckov": {
+    "Galuckov": {
         "8_17": 1
     },
-    "majli": {
+    "Majli": {
         "8_17": 1
     },
-    "david": {
+    "David": {
         "8_17": 1
     },
-    "marecek": {
+    "Marecek": {
         "8_17": 1
     },
-    "jir": {
+    "Jir": {
         "8_17": 1
     },
-    "mark": {
+    "Mark": {
         "8_17": 1
     },
-    "michal": {
+    "Michal": {
         "8_17": 2
     },
-    "novk": {
+    "Novk": {
         "8_17": 2
     },
-    "tamchyna": {
+    "Ale": {
+        "8_17": 2
+    },
+    "Tamchyna": {
         "8_17": 1
     },
-    "joi": {
+    "Joy": {
         "8_17": 1
     },
-    "par": {
+    "Par": {
         "8_17": 1
     },
-    "allel": {
+    "allelism": {
         "8_17": 1
     },
-    "eighth": {
+    "Eighth": {
         "8_17": 1
     },
-    "evaluationconfer": {
+    "International": {
+        "8_17": 3
+    },
+    "Language": {
+        "8_17": 2
+    },
+    "Resources": {
+        "8_17": 2
+    },
+    "EvaluationConference": {
         "8_17": 1
     },
     "LREC": {
         "8_17": 1
     },
-    "page": {
+    "pages": {
         "8_17": 9
     },
-    "istanbul": {
+    "Istanbul": {
         "8_17": 1
     },
-    "turkei": {
+    "Turkey": {
         "8_17": 1
     },
     "ELRA": {
         "8_17": 1
     },
-    "euro": {
+    "Euro": {
         "8_17": 1
     },
     "pean": {
         "8_17": 1
     },
-    "associ": {
-        "8_17": 3
+    "Association": {
+        "8_17": 1
     },
     "ISBN": {
         "8_17": 3
     },
-    "tom": {
+    "Tom": {
         "8_17": 1
     },
-    "kocmi": {
+    "Kocmi": {
         "8_17": 1
     },
-    "jindrich": {
+    "Jindrich": {
         "8_17": 1
     },
-    "libovick": {
+    "Libovick": {
         "8_17": 1
     },
-    "roman": {
+    "Roman": {
         "8_17": 1
     },
-    "sudarikov": {
+    "Sudarikov": {
         "8_17": 1
     },
-    "duan": {
+    "Duan": {
         "8_17": 1
     },
-    "vari": {
+    "Vari": {
         "8_17": 1
     },
-    "enlar": {
+    "Enlarged": {
         "8_17": 1
     },
-    "corpu": {
+    "Parallel": {
         "8_17": 1
     },
-    "docker": {
+    "Corpus": {
         "8_17": 1
     },
-    "sojka": {
-        "8_17": 1
-    },
-    "petr": {
-        "8_17": 1
-    },
-    "hork": {
-        "8_17": 1
-    },
-    "ivan": {
-        "8_17": 1
-    },
-    "kopecek": {
-        "8_17": 1
-    },
-    "karel": {
-        "8_17": 1
-    },
-    "pala": {
-        "8_17": 1
-    },
-    "editor": {
+    "Processing": {
         "8_17": 3
     },
-    "speech": {
+    "Dockered": {
         "8_17": 1
     },
-    "dialogu": {
+    "Sojka": {
         "8_17": 1
     },
-    "confer": {
+    "Petr": {
+        "8_17": 1
+    },
+    "Hork": {
+        "8_17": 1
+    },
+    "Ivan": {
+        "8_17": 1
+    },
+    "Kopecek": {
+        "8_17": 1
+    },
+    "Karel": {
+        "8_17": 1
+    },
+    "Pala": {
+        "8_17": 1
+    },
+    "editors": {
+        "8_17": 3
+    },
+    "Text": {
+        "8_17": 1
+    },
+    "Speech": {
+        "8_17": 1
+    },
+    "Dialogue": {
+        "8_17": 1
+    },
+    "Conference": {
         "8_17": 2
     },
     "TSD": {
         "8_17": 1
     },
-    "lectur": {
+    "Lecture": {
         "8_17": 1
     },
-    "arti": {
+    "Notes": {
         "8_17": 1
     },
-    "intellig": {
+    "Arti": {
         "8_17": 1
     },
-    "masaryk": {
+    "Intelligence": {
         "8_17": 1
     },
-    "springer": {
+    "Masaryk": {
+        "8_17": 1
+    },
+    "Springer": {
         "8_17": 2
     },
-    "publis": {
+    "Publishing": {
         "8_17": 1
     },
-    "rajenchatterje": {
+    "RajenChatterjee": {
         "8_17": 1
     },
-    "christianfedermann": {
+    "ChristianFedermann": {
         "8_17": 1
     },
-    "yvettegraham": {
+    "YvetteGraham": {
         "8_17": 1
     },
-    "barryhaddow": {
+    "BarryHaddow": {
         "8_17": 1
     },
-    "matthia": {
+    "Matthias": {
         "8_17": 1
     },
-    "huck": {
+    "Huck": {
         "8_17": 1
     },
-    "philippkoehn": {
+    "PhilippKoehn": {
         "8_17": 1
     },
-    "varvaralogacheva": {
+    "VarvaraLogacheva": {
         "8_17": 1
     },
-    "christofmonz": {
+    "ChristofMonz": {
         "8_17": 1
     },
-    "matteonegri": {
+    "MatteoNegri": {
         "8_17": 1
     },
-    "mattpost": {
+    "MattPost": {
         "8_17": 1
     },
-    "raphael": {
+    "Raphael": {
         "8_17": 1
     },
-    "rubino": {
+    "Rubino": {
         "8_17": 1
     },
-    "luciaspecia": {
+    "LuciaSpecia": {
         "8_17": 1
     },
-    "andmarcoturchi": {
+    "andMarcoTurchi": {
         "8_17": 1
     },
-    "findingsoftheconferenceonmachinetran": {
+    "FindingsoftheConferenceonMachineTrans": {
         "8_17": 1
     },
-    "proceedingsofthesecondconferenceonmachinetrans": {
+    "ProceedingsoftheSecondConferenceonMachineTranslation": {
         "8_17": 1
     },
-    "copenhagen": {
+    "Copenhagen": {
         "8_17": 2
     },
-    "denmark": {
+    "Denmark": {
         "8_17": 2
     },
-    "septemb": {
+    "September": {
         "8_17": 3
     },
     "ACL": {
         "8_17": 6
     },
-    "yvett": {
+    "Yvette": {
         "8_17": 1
     },
-    "graham": {
+    "Graham": {
         "8_17": 1
     },
-    "amir": {
+    "Amir": {
         "8_17": 1
     },
-    "kamran": {
+    "Kamran": {
         "8_17": 1
     },
-    "lon": {
+    "Results": {
         "8_17": 1
     },
-    "stochast": {
+    "Metrics": {
+        "8_17": 1
+    },
+    "Shared": {
+        "8_17": 1
+    },
+    "Task": {
+        "8_17": 1
+    },
+    "Second": {
         "8_17": 2
     },
-    "descent": {
+    "Lon": {
+        "8_17": 1
+    },
+    "Stochastic": {
         "8_17": 2
     },
-    "trick": {
+    "Gradient": {
         "8_17": 2
     },
-    "berlin": {
+    "Descent": {
+        "8_17": 2
+    },
+    "Tricks": {
+        "8_17": 1
+    },
+    "Berlin": {
         "8_17": 3
     },
-    "heidelberg": {
+    "Heidelberg": {
         "8_17": 2
     },
     "doi": {
@@ -4874,154 +5909,181 @@
     "F": {
         "8_17": 1
     },
-    "curti": {
+    "Curtis": {
         "8_17": 1
     },
     "J": {
         "8_17": 4
     },
-    "noced": {
+    "Nocedal": {
         "8_17": 2
     },
-    "learn": {
+    "Optimization": {
+        "8_17": 1
+    },
+    "Methods": {
+        "8_17": 1
+    },
+    "Large": {
+        "8_17": 2
+    },
+    "Scale": {
+        "8_17": 1
+    },
+    "Learn": {
         "8_17": 1
     },
     "ing": {
         "8_17": 1
     },
-    "print": {
+    "ArXiv": {
         "8_17": 3
     },
-    "june": {
+    "prints": {
+        "8_17": 3
+    },
+    "June": {
         "8_17": 1
     },
-    "ab": {
+    "arxiv": {
+        "8_17": 12
+    },
+    "abs": {
         "8_17": 17
     },
-    "cettolo": {
+    "Cettolo": {
         "8_17": 1
     },
-    "mauro": {
+    "Mauro": {
         "8_17": 1
     },
-    "marcello": {
+    "Marcello": {
         "8_17": 1
     },
-    "federico": {
+    "Federico": {
         "8_17": 1
     },
-    "luisa": {
+    "Luisa": {
         "8_17": 1
     },
-    "bentivogli": {
+    "Bentivogli": {
         "8_17": 1
     },
-    "jan": {
+    "Jan": {
         "8_17": 2
     },
-    "niehu": {
+    "Niehues": {
         "8_17": 1
     },
-    "sebastian": {
+    "Sebastian": {
         "8_17": 1
     },
-    "stker": {
+    "Stker": {
         "8_17": 1
     },
-    "katsuhito": {
+    "Katsuhito": {
         "8_17": 1
     },
-    "sudoh": {
+    "Sudoh": {
         "8_17": 1
     },
-    "koichiro": {
+    "Koichiro": {
         "8_17": 1
     },
-    "yoshino": {
+    "Yoshino": {
         "8_17": 1
     },
-    "christian": {
+    "Christian": {
         "8_17": 1
     },
-    "federmann": {
+    "Federmann": {
         "8_17": 1
     },
-    "overview": {
+    "Overview": {
         "8_17": 1
     },
     "IWSLT": {
         "8_17": 2
     },
-    "evalua": {
+    "Evalua": {
         "8_17": 1
     },
-    "tioncampaign": {
+    "tionCampaign": {
         "8_17": 1
     },
-    "proceedingsofthethinternationalworkshoponspokenlanguagetrans": {
+    "ProceedingsofthethInternationalWorkshoponSpokenLanguageTranslation": {
         "8_17": 1
     },
-    "tokyo": {
+    "Tokyo": {
         "8_17": 1
     },
-    "japan": {
+    "Japan": {
         "8_17": 1
     },
-    "priya": {
+    "Priya": {
         "8_17": 1
     },
-    "piotrdollr": {
+    "PiotrDollr": {
         "8_17": 1
     },
-    "rossb": {
+    "RossB": {
         "8_17": 1
     },
-    "girshick": {
+    "Girshick": {
         "8_17": 1
     },
-    "pieternoordhui": {
+    "PieterNoordhuis": {
         "8_17": 1
     },
-    "lukaszwesolowski": {
+    "LukaszWesolowski": {
         "8_17": 1
     },
-    "aapokyrola": {
+    "AapoKyrola": {
         "8_17": 1
     },
-    "andrewtulloch": {
+    "AndrewTulloch": {
         "8_17": 1
     },
-    "yangqingjia": {
+    "YangqingJia": {
         "8_17": 1
     },
-    "andkaimingh": {
+    "andKaimingHe": {
         "8_17": 1
     },
-    "accur": {
+    "Accurate": {
         "8_17": 1
     },
-    "largeminibatchsgd": {
+    "LargeMinibatchSGD": {
         "8_17": 1
     },
-    "corr": {
+    "Hour": {
+        "8_17": 1
+    },
+    "CoRR": {
         "8_17": 8
     },
-    "elad": {
+    "Elad": {
         "8_17": 1
     },
-    "itai": {
+    "Itay": {
         "8_17": 1
     },
-    "hubara": {
+    "Hubara": {
         "8_17": 1
     },
-    "daniel": {
+    "Daniel": {
         "8_17": 1
     },
-    "soudri": {
+    "Soudry": {
         "8_17": 1
     },
-    "guyon": {
+    "Train": {
+        "8_17": 1
+    },
+    "closing": {
+        "8_17": 2
+    },
+    "Guyon": {
         "8_17": 1
     },
     "I": {
@@ -5033,37 +6095,43 @@
     "V": {
         "8_17": 5
     },
-    "luxburg": {
+    "Luxburg": {
         "8_17": 2
     },
-    "wallach": {
+    "Wallach": {
         "8_17": 2
     },
     "R": {
         "8_17": 5
     },
-    "fergu": {
+    "Fergus": {
         "8_17": 2
     },
-    "vishwanathan": {
+    "Vishwanathan": {
         "8_17": 2
     },
-    "garnett": {
+    "Garnett": {
         "8_17": 2
     },
-    "ad": {
+    "Ad": {
         "8_17": 1
     },
-    "vanc": {
+    "vances": {
         "8_17": 1
     },
-    "curran": {
+    "Information": {
         "8_17": 2
     },
-    "inc": {
+    "Curran": {
         "8_17": 2
     },
-    "nip": {
+    "Associates": {
+        "8_17": 2
+    },
+    "Inc": {
+        "8_17": 2
+    },
+    "nips": {
         "8_17": 2
     },
     "cc": {
@@ -5072,247 +6140,310 @@
     "pdf": {
         "8_17": 2
     },
-    "sergeyandchristianszegedi": {
+    "SergeyandChristianSzegedy": {
         "8_17": 1
     },
-    "acceleratingdeepnetworktrain": {
+    "BatchNormalization": {
         "8_17": 1
     },
-    "byreducinginternalcovariateshift": {
+    "AcceleratingDeepNetworkTraining": {
         "8_17": 1
     },
-    "stanislaw": {
+    "byReducingInternalCovariateShift": {
         "8_17": 1
     },
-    "zachari": {
+    "Stanislaw": {
         "8_17": 1
     },
-    "kenton": {
+    "Zachary": {
         "8_17": 1
     },
-    "devansh": {
+    "Kenton": {
         "8_17": 1
     },
-    "arpit": {
+    "Devansh": {
         "8_17": 1
     },
-    "nicola": {
+    "Arpit": {
         "8_17": 1
     },
-    "balla": {
+    "Nicolas": {
         "8_17": 1
     },
-    "asja": {
+    "Ballas": {
         "8_17": 1
     },
-    "fischer": {
+    "Asja": {
         "8_17": 1
     },
-    "amo": {
+    "Fischer": {
         "8_17": 1
     },
-    "storkei": {
+    "Amos": {
         "8_17": 1
     },
-    "nitish": {
+    "Storkey": {
         "8_17": 1
     },
-    "shirish": {
+    "Three": {
         "8_17": 1
     },
-    "dheevatsa": {
+    "Factors": {
         "8_17": 1
     },
-    "mudiger": {
+    "uencing": {
         "8_17": 1
     },
-    "jorg": {
+    "Minima": {
+        "8_17": 2
+    },
+    "Nitish": {
         "8_17": 1
     },
-    "mikhail": {
+    "Shirish": {
         "8_17": 1
     },
-    "smelyanskii": {
+    "Dheevatsa": {
         "8_17": 1
     },
-    "ping": {
+    "Mudigere": {
         "8_17": 1
     },
-    "tak": {
+    "Jorge": {
         "8_17": 1
     },
-    "peter": {
+    "Mikhail": {
         "8_17": 1
     },
-    "tang": {
+    "Smelyanskiy": {
         "8_17": 1
     },
-    "alex": {
+    "Ping": {
+        "8_17": 1
+    },
+    "Tak": {
+        "8_17": 1
+    },
+    "Peter": {
+        "8_17": 1
+    },
+    "Tang": {
+        "8_17": 1
+    },
+    "Deep": {
+        "8_17": 2
+    },
+    "Generalization": {
+        "8_17": 2
+    },
+    "Gap": {
+        "8_17": 1
+    },
+    "Sharp": {
+        "8_17": 1
+    },
+    "Alex": {
         "8_17": 1
     },
     "weird": {
         "8_17": 1
     },
-    "convolut": {
+    "trick": {
         "8_17": 1
     },
-    "jason": {
+    "parallelizing": {
+        "8_17": 1
+    },
+    "convolutional": {
+        "8_17": 1
+    },
+    "Jason": {
         "8_17": 2
     },
-    "thoma": {
+    "Thomas": {
         "8_17": 1
     },
-    "hofmann": {
+    "Hofmann": {
         "8_17": 1
     },
-    "explicit": {
+    "Fully": {
         "8_17": 1
     },
-    "segment": {
+    "Character": {
         "8_17": 1
     },
-    "kiro": {
+    "Level": {
+        "8_17": 1
+    },
+    "Explicit": {
+        "8_17": 1
+    },
+    "Segmentation": {
+        "8_17": 1
+    },
+    "Kiros": {
         "8_17": 1
     },
     "G": {
         "8_17": 1
     },
-    "hinton": {
+    "Hinton": {
         "8_17": 1
     },
-    "juli": {
+    "Normalization": {
         "8_17": 1
     },
-    "papineni": {
+    "July": {
         "8_17": 1
     },
-    "kishor": {
+    "Papineni": {
         "8_17": 1
     },
-    "salim": {
+    "Kishore": {
         "8_17": 1
     },
-    "rouko": {
+    "Salim": {
         "8_17": 1
     },
-    "todd": {
+    "Roukos": {
         "8_17": 1
     },
-    "ward": {
+    "Todd": {
         "8_17": 1
     },
-    "wei": {
+    "Ward": {
         "8_17": 1
     },
-    "jing": {
+    "Wei": {
         "8_17": 1
     },
-    "zhu": {
+    "Jing": {
         "8_17": 1
     },
-    "au": {
+    "Zhu": {
         "8_17": 1
     },
-    "tomat": {
+    "Method": {
         "8_17": 1
     },
-    "philadelphia": {
+    "Au": {
         "8_17": 1
     },
-    "pennsylvania": {
+    "tomatic": {
         "8_17": 1
     },
-    "maja": {
+    "Philadelphia": {
         "8_17": 1
     },
-    "chrf": {
+    "Pennsylvania": {
+        "8_17": 1
+    },
+    "Maja": {
+        "8_17": 1
+    },
+    "chrF": {
         "8_17": 1
     },
     "charactern": {
         "8_17": 1
     },
-    "gramf": {
+    "gramF": {
         "8_17": 1
     },
-    "scoreforautomaticmtevalu": {
+    "scoreforautomaticMTevaluation": {
         "8_17": 1
     },
-    "proceedingsofth": {
+    "Proceedingsofthe": {
         "8_17": 1
     },
-    "tenthworkshoponstatisticalmachinetrans": {
+    "TenthWorkshoponStatisticalMachineTranslation": {
         "8_17": 1
     },
-    "lisbon": {
+    "Lisbon": {
         "8_17": 1
     },
-    "portug": {
+    "Portugal": {
         "8_17": 1
     },
     "aclweb": {
         "8_17": 2
     },
-    "anthologi": {
+    "anthology": {
         "8_17": 2
     },
     "W": {
         "8_17": 1
     },
-    "sennrich": {
+    "Sennrich": {
         "8_17": 1
     },
-    "rico": {
+    "Rico": {
         "8_17": 1
     },
-    "barri": {
+    "Barry": {
         "8_17": 1
     },
-    "haddow": {
+    "Haddow": {
         "8_17": 1
     },
-    "alexandra": {
+    "Alexandra": {
         "8_17": 1
     },
-    "birch": {
+    "Birch": {
         "8_17": 1
     },
-    "rare": {
+    "Rare": {
         "8_17": 1
     },
-    "germani": {
+    "Words": {
         "8_17": 1
     },
-    "august": {
+    "Subword": {
+        "8_17": 1
+    },
+    "Units": {
+        "8_17": 1
+    },
+    "Germany": {
+        "8_17": 1
+    },
+    "August": {
         "8_17": 1
     },
     "P": {
         "8_17": 1
     },
-    "shazeer": {
+    "Shazeer": {
         "8_17": 2
     },
-    "stern": {
+    "Stern": {
         "8_17": 1
     },
-    "sublinear": {
+    "Rates": {
         "8_17": 1
     },
-    "cost": {
+    "Sublinear": {
         "8_17": 1
     },
-    "apr": {
+    "Memory": {
         "8_17": 1
     },
-    "samuel": {
+    "Cost": {
+        "8_17": 1
+    },
+    "Apr": {
+        "8_17": 1
+    },
+    "Samuel": {
         "8_17": 2
     },
-    "quoc": {
+    "Quoc": {
         "8_17": 3
     },
-    "bayesian": {
+    "Bayesian": {
         "8_17": 2
     },
-    "perspect": {
+    "Perspective": {
         "8_17": 1
     },
     "workshop": {
@@ -5321,7 +6452,10 @@
     "NIPS": {
         "8_17": 1
     },
-    "beach": {
+    "Long": {
+        "8_17": 1
+    },
+    "Beach": {
         "8_17": 1
     },
     "CA": {
@@ -5330,199 +6464,223 @@
     "USA": {
         "8_17": 1
     },
-    "pieter": {
+    "Pieter": {
         "8_17": 1
     },
-    "kinderman": {
+    "Kindermans": {
         "8_17": 1
     },
-    "ashish": {
+    "Dont": {
         "8_17": 1
     },
-    "niki": {
+    "Decay": {
         "8_17": 1
     },
-    "parmar": {
+    "Increase": {
         "8_17": 1
     },
-    "jakob": {
+    "Ashish": {
         "8_17": 1
     },
-    "uszkoreit": {
+    "Noam": {
         "8_17": 1
     },
-    "llion": {
+    "Niki": {
         "8_17": 1
     },
-    "jone": {
+    "Parmar": {
         "8_17": 1
     },
-    "aidan": {
+    "Jakob": {
         "8_17": 1
     },
-    "gomez": {
+    "Uszkoreit": {
         "8_17": 1
     },
-    "lukaszkais": {
+    "Llion": {
+        "8_17": 1
+    },
+    "Jones": {
+        "8_17": 1
+    },
+    "Aidan": {
+        "8_17": 1
+    },
+    "Gomez": {
+        "8_17": 1
+    },
+    "LukaszKaiser": {
         "8_17": 2
     },
-    "andilliapolosukhin": {
+    "andIlliaPolosukhin": {
         "8_17": 1
     },
-    "attentionisallyoune": {
+    "AttentionisAllyouNeed": {
         "8_17": 1
     },
-    "inguyon": {
+    "InGuyon": {
         "8_17": 1
     },
-    "advanc": {
+    "Advances": {
         "8_17": 1
     },
-    "yonghui": {
+    "attention": {
         "8_17": 1
     },
-    "mike": {
+    "Yonghui": {
         "8_17": 1
     },
-    "schuster": {
+    "Mike": {
         "8_17": 1
     },
-    "zhifeng": {
+    "Schuster": {
         "8_17": 1
     },
-    "chen": {
+    "Zhifeng": {
         "8_17": 1
     },
-    "mohammad": {
+    "Chen": {
         "8_17": 1
     },
-    "norouzi": {
+    "Mohammad": {
         "8_17": 1
     },
-    "wolfgang": {
+    "Norouzi": {
         "8_17": 1
     },
-    "macherei": {
+    "Wolfgang": {
         "8_17": 1
     },
-    "maximkrikun": {
+    "Macherey": {
         "8_17": 1
     },
-    "yuancao": {
+    "MaximKrikun": {
         "8_17": 1
     },
-    "qingao": {
+    "YuanCao": {
         "8_17": 1
     },
-    "klausmacherei": {
+    "QinGao": {
         "8_17": 1
     },
-    "je": {
+    "KlausMacherey": {
         "8_17": 1
     },
-    "klingner": {
+    "Je": {
         "8_17": 1
     },
-    "apurvashah": {
+    "Klingner": {
         "8_17": 1
     },
-    "melvinjohnson": {
+    "ApurvaShah": {
         "8_17": 1
     },
-    "xiaobingliu": {
+    "MelvinJohnson": {
         "8_17": 1
     },
-    "stephangouw": {
+    "XiaobingLiu": {
         "8_17": 1
     },
-    "yoshikiyokato": {
+    "StephanGouws": {
         "8_17": 1
     },
-    "takukudo": {
+    "YoshikiyoKato": {
         "8_17": 1
     },
-    "hidetokazawa": {
+    "TakuKudo": {
         "8_17": 1
     },
-    "keithsteven": {
+    "HidetoKazawa": {
         "8_17": 1
     },
-    "georgekurian": {
+    "KeithStevens": {
         "8_17": 1
     },
-    "nishantpatil": {
+    "GeorgeKurian": {
         "8_17": 1
     },
-    "weiwang": {
+    "NishantPatil": {
         "8_17": 1
     },
-    "cli": {
+    "WeiWang": {
         "8_17": 1
     },
-    "young": {
+    "Cli": {
         "8_17": 1
     },
-    "jasonriesa": {
+    "Young": {
         "8_17": 1
     },
-    "alexrudnick": {
+    "JasonRiesa": {
         "8_17": 1
     },
-    "oriolviny": {
+    "AlexRudnick": {
         "8_17": 1
     },
-    "gregcorrado": {
+    "OriolVinyals": {
         "8_17": 1
     },
-    "macdu": {
+    "GregCorrado": {
         "8_17": 1
     },
-    "hugh": {
+    "Macdu": {
         "8_17": 1
     },
-    "andj": {
+    "Hughes": {
         "8_17": 1
     },
-    "rei": {
+    "andJe": {
         "8_17": 1
     },
-    "dean": {
+    "rey": {
         "8_17": 1
     },
-    "googlesneuralmachinetranslationsystem": {
+    "Dean": {
         "8_17": 1
     },
-    "bridgingthegapbetweenhumanand": {
+    "GooglesNeuralMachineTranslationSystem": {
         "8_17": 1
     },
-    "machinetrans": {
+    "BridgingtheGapbetweenHumanand": {
         "8_17": 1
     },
-    "yang": {
+    "MachineTranslation": {
         "8_17": 1
     },
-    "igor": {
+    "Yang": {
         "8_17": 1
     },
-    "gitman": {
+    "Igor": {
         "8_17": 1
     },
-    "bori": {
+    "Gitman": {
         "8_17": 1
     },
-    "ginsburg": {
+    "Boris": {
+        "8_17": 1
+    },
+    "Ginsburg": {
         "8_17": 1
     },
     "K": {
         "8_17": 1
     },
-    "malostransk": {
+    "Address": {
+        "8_17": 1
+    },
+    "correspondence": {
+        "8_17": 1
+    },
+    "popel": {
+        "8_17": 1
+    },
+    "Malostransk": {
         "8_17": 1
     },
     "nmest": {
         "8_17": 1
     },
-    "praha": {
+    "Praha": {
         "8_17": 1
     }
 }

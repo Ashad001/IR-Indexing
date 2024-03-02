@@ -7,36 +7,14 @@ from tokenizer import Tokenizer
 from porter_stemmer import PorterStemmer
 from inverted_index import InvertedIndex
 from positional_index import PositionalIndex
-from utils import log_message, get_logger, metadata_lookup
+from utils import *
 
 from typing import List, Tuple, Dict, Optional
 
 # TODO: Fix Data Pass
 
-INDEX_FILES = 'indexes'
+INDEX_FILES = "indexes"
 
-def read_data(file_name: str) -> List[str]:
-    """
-    reads data from file
-
-    Args:
-        file_name (str): file name
-    """
-    with open(file_name, 'r') as file:
-        data = file.read()
-    return data
-
-def write_data(file_name: str, data: Dict[str, Dict[str, List[int]]]) -> None:
-    """
-    writes data to file
-
-    Args:
-        file_name (str): file name
-        data (List[str]): data to write
-    """
-    with open(file_name, 'w') as file:
-        json.dump(data, file, indent=4)
-        
 
 def main(data_dir: str) -> None:
     """
@@ -45,74 +23,99 @@ def main(data_dir: str) -> None:
     Args:cls
         data_dir (str): data directory path
     """
-    inv_idx: Dict[str, Dict[str, List[int]]] = {}
-    pos_idx: Dict[str, Dict[str, List[int]]] = {}
+    inv_idx = InvertedIndex()
+    pos_idx = PositionalIndex()
     dict_set: Dict[str, int] = {}
+    
+    tokenizer = Tokenizer()
+    stemmer = PorterStemmer()
+    
+    
     files: List[str] = os.listdir(data_dir)
-    
-    
-    
+
     metadata_logger = get_logger("metadata")
     lookup_logger = get_logger("lookup", see_time=True)
     error_logger = get_logger("error", see_time=True)
-    
-    index_dir = './' + INDEX_FILES
+
+    index_dir = "./" + INDEX_FILES
     os.makedirs(index_dir, exist_ok=True)
-    
+
+    logged_metadata = read_metadata("metadata")
+
     file_iter = 1
     for file in files:
-        if file.endswith('.txt'):
+        if file.endswith(".txt"):
             data: str = read_data(os.path.join(data_dir, file))
-            doc_id: str = re.findall(r'\d+', file)[0] # + data[:10] # Has to be unique
-            doc_id = str(file_iter) + "_" + doc_id   # This way, we don't need to sort the postings and can get document ids after _ directly.
+            doc_id: str = re.findall(r"\d+", file)[0]  # + data[:10] # Has to be unique
+            doc_id = (
+                str(file_iter) + "_" + doc_id
+            )  # This way, we don't need to sort the postings and can get document ids after _ directly.
             file_iter += 1
 
-            dict_tokens:  Dict[str, int]
-            stemmed_tokens: List[str]
-            dict_tokens, stemmed_tokens = Tokenizer().tokenize(data)
-            
-            
+            stemmed_tokens: List[str] = []
+            # dict_tokens, stemmed_tokens = Tokenizer().tokenize_text(data)
+            tokens = tokenizer.tokenize(data)
+        
             local_inv_idx = InvertedIndex()
             local_pos_idx = PositionalIndex()
+            local_dict: Dict[str, int] = {}
             
             metadata = {
                 "doc_id": doc_id,
-                "unique_tokens": len(dict_tokens),
-                "stemmed_tokens": len(stemmed_tokens)
-            }    
-            
+                "tokens": len(tokens),
+            }
+
             inv_index_file = os.path.join(index_dir, f"{doc_id}_ivnIdx.json")
             pos_index_file = os.path.join(index_dir, f"{doc_id}_posIdx.json")
-               
-            if metadata_lookup(metadata, "metadata", logger=lookup_logger):
-                local_inv_idx.load_from_index(inv_index_file, logger=error_logger)
-                local_pos_idx.load_from_index(pos_index_file, logger=error_logger)
-                
-                inv_idx.update(local_inv_idx.index)
-                pos_idx.update(local_pos_idx.index)
-                dict_set.update(dict_tokens)            
+
+            if metadata_lookup(metadata, logged_metadata, logger=lookup_logger):
+                inv_idx.load_from_file(inv_index_file, logger=error_logger)
+                pos_idx.load_from_file(pos_index_file, logger=error_logger)
                 continue
             
-            log_message(json.dumps(metadata, indent=4), logger=metadata_logger)            
+        
+            for i, token in enumerate(tokens):
+                
+                if token.lower() not in tokenizer.stop_words and not tokenizer.is_number(token):
+                    stemmed_token = tokenizer.stemmer.stem(token.strip())              
+                    
+                    # Local For Loading Sved Indexes
+                    local_inv_idx.add_to_index(doc_id=doc_id, token=token)
+                    local_pos_idx.add_to_index(doc_id=doc_id, token=token, position=i)
+                    
+                    # global indexes
+                    inv_idx.add_to_index(doc_id=doc_id, token=token)
+                    pos_idx.add_to_index(doc_id=doc_id, token=token, position=i)
+                    
+                    if not token in local_dict and not tokenizer.has_number(token):
+                        local_dict[token] = 1
+                        dict_set[token] = 1
+                    else:
+                        local_dict[token] += 1
+                        dict_set[token] += 1
+                    stemmed_tokens.append(stemmed_token)
             
-            local_inv_idx.add_to_index(doc_id=doc_id, tokens=stemmed_tokens)
-            local_pos_idx.add_to_index(doc_id=doc_id, tokens=stemmed_tokens)
-            
+            metadata.update({
+                "unique_tokens": len(local_dict),
+                "stemmed_tokens": len(stemmed_tokens),
+                "inv_index_file": inv_index_file,
+                "pos_index_file": pos_index_file
+            })
+                
+            log_message(json.dumps(metadata, indent=4), logger=metadata_logger)
+                
+                
             write_data(inv_index_file, local_inv_idx.index)
             write_data(pos_index_file, local_pos_idx.index)
             
-            inv_idx.update(local_inv_idx.index)
-            pos_idx.update(local_pos_idx.index)
-            
-            dict_set.update(dict_tokens)
-            
-    with open("test_inv-index.json", 'w', encoding='utf-8') as f:
-        json.dump(inv_idx, f, indent=4)
-    with open("test_pos-index.json", 'w', encoding='utf-8') as f:
-        json.dump(pos_idx, f, indent=4)
-    with open("test_dict-set.json", 'w', encoding='utf-8') as f:
+
+    with open("test_inv-index.json", "w", encoding="utf-8") as f:
+        json.dump(inv_idx.index, f, indent=4)
+    with open("test_pos-index.json", "w", encoding="utf-8") as f:
+        json.dump(pos_idx.index, f, indent=4)
+    with open("test_dict-set.json", "w", encoding="utf-8") as f:
         json.dump(dict_set, f, indent=4)
-        
-if __name__=="__main__":
+
+
+if __name__ == "__main__":
     main("../data/ResearchPapers/")
-    

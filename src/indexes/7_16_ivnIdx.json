@@ -5,46 +5,46 @@
     "ARTICLE": {
         "7_16": 1
     },
-    "deep": {
-        "7_16": 152
+    "Deep": {
+        "7_16": 32
     },
-    "lear": {
-        "7_16": 157
-    },
-    "time": {
-        "7_16": 177
-    },
-    "seri": {
-        "7_16": 136
-    },
-    "forecas": {
-        "7_16": 77
-    },
-    "survei": {
+    "Learning": {
         "7_16": 14
     },
-    "josef": {
-        "7_16": 1
+    "Time": {
+        "7_16": 16
     },
-    "torr": {
+    "Series": {
         "7_16": 4
     },
-    "dalil": {
+    "Forecasting": {
+        "7_16": 9
+    },
+    "Survey": {
         "7_16": 1
     },
-    "hadjout": {
+    "JoseF": {
+        "7_16": 1
+    },
+    "Torres": {
+        "7_16": 4
+    },
+    "Dalil": {
+        "7_16": 1
+    },
+    "Hadjout": {
         "7_16": 2
     },
-    "abderrazak": {
+    "Abderrazak": {
         "7_16": 1
     },
-    "sebaa": {
+    "Sebaa": {
         "7_16": 2
     },
-    "francisco": {
+    "Francisco": {
         "7_16": 1
     },
-    "marti": {
+    "Marti": {
         "7_16": 7
     },
     "nez": {
@@ -53,29 +53,35 @@
     "lvarez": {
         "7_16": 6
     },
-    "alicia": {
+    "Alicia": {
         "7_16": 2
     },
-    "troncoso": {
+    "Troncoso": {
         "7_16": 8
     },
-    "abstract": {
+    "Abstract": {
         "7_16": 1
     },
-    "becom": {
-        "7_16": 4
+    "series": {
+        "7_16": 131
     },
-    "veri": {
+    "forecasting": {
+        "7_16": 68
+    },
+    "become": {
+        "7_16": 2
+    },
+    "very": {
         "7_16": 7
     },
-    "intens": {
+    "intensive": {
         "7_16": 2
     },
     "eld": {
-        "7_16": 13
+        "7_16": 8
     },
     "research": {
-        "7_16": 19
+        "7_16": 14
     },
     "which": {
         "7_16": 27
@@ -83,164 +89,179 @@
     "even": {
         "7_16": 6
     },
-    "increas": {
-        "7_16": 5
+    "increasing": {
+        "7_16": 3
     },
     "recent": {
-        "7_16": 8
+        "7_16": 5
     },
-    "year": {
+    "years": {
         "7_16": 6
     },
     "neural": {
-        "7_16": 100
+        "7_16": 87
     },
-    "network": {
-        "7_16": 141
+    "networks": {
+        "7_16": 51
     },
-    "prove": {
+    "proved": {
         "7_16": 1
     },
-    "power": {
-        "7_16": 17
+    "powerful": {
+        "7_16": 6
     },
-    "achiev": {
-        "7_16": 4
+    "achieving": {
+        "7_16": 2
     },
     "high": {
-        "7_16": 20
+        "7_16": 17
     },
-    "accuraci": {
+    "accuracy": {
         "7_16": 3
     },
-    "mani": {
-        "7_16": 21
+    "many": {
+        "7_16": 19
     },
-    "applic": {
-        "7_16": 33
+    "application": {
+        "7_16": 19
+    },
+    "elds": {
+        "7_16": 5
     },
     "these": {
-        "7_16": 29
-    },
-    "reason": {
-        "7_16": 8
-    },
-    "thei": {
-        "7_16": 9
-    },
-    "on": {
-        "7_16": 40
-    },
-    "most": {
-        "7_16": 33
-    },
-    "wide": {
-        "7_16": 10
-    },
-    "us": {
-        "7_16": 164
-    },
-    "method": {
-        "7_16": 33
-    },
-    "machin": {
         "7_16": 22
     },
-    "solv": {
+    "reasons": {
+        "7_16": 2
+    },
+    "they": {
+        "7_16": 9
+    },
+    "one": {
+        "7_16": 36
+    },
+    "most": {
+        "7_16": 31
+    },
+    "widely": {
+        "7_16": 6
+    },
+    "used": {
+        "7_16": 56
+    },
+    "methods": {
+        "7_16": 18
+    },
+    "machine": {
+        "7_16": 16
+    },
+    "learning": {
+        "7_16": 142
+    },
+    "solve": {
         "7_16": 4
     },
-    "problem": {
-        "7_16": 29
+    "problems": {
+        "7_16": 16
     },
-    "deal": {
-        "7_16": 11
+    "dealing": {
+        "7_16": 3
     },
     "with": {
-        "7_16": 76
+        "7_16": 74
     },
     "big": {
-        "7_16": 34
+        "7_16": 22
     },
     "data": {
-        "7_16": 99
+        "7_16": 80
     },
-    "nowadai": {
+    "nowadays": {
         "7_16": 4
     },
-    "thi": {
-        "7_16": 63
+    "this": {
+        "7_16": 49
     },
     "work": {
-        "7_16": 30
+        "7_16": 15
     },
-    "initi": {
-        "7_16": 4
+    "time": {
+        "7_16": 157
     },
-    "formul": {
-        "7_16": 5
+    "problem": {
+        "7_16": 11
+    },
+    "initially": {
+        "7_16": 1
+    },
+    "formulated": {
+        "7_16": 1
     },
     "along": {
         "7_16": 5
     },
-    "it": {
-        "7_16": 58
+    "its": {
+        "7_16": 12
     },
-    "mathemat": {
-        "7_16": 7
+    "mathematical": {
+        "7_16": 5
     },
-    "fundament": {
+    "fundamentals": {
         "7_16": 2
     },
-    "then": {
+    "Then": {
         "7_16": 5
     },
     "common": {
         "7_16": 5
     },
-    "architectur": {
-        "7_16": 56
+    "deep": {
+        "7_16": 120
+    },
+    "architectures": {
+        "7_16": 21
     },
     "that": {
-        "7_16": 52
+        "7_16": 50
     },
-    "current": {
-        "7_16": 11
+    "currently": {
+        "7_16": 2
     },
-    "be": {
+    "being": {
         "7_16": 8
     },
-    "successfulli": {
+    "successfully": {
         "7_16": 1
     },
-    "appli": {
-        "7_16": 13
-    },
-    "predict": {
-        "7_16": 54
-    },
-    "describ": {
+    "applied": {
         "7_16": 10
     },
-    "highligh": {
+    "predict": {
+        "7_16": 6
+    },
+    "described": {
+        "7_16": 10
+    },
+    "highlighting": {
         "7_16": 2
     },
     "their": {
         "7_16": 6
     },
-    "advantag": {
+    "advantages": {
+        "7_16": 1
+    },
+    "limitations": {
         "7_16": 2
     },
-    "limit": {
-        "7_16": 2
+    "Particular": {
+        "7_16": 1
     },
-    "particular": {
-        "7_16": 6
-    },
-    "attent": {
+    "attention": {
         "7_16": 7
     },
     "given": {
-        "7_16": 7
+        "7_16": 6
     },
     "feed": {
         "7_16": 11
@@ -248,107 +269,107 @@
     "forward": {
         "7_16": 15
     },
-    "recurr": {
-        "7_16": 33
+    "recurrent": {
+        "7_16": 30
     },
-    "includ": {
-        "7_16": 4
+    "including": {
+        "7_16": 3
     },
-    "elman": {
+    "Elman": {
         "7_16": 25
     },
     "long": {
-        "7_16": 29
+        "7_16": 22
     },
     "short": {
-        "7_16": 27
-    },
-    "term": {
-        "7_16": 27
-    },
-    "memori": {
-        "7_16": 16
-    },
-    "gate": {
-        "7_16": 24
-    },
-    "unit": {
-        "7_16": 43
-    },
-    "andbidirect": {
-        "7_16": 1
-    },
-    "convolut": {
-        "7_16": 46
-    },
-    "practic": {
-        "7_16": 7
-    },
-    "aspect": {
-        "7_16": 5
-    },
-    "such": {
         "7_16": 21
     },
-    "sete": {
-        "7_16": 1
+    "term": {
+        "7_16": 26
     },
-    "valu": {
-        "7_16": 38
+    "memory": {
+        "7_16": 16
     },
-    "hyper": {
-        "7_16": 30
-    },
-    "paramet": {
-        "7_16": 39
-    },
-    "choic": {
-        "7_16": 3
-    },
-    "suitab": {
-        "7_16": 2
-    },
-    "framework": {
-        "7_16": 28
-    },
-    "success": {
-        "7_16": 3
-    },
-    "also": {
-        "7_16": 23
-    },
-    "provid": {
+    "gated": {
         "7_16": 11
     },
-    "discus": {
+    "units": {
+        "7_16": 19
+    },
+    "andbidirectional": {
+        "7_16": 1
+    },
+    "convolutional": {
+        "7_16": 25
+    },
+    "Practical": {
+        "7_16": 3
+    },
+    "aspects": {
         "7_16": 4
     },
-    "sever": {
-        "7_16": 9
+    "such": {
+        "7_16": 19
     },
-    "fruit": {
+    "setting": {
+        "7_16": 1
+    },
+    "values": {
+        "7_16": 29
+    },
+    "hyper": {
+        "7_16": 26
+    },
+    "parameters": {
+        "7_16": 32
+    },
+    "choice": {
+        "7_16": 3
+    },
+    "suitable": {
         "7_16": 2
     },
-    "anali": {
-        "7_16": 4
+    "frameworks": {
+        "7_16": 15
     },
-    "obtain": {
-        "7_16": 8
+    "successful": {
+        "7_16": 2
+    },
+    "also": {
+        "7_16": 22
+    },
+    "provided": {
+        "7_16": 3
+    },
+    "discussed": {
+        "7_16": 3
+    },
+    "Several": {
+        "7_16": 1
+    },
+    "fruitful": {
+        "7_16": 2
+    },
+    "analyzed": {
+        "7_16": 2
+    },
+    "obtained": {
+        "7_16": 4
     },
     "good": {
         "7_16": 3
     },
-    "perform": {
-        "7_16": 10
-    },
-    "review": {
-        "7_16": 10
-    },
-    "result": {
+    "performance": {
         "7_16": 8
     },
-    "gap": {
+    "reviewed": {
         "7_16": 4
+    },
+    "result": {
+        "7_16": 2
+    },
+    "gaps": {
+        "7_16": 3
     },
     "been": {
         "7_16": 33
@@ -359,19 +380,22 @@
     "ed": {
         "7_16": 8
     },
-    "literatur": {
+    "literature": {
         "7_16": 9
     },
-    "domain": {
-        "7_16": 7
+    "several": {
+        "7_16": 8
     },
-    "thu": {
-        "7_16": 7
+    "domains": {
+        "7_16": 3
     },
-    "expec": {
-        "7_16": 2
+    "thus": {
+        "7_16": 1
     },
-    "inspir": {
+    "expecting": {
+        "7_16": 1
+    },
+    "inspire": {
         "7_16": 2
     },
     "new": {
@@ -380,59 +404,62 @@
     "better": {
         "7_16": 7
     },
-    "form": {
-        "7_16": 3
-    },
-    "knowledg": {
-        "7_16": 7
-    },
-    "keyword": {
-        "7_16": 1
-    },
-    "introduct": {
+    "forms": {
         "7_16": 2
     },
-    "interest": {
-        "7_16": 3
+    "knowledge": {
+        "7_16": 4
     },
-    "proces": {
-        "7_16": 26
+    "Keywords": {
+        "7_16": 1
+    },
+    "Introduction": {
+        "7_16": 1
+    },
+    "interest": {
+        "7_16": 2
+    },
+    "processing": {
+        "7_16": 19
     },
     "huge": {
         "7_16": 1
     },
-    "amount": {
-        "7_16": 2
+    "amounts": {
+        "7_16": 1
     },
     "ex": {
         "7_16": 8
     },
-    "perien": {
+    "perienced": {
         "7_16": 1
     },
     "rapid": {
         "7_16": 1
     },
-    "dure": {
+    "increase": {
+        "7_16": 1
+    },
+    "during": {
         "7_16": 4
     },
     "past": {
         "7_16": 6
     },
-    "decad": {
-        "7_16": 2
+    "decade": {
+        "7_16": 1
     },
     "due": {
         "7_16": 7
     },
-    "massiv": {
+    "massive": {
         "7_16": 1
     },
-    "deploy": {
+    "deployment": {
         "7_16": 2
     },
     "smart": {
-        "7_16": 6
+        "7_16": 5
     },
     "sensorsor": {
         "7_16": 1
@@ -444,91 +471,94 @@
         "7_16": 4
     },
     "media": {
-        "7_16": 3
-    },
-    "platform": {
         "7_16": 2
     },
-    "gener": {
-        "7_16": 25
+    "platforms": {
+        "7_16": 2
+    },
+    "generate": {
+        "7_16": 2
     },
     "continu": {
-        "7_16": 2
-    },
-    "ou": {
         "7_16": 1
     },
-    "basi": {
+    "ous": {
+        "7_16": 1
+    },
+    "basis": {
         "7_16": 2
     },
-    "howev": {
+    "However": {
         "7_16": 11
     },
-    "situat": {
+    "situation": {
         "7_16": 1
     },
-    "pose": {
+    "poses": {
         "7_16": 1
     },
-    "challeng": {
-        "7_16": 5
+    "challenges": {
+        "7_16": 3
     },
-    "store": {
+    "storing": {
         "7_16": 1
     },
-    "disk": {
+    "disks": {
         "7_16": 1
     },
     "or": {
         "7_16": 50
     },
-    "make": {
-        "7_16": 18
+    "making": {
+        "7_16": 4
     },
-    "avail": {
+    "available": {
+        "7_16": 3
+    },
+    "required": {
+        "7_16": 1
+    },
+    "computational": {
+        "7_16": 6
+    },
+    "resources": {
+        "7_16": 6
+    },
+    "Big": {
         "7_16": 12
     },
-    "requir": {
-        "7_16": 7
+    "analytics": {
+        "7_16": 3
     },
-    "comput": {
-        "7_16": 78
-    },
-    "resourc": {
-        "7_16": 7
-    },
-    "analyt": {
-        "7_16": 4
-    },
-    "emerg": {
-        "7_16": 4
+    "emerges": {
+        "7_16": 1
     },
     "context": {
-        "7_16": 4
+        "7_16": 3
     },
     "an": {
-        "7_16": 42
+        "7_16": 31
     },
-    "e": {
-        "7_16": 38
+    "es": {
+        "7_16": 8
     },
     "sential": {
         "7_16": 1
     },
     "process": {
-        "7_16": 14
+        "7_16": 10
     },
-    "focus": {
+    "focused": {
         "7_16": 3
     },
     "ef": {
-        "7_16": 8
+        "7_16": 5
     },
-    "cientli": {
+    "ciently": {
         "7_16": 2
     },
-    "collec": {
-        "7_16": 4
+    "collecting": {
+        "7_16": 1
     },
     "organiz": {
         "7_16": 1
@@ -536,43 +566,46 @@
     "ing": {
         "7_16": 12
     },
+    "analyzing": {
+        "7_16": 2
+    },
     "aim": {
         "7_16": 3
     },
-    "discov": {
-        "7_16": 3
-    },
-    "pattern": {
-        "7_16": 11
-    },
-    "extrac": {
-        "7_16": 3
-    },
-    "valuab": {
+    "discovering": {
         "7_16": 1
     },
-    "inform": {
-        "7_16": 30
+    "patterns": {
+        "7_16": 3
     },
-    "organ": {
-        "7_16": 4
+    "extracting": {
+        "7_16": 1
     },
-    "help": {
+    "valuable": {
+        "7_16": 1
+    },
+    "information": {
+        "7_16": 19
+    },
+    "organizations": {
         "7_16": 2
     },
-    "identifi": {
+    "helps": {
         "7_16": 1
     },
-    "opportun": {
+    "identify": {
+        "7_16": 1
+    },
+    "opportunities": {
         "7_16": 1
     },
     "smarter": {
         "7_16": 1
     },
-    "move": {
-        "7_16": 3
+    "moves": {
+        "7_16": 2
     },
-    "lead": {
+    "leads": {
         "7_16": 1
     },
     "more": {
@@ -581,28 +614,28 @@
     "cient": {
         "7_16": 8
     },
-    "oper": {
-        "7_16": 5
+    "operations": {
+        "7_16": 2
     },
     "higher": {
-        "7_16": 6
+        "7_16": 4
     },
     "pro": {
         "7_16": 6
     },
-    "t": {
-        "7_16": 46
+    "ts": {
+        "7_16": 1
     },
-    "from": {
-        "7_16": 42
+    "From": {
+        "7_16": 2
     },
-    "paradigm": {
+    "paradigms": {
         "7_16": 1
     },
     "cur": {
         "7_16": 1
     },
-    "rentli": {
+    "rently": {
         "7_16": 1
     },
     "da": {
@@ -611,56 +644,65 @@
     "ta": {
         "7_16": 1
     },
-    "light": {
+    "lights": {
         "7_16": 1
     },
-    "becaus": {
+    "because": {
         "7_16": 3
     },
-    "outstan": {
+    "outstanding": {
         "7_16": 1
     },
     "scale": {
         "7_16": 6
     },
+    "increases": {
+        "7_16": 1
+    },
+    "Most": {
+        "7_16": 2
+    },
     "layer": {
-        "7_16": 48
+        "7_16": 30
     },
     "computa": {
         "7_16": 2
     },
-    "tion": {
-        "7_16": 18
+    "tions": {
+        "7_16": 4
     },
     "done": {
         "7_16": 2
     },
     "parallel": {
-        "7_16": 5
+        "7_16": 2
     },
     "by": {
         "7_16": 87
     },
-    "instanc": {
+    "instance": {
         "7_16": 5
     },
     "graphic": {
-        "7_16": 5
+        "7_16": 3
     },
-    "gpu": {
+    "GPUs": {
         "7_16": 8
     },
-    "wai": {
+    "That": {
+        "7_16": 2
+    },
+    "way": {
         "7_16": 5
     },
-    "scalab": {
-        "7_16": 4
+    "scalable": {
+        "7_16": 3
     },
-    "distribut": {
-        "7_16": 12
+    "distributed": {
+        "7_16": 7
     },
-    "model": {
-        "7_16": 92
+    "models": {
+        "7_16": 28
     },
     "easier": {
         "7_16": 3
@@ -668,20 +710,26 @@
     "built": {
         "7_16": 2
     },
+    "provide": {
+        "7_16": 6
+    },
     "much": {
         "7_16": 5
     },
     "speed": {
-        "7_16": 13
-    },
-    "depth": {
-        "7_16": 4
-    },
-    "allow": {
         "7_16": 11
     },
+    "Higher": {
+        "7_16": 2
+    },
+    "depth": {
+        "7_16": 3
+    },
+    "allows": {
+        "7_16": 8
+    },
     "complex": {
-        "7_16": 7
+        "7_16": 5
     },
     "non": {
         "7_16": 1
@@ -689,11 +737,11 @@
     "linear": {
         "7_16": 5
     },
-    "function": {
-        "7_16": 22
+    "functions": {
+        "7_16": 2
     },
     "but": {
-        "7_16": 15
+        "7_16": 13
     },
     "turn": {
         "7_16": 1
@@ -701,28 +749,31 @@
     "compu": {
         "7_16": 1
     },
-    "tation": {
+    "tational": {
         "7_16": 1
     },
-    "cost": {
-        "7_16": 11
-    },
-    "numer": {
+    "costs": {
         "7_16": 1
+    },
+    "numerous": {
+        "7_16": 1
+    },
+    "Applications": {
+        "7_16": 3
     },
     "both": {
         "7_16": 10
     },
-    "supervis": {
+    "supervised": {
         "7_16": 1
     },
-    "unsup": {
+    "unsuper": {
         "7_16": 1
     },
-    "vise": {
+    "vised": {
         "7_16": 1
     },
-    "abundantli": {
+    "abundantly": {
         "7_16": 1
     },
     "found": {
@@ -732,16 +783,19 @@
         "7_16": 1
     },
     "ture": {
-        "7_16": 6
+        "7_16": 3
     },
-    "recognit": {
+    "Pattern": {
+        "7_16": 4
+    },
+    "recognition": {
         "7_16": 10
     },
     "classi": {
         "7_16": 18
     },
     "cation": {
-        "7_16": 19
+        "7_16": 18
     },
     "were": {
         "7_16": 6
@@ -749,160 +803,184 @@
     "rst": {
         "7_16": 3
     },
-    "relev": {
-        "7_16": 7
+    "relevant": {
+        "7_16": 5
+    },
+    "uses": {
+        "7_16": 6
     },
     "achievinggreat": {
+        "7_16": 1
+    },
+    "success": {
         "7_16": 1
     },
     "speech": {
         "7_16": 2
     },
     "text": {
-        "7_16": 4
+        "7_16": 3
     },
-    "mine": {
-        "7_16": 11
+    "mining": {
+        "7_16": 7
     },
-    "imag": {
-        "7_16": 22
+    "image": {
+        "7_16": 12
     },
-    "analysi": {
+    "analysis": {
         "7_16": 17
     },
-    "nevertheless": {
+    "Nevertheless": {
         "7_16": 1
     },
-    "regr": {
+    "regres": {
         "7_16": 1
     },
     "sion": {
         "7_16": 1
     },
-    "quit": {
+    "becoming": {
+        "7_16": 1
+    },
+    "quite": {
         "7_16": 2
     },
     "popular": {
-        "7_16": 5
+        "7_16": 4
     },
-    "mainli": {
+    "mainly": {
         "7_16": 3
     },
-    "develop": {
-        "7_16": 8
+    "development": {
+        "7_16": 3
     },
     "archi": {
         "7_16": 4
     },
-    "tectur": {
+    "tectures": {
         "7_16": 4
     },
-    "particularli": {
+    "particularly": {
         "7_16": 2
     },
-    "conceiv": {
+    "conceived": {
         "7_16": 1
     },
-    "index": {
-        "7_16": 3
+    "deal": {
+        "7_16": 8
+    },
+    "indexed": {
+        "7_16": 1
     },
     "over": {
-        "7_16": 16
+        "7_16": 15
+    },
+    "Such": {
+        "7_16": 2
     },
     "case": {
-        "7_16": 10
+        "7_16": 5
     },
     "spe": {
         "7_16": 1
     },
     "ci": {
-        "7_16": 6
+        "7_16": 1
     },
-    "calli": {
+    "cally": {
         "7_16": 5
     },
-    "scienc": {
-        "7_16": 30
+    "Data": {
+        "7_16": 19
     },
-    "lab": {
+    "Science": {
+        "7_16": 7
+    },
+    "Lab": {
         "7_16": 2
     },
-    "pablo": {
+    "Pablo": {
         "7_16": 2
     },
     "de": {
-        "7_16": 30
+        "7_16": 24
     },
-    "olavid": {
+    "Olavide": {
         "7_16": 2
     },
-    "univers": {
-        "7_16": 25
+    "University": {
+        "7_16": 24
     },
-    "sevil": {
+    "Seville": {
         "7_16": 2
     },
-    "spain": {
+    "Spain": {
         "7_16": 2
     },
-    "depart": {
+    "Department": {
         "7_16": 1
     },
-    "commerc": {
+    "Commerce": {
         "7_16": 1
     },
     "SADEG": {
         "7_16": 1
     },
-    "compani": {
-        "7_16": 2
-    },
-    "sonelgaz": {
+    "Company": {
         "7_16": 1
     },
-    "group": {
-        "7_16": 2
+    "Sonelgaz": {
+        "7_16": 1
     },
-    "bejaia": {
+    "Group": {
+        "7_16": 1
+    },
+    "Bejaia": {
         "7_16": 4
     },
-    "algeria": {
+    "Algeria": {
         "7_16": 4
     },
     "LIMED": {
         "7_16": 1
     },
-    "laboratori": {
+    "Laboratory": {
         "7_16": 1
     },
-    "faculti": {
+    "Faculty": {
         "7_16": 1
     },
-    "exact": {
+    "Exact": {
         "7_16": 1
     },
-    "school": {
+    "Sciences": {
+        "7_16": 22
+    },
+    "School": {
         "7_16": 1
     },
-    "technologi": {
-        "7_16": 3
-    },
-    "digit": {
-        "7_16": 1
-    },
-    "equal": {
+    "Technologies": {
         "7_16": 2
     },
-    "contribut": {
-        "7_16": 2
-    },
-    "author": {
-        "7_16": 19
-    },
-    "address": {
+    "Computing": {
         "7_16": 4
     },
-    "correspond": {
+    "Digital": {
+        "7_16": 1
+    },
+    "Equally": {
+        "7_16": 1
+    },
+    "contributing": {
+        "7_16": 1
+    },
+    "authors": {
+        "7_16": 18
+    },
+    "Address": {
+        "7_16": 1
+    },
+    "correspondence": {
         "7_16": 1
     },
     "ES": {
@@ -920,44 +998,50 @@
     "upo": {
         "7_16": 1
     },
-    "esbig": {
+    "esBig": {
         "7_16": 1
     },
-    "volum": {
-        "7_16": 3
-    },
-    "number": {
-        "7_16": 24
-    },
-    "mari": {
+    "Volume": {
         "7_16": 1
     },
-    "ann": {
+    "Number": {
+        "7_16": 7
+    },
+    "Mary": {
         "7_16": 1
     },
-    "liebert": {
+    "Ann": {
         "7_16": 1
     },
-    "inc": {
+    "Liebert": {
+        "7_16": 1
+    },
+    "Inc": {
         "7_16": 1
     },
     "DOI": {
         "7_16": 2
     },
-    "download": {
+    "Downloaded": {
         "7_16": 19
     },
-    "nation": {
-        "7_16": 20
+    "National": {
+        "7_16": 19
     },
-    "emer": {
+    "Computer": {
         "7_16": 23
     },
-    "islamabad": {
+    "Emerging": {
         "7_16": 19
     },
-    "pakistan": {
+    "Islamabad": {
         "7_16": 19
+    },
+    "Pakistan": {
+        "7_16": 19
+    },
+    "from": {
+        "7_16": 40
     },
     "www": {
         "7_16": 20
@@ -968,29 +1052,41 @@
     "com": {
         "7_16": 33
     },
-    "person": {
+    "personal": {
         "7_16": 19
     },
-    "onli": {
+    "use": {
+        "7_16": 32
+    },
+    "only": {
         "7_16": 22
     },
     "set": {
         "7_16": 7
     },
-    "measur": {
-        "7_16": 5
-    },
-    "terval": {
+    "measures": {
         "7_16": 1
     },
-    "order": {
+    "collected": {
         "7_16": 3
     },
-    "chronolog": {
+    "tervals": {
+        "7_16": 1
+    },
+    "ordered": {
+        "7_16": 2
+    },
+    "chronologically": {
+        "7_16": 1
+    },
+    "Given": {
         "7_16": 1
     },
     "nition": {
         "7_16": 8
+    },
+    "it": {
+        "7_16": 29
     },
     "hard": {
         "7_16": 3
@@ -1001,7 +1097,7 @@
     "physical": {
         "7_16": 3
     },
-    "chemic": {
+    "chemical": {
         "7_16": 1
     },
     "phenomena": {
@@ -1010,17 +1106,20 @@
     "without": {
         "7_16": 3
     },
-    "variab": {
-        "7_16": 7
+    "variables": {
+        "7_16": 2
     },
-    "evolv": {
+    "evolve": {
         "7_16": 1
     },
-    "propos": {
-        "7_16": 5
+    "reason": {
+        "7_16": 6
     },
-    "approach": {
-        "7_16": 15
+    "proposal": {
+        "7_16": 1
+    },
+    "approaches": {
+        "7_16": 4
     },
     "almost": {
         "7_16": 4
@@ -1031,65 +1130,77 @@
     "c": {
         "7_16": 14
     },
-    "disciplin": {
+    "disciplines": {
         "7_16": 1
     },
-    "statist": {
-        "7_16": 5
+    "Statistical": {
+        "7_16": 1
     },
-    "": {
+    "s": {
         "7_16": 10
     },
     "onward": {
         "7_16": 1
     },
-    "especi": {
+    "especially": {
         "7_16": 1
     },
     "those": {
         "7_16": 3
     },
-    "base": {
-        "7_16": 74
+    "based": {
+        "7_16": 69
     },
-    "box": {
+    "Box": {
         "7_16": 3
     },
-    "jenkin": {
+    "Jenkins": {
         "7_16": 3
     },
-    "methodologi": {
+    "methodology": {
+        "7_16": 1
+    },
+    "With": {
         "7_16": 2
     },
-    "appear": {
-        "7_16": 2
+    "appearance": {
+        "7_16": 1
     },
     "learn": {
-        "7_16": 6
+        "7_16": 3
     },
-    "regress": {
+    "regression": {
         "7_16": 3
     },
     "mod": {
         "7_16": 2
     },
-    "el": {
+    "els": {
         "7_16": 2
     },
-    "outperfor": {
+    "proposed": {
+        "7_16": 4
+    },
+    "outperforming": {
         "7_16": 1
     },
     "former": {
         "7_16": 1
     },
-    "remain": {
-        "7_16": 8
-    },
-    "baselin": {
+    "remained": {
         "7_16": 1
+    },
+    "baseline": {
+        "7_16": 1
+    },
+    "works": {
+        "7_16": 15
     },
     "superior": {
         "7_16": 1
+    },
+    "results": {
+        "7_16": 6
     },
     "effort": {
         "7_16": 1
@@ -1100,47 +1211,68 @@
     "into": {
         "7_16": 11
     },
-    "mention": {
+    "developing": {
+        "7_16": 2
+    },
+    "architecture": {
+        "7_16": 26
+    },
+    "mentioned": {
         "7_16": 1
     },
     "earlier": {
         "7_16": 2
     },
-    "primari": {
+    "primary": {
         "7_16": 1
     },
-    "motiv": {
-        "7_16": 2
+    "motivation": {
+        "7_16": 1
     },
     "behind": {
         "7_16": 2
     },
-    "compr": {
+    "survey": {
+        "7_16": 12
+    },
+    "compre": {
         "7_16": 1
     },
-    "hensiv": {
+    "hensive": {
         "7_16": 1
     },
-    "understan": {
+    "understanding": {
         "7_16": 1
     },
-    "interes": {
-        "7_16": 3
+    "researchers": {
+        "7_16": 2
+    },
+    "interested": {
+        "7_16": 2
     },
     "fore": {
         "7_16": 6
     },
-    "further": {
+    "casting": {
+        "7_16": 4
+    },
+    "Further": {
+        "7_16": 2
+    },
+    "overviews": {
         "7_16": 3
     },
-    "overview": {
-        "7_16": 7
+    "applications": {
+        "7_16": 8
     },
-    "techniqu": {
-        "7_16": 15
+    "techniques": {
+        "7_16": 14
     },
     "proven": {
         "7_16": 2
+    },
+    "expected": {
+        "7_16": 1
     },
     "bet": {
         "7_16": 1
@@ -1148,16 +1280,22 @@
     "ter": {
         "7_16": 1
     },
-    "although": {
-        "7_16": 10
+    "Although": {
+        "7_16": 9
     },
     "other": {
-        "7_16": 11
+        "7_16": 5
     },
-    "properti": {
+    "surveys": {
+        "7_16": 1
+    },
+    "discussing": {
+        "7_16": 1
+    },
+    "properties": {
         "7_16": 4
     },
-    "publish": {
+    "publishe": {
         "7_16": 1
     },
     "dd": {
@@ -1170,7 +1308,7 @@
         "7_16": 14
     },
     "i": {
-        "7_16": 19
+        "7_16": 17
     },
     "n": {
         "7_16": 12
@@ -1187,23 +1325,44 @@
     "ty": {
         "7_16": 1
     },
-    "major": {
-        "7_16": 4
+    "e": {
+        "7_16": 30
+    },
+    "t": {
+        "7_16": 45
+    },
+    "majority": {
+        "7_16": 3
     },
     "them": {
         "7_16": 10
     },
-    "ori": {
+    "general": {
+        "7_16": 5
+    },
+    "overview": {
+        "7_16": 4
+    },
+    "ory": {
         "7_16": 1
     },
-    "zhang": {
+    "Thus": {
+        "7_16": 6
+    },
+    "Zhang": {
         "7_16": 21
     },
     "et": {
         "7_16": 117
     },
     "al": {
-        "7_16": 124
+        "7_16": 123
+    },
+    "emerging": {
+        "7_16": 2
+    },
+    "researches": {
+        "7_16": 1
     },
     "th": {
         "7_16": 11
@@ -1214,58 +1373,67 @@
     "formula": {
         "7_16": 1
     },
-    "featur": {
-        "7_16": 12
+    "tion": {
+        "7_16": 14
     },
-    "anoth": {
-        "7_16": 8
+    "feature": {
+        "7_16": 5
     },
-    "remark": {
-        "7_16": 2
+    "Another": {
+        "7_16": 4
     },
-    "ref": {
-        "7_16": 21
+    "remarkable": {
+        "7_16": 1
+    },
+    "Ref": {
+        "7_16": 18
     },
     "intro": {
         "7_16": 1
     },
-    "duce": {
+    "duced": {
         "7_16": 1
     },
     "open": {
+        "7_16": 2
+    },
+    "source": {
         "7_16": 3
     },
-    "sourc": {
-        "7_16": 4
+    "framework": {
+        "7_16": 11
     },
-    "implemen": {
+    "implemented": {
         "7_16": 2
     },
-    "algorithm": {
-        "7_16": 16
+    "algorithms": {
+        "7_16": 8
     },
-    "east": {
+    "East": {
         "7_16": 1
     },
-    "anglia": {
+    "Anglia": {
         "7_16": 1
     },
-    "californiain": {
+    "Californiain": {
         "7_16": 1
     },
-    "riversid": {
+    "Riverside": {
         "7_16": 1
     },
-    "repositori": {
+    "repository": {
         "7_16": 2
     },
-    "mayer": {
+    "Recently": {
         "7_16": 2
     },
-    "jacobsen": {
+    "Mayer": {
         "7_16": 2
     },
-    "publis": {
+    "Jacobsen": {
+        "7_16": 2
+    },
+    "published": {
         "7_16": 4
     },
     "about": {
@@ -1284,82 +1452,103 @@
         "7_16": 1
     },
     "go": {
-        "7_16": 3
-    },
-    "tribut": {
         "7_16": 1
     },
-    "infrastructur": {
-        "7_16": 3
+    "tributed": {
+        "7_16": 1
     },
-    "focu": {
-        "7_16": 4
-    },
-    "wa": {
-        "7_16": 9
-    },
-    "place": {
+    "infrastructures": {
         "7_16": 2
     },
-    "tool": {
-        "7_16": 5
+    "focus": {
+        "7_16": 4
     },
-    "discuss": {
+    "was": {
+        "7_16": 8
+    },
+    "placed": {
+        "7_16": 2
+    },
+    "tools": {
+        "7_16": 2
+    },
+    "discussion": {
         "7_16": 1
     },
-    "exis": {
+    "existing": {
         "7_16": 4
     },
     "rest": {
         "7_16": 1
     },
-    "artic": {
+    "article": {
+        "7_16": 2
+    },
+    "structured": {
+        "7_16": 1
+    },
+    "follows": {
+        "7_16": 4
+    },
+    "formulation": {
         "7_16": 3
     },
-    "structur": {
-        "7_16": 3
+    "Problem": {
+        "7_16": 2
     },
-    "follow": {
-        "7_16": 8
+    "De": {
+        "7_16": 6
     },
     "sec": {
         "7_16": 1
     },
-    "section": {
-        "7_16": 13
-    },
-    "introduc": {
+    "Architectures": {
         "7_16": 4
     },
-    "typical": {
+    "section": {
+        "7_16": 12
+    },
+    "introduces": {
+        "7_16": 1
+    },
+    "typically": {
         "7_16": 4
     },
     "con": {
-        "7_16": 10
+        "7_16": 8
     },
-    "sectionprovid": {
+    "Aspects": {
         "7_16": 1
     },
-    "clude": {
+    "sectionprovides": {
+        "7_16": 1
+    },
+    "practical": {
         "7_16": 2
     },
-    "implement": {
-        "7_16": 10
+    "cluding": {
+        "7_16": 1
     },
-    "tune": {
+    "implementation": {
+        "7_16": 6
+    },
+    "parameter": {
+        "7_16": 6
+    },
+    "tuning": {
         "7_16": 3
     },
-    "hardwar": {
-        "7_16": 6
+    "hardware": {
+        "7_16": 5
     },
     "must": {
         "7_16": 5
     },
-    "consid": {
-        "7_16": 5
+    "considered": {
+        "7_16": 2
     },
     "when": {
-        "7_16": 12
+        "7_16": 11
     },
     "ap": {
         "7_16": 6
@@ -1368,51 +1557,60 @@
         "7_16": 1
     },
     "forecast": {
-        "7_16": 28
+        "7_16": 24
     },
-    "paper": {
-        "7_16": 2
+    "papers": {
+        "7_16": 1
     },
-    "sore": {
+    "sorted": {
         "7_16": 1
     },
     "cast": {
         "7_16": 2
     },
-    "final": {
-        "7_16": 3
+    "Finally": {
+        "7_16": 2
     },
-    "lesson": {
+    "lessons": {
         "7_16": 1
     },
-    "clusion": {
+    "learned": {
+        "7_16": 1
+    },
+    "clusions": {
         "7_16": 2
     },
     "drawn": {
         "7_16": 2
     },
-    "conclus": {
+    "Conclusions": {
         "7_16": 2
     },
-    "timeseri": {
+    "This": {
+        "7_16": 14
+    },
+    "provides": {
+        "7_16": 2
+    },
+    "TimeSeries": {
         "7_16": 1
     },
-    "descript": {
-        "7_16": 4
+    "description": {
+        "7_16": 3
     },
-    "ofth": {
+    "ofthe": {
         "7_16": 1
     },
     "main": {
         "7_16": 9
     },
-    "compon": {
-        "7_16": 10
+    "components": {
+        "7_16": 5
     },
-    "compo": {
-        "7_16": 3
+    "Compo": {
+        "7_16": 1
     },
-    "nent": {
+    "nents": {
         "7_16": 3
     },
     "mathema": {
@@ -1421,43 +1619,79 @@
     "tical": {
         "7_16": 1
     },
+    "introduced": {
+        "7_16": 2
+    },
+    "Mathematical": {
+        "7_16": 2
+    },
+    "Formulation": {
+        "7_16": 1
+    },
+    "Final": {
+        "7_16": 1
+    },
+    "remarks": {
+        "7_16": 1
+    },
     "length": {
         "7_16": 3
+    },
+    "seri": {
+        "7_16": 1
+    },
+    "Short": {
+        "7_16": 6
+    },
+    "Long": {
+        "7_16": 7
     },
     "ned": {
         "7_16": 9
     },
-    "sequenc": {
-        "7_16": 18
+    "sequence": {
+        "7_16": 12
     },
     "chrono": {
         "7_16": 1
     },
-    "logic": {
+    "logically": {
         "7_16": 1
     },
-    "obser": {
+    "observed": {
         "7_16": 2
     },
-    "thevalu": {
+    "variable": {
+        "7_16": 5
+    },
+    "measured": {
+        "7_16": 2
+    },
+    "continuous": {
         "7_16": 1
     },
-    "sampl": {
-        "7_16": 10
+    "thevalues": {
+        "7_16": 1
+    },
+    "sampled": {
+        "7_16": 1
     },
     "constant": {
         "7_16": 3
     },
-    "interv": {
-        "7_16": 3
+    "intervals": {
+        "7_16": 2
     },
     "xed": {
         "7_16": 2
     },
-    "frequenc": {
+    "sampling": {
+        "7_16": 1
+    },
+    "frequency": {
         "7_16": 3
     },
-    "hold": {
+    "holds": {
         "7_16": 1
     },
     "true": {
@@ -1466,23 +1700,29 @@
     "not": {
         "7_16": 14
     },
-    "everi": {
+    "every": {
         "7_16": 1
     },
-    "some": {
-        "7_16": 15
-    },
-    "mise": {
+    "modeled": {
         "7_16": 4
     },
-    "reliab": {
+    "some": {
+        "7_16": 11
+    },
+    "following": {
+        "7_16": 4
+    },
+    "Missing": {
         "7_16": 1
     },
-    "collect": {
+    "reliability": {
+        "7_16": 1
+    },
+    "collection": {
         "7_16": 2
     },
     "there": {
-        "7_16": 14
+        "7_16": 9
     },
     "lot": {
         "7_16": 2
@@ -1490,70 +1730,88 @@
     "strat": {
         "7_16": 1
     },
-    "egi": {
+    "egies": {
         "7_16": 1
     },
-    "imput": {
+    "imputing": {
+        "7_16": 1
+    },
+    "missing": {
         "7_16": 2
     },
-    "format": {
+    "formation": {
         "7_16": 4
     },
-    "omit": {
+    "omitting": {
         "7_16": 1
     },
-    "entir": {
+    "entire": {
         "7_16": 2
     },
     "record": {
         "7_16": 2
     },
-    "outl": {
+    "Outlying": {
         "7_16": 1
     },
-    "issu": {
-        "7_16": 7
+    "issue": {
+        "7_16": 5
     },
-    "frequent": {
+    "appears": {
+        "7_16": 1
+    },
+    "frequently": {
+        "7_16": 2
+    },
+    "Methods": {
         "7_16": 2
     },
     "robust": {
-        "7_16": 4
+        "7_16": 3
+    },
+    "statistics": {
+        "7_16": 3
     },
     "chosen": {
         "7_16": 2
     },
-    "remov": {
-        "7_16": 2
+    "remove": {
+        "7_16": 1
     },
-    "simpli": {
-        "7_16": 2
+    "simply": {
+        "7_16": 1
     },
-    "incorpor": {
-        "7_16": 3
+    "incorporate": {
+        "7_16": 1
+    },
+    "model": {
+        "7_16": 55
+    },
+    "When": {
+        "7_16": 1
     },
     "irregular": {
-        "7_16": 3
+        "7_16": 2
     },
-    "period": {
-        "7_16": 5
+    "periods": {
+        "7_16": 2
     },
-    "call": {
+    "called": {
         "7_16": 6
     },
     "either": {
         "7_16": 2
     },
-    "unevenli": {
+    "unevenly": {
         "7_16": 1
     },
-    "space": {
-        "7_16": 5
+    "spaced": {
+        "7_16": 1
     },
     "se": {
         "7_16": 7
     },
-    "ri": {
+    "ries": {
         "7_16": 4
     },
     "if": {
@@ -1562,25 +1820,31 @@
     "enough": {
         "7_16": 2
     },
-    "stream": {
+    "streams": {
         "7_16": 2
     },
-    "handl": {
-        "7_16": 3
+    "Some": {
+        "7_16": 4
     },
-    "nativ": {
+    "issues": {
+        "7_16": 2
+    },
+    "handled": {
         "7_16": 1
     },
-    "irregularli": {
+    "natively": {
+        "7_16": 1
+    },
+    "irregularly": {
         "7_16": 1
     },
     "should": {
         "7_16": 2
     },
-    "accoun": {
+    "accounted": {
         "7_16": 1
     },
-    "preproces": {
+    "preprocessing": {
         "7_16": 1
     },
     "out": {
@@ -1589,37 +1853,40 @@
     "scope": {
         "7_16": 1
     },
-    "pleas": {
+    "please": {
         "7_16": 1
     },
     "refer": {
-        "7_16": 3
+        "7_16": 2
     },
-    "detail": {
-        "7_16": 3
+    "detailed": {
+        "7_16": 2
     },
-    "usual": {
-        "7_16": 7
+    "usually": {
+        "7_16": 5
     },
-    "character": {
+    "characterized": {
         "7_16": 1
     },
     "three": {
         "7_16": 8
     },
-    "trend": {
-        "7_16": 8
+    "compo": {
+        "7_16": 2
     },
-    "season": {
-        "7_16": 8
+    "trend": {
+        "7_16": 6
+    },
+    "seasonality": {
+        "7_16": 5
     },
     "known": {
         "7_16": 4
     },
-    "residu": {
-        "7_16": 9
+    "residuals": {
+        "7_16": 4
     },
-    "scribe": {
+    "scribed": {
         "7_16": 2
     },
     "later": {
@@ -1634,28 +1901,61 @@
     "AL": {
         "7_16": 8
     },
+    "Trend": {
+        "7_16": 1
+    },
+    "It": {
+        "7_16": 17
+    },
     "movement": {
         "7_16": 2
     },
-    "exhibit": {
+    "exhibits": {
         "7_16": 1
     },
-    "observ": {
-        "7_16": 2
-    },
-    "variat": {
-        "7_16": 2
-    },
-    "differ": {
-        "7_16": 14
-    },
-    "kind": {
-        "7_16": 4
-    },
-    "exponenti": {
+    "observation": {
         "7_16": 1
     },
-    "parabol": {
+    "period": {
+        "7_16": 2
+    },
+    "considering": {
+        "7_16": 3
+    },
+    "irregularities": {
+        "7_16": 1
+    },
+    "texts": {
+        "7_16": 1
+    },
+    "component": {
+        "7_16": 5
+    },
+    "variation": {
+        "7_16": 1
+    },
+    "different": {
+        "7_16": 13
+    },
+    "kinds": {
+        "7_16": 3
+    },
+    "trends": {
+        "7_16": 1
+    },
+    "exponential": {
+        "7_16": 1
+    },
+    "parabolic": {
+        "7_16": 1
+    },
+    "ones": {
+        "7_16": 2
+    },
+    "Seasonality": {
+        "7_16": 2
+    },
+    "variations": {
         "7_16": 1
     },
     "occur": {
@@ -1665,153 +1965,186 @@
         "7_16": 9
     },
     "regular": {
-        "7_16": 5
-    },
-    "mai": {
         "7_16": 2
+    },
+    "may": {
+        "7_16": 2
+    },
+    "useful": {
+        "7_16": 7
     },
     "hibit": {
         "7_16": 1
     },
     "similar": {
-        "7_16": 3
+        "7_16": 1
     },
-    "integr": {
-        "7_16": 5
+    "integrates": {
+        "7_16": 1
     },
-    "effect": {
-        "7_16": 5
+    "effects": {
+        "7_16": 1
     },
     "rea": {
         "7_16": 1
     },
-    "sonab": {
+    "sonably": {
         "7_16": 1
     },
-    "stabl": {
+    "stable": {
         "7_16": 1
     },
-    "magnitud": {
+    "magnitude": {
         "7_16": 1
     },
-    "direct": {
-        "7_16": 2
-    },
-    "caus": {
+    "direction": {
         "7_16": 1
     },
-    "factor": {
-        "7_16": 4
-    },
-    "climat": {
+    "caused": {
         "7_16": 1
     },
-    "econom": {
-        "7_16": 1
-    },
-    "cycle": {
+    "factors": {
         "7_16": 3
     },
-    "festiv": {
+    "climate": {
+        "7_16": 1
+    },
+    "economical": {
+        "7_16": 1
+    },
+    "cycles": {
+        "7_16": 2
+    },
+    "festivities": {
+        "7_16": 1
+    },
+    "Residuals": {
         "7_16": 1
     },
     "cyclic": {
         "7_16": 1
     },
-    "oscil": {
-        "7_16": 3
+    "oscillations": {
+        "7_16": 2
     },
-    "calcul": {
-        "7_16": 5
+    "calculated": {
+        "7_16": 1
+    },
+    "removed": {
+        "7_16": 1
+    },
+    "residual": {
+        "7_16": 4
+    },
+    "remain": {
+        "7_16": 1
+    },
+    "These": {
+        "7_16": 7
     },
     "va": {
         "7_16": 1
     },
-    "lue": {
+    "lues": {
         "7_16": 1
     },
-    "sometim": {
+    "sometimes": {
         "7_16": 1
     },
     "mask": {
         "7_16": 1
     },
     "outlier": {
-        "7_16": 2
+        "7_16": 1
     },
     "cope": {
         "7_16": 1
     },
-    "uctuat": {
+    "uctuations": {
         "7_16": 1
     },
-    "divers": {
+    "diverse": {
         "7_16": 1
     },
     "origin": {
         "7_16": 2
     },
-    "imposs": {
+    "makes": {
+        "7_16": 4
+    },
+    "prediction": {
+        "7_16": 39
+    },
+    "impossible": {
         "7_16": 1
     },
-    "ani": {
+    "any": {
         "7_16": 3
     },
-    "chanc": {
+    "chance": {
         "7_16": 1
     },
-    "detec": {
-        "7_16": 3
+    "detected": {
+        "7_16": 1
     },
     "thought": {
         "7_16": 1
     },
-    "precursor": {
+    "precursors": {
         "7_16": 1
     },
-    "chang": {
-        "7_16": 4
-    },
-    "aggreg": {
-        "7_16": 1
-    },
-    "real": {
+    "changes": {
         "7_16": 2
+    },
+    "aggregate": {
+        "7_16": 1
+    },
+    "Real": {
+        "7_16": 1
     },
     "world": {
         "7_16": 1
     },
     "present": {
-        "7_16": 4
+        "7_16": 3
     },
-    "meaning": {
+    "meaningful": {
         "7_16": 1
     },
     "ir": {
         "7_16": 1
     },
-    "stationari": {
+    "stationary": {
         "7_16": 1
     },
     "mean": {
-        "7_16": 6
+        "7_16": 3
     },
-    "varianc": {
+    "variance": {
+        "7_16": 1
+    },
+    "turning": {
         "7_16": 1
     },
     "ponent": {
-        "7_16": 3
+        "7_16": 2
     },
-    "challen": {
+    "challenging": {
         "7_16": 2
     },
     "thisreason": {
         "7_16": 1
     },
-    "accur": {
-        "7_16": 5
+    "make": {
+        "7_16": 9
     },
-    "treme": {
+    "accurate": {
+        "7_16": 4
+    },
+    "predictions": {
+        "7_16": 4
+    },
+    "tremely": {
         "7_16": 1
     },
     "dif": {
@@ -1820,35 +2153,47 @@
     "cult": {
         "7_16": 1
     },
-    "classic": {
+    "classical": {
         "7_16": 3
     },
     "meth": {
         "7_16": 2
     },
-    "od": {
+    "ods": {
         "7_16": 2
     },
     "try": {
         "7_16": 2
     },
-    "decompos": {
+    "decompose": {
         "7_16": 1
     },
     "target": {
         "7_16": 2
     },
-    "separ": {
+    "separately": {
         "7_16": 1
     },
-    "asses": {
-        "7_16": 3
+    "effectiveness": {
+        "7_16": 2
     },
-    "accor": {
-        "7_16": 3
-    },
-    "capab": {
+    "technique": {
         "7_16": 1
+    },
+    "another": {
+        "7_16": 4
+    },
+    "assessed": {
+        "7_16": 1
+    },
+    "according": {
+        "7_16": 2
+    },
+    "capability": {
+        "7_16": 1
+    },
+    "particular": {
+        "7_16": 5
     },
     "where": {
         "7_16": 15
@@ -1856,7 +2201,10 @@
     "shown": {
         "7_16": 6
     },
-    "represen": {
+    "graphically": {
+        "7_16": 1
+    },
+    "represented": {
         "7_16": 5
     },
     "particu": {
@@ -1868,10 +2216,10 @@
     "x": {
         "7_16": 8
     },
-    "axi": {
+    "axis": {
         "7_16": 2
     },
-    "wherea": {
+    "whereas": {
         "7_16": 1
     },
     "y": {
@@ -1881,52 +2229,67 @@
         "7_16": 1
     },
     "ti": {
-        "7_16": 5
+        "7_16": 4
     },
-    "recor": {
+    "recorded": {
         "7_16": 2
     },
     "punctual": {
         "7_16": 1
     },
-    "stamp": {
+    "stamps": {
         "7_16": 1
     },
-    "represent": {
-        "7_16": 3
+    "representation": {
+        "7_16": 1
     },
     "visual": {
         "7_16": 2
     },
-    "detect": {
-        "7_16": 16
+    "detection": {
+        "7_16": 11
+    },
+    "features": {
+        "7_16": 6
     },
     "oscilla": {
         "7_16": 1
     },
-    "amplitud": {
+    "amplitude": {
         "7_16": 2
     },
-    "istenc": {
+    "seasons": {
         "7_16": 1
     },
-    "anomal": {
+    "istence": {
         "7_16": 1
     },
-    "figur": {
+    "anomalous": {
+        "7_16": 1
+    },
+    "outliers": {
+        "7_16": 1
+    },
+    "Figure": {
         "7_16": 10
     },
     "depictsan": {
         "7_16": 1
     },
-    "addit": {
-        "7_16": 8
+    "using": {
+        "7_16": 61
+    },
+    "additive": {
+        "7_16": 1
+    },
+    "function": {
+        "7_16": 20
     },
     "sin": {
         "7_16": 1
     },
-    "consist": {
-        "7_16": 5
+    "consistently": {
+        "7_16": 1
     },
     "made": {
         "7_16": 7
@@ -1934,22 +2297,28 @@
     "same": {
         "7_16": 3
     },
+    "amount": {
+        "7_16": 1
+    },
     "random": {
-        "7_16": 9
+        "7_16": 1
     },
     "num": {
         "7_16": 1
     },
-    "ber": {
+    "bers": {
         "7_16": 1
     },
-    "univari": {
+    "interval": {
+        "7_16": 1
+    },
+    "univariate": {
         "7_16": 3
     },
-    "depend": {
-        "7_16": 9
+    "dependent": {
+        "7_16": 3
     },
-    "multivari": {
+    "multivariate": {
         "7_16": 8
     },
     "than": {
@@ -1958,16 +2327,22 @@
     "dra": {
         "7_16": 1
     },
-    "matic": {
+    "matically": {
+        "7_16": 1
+    },
+    "differ": {
         "7_16": 1
     },
     "between": {
         "7_16": 7
     },
     "system": {
-        "7_16": 16
+        "7_16": 2
     },
-    "indistinctli": {
+    "handle": {
+        "7_16": 2
+    },
+    "indistinctly": {
         "7_16": 1
     },
     "hand": {
@@ -1982,32 +2357,41 @@
     "C": {
         "7_16": 53
     },
-    "lvalu": {
+    "Lvalues": {
         "7_16": 1
     },
-    "histor": {
+    "historical": {
         "7_16": 2
     },
     "each": {
         "7_16": 16
     },
+    "Ci": {
+        "7_16": 3
+    },
     "L": {
         "7_16": 21
     },
-    "repres": {
+    "represents": {
         "7_16": 1
+    },
+    "value": {
+        "7_16": 9
     },
     "yat": {
         "7_16": 1
     },
-    "estim": {
-        "7_16": 6
+    "consists": {
+        "7_16": 3
     },
-    "denot": {
+    "estimating": {
         "7_16": 2
     },
-    "minim": {
-        "7_16": 3
+    "denoted": {
+        "7_16": 2
+    },
+    "minimizing": {
+        "7_16": 2
     },
     "error": {
         "7_16": 3
@@ -2018,14 +2402,14 @@
     "greater": {
         "7_16": 1
     },
-    "object": {
-        "7_16": 2
+    "objective": {
+        "7_16": 1
     },
     "hnext": {
         "7_16": 1
     },
     "after": {
-        "7_16": 5
+        "7_16": 4
     },
     "w": {
         "7_16": 2
@@ -2039,40 +2423,52 @@
     "best": {
         "7_16": 2
     },
-    "reac": {
+    "reached": {
         "7_16": 2
     },
-    "expres": {
+    "minimized": {
+        "7_16": 1
+    },
+    "expressed": {
         "7_16": 1
     },
     "matrix": {
-        "7_16": 4
+        "7_16": 3
+    },
+    "form": {
+        "7_16": 1
     },
     "yi": {
         "7_16": 1
     },
-    "cm": {
+    "Cm": {
         "7_16": 1
     },
     "f": {
         "7_16": 8
     },
     "ng": {
-        "7_16": 2
+        "7_16": 1
     },
     "m": {
         "7_16": 6
     },
-    "lgthe": {
+    "Lgthe": {
         "7_16": 1
     },
-    "chgy": {
+    "current": {
+        "7_16": 9
+    },
+    "sample": {
+        "7_16": 1
+    },
+    "Chgy": {
         "7_16": 1
     },
     "yn": {
         "7_16": 6
     },
-    "yt": {
+    "yT": {
         "7_16": 1
     },
     "BBBBB": {
@@ -2105,44 +2501,56 @@
     "FIG": {
         "7_16": 8
     },
-    "illustr": {
+    "Illustrative": {
+        "7_16": 1
+    },
+    "showing": {
+        "7_16": 1
+    },
+    "future": {
         "7_16": 2
     },
-    "show": {
-        "7_16": 6
-    },
-    "futur": {
-        "7_16": 3
-    },
-    "hvalu": {
+    "hvalues": {
         "7_16": 1
     },
-    "predic": {
-        "7_16": 12
-    },
-    "independ": {
+    "Usually": {
         "7_16": 1
     },
-    "kei": {
+    "predicted": {
+        "7_16": 7
+    },
+    "remaining": {
         "7_16": 1
     },
-    "depen": {
-        "7_16": 2
+    "independent": {
+        "7_16": 1
+    },
+    "key": {
+        "7_16": 1
+    },
+    "Depending": {
+        "7_16": 1
+    },
+    "number": {
+        "7_16": 17
+    },
+    "samples": {
+        "7_16": 7
     },
     "well": {
         "7_16": 6
     },
-    "onsum": {
+    "onsuming": {
         "7_16": 1
     },
     "param": {
         "7_16": 1
     },
-    "eter": {
+    "eters": {
         "7_16": 1
     },
-    "optim": {
-        "7_16": 40
+    "optimization": {
+        "7_16": 28
     },
     "ei": {
         "7_16": 3
@@ -2151,7 +2559,7 @@
         "7_16": 7
     },
     "fi": {
-        "7_16": 2
+        "7_16": 1
     },
     "hi": {
         "7_16": 3
@@ -2177,22 +2585,22 @@
     "odel": {
         "7_16": 1
     },
-    "how": {
-        "7_16": 4
-    },
-    "highli": {
-        "7_16": 5
-    },
-    "relat": {
-        "7_16": 8
-    },
-    "purpos": {
-        "7_16": 5
-    },
-    "flexib": {
+    "How": {
         "7_16": 2
     },
-    "nonparametr": {
+    "highly": {
+        "7_16": 5
+    },
+    "related": {
+        "7_16": 6
+    },
+    "purpose": {
+        "7_16": 4
+    },
+    "Flexible": {
+        "7_16": 2
+    },
+    "nonparametric": {
         "7_16": 2
     },
     "modelscould": {
@@ -2201,7 +2609,7 @@
     "still": {
         "7_16": 1
     },
-    "assum": {
+    "assumes": {
         "7_16": 1
     },
     "struc": {
@@ -2213,55 +2621,73 @@
     "whole": {
         "7_16": 2
     },
-    "alwai": {
+    "always": {
         "7_16": 1
     },
-    "vari": {
+    "approach": {
+        "7_16": 11
+    },
+    "allowing": {
+        "7_16": 1
+    },
+    "vary": {
         "7_16": 1
     },
     "ther": {
         "7_16": 1
     },
-    "adjus": {
-        "7_16": 4
+    "adjusting": {
+        "7_16": 2
     },
-    "parametr": {
+    "parametric": {
         "7_16": 1
     },
-    "vare": {
+    "varying": {
         "7_16": 3
     },
     "kernel": {
-        "7_16": 4
+        "7_16": 3
+    },
+    "But": {
+        "7_16": 2
     },
     "goal": {
-        "7_16": 2
+        "7_16": 1
     },
     "few": {
         "7_16": 3
     },
+    "observations": {
+        "7_16": 1
+    },
     "simpler": {
         "7_16": 2
     },
-    "transfor": {
-        "7_16": 2
+    "transforming": {
+        "7_16": 1
     },
-    "preliminari": {
-        "7_16": 2
+    "preliminary": {
+        "7_16": 1
     },
     "distrib": {
         "7_16": 2
     },
-    "ut": {
+    "uted": {
         "7_16": 2
     },
     "ARIMA": {
         "7_16": 5
     },
+    "recently": {
+        "7_16": 1
+    },
+    "remains": {
+        "7_16": 2
+    },
     "serieswith": {
         "7_16": 1
     },
-    "adap": {
+    "adapted": {
         "7_16": 1
     },
     "ultra": {
@@ -2270,19 +2696,25 @@
     "havebeen": {
         "7_16": 1
     },
-    "cluster": {
+    "clusters": {
         "7_16": 1
     },
-    "overcom": {
+    "machines": {
         "7_16": 1
     },
-    "previou": {
+    "overcome": {
+        "7_16": 1
+    },
+    "previous": {
         "7_16": 5
     },
-    "paragraph": {
+    "paragraphs": {
         "7_16": 2
     },
-    "ensem": {
+    "forecasts": {
+        "7_16": 3
+    },
+    "Ensem": {
         "7_16": 1
     },
     "ble": {
@@ -2291,28 +2723,34 @@
     "seriesor": {
         "7_16": 1
     },
-    "establis": {
+    "established": {
         "7_16": 2
     },
     "nearest": {
         "7_16": 2
     },
-    "neighbour": {
+    "neighbours": {
         "7_16": 1
     },
-    "quenc": {
+    "pattern": {
+        "7_16": 4
+    },
+    "quence": {
         "7_16": 3
     },
-    "theoret": {
+    "similarity": {
+        "7_16": 2
+    },
+    "theoretical": {
         "7_16": 1
     },
     "tour": {
         "7_16": 1
     },
-    "environ": {
-        "7_16": 6
+    "environments": {
+        "7_16": 4
     },
-    "first": {
+    "First": {
         "7_16": 3
     },
     "state": {
@@ -2321,31 +2759,34 @@
     "art": {
         "7_16": 3
     },
-    "carri": {
-        "7_16": 5
+    "carried": {
+        "7_16": 4
     },
-    "ramework": {
+    "rameworks": {
         "7_16": 1
+    },
+    "network": {
+        "7_16": 86
     },
     "DFFNN": {
         "7_16": 17
     },
-    "alsocal": {
+    "alsocalled": {
         "7_16": 1
     },
     "multi": {
-        "7_16": 14
+        "7_16": 11
     },
     "perceptron": {
         "7_16": 2
     },
-    "aros": {
+    "arose": {
         "7_16": 1
     },
-    "inab": {
+    "inability": {
         "7_16": 1
     },
-    "singl": {
+    "single": {
         "7_16": 5
     },
     "certain": {
@@ -2354,50 +2795,65 @@
     "func": {
         "7_16": 2
     },
-    "compos": {
+    "composed": {
         "7_16": 2
     },
     "input": {
-        "7_16": 18
+        "7_16": 16
     },
     "output": {
-        "7_16": 12
+        "7_16": 9
     },
     "hidden": {
-        "7_16": 17
+        "7_16": 14
     },
-    "neuron": {
-        "7_16": 13
+    "layers": {
+        "7_16": 18
     },
-    "determin": {
-        "7_16": 6
+    "addition": {
+        "7_16": 7
     },
-    "relationship": {
+    "neurons": {
+        "7_16": 12
+    },
+    "determined": {
+        "7_16": 1
+    },
+    "relationships": {
         "7_16": 1
     },
     "two": {
         "7_16": 8
     },
-    "secut": {
+    "secutive": {
         "7_16": 1
     },
-    "weight": {
-        "7_16": 19
+    "weights": {
+        "7_16": 17
     },
     "calcu": {
         "7_16": 1
     },
-    "late": {
+    "lated": {
         "7_16": 1
     },
-    "train": {
-        "7_16": 13
+    "training": {
+        "7_16": 11
     },
     "phase": {
         "7_16": 2
     },
-    "basic": {
-        "7_16": 7
+    "Basic": {
+        "7_16": 4
+    },
+    "computed": {
+        "7_16": 5
+    },
+    "cost": {
+        "7_16": 8
+    },
+    "means": {
+        "7_16": 3
     },
     "gradient": {
         "7_16": 6
@@ -2408,56 +2864,65 @@
     "back": {
         "7_16": 1
     },
-    "propag": {
-        "7_16": 3
+    "propagation": {
+        "7_16": 2
     },
-    "equat": {
-        "7_16": 4
+    "algorithm": {
+        "7_16": 6
     },
-    "wl": {
+    "calculate": {
+        "7_16": 1
+    },
+    "equation": {
+        "7_16": 1
+    },
+    "Wl": {
         "7_16": 4
     },
     "aal": {
         "7_16": 2
     },
-    "cbl": {
+    "Cbl": {
         "7_16": 1
     },
-    "alar": {
+    "alare": {
         "7_16": 1
     },
-    "activ": {
-        "7_16": 19
+    "activation": {
+        "7_16": 12
     },
     "vector": {
-        "7_16": 4
+        "7_16": 2
     },
     "aandbl": {
         "7_16": 2
     },
-    "aar": {
+    "aare": {
         "7_16": 2
     },
-    "bia": {
+    "bias": {
         "7_16": 7
     },
-    "correspon": {
+    "corresponding": {
         "7_16": 3
     },
-    "gi": {
+    "gis": {
         "7_16": 4
     },
-    "alvalu": {
+    "There": {
+        "7_16": 5
+    },
+    "alvalues": {
         "7_16": 1
     },
-    "cl": {
+    "Cl": {
         "7_16": 1
     },
     "si": {
-        "7_16": 2
+        "7_16": 1
     },
     "p": {
-        "7_16": 2
+        "7_16": 1
     },
     "I": {
         "7_16": 9
@@ -2471,16 +2936,25 @@
     "recti": {
         "7_16": 1
     },
-    "commonli": {
+    "unit": {
+        "7_16": 22
+    },
+    "commonly": {
         "7_16": 3
     },
     "except": {
         "7_16": 1
     },
-    "alli": {
+    "obtain": {
+        "7_16": 4
+    },
+    "gener": {
         "7_16": 1
     },
-    "hyperbol": {
+    "ally": {
+        "7_16": 1
+    },
+    "hyperbolic": {
         "7_16": 1
     },
     "tangent": {
@@ -2489,44 +2963,50 @@
     "tanh": {
         "7_16": 4
     },
-    "advanc": {
-        "7_16": 2
+    "advance": {
+        "7_16": 1
     },
     "ne": {
         "7_16": 1
     },
     "rate": {
-        "7_16": 7
+        "7_16": 6
     },
     "momentum": {
-        "7_16": 3
+        "7_16": 2
     },
-    "iter": {
-        "7_16": 4
+    "iterations": {
+        "7_16": 1
     },
     "mini": {
         "7_16": 2
     },
     "batch": {
-        "7_16": 8
+        "7_16": 4
     },
     "size": {
-        "7_16": 13
+        "7_16": 12
     },
     "among": {
+        "7_16": 4
+    },
+    "others": {
         "7_16": 4
     },
     "great": {
         "7_16": 2
     },
-    "uenc": {
+    "uence": {
         "7_16": 3
     },
-    "converg": {
+    "convergence": {
         "7_16": 3
     },
     "descend": {
         "7_16": 1
+    },
+    "optimal": {
+        "7_16": 2
     },
     "impor": {
         "7_16": 2
@@ -2534,35 +3014,53 @@
     "tant": {
         "7_16": 2
     },
-    "greatli": {
+    "greatly": {
         "7_16": 2
     },
     "re": {
-        "7_16": 11
+        "7_16": 6
     },
-    "sult": {
+    "sults": {
         "7_16": 1
     },
-    "rnn": {
-        "7_16": 9
-    },
-    "callydesig": {
+    "detail": {
         "7_16": 1
     },
-    "sequenti": {
+    "Hyper": {
+        "7_16": 4
+    },
+    "Parameter": {
         "7_16": 1
     },
-    "word": {
+    "Optimization": {
         "7_16": 2
     },
-    "translat": {
-        "7_16": 5
+    "Recurrent": {
+        "7_16": 3
+    },
+    "RNNs": {
+        "7_16": 9
+    },
+    "callydesigned": {
+        "7_16": 1
+    },
+    "sequential": {
+        "7_16": 1
+    },
+    "sequences": {
+        "7_16": 6
+    },
+    "words": {
+        "7_16": 1
+    },
+    "translation": {
+        "7_16": 4
     },
     "audio": {
         "7_16": 1
     },
-    "characterist": {
-        "7_16": 4
+    "characteristic": {
+        "7_16": 1
     },
     "whi": {
         "7_16": 1
@@ -2570,47 +3068,62 @@
     "ch": {
         "7_16": 1
     },
-    "tempor": {
-        "7_16": 20
+    "temporal": {
+        "7_16": 18
     },
-    "pendenc": {
+    "pendency": {
         "7_16": 1
     },
-    "tradit": {
-        "7_16": 2
+    "Traditional": {
+        "7_16": 1
     },
-    "neuralnetwork": {
-        "7_16": 2
+    "neuralnetworks": {
+        "7_16": 1
     },
     "cannot": {
         "7_16": 1
     },
     "take": {
-        "7_16": 2
+        "7_16": 1
     },
     "account": {
         "7_16": 2
     },
-    "aris": {
-        "7_16": 1
-    },
-    "precis": {
+    "dependencies": {
         "7_16": 3
     },
-    "therefor": {
-        "7_16": 3
-    },
-    "rnnare": {
+    "arise": {
         "7_16": 1
     },
-    "type": {
-        "7_16": 4
+    "precisely": {
+        "7_16": 1
+    },
+    "address": {
+        "7_16": 3
+    },
+    "Therefore": {
+        "7_16": 3
+    },
+    "RNNare": {
+        "7_16": 1
+    },
+    "types": {
+        "7_16": 2
+    },
+    "depending": {
+        "7_16": 1
+    },
+    "inputs": {
+        "7_16": 2
+    },
+    "outputs": {
+        "7_16": 3
     },
     "inputsand": {
         "7_16": 1
     },
     "ad": {
-        "7_16": 4
+        "7_16": 2
     },
     "dition": {
         "7_16": 2
@@ -2618,17 +3131,23 @@
     "inputdata": {
         "7_16": 1
     },
+    "basic": {
+        "7_16": 3
+    },
     "RNN": {
         "7_16": 19
     },
     "ser": {
         "7_16": 1
     },
+    "ies": {
+        "7_16": 2
+    },
     "iand": {
         "7_16": 1
     },
     "xi": {
-        "7_16": 2
+        "7_16": 1
     },
     "actual": {
         "7_16": 1
@@ -2642,47 +3161,65 @@
     "ENN": {
         "7_16": 14
     },
+    "incorporated": {
+        "7_16": 2
+    },
     "tstate": {
         "7_16": 2
     },
-    "sist": {
+    "sists": {
         "7_16": 1
     },
-    "connec": {
+    "connected": {
         "7_16": 4
     },
-    "thisfig": {
+    "equal": {
         "7_16": 1
+    },
+    "thisFIG": {
+        "7_16": 1
+    },
+    "Architecture": {
+        "7_16": 5
     },
     "save": {
-        "7_16": 3
-    },
-    "copi": {
         "7_16": 1
     },
-    "waxtuaat": {
+    "copy": {
         "7_16": 1
     },
-    "cba": {
+    "WaxtUaat": {
         "7_16": 1
     },
-    "atar": {
+    "Cba": {
         "7_16": 1
     },
-    "xti": {
+    "atare": {
         "7_16": 1
     },
-    "ua": {
+    "xtis": {
         "7_16": 1
     },
-    "andbaar": {
+    "Cis": {
+        "7_16": 2
+    },
+    "saved": {
+        "7_16": 2
+    },
+    "Wa": {
+        "7_16": 1
+    },
+    "Ua": {
+        "7_16": 1
+    },
+    "andbaare": {
         "7_16": 1
     },
     "activa": {
         "7_16": 1
     },
-    "standard": {
-        "7_16": 4
+    "Standard": {
+        "7_16": 2
     },
     "suf": {
         "7_16": 3
@@ -2690,38 +3227,47 @@
     "fer": {
         "7_16": 1
     },
-    "vanis": {
+    "vanishing": {
         "7_16": 3
     },
-    "decreas": {
+    "decreasing": {
         "7_16": 1
     },
-    "creas": {
+    "creases": {
         "7_16": 1
     },
-    "inde": {
+    "Indeed": {
+        "7_16": 1
+    },
+    "practically": {
+        "7_16": 1
+    },
+    "becomes": {
         "7_16": 1
     },
     "null": {
         "7_16": 2
     },
     "prevent": {
-        "7_16": 6
-    },
-    "quir": {
-        "7_16": 1
-    },
-    "memor": {
-        "7_16": 1
-    },
-    "contain": {
-        "7_16": 1
-    },
-    "complet": {
         "7_16": 3
+    },
+    "quire": {
+        "7_16": 1
+    },
+    "memorizing": {
+        "7_16": 1
+    },
+    "contained": {
+        "7_16": 1
+    },
+    "complete": {
+        "7_16": 2
     },
     "LSTM": {
         "7_16": 39
+    },
+    "emerge": {
+        "7_16": 1
     },
     "gradi": {
         "7_16": 1
@@ -2729,28 +3275,34 @@
     "ent": {
         "7_16": 1
     },
+    "gates": {
+        "7_16": 6
+    },
     "keep": {
         "7_16": 1
     },
-    "longstan": {
+    "longstanding": {
         "7_16": 1
     },
     "discard": {
         "7_16": 1
     },
-    "irrelev": {
+    "irrelevant": {
         "7_16": 1
     },
-    "gfforget": {
+    "Gfforget": {
         "7_16": 1
     },
-    "guupdat": {
+    "gate": {
+        "7_16": 6
+    },
+    "Guupdate": {
         "7_16": 2
     },
-    "gooutput": {
+    "Gooutput": {
         "7_16": 1
     },
-    "gfdecid": {
+    "Gfdecides": {
         "7_16": 1
     },
     "what": {
@@ -2759,55 +3311,58 @@
     "thrown": {
         "7_16": 1
     },
-    "awai": {
+    "away": {
         "7_16": 1
     },
     "close": {
         "7_16": 2
     },
-    "forgottenwherea": {
+    "forgottenwhereas": {
         "7_16": 1
     },
     "G": {
         "7_16": 17
     },
-    "ud": {
+    "ude": {
         "7_16": 1
     },
-    "cide": {
+    "cides": {
         "7_16": 1
     },
     "ctto": {
         "7_16": 1
     },
-    "updat": {
-        "7_16": 5
+    "update": {
+        "7_16": 3
     },
     "ct": {
         "7_16": 13
     },
-    "cti": {
+    "ctis": {
         "7_16": 1
     },
-    "gf": {
+    "updated": {
+        "7_16": 2
+    },
+    "Gf": {
         "7_16": 3
     },
-    "andgu": {
+    "andGu": {
         "7_16": 1
     },
-    "godecid": {
+    "Godecides": {
         "7_16": 1
     },
     "next": {
         "7_16": 3
     },
-    "cpreviou": {
+    "Cprevious": {
         "7_16": 1
     },
     "xtcurrent": {
         "7_16": 1
     },
-    "pase": {
+    "passed": {
         "7_16": 1
     },
     "through": {
@@ -2816,13 +3371,19 @@
     "thersigmoid": {
         "7_16": 1
     },
+    "compute": {
+        "7_16": 3
+    },
     "pute": {
-        "7_16": 4
+        "7_16": 1
     },
     "ctnew": {
         "7_16": 1
     },
     "date": {
+        "7_16": 2
+    },
+    "equations": {
         "7_16": 2
     },
     "ning": {
@@ -2831,7 +3392,7 @@
     "ect": {
         "7_16": 1
     },
-    "wc": {
+    "Wc": {
         "7_16": 2
     },
     "xt": {
@@ -2840,37 +3401,40 @@
     "bc": {
         "7_16": 2
     },
-    "gu": {
+    "Gu": {
         "7_16": 4
     },
-    "wu": {
+    "Wu": {
         "7_16": 11
     },
     "bu": {
-        "7_16": 4
+        "7_16": 3
     },
-    "wf": {
+    "Wf": {
         "7_16": 2
     },
     "bf": {
         "7_16": 2
     },
-    "wo": {
+    "Go": {
+        "7_16": 2
+    },
+    "Wo": {
         "7_16": 2
     },
     "bo": {
         "7_16": 1
     },
-    "ctgfct": {
+    "ctGfct": {
         "7_16": 1
     },
-    "gotanh": {
+    "Gotanh": {
         "7_16": 1
     },
-    "boar": {
+    "boare": {
         "7_16": 1
     },
-    "bias": {
+    "biases": {
         "7_16": 1
     },
     "govern": {
@@ -2879,29 +3443,38 @@
     "behavior": {
         "7_16": 2
     },
-    "theg": {
+    "theG": {
         "7_16": 1
     },
-    "andgog": {
+    "andGogates": {
         "7_16": 1
     },
-    "respect": {
+    "respectively": {
         "7_16": 5
     },
-    "wcandbcar": {
+    "Wcandbcare": {
         "7_16": 2
     },
-    "ctmemori": {
+    "ctmemory": {
         "7_16": 4
     },
     "cell": {
-        "7_16": 3
-    },
-    "candid": {
-        "7_16": 3
-    },
-    "pictur": {
         "7_16": 2
+    },
+    "candidate": {
+        "7_16": 3
+    },
+    "shows": {
+        "7_16": 3
+    },
+    "picture": {
+        "7_16": 1
+    },
+    "how": {
+        "7_16": 2
+    },
+    "operators": {
+        "7_16": 1
     },
     "element": {
         "7_16": 2
@@ -2909,11 +3482,17 @@
     "wise": {
         "7_16": 2
     },
-    "multip": {
-        "7_16": 3
+    "vectors": {
+        "7_16": 1
+    },
+    "multiplication": {
+        "7_16": 1
     },
     "sum": {
         "7_16": 2
+    },
+    "Gated": {
+        "7_16": 1
     },
     "GRU": {
         "7_16": 27
@@ -2921,101 +3500,116 @@
     "net": {
         "7_16": 8
     },
-    "lstm": {
+    "LSTMs": {
         "7_16": 3
+    },
+    "emerged": {
+        "7_16": 2
+    },
+    "simpli": {
+        "7_16": 1
     },
     "tional": {
         "7_16": 3
     },
-    "version": {
+    "versions": {
         "7_16": 1
     },
-    "conver": {
+    "converged": {
         "7_16": 1
     },
-    "possib": {
+    "possible": {
         "7_16": 2
     },
-    "improv": {
-        "7_16": 8
-    },
-    "captur": {
+    "improve": {
         "7_16": 3
     },
-    "rang": {
+    "capturing": {
+        "7_16": 1
+    },
+    "range": {
         "7_16": 3
+    },
+    "effective": {
+        "7_16": 1
     },
     "effec": {
         "7_16": 1
     },
     "tive": {
-        "7_16": 2
+        "7_16": 1
     },
-    "sinc": {
-        "7_16": 3
+    "since": {
+        "7_16": 2
     },
     "instead": {
-        "7_16": 2
+        "7_16": 1
     },
-    "computation": {
+    "computationally": {
         "7_16": 1
     },
     "faster": {
         "7_16": 2
     },
-    "grrelev": {
+    "Grrelevance": {
         "7_16": 1
     },
-    "gugat": {
+    "Gugate": {
         "7_16": 1
     },
-    "decid": {
+    "decide": {
         "7_16": 1
     },
     "whether": {
         "7_16": 3
     },
-    "grgate": {
+    "Grgate": {
         "7_16": 1
     },
     "deter": {
         "7_16": 1
     },
+    "mines": {
+        "7_16": 1
+    },
     "candi": {
         "7_16": 1
     },
-    "gr": {
+    "Gr": {
         "7_16": 1
     },
-    "wr": {
+    "Wr": {
         "7_16": 1
     },
     "br": {
         "7_16": 1
     },
-    "grct": {
+    "Hidden": {
+        "7_16": 3
+    },
+    "Grct": {
         "7_16": 1
     },
-    "cgu": {
+    "CGu": {
         "7_16": 1
     },
-    "wuandwr": {
+    "WuandWr": {
         "7_16": 1
     },
-    "buandbrar": {
+    "buandbrare": {
         "7_16": 1
     },
-    "guandgr": {
+    "GuandGr": {
         "7_16": 1
     },
-    "bidirect": {
-        "7_16": 9
+    "Bidirectional": {
+        "7_16": 2
     },
-    "natur": {
-        "7_16": 4
+    "natural": {
+        "7_16": 2
     },
-    "languag": {
-        "7_16": 6
+    "language": {
+        "7_16": 5
     },
     "NLP": {
         "7_16": 2
@@ -3023,19 +3617,22 @@
     "instant": {
         "7_16": 2
     },
-    "befor": {
+    "before": {
         "7_16": 3
     },
-    "need": {
+    "needed": {
         "7_16": 5
     },
-    "brnn": {
+    "BRNNs": {
         "7_16": 2
     },
-    "disadvantag": {
+    "kind": {
+        "7_16": 1
+    },
+    "disadvantage": {
         "7_16": 2
     },
-    "unidirect": {
+    "unidirectional": {
         "7_16": 3
     },
     "BRNN": {
@@ -3044,10 +3641,10 @@
     "backward": {
         "7_16": 4
     },
-    "agactiv": {
+    "agactivation": {
         "7_16": 1
     },
-    "wx": {
+    "Wx": {
         "7_16": 1
     },
     "af": {
@@ -3059,22 +3656,31 @@
     "bx": {
         "7_16": 1
     },
-    "wxandbxar": {
+    "Wxandbxare": {
         "7_16": 1
     },
     "tandab": {
         "7_16": 1
     },
+    "presents": {
+        "7_16": 1
+    },
     "seen": {
         "7_16": 2
     },
-    "togeth": {
+    "together": {
         "7_16": 1
+    },
+    "puted": {
+        "7_16": 2
+    },
+    "standard": {
+        "7_16": 2
     },
     "fact": {
         "7_16": 1
     },
-    "unitsi": {
+    "unitsis": {
         "7_16": 1
     },
     "neu": {
@@ -3086,8 +3692,8 @@
     "DRNN": {
         "7_16": 6
     },
-    "stace": {
-        "7_16": 3
+    "stacked": {
+        "7_16": 2
     },
     "hid": {
         "7_16": 1
@@ -3095,32 +3701,50 @@
     "den": {
         "7_16": 1
     },
-    "deterior": {
-        "7_16": 2
+    "bidirectional": {
+        "7_16": 7
     },
-    "addressthi": {
+    "sections": {
         "7_16": 1
     },
-    "mechan": {
-        "7_16": 2
-    },
-    "idea": {
-        "7_16": 2
-    },
-    "neuralfig": {
+    "illustrates": {
         "7_16": 1
     },
-    "pai": {
+    "deteriorates": {
+        "7_16": 1
+    },
+    "addressthis": {
+        "7_16": 1
+    },
+    "mechanisms": {
+        "7_16": 1
+    },
+    "ideas": {
+        "7_16": 1
+    },
+    "An": {
+        "7_16": 11
+    },
+    "neuralFIG": {
+        "7_16": 1
+    },
+    "pay": {
         "7_16": 2
     },
     "part": {
-        "7_16": 2
+        "7_16": 1
     },
     "while": {
         "7_16": 1
     },
+    "generating": {
+        "7_16": 1
+    },
     "atten": {
-        "7_16": 2
+        "7_16": 1
+    },
+    "Convolutional": {
+        "7_16": 6
     },
     "CNN": {
         "7_16": 31
@@ -3128,52 +3752,67 @@
     "presentedin": {
         "7_16": 1
     },
-    "fukushima": {
+    "Fukushima": {
         "7_16": 2
     },
     "mon": {
         "7_16": 1
     },
+    "computer": {
+        "7_16": 1
+    },
     "vision": {
         "7_16": 4
     },
-    "cnn": {
-        "7_16": 5
+    "CNNs": {
+        "7_16": 4
     },
     "convolu": {
         "7_16": 3
     },
-    "pool": {
-        "7_16": 7
+    "pooling": {
+        "7_16": 6
     },
-    "fulli": {
+    "fully": {
         "7_16": 3
     },
     "task": {
-        "7_16": 5
+        "7_16": 3
     },
-    "lter": {
-        "7_16": 5
+    "convolution": {
+        "7_16": 13
+    },
+    "lters": {
+        "7_16": 1
     },
     "prede": {
         "7_16": 1
     },
-    "pli": {
+    "plied": {
         "7_16": 3
+    },
+    "operation": {
+        "7_16": 2
     },
     "tween": {
         "7_16": 1
     },
-    "matric": {
+    "matrices": {
         "7_16": 2
     },
-    "product": {
-        "7_16": 2
+    "products": {
+        "7_16": 1
     },
-    "reduc": {
-        "7_16": 6
+    "reduces": {
+        "7_16": 1
     },
-    "preven": {
+    "speeding": {
+        "7_16": 1
+    },
+    "computing": {
+        "7_16": 5
+    },
+    "preventing": {
         "7_16": 1
     },
     "tting": {
@@ -3182,41 +3821,47 @@
     "av": {
         "7_16": 1
     },
-    "erag": {
+    "erage": {
         "7_16": 1
     },
     "max": {
         "7_16": 1
     },
-    "summar": {
-        "7_16": 7
+    "summarize": {
+        "7_16": 2
     },
-    "valuesbi": {
+    "valuesby": {
         "7_16": 1
     },
     "maximum": {
         "7_16": 1
     },
-    "dens": {
+    "extracted": {
+        "7_16": 2
+    },
+    "dense": {
         "7_16": 1
     },
     "last": {
         "7_16": 6
     },
-    "resul": {
+    "attened": {
         "7_16": 1
     },
-    "depict": {
+    "resulting": {
         "7_16": 1
     },
-    "overal": {
+    "depicts": {
+        "7_16": 1
+    },
+    "overall": {
         "7_16": 1
     },
     "ar": {
         "7_16": 4
     },
-    "chitectur": {
-        "7_16": 4
+    "chitecture": {
+        "7_16": 1
     },
     "variant": {
         "7_16": 1
@@ -3224,64 +3869,100 @@
     "convo": {
         "7_16": 1
     },
-    "lution": {
+    "lutional": {
         "7_16": 1
     },
-    "tcn": {
+    "TCNs": {
         "7_16": 2
     },
-    "compet": {
+    "competing": {
         "7_16": 2
     },
-    "directli": {
+    "directly": {
         "7_16": 1
     },
-    "drnn": {
+    "DRNNs": {
         "7_16": 1
     },
-    "execut": {
-        "7_16": 3
+    "terms": {
+        "7_16": 1
     },
-    "dilat": {
-        "7_16": 13
+    "execution": {
+        "7_16": 2
+    },
+    "times": {
+        "7_16": 1
+    },
+    "requirements": {
+        "7_16": 2
+    },
+    "activations": {
+        "7_16": 1
+    },
+    "Dilated": {
+        "7_16": 2
     },
     "select": {
-        "7_16": 3
+        "7_16": 1
     },
-    "toth": {
+    "contribute": {
+        "7_16": 1
+    },
+    "tothe": {
+        "7_16": 1
+    },
+    "dilated": {
+        "7_16": 8
+    },
+    "captures": {
         "7_16": 1
     },
     "local": {
         "7_16": 2
     },
-    "fd": {
+    "Fd": {
         "7_16": 3
     },
     "K": {
         "7_16": 18
     },
-    "cxt": {
+    "Cxt": {
         "7_16": 1
     },
-    "cd": {
+    "Cd": {
         "7_16": 1
     },
-    "di": {
+    "dis": {
         "7_16": 1
+    },
+    "dilation": {
+        "7_16": 2
+    },
+    "factor": {
+        "7_16": 1
+    },
+    "fis": {
+        "7_16": 1
+    },
+    "lter": {
+        "7_16": 4
     },
     "TCNN": {
         "7_16": 1
     },
-    "appl": {
-        "7_16": 15
+    "applying": {
+        "7_16": 2
     },
-    "moreov": {
+    "Moreover": {
         "7_16": 3
     },
-    "necessari": {
+    "necessary": {
         "7_16": 1
     },
-    "modul": {
+    "generic": {
+        "7_16": 4
+    },
+    "modules": {
         "7_16": 1
     },
     "deeper": {
@@ -3293,22 +3974,31 @@
     "TCN": {
         "7_16": 18
     },
+    "achieve": {
+        "7_16": 2
+    },
+    "further": {
+        "7_16": 1
+    },
     "sta": {
         "7_16": 1
     },
-    "biliz": {
+    "bilization": {
         "7_16": 1
     },
-    "block": {
+    "blocks": {
         "7_16": 3
+    },
+    "consist": {
+        "7_16": 1
     },
     "add": {
         "7_16": 1
     },
-    "theactiv": {
+    "theactivation": {
         "7_16": 1
     },
-    "afd": {
+    "aFd": {
         "7_16": 1
     },
     "bl": {
@@ -3317,77 +4007,131 @@
     "dfactor": {
         "7_16": 1
     },
+    "Equation": {
+        "7_16": 1
+    },
+    "tis": {
+        "7_16": 1
+    },
+    "neuron": {
+        "7_16": 1
+    },
     "ac": {
         "7_16": 1
     },
-    "tivat": {
+    "tivation": {
         "7_16": 1
     },
-    "multilay": {
+    "Implementation": {
+        "7_16": 1
+    },
+    "multilayer": {
         "7_16": 1
     },
     "rela": {
         "7_16": 1
     },
-    "simpl": {
+    "tively": {
+        "7_16": 1
+    },
+    "simple": {
         "7_16": 2
+    },
+    "requires": {
+        "7_16": 3
     },
     "highlevel": {
         "7_16": 1
     },
-    "technic": {
+    "technical": {
         "7_16": 1
     },
-    "expertis": {
+    "expertise": {
         "7_16": 1
     },
-    "consider": {
+    "considerable": {
         "7_16": 1
     },
     "vestment": {
         "7_16": 2
     },
-    "le": {
+    "implement": {
         "7_16": 2
+    },
+    "le": {
+        "7_16": 1
     },
     "expert": {
+        "7_16": 1
+    },
+    "demanded": {
+        "7_16": 1
+    },
+    "implementations": {
+        "7_16": 1
+    },
+    "reduce": {
         "7_16": 3
     },
-    "deman": {
-        "7_16": 1
-    },
     "design": {
-        "7_16": 2
-    },
-    "velop": {
         "7_16": 1
+    },
+    "train": {
+        "7_16": 1
+    },
+    "companies": {
+        "7_16": 1
+    },
+    "veloping": {
+        "7_16": 1
+    },
+    "allow": {
+        "7_16": 2
     },
     "implementa": {
         "7_16": 1
     },
-    "interfac": {
-        "7_16": 2
+    "idea": {
+        "7_16": 1
     },
-    "have": {
+    "interface": {
+        "7_16": 1
+    },
+    "having": {
         "7_16": 2
     },
     "too": {
         "7_16": 3
     },
-    "support": {
-        "7_16": 5
+    "complexity": {
+        "7_16": 2
     },
-    "program": {
+    "depend": {
+        "7_16": 3
+    },
+    "type": {
+        "7_16": 2
+    },
+    "support": {
         "7_16": 4
+    },
+    "programming": {
+        "7_16": 3
     },
     "run": {
         "7_16": 3
     },
-    "sens": {
+    "sense": {
         "7_16": 1
     },
-    "tabl": {
+    "Table": {
         "7_16": 17
+    },
+    "summarizes": {
+        "7_16": 3
+    },
+    "includes": {
+        "7_16": 1
     },
     "CPU": {
         "7_16": 12
@@ -3395,89 +4139,116 @@
     "central": {
         "7_16": 3
     },
-    "predomin": {
-        "7_16": 2
+    "predominant": {
+        "7_16": 1
     },
-    "python": {
+    "Python": {
         "7_16": 25
     },
-    "facilit": {
-        "7_16": 3
+    "facilitate": {
+        "7_16": 1
     },
-    "line": {
-        "7_16": 3
+    "require": {
+        "7_16": 1
+    },
+    "lines": {
+        "7_16": 2
     },
     "code": {
         "7_16": 2
     },
-    "forthi": {
+    "Forthis": {
         "7_16": 1
     },
     "level": {
         "7_16": 7
     },
-    "librari": {
-        "7_16": 12
-    },
-    "core": {
-        "7_16": 3
-    },
-    "grame": {
-        "7_16": 1
-    },
-    "examp": {
-        "7_16": 8
-    },
-    "kera": {
+    "libraries": {
         "7_16": 7
     },
-    "sonnet": {
+    "core": {
+        "7_16": 1
+    },
+    "developed": {
+        "7_16": 1
+    },
+    "gramming": {
+        "7_16": 1
+    },
+    "examples": {
         "7_16": 2
     },
-    "swift": {
+    "Keras": {
+        "7_16": 5
+    },
+    "Sonnet": {
+        "7_16": 2
+    },
+    "Swift": {
         "7_16": 1
     },
-    "gluon": {
+    "Gluon": {
         "7_16": 1
+    },
+    "advantage": {
+        "7_16": 1
+    },
+    "library": {
+        "7_16": 4
     },
     "syntax": {
         "7_16": 1
     },
-    "reus": {
+    "reused": {
         "7_16": 1
     },
-    "impl": {
+    "base": {
         "7_16": 1
     },
-    "mentat": {
+    "facilitating": {
+        "7_16": 1
+    },
+    "imple": {
+        "7_16": 1
+    },
+    "mentation": {
         "7_16": 1
     },
     "lack": {
         "7_16": 2
     },
-    "exib": {
-        "7_16": 2
-    },
-    "combin": {
-        "7_16": 7
-    },
-    "import": {
-        "7_16": 5
-    },
-    "studi": {
-        "7_16": 14
-    },
-    "determineth": {
+    "exibility": {
         "7_16": 1
     },
-    "qualiti": {
-        "7_16": 5
+    "combination": {
+        "7_16": 1
     },
-    "perfor": {
+    "facilitates": {
+        "7_16": 1
+    },
+    "important": {
         "7_16": 4
     },
-    "adjust": {
+    "study": {
+        "7_16": 11
+    },
+    "gap": {
         "7_16": 1
+    },
+    "determinethe": {
+        "7_16": 1
+    },
+    "quality": {
+        "7_16": 5
+    },
+    "performed": {
+        "7_16": 3
+    },
+    "adjustment": {
+        "7_16": 1
+    },
+    "adjusted": {
+        "7_16": 2
     },
     "optimiza": {
         "7_16": 1
@@ -3488,79 +4259,97 @@
     "cat": {
         "7_16": 1
     },
-    "egor": {
+    "egorized": {
         "7_16": 1
     },
-    "uen": {
+    "uenced": {
         "7_16": 1
     },
-    "jgpu": {
-        "7_16": 1
-    },
-    "tensorflowc": {
-        "7_16": 1
-    },
-    "javascript": {
-        "7_16": 1
-    },
-    "java": {
+    "characteristics": {
         "7_16": 3
     },
-    "julia": {
+    "Framework": {
+        "7_16": 2
+    },
+    "Core": {
+        "7_16": 1
+    },
+    "Available": {
+        "7_16": 9
+    },
+    "interfaces": {
+        "7_16": 1
+    },
+    "Distributed": {
+        "7_16": 4
+    },
+    "jGPU": {
+        "7_16": 1
+    },
+    "TensorFlowC": {
+        "7_16": 1
+    },
+    "JavaScript": {
+        "7_16": 1
+    },
+    "Java": {
+        "7_16": 3
+    },
+    "Julia": {
         "7_16": 2
     },
     "j": {
         "7_16": 12
     },
-    "hojava": {
+    "HOJava": {
         "7_16": 1
     },
     "R": {
         "7_16": 27
     },
-    "scala": {
+    "Scala": {
         "7_16": 3
     },
     "REST": {
         "7_16": 1
     },
-    "dljjava": {
+    "DljJava": {
         "7_16": 1
     },
-    "clojur": {
+    "Clojure": {
         "7_16": 2
     },
-    "kotlin": {
+    "Kotlin": {
         "7_16": 1
     },
-    "pytorchlua": {
+    "PyTorchLua": {
         "7_16": 1
     },
-    "caffec": {
+    "CaffeC": {
         "7_16": 1
     },
     "MATLAB": {
         "7_16": 1
     },
-    "neonpython": {
+    "NeonPython": {
         "7_16": 1
     },
-    "chainerpython": {
+    "ChainerPython": {
         "7_16": 1
     },
-    "theanopython": {
+    "TheanoPython": {
         "7_16": 1
     },
-    "mxnetpython": {
+    "MXNetPython": {
         "7_16": 1
     },
-    "perl": {
+    "Perl": {
         "7_16": 1
     },
-    "onnxpython": {
+    "ONNXPython": {
         "7_16": 1
     },
-    "paddlepadd": {
+    "PaddlePaddle": {
         "7_16": 1
     },
     "CNTKC": {
@@ -3572,112 +4361,160 @@
     "opti": {
         "7_16": 3
     },
-    "mize": {
+    "mizing": {
         "7_16": 1
     },
-    "commun": {
-        "7_16": 8
-    },
-    "immens": {
+    "challenge": {
         "7_16": 1
     },
-    "binat": {
-        "7_16": 1
-    },
-    "deduc": {
-        "7_16": 1
-    },
-    "variou": {
+    "community": {
         "7_16": 2
     },
-    "metaheurist": {
+    "taking": {
+        "7_16": 1
+    },
+    "immense": {
+        "7_16": 1
+    },
+    "binations": {
+        "7_16": 1
+    },
+    "deduced": {
+        "7_16": 1
+    },
+    "various": {
+        "7_16": 2
+    },
+    "metaheuristics": {
+        "7_16": 3
+    },
+    "strategies": {
         "7_16": 4
     },
-    "strategi": {
-        "7_16": 9
+    "According": {
+        "7_16": 1
     },
     "strategiesto": {
         "7_16": 1
     },
+    "optimize": {
+        "7_16": 2
+    },
     "four": {
         "7_16": 1
     },
-    "trial": {
-        "7_16": 2
-    },
-    "manual": {
-        "7_16": 2
-    },
-    "impli": {
+    "major": {
         "7_16": 1
     },
-    "rel": {
+    "Trial": {
         "7_16": 2
     },
+    "method": {
+        "7_16": 13
+    },
+    "manually": {
+        "7_16": 2
+    },
+    "implies": {
+        "7_16": 1
+    },
+    "relatively": {
+        "7_16": 1
+    },
     "low": {
-        "7_16": 4
+        "7_16": 2
     },
     "search": {
-        "7_16": 15
+        "7_16": 11
+    },
+    "space": {
+        "7_16": 4
     },
     "action": {
-        "7_16": 3
+        "7_16": 2
     },
     "user": {
         "7_16": 1
     },
-    "modifi": {
+    "modify": {
         "7_16": 1
     },
-    "nise": {
+    "nished": {
         "7_16": 1
     },
-    "larg": {
-        "7_16": 9
+    "Since": {
+        "7_16": 1
+    },
+    "large": {
+        "7_16": 7
     },
     "nite": {
         "7_16": 2
     },
-    "advi": {
+    "advis": {
         "7_16": 1
     },
-    "abl": {
+    "able": {
+        "7_16": 2
+    },
+    "Grid": {
         "7_16": 2
     },
     "grid": {
-        "7_16": 4
-    },
-    "explor": {
         "7_16": 2
     },
-    "po": {
+    "explores": {
         "7_16": 1
     },
-    "sibl": {
+    "pos": {
         "7_16": 1
     },
-    "cover": {
-        "7_16": 3
+    "sible": {
+        "7_16": 1
     },
-    "associ": {
+    "combinations": {
+        "7_16": 2
+    },
+    "covers": {
+        "7_16": 1
+    },
+    "although": {
+        "7_16": 1
+    },
+    "associated": {
         "7_16": 1
     },
     "unvi": {
         "7_16": 1
     },
-    "alon": {
+    "apply": {
+        "7_16": 2
+    },
+    "alone": {
         "7_16": 1
+    },
+    "Random": {
+        "7_16": 8
+    },
+    "cover": {
+        "7_16": 2
     },
     "ofhyper": {
         "7_16": 1
     },
-    "within": {
+    "generated": {
+        "7_16": 2
+    },
+    "Within": {
         "7_16": 1
     },
-    "differenti": {
+    "group": {
         "7_16": 1
     },
-    "total": {
+    "differentiate": {
+        "7_16": 1
+    },
+    "totally": {
         "7_16": 1
     },
     "ran": {
@@ -3686,10 +4523,16 @@
     "dom": {
         "7_16": 1
     },
-    "guid": {
+    "guided": {
         "7_16": 1
     },
-    "genet": {
+    "Examples": {
+        "7_16": 1
+    },
+    "searches": {
+        "7_16": 1
+    },
+    "genetic": {
         "7_16": 3
     },
     "parti": {
@@ -3701,176 +4544,308 @@
     "swarm": {
         "7_16": 2
     },
-    "neuroevolut": {
+    "neuroevolution": {
         "7_16": 1
     },
-    "augmen": {
+    "augmenting": {
         "7_16": 1
     },
-    "topologiesalgorithm": {
+    "topologiesalgorithms": {
         "7_16": 1
     },
     "oth": {
         "7_16": 1
     },
-    "er": {
+    "ers": {
+        "7_16": 1
+    },
+    "wide": {
+        "7_16": 4
+    },
+    "added": {
         "7_16": 2
     },
     "medium": {
-        "7_16": 4
+        "7_16": 1
     },
-    "invol": {
+    "involved": {
         "7_16": 3
+    },
+    "strategy": {
+        "7_16": 4
     },
     "oneof": {
         "7_16": 1
     },
-    "mizat": {
+    "optimizing": {
+        "7_16": 1
+    },
+    "mization": {
         "7_16": 2
     },
-    "bioinspir": {
+    "bioinspired": {
         "7_16": 2
     },
     "COVID": {
         "7_16": 3
     },
-    "presen": {
+    "presented": {
         "7_16": 2
     },
-    "probabilist": {
-        "7_16": 9
+    "Probabilistic": {
+        "7_16": 6
     },
-    "track": {
+    "tracks": {
         "7_16": 1
     },
-    "evalu": {
-        "7_16": 5
+    "evaluations": {
+        "7_16": 2
     },
-    "assign": {
-        "7_16": 1
-    },
-    "arethos": {
-        "7_16": 1
-    },
-    "bayesian": {
-        "7_16": 4
-    },
-    "autom": {
+    "probabilistic": {
         "7_16": 3
     },
-    "verytab": {
+    "assigns": {
         "7_16": 1
+    },
+    "arethose": {
+        "7_16": 1
+    },
+    "Bayesian": {
+        "7_16": 2
+    },
+    "automated": {
+        "7_16": 1
+    },
+    "veryTable": {
+        "7_16": 1
+    },
+    "Relevant": {
+        "7_16": 1
+    },
+    "Description": {
+        "7_16": 1
+    },
+    "Optimizer": {
+        "7_16": 1
+    },
+    "Algorithm": {
+        "7_16": 1
+    },
+    "iteration": {
+        "7_16": 3
+    },
+    "determines": {
+        "7_16": 3
     },
     "step": {
         "7_16": 4
     },
-    "epoch": {
-        "7_16": 2
-    },
-    "pass": {
+    "epochs": {
         "7_16": 1
+    },
+    "passes": {
+        "7_16": 1
+    },
+    "Batch": {
+        "7_16": 2
     },
     "sub": {
         "7_16": 1
     },
-    "nonlinear": {
+    "Activation": {
+        "7_16": 2
+    },
+    "Introduces": {
+        "7_16": 1
+    },
+    "nonlinearity": {
+        "7_16": 1
+    },
+    "extraction": {
+        "7_16": 2
+    },
+    "Momentum": {
+        "7_16": 1
+    },
+    "prevents": {
         "7_16": 3
     },
-    "extract": {
-        "7_16": 2
-    },
-    "explos": {
+    "Weight": {
         "7_16": 1
     },
-    "dropout": {
-        "7_16": 2
+    "initialization": {
+        "7_16": 3
     },
-    "elimin": {
+    "explosion": {
         "7_16": 1
     },
-    "connect": {
+    "Dropout": {
+        "7_16": 2
+    },
+    "eliminates": {
         "7_16": 1
     },
-    "fite": {
-        "7_16": 2
-    },
-    "stope": {
+    "connections": {
         "7_16": 1
     },
-    "doe": {
+    "fitting": {
         "7_16": 2
     },
-    "stride": {
+    "Regularization": {
+        "7_16": 1
+    },
+    "stopping": {
+        "7_16": 1
+    },
+    "does": {
         "7_16": 2
     },
-    "pixel": {
+    "Units": {
+        "7_16": 2
+    },
+    "Kernel": {
+        "7_16": 1
+    },
+    "Matrix": {
+        "7_16": 1
+    },
+    "Stride": {
+        "7_16": 1
+    },
+    "pixels": {
+        "7_16": 1
+    },
+    "move": {
         "7_16": 1
     },
     "filter": {
         "7_16": 1
     },
-    "pade": {
+    "Padding": {
+        "7_16": 1
+    },
+    "processed": {
+        "7_16": 1
+    },
+    "channels": {
         "7_16": 2
     },
-    "channel": {
+    "Depth": {
+        "7_16": 1
+    },
+    "convolutions": {
         "7_16": 2
     },
-    "nb_stack": {
+    "Pooling": {
+        "7_16": 1
+    },
+    "calculations": {
+        "7_16": 2
+    },
+    "nb_stacks": {
+        "7_16": 1
+    },
+    "stacks": {
+        "7_16": 1
+    },
+    "Dilations": {
         "7_16": 1
     },
     "stack": {
-        "7_16": 2
-    },
-    "drivendeep": {
         "7_16": 1
     },
-    "desig": {
+    "capture": {
+        "7_16": 1
+    },
+    "Search": {
+        "7_16": 3
+    },
+    "Strategy": {
+        "7_16": 1
+    },
+    "Cost": {
+        "7_16": 2
+    },
+    "Low": {
+        "7_16": 2
+    },
+    "High": {
+        "7_16": 3
+    },
+    "Medium": {
+        "7_16": 3
+    },
+    "drivenDEEP": {
+        "7_16": 1
+    },
+    "designed": {
         "7_16": 7
     },
-    "compat": {
+    "compatible": {
         "7_16": 2
     },
     "librar": {
         "7_16": 1
     },
-    "classif": {
+    "classifying": {
         "7_16": 2
     },
     "lan": {
         "7_16": 1
     },
-    "guag": {
+    "guage": {
         "7_16": 1
     },
-    "note": {
-        "7_16": 10
+    "Note": {
+        "7_16": 3
     },
-    "hpolib": {
+    "HPOLib": {
         "7_16": 1
     },
-    "decis": {
+    "supports": {
         "7_16": 1
     },
-    "ensur": {
+    "Hardware": {
         "7_16": 1
     },
-    "henc": {
+    "One": {
+        "7_16": 2
+    },
+    "decisions": {
+        "7_16": 1
+    },
+    "researcher": {
+        "7_16": 1
+    },
+    "determine": {
+        "7_16": 1
+    },
+    "ensure": {
+        "7_16": 1
+    },
+    "Hence": {
         "7_16": 1
     },
     "ware": {
-        "7_16": 2
+        "7_16": 1
+    },
+    "contexts": {
+        "7_16": 1
     },
     "demand": {
         "7_16": 7
     },
-    "sophist": {
+    "sophisticated": {
+        "7_16": 1
+    },
+    "execute": {
         "7_16": 1
     },
     "insuf": {
         "7_16": 1
     },
     "scalar": {
-        "7_16": 2
+        "7_16": 1
     },
     "tensor": {
         "7_16": 2
@@ -3878,10 +4853,10 @@
     "TPU": {
         "7_16": 4
     },
-    "intellig": {
-        "7_16": 4
+    "intelligence": {
+        "7_16": 2
     },
-    "cese": {
+    "cessing": {
         "7_16": 1
     },
     "IPU": {
@@ -3891,112 +4866,178 @@
         "7_16": 1
     },
     "processor": {
-        "7_16": 4
-    },
-    "alloc": {
-        "7_16": 1
-    },
-    "hund": {
         "7_16": 2
     },
-    "thousand": {
+    "allocated": {
         "7_16": 1
     },
-    "rune": {
+    "graphics": {
         "7_16": 1
     },
-    "atlow": {
+    "hundreds": {
+        "7_16": 2
+    },
+    "thousands": {
         "7_16": 1
     },
-    "instruct": {
+    "cores": {
         "7_16": 1
     },
-    "plai": {
+    "running": {
+        "7_16": 1
+    },
+    "atlower": {
+        "7_16": 1
+    },
+    "speeds": {
+        "7_16": 1
+    },
+    "parallelism": {
+        "7_16": 1
+    },
+    "instructions": {
+        "7_16": 1
+    },
+    "multiple": {
+        "7_16": 2
+    },
+    "play": {
         "7_16": 1
     },
     "role": {
         "7_16": 1
     },
     "arti": {
-        "7_16": 2
-    },
-    "tellig": {
         "7_16": 1
     },
-    "varieti": {
+    "telligence": {
+        "7_16": 1
+    },
+    "domain": {
+        "7_16": 4
+    },
+    "variety": {
         "7_16": 2
     },
-    "tpu": {
+    "generation": {
+        "7_16": 5
+    },
+    "TPUs": {
         "7_16": 7
     },
-    "googl": {
-        "7_16": 2
+    "Google": {
+        "7_16": 1
     },
     "O": {
         "7_16": 4
     },
-    "confer": {
-        "7_16": 20
+    "Conference": {
+        "7_16": 19
     },
-    "alreadi": {
+    "already": {
+        "7_16": 1
+    },
+    "trained": {
         "7_16": 1
     },
     "custom": {
         "7_16": 1
     },
+    "integrated": {
+        "7_16": 2
+    },
     "cir": {
         "7_16": 1
     },
-    "cuit": {
+    "cuits": {
         "7_16": 1
     },
-    "compar": {
-        "7_16": 7
-    },
-    "implicitli": {
+    "Compared": {
         "7_16": 1
     },
-    "bit": {
-        "7_16": 1
-    },
-    "raster": {
-        "7_16": 1
-    },
-    "textur": {
-        "7_16": 1
-    },
-    "mape": {
+    "tasks": {
         "7_16": 2
     },
-    "coin": {
+    "implicitly": {
+        "7_16": 1
+    },
+    "volume": {
+        "7_16": 2
+    },
+    "reduced": {
+        "7_16": 2
+    },
+    "precision": {
+        "7_16": 2
+    },
+    "calculation": {
+        "7_16": 1
+    },
+    "bits": {
+        "7_16": 1
+    },
+    "rasterization": {
+        "7_16": 1
+    },
+    "texture": {
+        "7_16": 1
+    },
+    "mapping": {
+        "7_16": 2
+    },
+    "coined": {
         "7_16": 1
     },
     "cchip": {
         "7_16": 1
     },
-    "tensorflow": {
+    "Googles": {
+        "7_16": 1
+    },
+    "TensorFlow": {
         "7_16": 2
     },
-    "speak": {
+    "Generally": {
+        "7_16": 1
+    },
+    "speaking": {
         "7_16": 1
     },
     "less": {
         "7_16": 2
     },
+    "compared": {
+        "7_16": 2
+    },
+    "computations": {
+        "7_16": 1
+    },
     "normal": {
         "7_16": 1
     },
-    "individu": {
+    "perform": {
         "7_16": 1
     },
-    "million": {
+    "individual": {
+        "7_16": 1
+    },
+    "millions": {
+        "7_16": 1
+    },
+    "pictures": {
         "7_16": 1
     },
     "per": {
-        "7_16": 5
+        "7_16": 3
     },
-    "dai": {
-        "7_16": 5
+    "day": {
+        "7_16": 1
+    },
+    "optimized": {
+        "7_16": 2
+    },
+    "batches": {
+        "7_16": 2
     },
     "highest": {
         "7_16": 1
@@ -4004,52 +5045,67 @@
     "throughput": {
         "7_16": 2
     },
-    "diff": {
+    "completely": {
+        "7_16": 1
+    },
+    "diffe": {
         "7_16": 1
     },
     "rent": {
         "7_16": 1
     },
-    "todai": {
+    "todays": {
         "7_16": 1
     },
-    "ibl": {
+    "processors": {
+        "7_16": 2
+    },
+    "ible": {
         "7_16": 1
     },
-    "easi": {
+    "easy": {
         "7_16": 1
     },
     "ground": {
         "7_16": 1
     },
-    "todeliv": {
+    "todeliver": {
         "7_16": 1
     },
-    "importantli": {
+    "importantly": {
         "7_16": 1
     },
-    "workload": {
+    "workloads": {
         "7_16": 1
     },
-    "realiz": {
+    "realized": {
         "7_16": 1
     },
-    "deliv": {
+    "delivers": {
         "7_16": 1
     },
-    "arithmet": {
+    "arithmetic": {
         "7_16": 1
     },
-    "cienci": {
+    "ciency": {
         "7_16": 1
     },
     "small": {
-        "7_16": 4
-    },
-    "infer": {
         "7_16": 2
     },
-    "abil": {
+    "sizes": {
+        "7_16": 1
+    },
+    "inference": {
+        "7_16": 2
+    },
+    "generalize": {
+        "7_16": 1
+    },
+    "ability": {
+        "7_16": 1
+    },
+    "parallelize": {
         "7_16": 1
     },
     "deliversmuch": {
@@ -4058,146 +5114,221 @@
     "lower": {
         "7_16": 2
     },
-    "latenc": {
+    "latencies": {
         "7_16": 1
+    },
+    "interesting": {
+        "7_16": 1
+    },
+    "power": {
+        "7_16": 9
     },
     "consump": {
         "7_16": 2
     },
-    "manc": {
+    "explored": {
         "7_16": 1
     },
-    "op": {
-        "7_16": 2
+    "perfor": {
+        "7_16": 1
+    },
+    "mance": {
+        "7_16": 1
+    },
+    "ops": {
+        "7_16": 1
     },
     "USD": {
         "7_16": 2
     },
-    "elepha": {
+    "Library": {
         "7_16": 1
     },
-    "ye": {
+    "Language": {
+        "7_16": 1
+    },
+    "Elephas": {
+        "7_16": 1
+    },
+    "Yes": {
         "7_16": 7
     },
-    "hypera": {
+    "Hyperas": {
         "7_16": 1
     },
-    "kerashyperoptrandom": {
+    "KerasHyperoptRandom": {
         "7_16": 1
     },
-    "dloptrandom": {
+    "DloptRandom": {
         "7_16": 1
     },
-    "talosgrid": {
+    "TalosGrid": {
         "7_16": 1
+    },
+    "keras": {
+        "7_16": 2
     },
     "tuner": {
         "7_16": 1
     },
-    "kerash": {
+    "KerasH": {
         "7_16": 1
     },
-    "ogrid": {
+    "OGrid": {
         "7_16": 1
     },
     "H": {
         "7_16": 21
     },
-    "botorchprobabilist": {
+    "BoTorchProbabilistic": {
         "7_16": 1
     },
-    "pytorch": {
-        "7_16": 3
+    "PyTorch": {
+        "7_16": 2
     },
-    "hpolibprobabilist": {
+    "HPOLibProbabilistic": {
         "7_16": 1
+    },
+    "Processing": {
+        "7_16": 6
+    },
+    "Performance": {
+        "7_16": 1
+    },
+    "Scalar": {
+        "7_16": 1
+    },
+    "Small": {
+        "7_16": 2
+    },
+    "Vector": {
+        "7_16": 1
+    },
+    "Large": {
+        "7_16": 2
     },
     "ASIC": {
         "7_16": 1
     },
-    "graph": {
+    "Graph": {
         "7_16": 1
     },
     "cloud": {
-        "7_16": 4
+        "7_16": 3
     },
-    "servic": {
-        "7_16": 2
+    "services": {
+        "7_16": 1
     },
     "price": {
         "7_16": 13
     },
-    "stare": {
+    "starting": {
         "7_16": 1
     },
     "hour": {
         "7_16": 1
     },
-    "retriev": {
+    "retrieved": {
         "7_16": 1
     },
-    "march": {
+    "March": {
         "7_16": 1
     },
-    "energi": {
-        "7_16": 33
+    "motivate": {
+        "7_16": 1
     },
-    "fuel": {
-        "7_16": 4
+    "relevance": {
+        "7_16": 1
+    },
+    "energy": {
+        "7_16": 9
+    },
+    "fuels": {
+        "7_16": 3
     },
     "video": {
-        "7_16": 11
+        "7_16": 8
     },
-    "nanc": {
+    "nance": {
         "7_16": 3
     },
-    "indu": {
-        "7_16": 3
+    "environment": {
+        "7_16": 1
+    },
+    "indus": {
+        "7_16": 1
     },
     "health": {
-        "7_16": 9
+        "7_16": 5
     },
     "widespread": {
         "7_16": 3
     },
-    "summari": {
-        "7_16": 2
+    "summary": {
+        "7_16": 1
     },
-    "item": {
+    "items": {
         "7_16": 1
     },
     "highlight": {
         "7_16": 1
     },
-    "newab": {
+    "goals": {
         "7_16": 1
     },
-    "plane": {
+    "Energy": {
+        "7_16": 22
+    },
+    "newable": {
+        "7_16": 1
+    },
+    "energies": {
+        "7_16": 1
+    },
+    "estimates": {
+        "7_16": 1
+    },
+    "planning": {
         "7_16": 3
     },
     "operat": {
         "7_16": 1
     },
+    "Many": {
+        "7_16": 2
+    },
+    "Reviewing": {
+        "7_16": 1
+    },
+    "cluded": {
+        "7_16": 1
+    },
     "vast": {
         "7_16": 1
     },
+    "chitectures": {
+        "7_16": 3
+    },
     "area": {
+        "7_16": 4
+    },
+    "example": {
+        "7_16": 5
+    },
+    "TCNhave": {
+        "7_16": 1
+    },
+    "electricity": {
         "7_16": 7
     },
-    "tcnhave": {
+    "LSTMand": {
         "7_16": 1
     },
-    "electr": {
-        "7_16": 14
-    },
-    "lstmand": {
-        "7_16": 1
-    },
-    "cnnhave": {
+    "CNNhave": {
         "7_16": 1
     },
     "photo": {
-        "7_16": 2
+        "7_16": 1
     },
     "voltaic": {
         "7_16": 1
@@ -4208,8 +5339,8 @@
     "soot": {
         "7_16": 2
     },
-    "emiss": {
-        "7_16": 4
+    "emission": {
+        "7_16": 2
     },
     "diesel": {
         "7_16": 2
@@ -4217,13 +5348,19 @@
     "en": {
         "7_16": 3
     },
-    "gine": {
+    "gines": {
         "7_16": 1
     },
-    "ensemb": {
-        "7_16": 8
+    "ensemble": {
+        "7_16": 6
     },
     "devel": {
+        "7_16": 1
+    },
+    "oped": {
+        "7_16": 1
+    },
+    "After": {
         "7_16": 1
     },
     "applica": {
@@ -4232,8 +5369,11 @@
     "oil": {
         "7_16": 1
     },
-    "hybrid": {
-        "7_16": 12
+    "production": {
+        "7_16": 1
+    },
+    "Hybrid": {
+        "7_16": 2
     },
     "car": {
         "7_16": 1
@@ -4244,22 +5384,25 @@
     "mar": {
         "7_16": 1
     },
-    "ket": {
+    "kets": {
         "7_16": 1
     },
-    "consumpt": {
+    "consumption": {
         "7_16": 4
     },
     "solar": {
+        "7_16": 2
+    },
+    "Image": {
         "7_16": 3
     },
     "broad": {
         "7_16": 1
     },
-    "hu": {
+    "Hu": {
         "7_16": 2
     },
-    "conduc": {
+    "conducted": {
         "7_16": 4
     },
     "cancer": {
@@ -4268,166 +5411,232 @@
     "diagno": {
         "7_16": 1
     },
-    "recogn": {
-        "7_16": 4
-    },
-    "monitor": {
-        "7_16": 6
-    },
-    "slope": {
-        "7_16": 2
-    },
-    "displacementov": {
+    "sis": {
         "7_16": 1
     },
-    "photogrammetri": {
-        "7_16": 3
+    "summarized": {
+        "7_16": 1
     },
-    "unman": {
+    "studies": {
+        "7_16": 2
+    },
+    "recognize": {
+        "7_16": 1
+    },
+    "actions": {
+        "7_16": 1
+    },
+    "timed": {
+        "7_16": 1
+    },
+    "images": {
+        "7_16": 6
+    },
+    "monitor": {
+        "7_16": 1
+    },
+    "slopes": {
+        "7_16": 2
+    },
+    "displacementover": {
+        "7_16": 1
+    },
+    "photogrammetry": {
+        "7_16": 2
+    },
+    "unmanned": {
         "7_16": 1
     },
     "aerial": {
         "7_16": 1
     },
-    "vehic": {
+    "vehicles": {
         "7_16": 1
     },
-    "classifi": {
+    "combined": {
         "7_16": 1
     },
-    "satellit": {
+    "classify": {
+        "7_16": 1
+    },
+    "satellite": {
         "7_16": 3
     },
     "offer": {
-        "7_16": 2
-    },
-    "competit": {
         "7_16": 1
     },
-    "combust": {
+    "competitive": {
+        "7_16": 1
+    },
+    "predominates": {
+        "7_16": 1
+    },
+    "combustion": {
         "7_16": 2
     },
-    "instab": {
+    "instability": {
         "7_16": 2
     },
     "traf": {
-        "7_16": 5
+        "7_16": 3
     },
     "cor": {
         "7_16": 1
     },
-    "coronari": {
+    "detect": {
+        "7_16": 4
+    },
+    "coronary": {
         "7_16": 2
     },
-    "arteri": {
+    "artery": {
         "7_16": 2
     },
-    "stenosi": {
+    "stenosis": {
         "7_16": 2
     },
-    "boom": {
+    "booming": {
         "7_16": 1
     },
-    "come": {
+    "comes": {
         "7_16": 1
     },
     "analyz": {
         "7_16": 1
     },
-    "miao": {
+    "videos": {
         "7_16": 3
     },
-    "densiti": {
+    "Miao": {
+        "7_16": 3
+    },
+    "estimate": {
         "7_16": 1
     },
-    "map": {
-        "7_16": 2
+    "density": {
+        "7_16": 1
+    },
+    "maps": {
+        "7_16": 1
     },
     "vid": {
         "7_16": 1
     },
-    "eo": {
+    "eos": {
         "7_16": 1
     },
-    "dynamic": {
-        "7_16": 4
+    "dynamically": {
+        "7_16": 1
     },
     "stress": {
         "7_16": 3
     },
-    "facialphotograph": {
+    "facialphotographs": {
         "7_16": 1
     },
-    "financi": {
+    "Summary": {
+        "7_16": 1
+    },
+    "Financial": {
         "7_16": 6
     },
-    "environment": {
+    "Environmental": {
         "7_16": 4
     },
-    "industri": {
+    "Industry": {
+        "7_16": 2
+    },
+    "Health": {
         "7_16": 4
     },
-    "misc": {
+    "Misc": {
+        "7_16": 1
+    },
+    "challeng": {
+        "7_16": 1
+    },
+    "decades": {
         "7_16": 1
     },
     "DNN": {
         "7_16": 1
     },
     "comparison": {
-        "7_16": 2
+        "7_16": 1
     },
     "architec": {
         "7_16": 2
     },
-    "plexiti": {
+    "tures": {
+        "7_16": 2
+    },
+    "offers": {
         "7_16": 1
     },
-    "wind": {
-        "7_16": 12
-    },
-    "temperatur": {
+    "plexity": {
         "7_16": 1
     },
-    "meteorolog": {
+    "methodologies": {
         "7_16": 1
     },
-    "beij": {
-        "7_16": 1
-    },
-    "china": {
+    "areas": {
         "7_16": 3
     },
-    "water": {
-        "7_16": 6
+    "wind": {
+        "7_16": 7
+    },
+    "temperature": {
+        "7_16": 1
+    },
+    "meteorological": {
+        "7_16": 1
+    },
+    "Beijing": {
+        "7_16": 1
+    },
+    "China": {
+        "7_16": 2
+    },
+    "Other": {
+        "7_16": 2
+    },
+    "Water": {
+        "7_16": 3
     },
     "mand": {
         "7_16": 1
     },
-    "correl": {
+    "Refs": {
+        "7_16": 2
+    },
+    "correlated": {
         "7_16": 1
     },
-    "wan": {
+    "Wan": {
         "7_16": 3
     },
     "carbon": {
-        "7_16": 3
+        "7_16": 2
     },
-    "dioxid": {
+    "dioxide": {
+        "7_16": 2
+    },
+    "emissions": {
         "7_16": 2
     },
     "ood": {
         "7_16": 2
     },
-    "ornh": {
+    "orNH": {
         "7_16": 1
     },
-    "concentr": {
+    "concentration": {
         "7_16": 2
     },
     "swine": {
         "7_16": 2
     },
-    "housewer": {
+    "housewere": {
         "7_16": 1
     },
     "industr": {
@@ -4436,13 +5645,19 @@
     "sector": {
         "7_16": 1
     },
+    "carry": {
+        "7_16": 1
+    },
     "ow": {
         "7_16": 5
+    },
+    "purposes": {
+        "7_16": 1
     },
     "construc": {
         "7_16": 1
     },
-    "equip": {
+    "equipment": {
         "7_16": 2
     },
     "recognitionor": {
@@ -4451,7 +5666,7 @@
     "au": {
         "7_16": 2
     },
-    "thor": {
+    "thors": {
         "7_16": 1
     },
     "bath": {
@@ -4463,7 +5678,7 @@
     "height": {
         "7_16": 2
     },
-    "electrolysi": {
+    "electrolysis": {
         "7_16": 2
     },
     "cess": {
@@ -4472,16 +5687,16 @@
     "life": {
         "7_16": 4
     },
-    "degrad": {
-        "7_16": 2
-    },
-    "materi": {
+    "degradation": {
         "7_16": 1
     },
-    "inref": {
+    "materials": {
         "7_16": 1
     },
-    "conclud": {
+    "inRef": {
+        "7_16": 1
+    },
+    "concluded": {
         "7_16": 1
     },
     "ea": {
@@ -4497,45 +5712,69 @@
         "7_16": 1
     },
     "ni": {
-        "7_16": 2
+        "7_16": 1
     },
-    "comprehens": {
+    "generally": {
+        "7_16": 1
+    },
+    "comprehensive": {
         "7_16": 1
     },
     "care": {
         "7_16": 1
     },
-    "diagnosi": {
+    "diagnosis": {
         "7_16": 2
     },
-    "prognosi": {
+    "prognosis": {
         "7_16": 2
     },
     "cardiovascular": {
         "7_16": 1
     },
-    "diseas": {
+    "disease": {
         "7_16": 1
     },
-    "ampl": {
+    "Instead": {
         "7_16": 1
     },
-    "acceler": {
+    "usual": {
+        "7_16": 1
+    },
+    "hybrid": {
+        "7_16": 10
+    },
+    "ample": {
+        "7_16": 1
+    },
+    "accelerate": {
+        "7_16": 1
+    },
+    "computation": {
         "7_16": 2
     },
-    "magnet": {
+    "magnetic": {
         "7_16": 2
     },
-    "reson": {
+    "resonance": {
         "7_16": 1
     },
     "ngerprint": {
         "7_16": 1
     },
-    "nr": {
+    "monitoring": {
+        "7_16": 5
+    },
+    "ps": {
         "7_16": 1
     },
-    "prematur": {
+    "nR": {
+        "7_16": 1
+    },
+    "detecting": {
+        "7_16": 1
+    },
+    "premature": {
         "7_16": 2
     },
     "ventricular": {
@@ -4544,37 +5783,46 @@
     "contractionsor": {
         "7_16": 1
     },
-    "sepsi": {
-        "7_16": 4
-    },
-    "backpropag": {
+    "Sepsis": {
         "7_16": 1
     },
-    "incid": {
+    "backpropagation": {
+        "7_16": 1
+    },
+    "incidence": {
         "7_16": 2
     },
     "pneumonia": {
-        "7_16": 2
-    },
-    "statu": {
         "7_16": 1
     },
-    "critic": {
+    "status": {
         "7_16": 1
     },
-    "patient": {
-        "7_16": 2
+    "critical": {
+        "7_16": 1
+    },
+    "patients": {
+        "7_16": 1
     },
     "vital": {
         "7_16": 1
     },
-    "miscellan": {
-        "7_16": 2
+    "cases": {
+        "7_16": 1
     },
-    "chece": {
+    "Miscellaneous": {
+        "7_16": 1
+    },
+    "checked": {
         "7_16": 1
     },
     "architecturescan": {
+        "7_16": 1
+    },
+    "miscellaneous": {
+        "7_16": 1
+    },
+    "appli": {
         "7_16": 1
     },
     "exam": {
@@ -4584,42 +5832,48 @@
         "7_16": 1
     },
     "human": {
+        "7_16": 3
+    },
+    "activity": {
         "7_16": 4
     },
-    "anomali": {
-        "7_16": 4
-    },
-    "name": {
+    "anomalies": {
         "7_16": 1
     },
-    "reader": {
+    "Namely": {
         "7_16": 1
     },
-    "cybersecur": {
+    "readers": {
+        "7_16": 1
+    },
+    "cybersecurity": {
         "7_16": 1
     },
     "exist": {
-        "7_16": 3
+        "7_16": 2
     },
     "yet": {
         "7_16": 1
     },
-    "second": {
+    "Second": {
         "7_16": 2
     },
-    "encourag": {
+    "existence": {
         "7_16": 1
     },
-    "conduct": {
+    "encourages": {
+        "7_16": 1
+    },
+    "conduction": {
         "7_16": 1
     },
     "ful": {
         "7_16": 1
     },
-    "sole": {
+    "solving": {
         "7_16": 1
     },
-    "devic": {
+    "devices": {
         "7_16": 1
     },
     "fre": {
@@ -4628,55 +5882,73 @@
     "quent": {
         "7_16": 1
     },
-    "topic": {
-        "7_16": 2
+    "topics": {
+        "7_16": 1
     },
-    "jointli": {
+    "jointly": {
         "7_16": 2
     },
     "special": {
         "7_16": 1
     },
-    "emphasi": {
+    "emphasis": {
         "7_16": 1
     },
-    "repor": {
+    "reported": {
         "7_16": 1
     },
     "lighten": {
         "7_16": 1
     },
-    "vide": {
+    "viding": {
         "7_16": 1
+    },
+    "comparative": {
+        "7_16": 3
     },
     "fu": {
-        "7_16": 7
-    },
-    "tese": {
         "7_16": 1
     },
-    "disclosur": {
+    "show": {
         "7_16": 1
     },
-    "statement": {
+    "tested": {
+        "7_16": 1
+    },
+    "Author": {
+        "7_16": 1
+    },
+    "Disclosure": {
+        "7_16": 1
+    },
+    "Statement": {
         "7_16": 1
     },
     "nancial": {
         "7_16": 4
     },
-    "fune": {
+    "interests": {
         "7_16": 1
     },
-    "suppor": {
+    "Funding": {
+        "7_16": 1
+    },
+    "Information": {
+        "7_16": 10
+    },
+    "supported": {
         "7_16": 2
     },
-    "spanish": {
+    "Spanish": {
         "7_16": 1
     },
-    "ministri": {
+    "Ministry": {
         "7_16": 1
     },
-    "innov": {
+    "Innovation": {
+        "7_16": 1
+    },
+    "Universities": {
         "7_16": 1
     },
     "under": {
@@ -4688,26 +5960,35 @@
     "TIN": {
         "7_16": 1
     },
-    "partial": {
+    "Also": {
         "7_16": 1
     },
-    "ge": {
+    "partially": {
+        "7_16": 1
+    },
+    "Ge": {
         "7_16": 1
     },
     "neral": {
         "7_16": 1
     },
-    "director": {
+    "Directorate": {
         "7_16": 1
     },
-    "sci": {
+    "Sci": {
         "7_16": 16
     },
     "enti": {
         "7_16": 2
     },
-    "technolog": {
+    "Research": {
         "7_16": 1
+    },
+    "Technological": {
+        "7_16": 1
+    },
+    "Development": {
+        "7_16": 2
     },
     "DGRSDT": {
         "7_16": 1
@@ -4715,46 +5996,58 @@
     "PRFU": {
         "7_16": 1
     },
+    "ref": {
+        "7_16": 1
+    },
     "LUN": {
         "7_16": 1
     },
-    "plagera": {
+    "References": {
+        "7_16": 1
+    },
+    "Plageras": {
         "7_16": 1
     },
     "AP": {
         "7_16": 1
     },
-    "psanni": {
+    "Psannis": {
         "7_16": 1
     },
     "KE": {
         "7_16": 1
     },
-    "stergiou": {
+    "Stergiou": {
         "7_16": 1
     },
-    "iot": {
+    "Ef": {
+        "7_16": 3
+    },
+    "IoT": {
         "7_16": 1
     },
     "sensor": {
-        "7_16": 6
-    },
-    "buil": {
         "7_16": 2
     },
-    "futuregen": {
+    "buildings": {
         "7_16": 1
     },
-    "syst": {
+    "FutureGener": {
+        "7_16": 1
+    },
+    "Comput": {
+        "7_16": 27
+    },
+    "Syst": {
         "7_16": 13
     },
-    "patil": {
+    "Patil": {
         "7_16": 1
     },
     "HP": {
         "7_16": 1
     },
-    "atiqu": {
+    "Atique": {
         "7_16": 1
     },
     "M": {
@@ -4769,10 +6062,10 @@
     "dragon": {
         "7_16": 1
     },
-    "naiv": {
+    "naive": {
         "7_16": 1
     },
-    "bay": {
+    "bayes": {
         "7_16": 1
     },
     "sentiment": {
@@ -4784,118 +6077,139 @@
     "social": {
         "7_16": 2
     },
-    "gama": {
+    "Gama": {
         "7_16": 1
     },
     "J": {
         "7_16": 63
     },
-    "discoveri": {
+    "Knowledge": {
         "7_16": 3
+    },
+    "discovery": {
+        "7_16": 1
     },
     "UK": {
         "7_16": 4
     },
-    "chapman": {
+    "Chapman": {
         "7_16": 3
     },
-    "hall": {
+    "Hall": {
         "7_16": 3
     },
     "CRC": {
         "7_16": 3
     },
-    "jarrah": {
+    "Al": {
+        "7_16": 1
+    },
+    "Jarrah": {
         "7_16": 1
     },
     "OY": {
         "7_16": 1
     },
-    "yoo": {
+    "Yoo": {
         "7_16": 1
     },
     "PD": {
         "7_16": 1
     },
-    "muhaidat": {
+    "Muhaidat": {
         "7_16": 1
     },
     "S": {
         "7_16": 28
     },
-    "dhar": {
+    "review": {
+        "7_16": 5
+    },
+    "Res": {
+        "7_16": 5
+    },
+    "Dhar": {
         "7_16": 1
     },
     "V": {
         "7_16": 2
     },
-    "sun": {
+    "Sun": {
         "7_16": 4
     },
-    "batra": {
+    "Batra": {
         "7_16": 1
     },
     "P": {
         "7_16": 10
     },
-    "concurr": {
+    "Transforming": {
         "7_16": 1
     },
-    "nguyen": {
+    "Concurrent": {
+        "7_16": 1
+    },
+    "Nguyen": {
         "7_16": 2
     },
-    "dlugolinski": {
+    "Dlugolinsky": {
         "7_16": 1
     },
-    "boba": {
+    "Boba": {
         "7_16": 1
     },
     "k": {
         "7_16": 1
     },
+    "Machine": {
+        "7_16": 5
+    },
     "sur": {
         "7_16": 1
     },
-    "vei": {
+    "vey": {
         "7_16": 1
     },
-    "artif": {
+    "Artif": {
         "7_16": 5
     },
-    "intel": {
-        "7_16": 5
+    "Intell": {
+        "7_16": 4
     },
-    "rev": {
+    "Rev": {
         "7_16": 1
     },
-    "maji": {
+    "Maji": {
         "7_16": 1
     },
-    "mullin": {
+    "Mullins": {
         "7_16": 1
     },
-    "reduct": {
+    "reduction": {
         "7_16": 1
     },
-    "entropi": {
+    "Entropy": {
         "7_16": 1
     },
-    "schmidhub": {
+    "Schmidhuber": {
         "7_16": 2
     },
-    "netw": {
+    "Neural": {
+        "7_16": 13
+    },
+    "Netw": {
         "7_16": 2
     },
-    "makridaki": {
+    "Makridakis": {
         "7_16": 1
     },
-    "wheelwright": {
+    "Wheelwright": {
         "7_16": 1
     },
     "SC": {
         "7_16": 1
     },
-    "hyndman": {
+    "Hyndman": {
         "7_16": 3
     },
     "RJ": {
@@ -4904,16 +6218,19 @@
     "USA": {
         "7_16": 32
     },
-    "john": {
+    "John": {
         "7_16": 2
     },
-    "wilei": {
+    "Wiley": {
         "7_16": 3
     },
-    "son": {
+    "Sons": {
         "7_16": 2
     },
-    "chat": {
+    "Chat": {
+        "7_16": 1
+    },
+    "introduction": {
         "7_16": 1
     },
     "GEP": {
@@ -4923,66 +6240,75 @@
         "7_16": 1
     },
     "control": {
-        "7_16": 7
+        "7_16": 1
     },
     "F": {
         "7_16": 19
     },
-    "asencio": {
+    "Asencio": {
         "7_16": 3
     },
-    "cort": {
+    "Corte": {
         "7_16": 3
     },
-    "riquelm": {
+    "Riquelme": {
         "7_16": 1
     },
     "JC": {
         "7_16": 1
     },
-    "seriesforecas": {
+    "seriesforecasting": {
+        "7_16": 1
+    },
+    "Energies": {
         "7_16": 1
     },
     "Q": {
         "7_16": 6
     },
-    "yang": {
+    "Yang": {
         "7_16": 6
     },
     "LT": {
         "7_16": 1
     },
-    "chen": {
+    "Chen": {
         "7_16": 10
     },
     "Z": {
         "7_16": 26
     },
-    "fusion": {
-        "7_16": 3
+    "Fusion": {
+        "7_16": 2
     },
-    "fawaz": {
+    "Fawaz": {
         "7_16": 1
     },
     "HI": {
         "7_16": 1
     },
-    "foresti": {
+    "Forestier": {
         "7_16": 1
     },
-    "weber": {
+    "Weber": {
         "7_16": 1
     },
-    "min": {
+    "Min": {
         "7_16": 1
     },
-    "knowl": {
+    "Knowl": {
         "7_16": 6
     },
-    "bagnal": {
+    "Discov": {
+        "7_16": 2
+    },
+    "Bagnall": {
         "7_16": 1
     },
-    "vicker": {
+    "Lines": {
+        "7_16": 1
+    },
+    "Vickers": {
         "7_16": 1
     },
     "W": {
@@ -4994,163 +6320,202 @@
     "UCR": {
         "7_16": 1
     },
-    "onlin": {
-        "7_16": 9
+    "online": {
+        "7_16": 8
     },
     "timeseriesclassi": {
         "7_16": 1
     },
-    "acces": {
+    "accessed": {
         "7_16": 5
     },
-    "april": {
+    "April": {
         "7_16": 5
     },
     "HA": {
         "7_16": 1
     },
+    "Scalable": {
+        "7_16": 1
+    },
     "infra": {
+        "7_16": 1
+    },
+    "structures": {
         "7_16": 1
     },
     "ACM": {
         "7_16": 4
     },
-    "surv": {
+    "Surv": {
         "7_16": 1
     },
-    "buuren": {
+    "Article": {
         "7_16": 1
     },
-    "maronna": {
+    "Buuren": {
+        "7_16": 1
+    },
+    "imputation": {
+        "7_16": 1
+    },
+    "Maronna": {
         "7_16": 1
     },
     "RA": {
         "7_16": 1
     },
-    "martin": {
+    "Martin": {
         "7_16": 1
     },
     "RD": {
         "7_16": 1
     },
-    "yohai": {
+    "Yohai": {
         "7_16": 1
     },
     "VJ": {
         "7_16": 1
     },
-    "theori": {
+    "Robust": {
         "7_16": 1
+    },
+    "theory": {
+        "7_16": 1
+    },
+    "Fu": {
+        "7_16": 6
     },
     "TC": {
         "7_16": 2
     },
-    "eng": {
+    "Eng": {
         "7_16": 12
     },
-    "shumwai": {
+    "Appl": {
+        "7_16": 13
+    },
+    "Shumway": {
         "7_16": 1
     },
     "RH": {
         "7_16": 1
     },
-    "stoffer": {
+    "Stoffer": {
         "7_16": 1
     },
     "DS": {
         "7_16": 2
     },
-    "springer": {
+    "Springer": {
         "7_16": 1
     },
-    "athanasopoulo": {
+    "Athanasopoulos": {
         "7_16": 1
     },
-    "princip": {
-        "7_16": 2
-    },
-    "australia": {
+    "principles": {
         "7_16": 1
     },
-    "otext": {
+    "practice": {
         "7_16": 1
     },
-    "wang": {
+    "Australia": {
+        "7_16": 1
+    },
+    "Otexts": {
+        "7_16": 1
+    },
+    "Wang": {
         "7_16": 28
     },
     "X": {
         "7_16": 27
     },
-    "kang": {
+    "Kang": {
         "7_16": 1
     },
     "Y": {
         "7_16": 44
     },
-    "arxiv": {
+    "arXiv": {
         "7_16": 24
     },
-    "print": {
+    "prints": {
         "7_16": 12
     },
-    "rakthanmanon": {
+    "Rakthanmanon": {
         "7_16": 1
     },
     "T": {
         "7_16": 11
     },
-    "campana": {
+    "Campana": {
         "7_16": 1
     },
     "B": {
         "7_16": 11
     },
-    "mueen": {
+    "Mueen": {
         "7_16": 1
     },
-    "addres": {
+    "Addressing": {
         "7_16": 1
     },
-    "trillion": {
+    "Mining": {
+        "7_16": 3
+    },
+    "trillions": {
         "7_16": 1
     },
-    "subsequ": {
+    "subsequences": {
         "7_16": 1
     },
-    "dynamictim": {
+    "dynamictime": {
         "7_16": 1
     },
-    "tran": {
-        "7_16": 4
+    "warping": {
+        "7_16": 1
+    },
+    "Trans": {
+        "7_16": 3
     },
     "JF": {
         "7_16": 3
     },
-    "galicia": {
+    "Galicia": {
         "7_16": 2
     },
-    "aid": {
+    "Integr": {
         "7_16": 1
     },
-    "talavera": {
+    "Aided": {
+        "7_16": 1
+    },
+    "Talavera": {
         "7_16": 3
     },
-    "llame": {
+    "Llames": {
         "7_16": 3
     },
     "RL": {
         "7_16": 1
     },
-    "pe": {
+    "Multi": {
+        "7_16": 3
+    },
+    "Based": {
+        "7_16": 4
+    },
+    "Pe": {
         "7_16": 3
     },
     "rez": {
         "7_16": 3
     },
-    "chaco": {
+    "Chaco": {
         "7_16": 3
     },
-    "neighbor": {
+    "neighbors": {
         "7_16": 1
     },
     "spark": {
@@ -5159,103 +6524,133 @@
     "MV": {
         "7_16": 1
     },
-    "kwnn": {
+    "kWNN": {
         "7_16": 1
     },
     "novel": {
         "7_16": 4
     },
-    "weigh": {
+    "weighted": {
         "7_16": 1
     },
-    "nearestneighbor": {
+    "nearestneighbors": {
         "7_16": 1
     },
-    "neurocom": {
+    "Neurocom": {
         "7_16": 1
     },
-    "ba": {
-        "7_16": 2
+    "puting": {
+        "7_16": 1
     },
-    "rumelhart": {
+    "bas": {
+        "7_16": 1
+    },
+    "Rumelhart": {
         "7_16": 1
     },
     "D": {
         "7_16": 16
     },
-    "hinton": {
+    "Hinton": {
         "7_16": 2
     },
-    "william": {
+    "Williams": {
+        "7_16": 1
+    },
+    "Nature": {
         "7_16": 1
     },
     "JL": {
         "7_16": 1
     },
-    "fine": {
+    "Finding": {
         "7_16": 1
     },
-    "rep": {
+    "structure": {
+        "7_16": 1
+    },
+    "Rep": {
         "7_16": 2
     },
-    "hochreit": {
+    "Hochreiter": {
         "7_16": 1
     },
-    "chung": {
+    "Chung": {
         "7_16": 1
     },
-    "gulcehr": {
+    "Gulcehre": {
         "7_16": 1
     },
-    "cho": {
+    "Cho": {
         "7_16": 4
     },
-    "empir": {
-        "7_16": 7
+    "Empirical": {
+        "7_16": 2
     },
-    "proceed": {
+    "evaluation": {
+        "7_16": 2
+    },
+    "modeling": {
+        "7_16": 2
+    },
+    "Proceedings": {
         "7_16": 39
     },
-    "canada": {
+    "Systems": {
+        "7_16": 6
+    },
+    "Canada": {
         "7_16": 1
     },
     "pp": {
         "7_16": 41
     },
-    "merrienbo": {
+    "Merrienboer": {
         "7_16": 1
     },
     "BV": {
         "7_16": 1
     },
-    "bahdanau": {
+    "Bahdanau": {
         "7_16": 2
     },
-    "encod": {
+    "encoder": {
         "7_16": 1
     },
-    "decod": {
+    "decoder": {
         "7_16": 1
     },
     "SSST": {
         "7_16": 1
     },
-    "qatar": {
+    "Qatar": {
         "7_16": 1
     },
-    "bengio": {
+    "Bengio": {
         "7_16": 1
     },
     "align": {
         "7_16": 1
     },
-    "internationalconfer": {
+    "translate": {
+        "7_16": 1
+    },
+    "InternationalConference": {
         "7_16": 3
     },
-    "xu": {
+    "Representations": {
+        "7_16": 2
+    },
+    "Xu": {
         "7_16": 3
     },
-    "kiro": {
+    "Ba": {
+        "7_16": 1
+    },
+    "Kiros": {
+        "7_16": 1
+    },
+    "Show": {
         "7_16": 1
     },
     "attend": {
@@ -5267,68 +6662,86 @@
     "caption": {
         "7_16": 1
     },
-    "neocognitron": {
+    "Neocognitron": {
         "7_16": 1
     },
     "self": {
         "7_16": 2
     },
-    "unaffec": {
+    "organizing": {
+        "7_16": 1
+    },
+    "mechanism": {
+        "7_16": 1
+    },
+    "unaffected": {
         "7_16": 1
     },
     "shift": {
-        "7_16": 2
-    },
-    "posit": {
-        "7_16": 2
-    },
-    "biol": {
-        "7_16": 2
-    },
-    "cybern": {
         "7_16": 1
     },
-    "hasegawa": {
-        "7_16": 1
-    },
-    "matoba": {
-        "7_16": 1
-    },
-    "invari": {
+    "position": {
         "7_16": 2
     },
-    "neuralnetw": {
+    "Biol": {
+        "7_16": 2
+    },
+    "Cybern": {
+        "7_16": 1
+    },
+    "Hasegawa": {
+        "7_16": 1
+    },
+    "Matoba": {
+        "7_16": 1
+    },
+    "Shift": {
+        "7_16": 1
+    },
+    "invariant": {
+        "7_16": 1
+    },
+    "generalization": {
+        "7_16": 1
+    },
+    "NeuralNetw": {
         "7_16": 1
     },
     "III": {
         "7_16": 1
     },
-    "alla": {
+    "Alla": {
         "7_16": 1
     },
-    "adari": {
+    "Adari": {
         "7_16": 1
     },
     "SK": {
         "7_16": 2
     },
-    "begin": {
+    "Beginning": {
         "7_16": 1
     },
-    "apress": {
+    "anomaly": {
+        "7_16": 3
+    },
+    "Apress": {
         "7_16": 1
     },
-    "abadi": {
+    "Abadi": {
         "7_16": 1
     },
-    "agarw": {
+    "Agarwal": {
         "7_16": 2
     },
-    "barham": {
+    "Barham": {
         "7_16": 1
     },
-    "heterogen": {
-        "7_16": 4
+    "heterogeneous": {
+        "7_16": 3
+    },
+    "systems": {
+        "7_16": 7
     },
     "athttp": {
         "7_16": 1
@@ -5336,49 +6749,61 @@
     "org": {
         "7_16": 1
     },
-    "candel": {
+    "Candel": {
         "7_16": 1
     },
-    "ledel": {
+    "LeDell": {
         "7_16": 1
     },
-    "arora": {
+    "Arora": {
         "7_16": 1
     },
     "ho": {
         "7_16": 2
     },
     "http": {
-        "7_16": 6
+        "7_16": 2
     },
     "ai": {
         "7_16": 1
     },
-    "eclips": {
-        "7_16": 2
+    "Eclipse": {
+        "7_16": 1
     },
-    "deeplearningj": {
-        "7_16": 2
+    "Deeplearningj": {
+        "7_16": 1
     },
     "team": {
-        "7_16": 2
+        "7_16": 1
     },
     "DLJ": {
         "7_16": 1
     },
+    "https": {
+        "7_16": 4
+    },
     "github": {
         "7_16": 4
     },
-    "paszk": {
+    "eclipse": {
         "7_16": 1
     },
-    "gross": {
+    "deeplearningj": {
         "7_16": 1
     },
-    "massa": {
+    "Paszke": {
         "7_16": 1
     },
-    "imper": {
+    "Gross": {
+        "7_16": 1
+    },
+    "Massa": {
+        "7_16": 1
+    },
+    "Pytorch": {
+        "7_16": 1
+    },
+    "imperative": {
         "7_16": 1
     },
     "style": {
@@ -5387,100 +6812,133 @@
     "highper": {
         "7_16": 1
     },
-    "formanc": {
+    "formance": {
         "7_16": 1
     },
-    "inneur": {
+    "Advances": {
         "7_16": 1
     },
-    "vol": {
+    "inNeural": {
+        "7_16": 1
+    },
+    "Vol": {
         "7_16": 4
     },
-    "jia": {
+    "Jia": {
         "7_16": 1
     },
-    "shelham": {
+    "Shelhamer": {
         "7_16": 1
     },
-    "donahu": {
+    "Donahue": {
         "7_16": 1
     },
-    "caff": {
+    "Caffe": {
         "7_16": 1
     },
     "fast": {
         "7_16": 2
     },
-    "embed": {
+    "embedding": {
         "7_16": 1
     },
-    "nervana": {
+    "Intel": {
+        "7_16": 1
+    },
+    "Nervana": {
+        "7_16": 1
+    },
+    "Neon": {
+        "7_16": 1
+    },
+    "NervanaSystems": {
         "7_16": 1
     },
     "neon": {
-        "7_16": 2
-    },
-    "nervanasystem": {
         "7_16": 1
     },
-    "lastacces": {
+    "lastaccessed": {
         "7_16": 1
     },
-    "tokui": {
+    "Tokui": {
         "7_16": 1
     },
-    "okuta": {
+    "Okuta": {
         "7_16": 1
     },
-    "akiba": {
+    "Akiba": {
         "7_16": 1
     },
-    "chainer": {
+    "Chainer": {
         "7_16": 1
     },
-    "intern": {
+    "accelerating": {
+        "7_16": 1
+    },
+    "cycle": {
+        "7_16": 1
+    },
+    "International": {
         "7_16": 13
     },
-    "ferenc": {
+    "Con": {
         "7_16": 2
     },
-    "theano": {
+    "ference": {
         "7_16": 2
     },
-    "express": {
+    "Discovery": {
+        "7_16": 2
+    },
+    "Theano": {
+        "7_16": 2
+    },
+    "Team": {
         "7_16": 1
     },
-    "tianqi": {
+    "expressions": {
         "7_16": 1
     },
-    "li": {
+    "Tianqi": {
+        "7_16": 1
+    },
+    "Li": {
         "7_16": 14
     },
-    "mxnet": {
+    "Mxnet": {
         "7_16": 1
     },
-    "bai": {
+    "exible": {
         "7_16": 1
     },
-    "lu": {
+    "Bai": {
+        "7_16": 1
+    },
+    "Lu": {
+        "7_16": 3
+    },
+    "Onnx": {
+        "7_16": 1
+    },
+    "Open": {
+        "7_16": 1
+    },
+    "exchange": {
         "7_16": 3
     },
     "onnx": {
-        "7_16": 3
+        "7_16": 2
     },
-    "exchang": {
-        "7_16": 3
-    },
-    "onjun": {
+    "onJune": {
         "7_16": 1
     },
-    "seid": {
+    "Seide": {
         "7_16": 1
     },
     "CNTK": {
         "7_16": 1
     },
-    "microsoft": {
+    "Microsofts": {
         "7_16": 1
     },
     "toolkit": {
@@ -5489,25 +6947,25 @@
     "SIGKDD": {
         "7_16": 1
     },
-    "chollet": {
+    "Chollet": {
         "7_16": 1
     },
     "io": {
         "7_16": 1
     },
-    "deepmind": {
+    "DeepMind": {
         "7_16": 1
     },
-    "revis": {
+    "revision": {
         "7_16": 1
     },
-    "guo": {
+    "Guo": {
         "7_16": 2
     },
-    "he": {
+    "He": {
         "7_16": 5
     },
-    "gluoncv": {
+    "Gluoncv": {
         "7_16": 1
     },
     "gluonnlp": {
@@ -5516,223 +6974,298 @@
     "puter": {
         "7_16": 1
     },
-    "mach": {
+    "Mach": {
         "7_16": 3
     },
-    "choi": {
+    "Learn": {
+        "7_16": 3
+    },
+    "Choi": {
         "7_16": 1
     },
-    "shallu": {
+    "Shallue": {
         "7_16": 1
     },
     "CJ": {
         "7_16": 1
     },
-    "nado": {
+    "Nado": {
         "7_16": 1
     },
-    "you": {
+    "empirical": {
+        "7_16": 5
+    },
+    "comparisons": {
         "7_16": 1
     },
-    "jordan": {
+    "optimizers": {
+        "7_16": 1
+    },
+    "You": {
+        "7_16": 1
+    },
+    "Jordan": {
         "7_16": 1
     },
     "MI": {
         "7_16": 1
     },
-    "decai": {
+    "decay": {
+        "7_16": 1
+    },
+    "help": {
         "7_16": 1
     },
     "modern": {
         "7_16": 1
     },
-    "sinha": {
+    "Sinha": {
         "7_16": 1
     },
-    "singh": {
+    "Singh": {
         "7_16": 2
     },
     "TN": {
         "7_16": 1
     },
-    "verma": {
+    "Verma": {
+        "7_16": 1
+    },
+    "Epoch": {
+        "7_16": 1
+    },
+    "determination": {
+        "7_16": 1
+    },
+    "organized": {
+        "7_16": 1
+    },
+    "map": {
         "7_16": 1
     },
     "SOM": {
         "7_16": 1
     },
-    "geosci": {
+    "Geosci": {
         "7_16": 1
     },
-    "master": {
+    "Masters": {
         "7_16": 1
     },
-    "luschi": {
+    "Luschi": {
         "7_16": 1
     },
-    "revisit": {
+    "Revisiting": {
         "7_16": 1
     },
-    "sha": {
+    "Sha": {
         "7_16": 1
     },
-    "ahmad": {
+    "Ahmad": {
         "7_16": 2
     },
-    "shah": {
+    "Shah": {
         "7_16": 1
     },
     "SI": {
         "7_16": 1
     },
-    "impact": {
-        "7_16": 2
+    "Impact": {
+        "7_16": 1
     },
     "IEEE": {
         "7_16": 12
     },
-    "multitop": {
+    "Multitopic": {
         "7_16": 1
     },
-    "ding": {
+    "Ding": {
         "7_16": 1
     },
-    "qian": {
+    "Qian": {
         "7_16": 1
     },
-    "zhou": {
+    "Zhou": {
         "7_16": 3
     },
-    "chines": {
-        "7_16": 3
+    "Chinese": {
+        "7_16": 2
     },
-    "anddecis": {
+    "Control": {
+        "7_16": 6
+    },
+    "andDecision": {
         "7_16": 1
     },
-    "sutskev": {
+    "Sutskever": {
         "7_16": 1
     },
-    "marten": {
+    "Martens": {
         "7_16": 1
     },
-    "dahl": {
+    "Dahl": {
         "7_16": 1
     },
-    "kumar": {
+    "importance": {
         "7_16": 1
     },
-    "srivastava": {
+    "Kumar": {
+        "7_16": 1
+    },
+    "weight": {
+        "7_16": 1
+    },
+    "Srivastava": {
         "7_16": 1
     },
     "N": {
         "7_16": 5
     },
-    "krizhevski": {
+    "Krizhevsky": {
+        "7_16": 1
+    },
+    "Ng": {
         "7_16": 1
     },
     "AY": {
         "7_16": 1
     },
-    "v": {
+    "Feature": {
+        "7_16": 1
+    },
+    "selection": {
+        "7_16": 1
+    },
+    "vs": {
         "7_16": 2
     },
-    "rotat": {
-        "7_16": 1
-    },
-    "anc": {
-        "7_16": 1
-    },
-    "mairal": {
-        "7_16": 1
-    },
-    "koniusz": {
-        "7_16": 1
-    },
-    "harchaoui": {
-        "7_16": 1
-    },
-    "schmid": {
-        "7_16": 1
-    },
-    "zaniolo": {
-        "7_16": 1
-    },
-    "marqu": {
-        "7_16": 1
-    },
-    "multim": {
+    "regularization": {
         "7_16": 2
     },
-    "dwarampudi": {
+    "rotational": {
         "7_16": 1
     },
-    "reddi": {
+    "invari": {
+        "7_16": 1
+    },
+    "ance": {
+        "7_16": 1
+    },
+    "Mairal": {
+        "7_16": 1
+    },
+    "Koniusz": {
+        "7_16": 1
+    },
+    "Harchaoui": {
+        "7_16": 1
+    },
+    "Schmid": {
+        "7_16": 1
+    },
+    "Zaniolo": {
+        "7_16": 1
+    },
+    "Marques": {
+        "7_16": 1
+    },
+    "stride": {
+        "7_16": 1
+    },
+    "Multimed": {
+        "7_16": 2
+    },
+    "Tools": {
+        "7_16": 1
+    },
+    "Dwarampudi": {
+        "7_16": 1
+    },
+    "Reddy": {
         "7_16": 1
     },
     "NVS": {
         "7_16": 1
     },
-    "zhu": {
+    "Effects": {
+        "7_16": 1
+    },
+    "padding": {
+        "7_16": 1
+    },
+    "Zhu": {
         "7_16": 2
     },
-    "rethin": {
+    "Rethinking": {
         "7_16": 1
     },
-    "scherer": {
+    "Scherer": {
         "7_16": 1
     },
-    "mu": {
+    "Mu": {
         "7_16": 1
     },
     "ller": {
         "7_16": 1
     },
-    "behnk": {
+    "Behnke": {
         "7_16": 1
     },
-    "volut": {
+    "Evaluation": {
         "7_16": 1
     },
-    "ofarti": {
+    "volutional": {
         "7_16": 1
     },
-    "ma": {
+    "object": {
+        "7_16": 1
+    },
+    "ofArti": {
+        "7_16": 1
+    },
+    "Networks": {
+        "7_16": 3
+    },
+    "Ma": {
         "7_16": 4
     },
-    "xia": {
+    "Xia": {
         "7_16": 2
     },
-    "autonom": {
+    "Autonomous": {
         "7_16": 1
     },
     "DCNN": {
         "7_16": 1
     },
-    "neurocomput": {
+    "designer": {
+        "7_16": 1
+    },
+    "Neurocomputing": {
         "7_16": 7
     },
-    "itano": {
+    "Itano": {
         "7_16": 1
     },
-    "abreu": {
+    "Abreu": {
         "7_16": 1
     },
-    "sousa": {
+    "Sousa": {
         "7_16": 1
     },
     "MA": {
         "7_16": 1
     },
-    "del": {
+    "Del": {
         "7_16": 1
     },
-    "moral": {
+    "Moral": {
         "7_16": 1
     },
-    "hernandez": {
+    "Hernandez": {
         "7_16": 1
     },
-    "exten": {
+    "Extending": {
         "7_16": 1
     },
     "MLP": {
@@ -5741,124 +7274,163 @@
     "ANN": {
         "7_16": 1
     },
-    "joint": {
+    "Joint": {
         "7_16": 2
     },
-    "kennedi": {
+    "NeuralNetworks": {
         "7_16": 1
     },
-    "eberhart": {
+    "Kennedy": {
         "7_16": 1
     },
-    "partic": {
+    "Eberhart": {
         "7_16": 1
     },
-    "stanlei": {
+    "Particle": {
+        "7_16": 1
+    },
+    "Stanley": {
         "7_16": 1
     },
     "KO": {
         "7_16": 1
     },
-    "miikkulainen": {
+    "Miikkulainen": {
         "7_16": 1
     },
-    "evol": {
-        "7_16": 2
+    "Evolving": {
+        "7_16": 1
     },
     "aug": {
         "7_16": 1
     },
-    "mene": {
+    "menting": {
         "7_16": 1
     },
-    "topologi": {
+    "topologies": {
         "7_16": 1
     },
-    "coronaviru": {
+    "Evol": {
         "7_16": 1
     },
-    "ranjit": {
+    "Coronavirus": {
+        "7_16": 1
+    },
+    "metaheuristic": {
+        "7_16": 1
+    },
+    "Propagation": {
+        "7_16": 1
+    },
+    "Model": {
+        "7_16": 2
+    },
+    "Ranjit": {
         "7_16": 1
     },
     "MP": {
         "7_16": 2
     },
-    "ganapathi": {
+    "Ganapathy": {
         "7_16": 1
     },
-    "sridhar": {
+    "Sridhar": {
         "7_16": 1
     },
-    "distributedhyperparamet": {
+    "infrastructure": {
         "7_16": 1
     },
-    "bergstra": {
+    "intelligent": {
         "7_16": 1
     },
-    "yamin": {
+    "distributedhyperparameter": {
         "7_16": 1
     },
-    "cox": {
+    "bayesian": {
+        "7_16": 2
+    },
+    "Cloud": {
+        "7_16": 1
+    },
+    "Bergstra": {
+        "7_16": 1
+    },
+    "Yamins": {
+        "7_16": 1
+    },
+    "Cox": {
         "7_16": 1
     },
     "DD": {
         "7_16": 1
     },
-    "hyperparamet": {
-        "7_16": 2
-    },
-    "dimens": {
+    "Making": {
         "7_16": 1
     },
-    "onintern": {
+    "science": {
         "7_16": 1
     },
-    "camero": {
+    "hyperparameter": {
         "7_16": 1
     },
-    "toutouh": {
+    "dimensions": {
         "7_16": 1
     },
-    "alba": {
+    "onInternational": {
         "7_16": 1
     },
-    "dlopt": {
+    "Camero": {
+        "7_16": 1
+    },
+    "Toutouh": {
+        "7_16": 1
+    },
+    "Alba": {
+        "7_16": 1
+    },
+    "Dlopt": {
+        "7_16": 1
+    },
+    "Autonomio": {
+        "7_16": 1
+    },
+    "Talos": {
         "7_16": 1
     },
     "autonomio": {
-        "7_16": 2
-    },
-    "talo": {
-        "7_16": 2
-    },
-    "balandat": {
         "7_16": 1
     },
-    "karrer": {
+    "talos": {
         "7_16": 1
     },
-    "jiang": {
+    "Balandat": {
+        "7_16": 1
+    },
+    "Karrer": {
+        "7_16": 1
+    },
+    "Jiang": {
         "7_16": 5
     },
     "DR": {
         "7_16": 1
     },
-    "botorch": {
+    "BoTorch": {
         "7_16": 1
     },
-    "programm": {
+    "Programmable": {
         "7_16": 1
     },
-    "eggensperg": {
+    "Eggensperger": {
         "7_16": 1
     },
-    "feurer": {
+    "Feurer": {
         "7_16": 1
     },
-    "hutter": {
+    "Hutter": {
         "7_16": 1
     },
-    "toward": {
+    "Towards": {
         "7_16": 1
     },
     "foun": {
@@ -5867,92 +7439,116 @@
     "dation": {
         "7_16": 1
     },
+    "assessing": {
+        "7_16": 1
+    },
+    "hyperparameters": {
+        "7_16": 1
+    },
     "YE": {
         "7_16": 1
     },
-    "wei": {
+    "Wei": {
         "7_16": 2
     },
     "GY": {
         "7_16": 1
     },
-    "brook": {
+    "Brooks": {
         "7_16": 1
     },
-    "benchmar": {
+    "Benchmarking": {
         "7_16": 1
     },
-    "yu": {
+    "Yu": {
         "7_16": 6
     },
-    "liu": {
+    "Liu": {
         "7_16": 9
+    },
+    "System": {
+        "7_16": 1
     },
     "PEM": {
         "7_16": 1
     },
+    "fuel": {
+        "7_16": 1
+    },
+    "cells": {
+        "7_16": 1
+    },
+    "improved": {
+        "7_16": 4
+    },
     "gorithm": {
         "7_16": 1
     },
-    "zheng": {
+    "Zheng": {
         "7_16": 2
     },
-    "yao": {
+    "Yao": {
         "7_16": 1
+    },
+    "Power": {
+        "7_16": 2
     },
     "top": {
         "7_16": 1
     },
-    "ga": {
+    "gas": {
         "7_16": 1
     },
-    "recoveri": {
+    "recovery": {
         "7_16": 1
     },
-    "turbin": {
-        "7_16": 2
+    "turbine": {
+        "7_16": 1
     },
-    "ruiz": {
+    "Ruiz": {
         "7_16": 1
     },
     "LGB": {
         "7_16": 1
     },
-    "rueda": {
+    "Rueda": {
         "7_16": 1
     },
-    "cue": {
+    "Cue": {
         "7_16": 1
     },
     "llar": {
         "7_16": 1
     },
-    "evolut": {
-        "7_16": 2
-    },
-    "expertsyst": {
+    "evolutive": {
         "7_16": 1
     },
-    "lv": {
+    "ExpertSyst": {
         "7_16": 1
     },
-    "liang": {
-        "7_16": 5
+    "Lv": {
+        "7_16": 1
     },
-    "foul": {
-        "7_16": 2
+    "Liang": {
+        "7_16": 4
     },
-    "resist": {
+    "Fouling": {
+        "7_16": 1
+    },
+    "resistance": {
         "7_16": 1
     },
     "GA": {
         "7_16": 2
     },
-    "circul": {
+    "circulating": {
         "7_16": 1
     },
-    "cool": {
+    "cooling": {
         "7_16": 1
+    },
+    "water": {
+        "7_16": 3
     },
     "electromag": {
         "7_16": 1
@@ -5963,16 +7559,19 @@
     "anti": {
         "7_16": 1
     },
+    "fouling": {
+        "7_16": 1
+    },
     "treatment": {
         "7_16": 1
     },
-    "inst": {
+    "Inst": {
         "7_16": 1
     },
-    "jiao": {
+    "Jiao": {
         "7_16": 1
     },
-    "du": {
+    "Du": {
         "7_16": 2
     },
     "indirect": {
@@ -5987,86 +7586,113 @@
     "ion": {
         "7_16": 2
     },
-    "batteri": {
-        "7_16": 3
+    "battery": {
+        "7_16": 2
     },
-    "vibrat": {
+    "vibration": {
         "7_16": 1
     },
-    "int": {
+    "Int": {
         "7_16": 5
     },
-    "hydrogenergi": {
+    "HydrogEnergy": {
         "7_16": 1
     },
-    "bru": {
+    "Bru": {
         "7_16": 1
     },
     "ndlinger": {
         "7_16": 1
     },
-    "resid": {
+    "Improved": {
+        "7_16": 1
+    },
+    "residents": {
         "7_16": 1
     },
     "comfort": {
         "7_16": 1
     },
-    "technol": {
+    "index": {
+        "7_16": 2
+    },
+    "Electr": {
+        "7_16": 6
+    },
+    "Technol": {
         "7_16": 3
     },
     "ception": {
         "7_16": 1
     },
-    "storag": {
+    "technology": {
+        "7_16": 1
+    },
+    "storage": {
+        "7_16": 1
+    },
+    "systembased": {
+        "7_16": 1
+    },
+    "informationTechnology": {
+        "7_16": 1
+    },
+    "Networking": {
+        "7_16": 1
+    },
+    "Electronic": {
+        "7_16": 1
+    },
+    "Automation": {
+        "7_16": 1
+    },
+    "Confer": {
+        "7_16": 1
+    },
+    "ence": {
+        "7_16": 1
+    },
+    "Abdel": {
+        "7_16": 1
+    },
+    "Nasser": {
+        "7_16": 1
+    },
+    "Mahmoud": {
+        "7_16": 1
+    },
+    "Accurate": {
+        "7_16": 1
+    },
+    "photovoltaic": {
         "7_16": 2
     },
-    "systembas": {
+    "Khodabakhsh": {
         "7_16": 1
     },
-    "informationtechnologi": {
+    "Ari": {
         "7_16": 1
     },
-    "networ": {
+    "Bakir": {
         "7_16": 1
     },
-    "electron": {
-        "7_16": 4
-    },
-    "enc": {
+    "Engi": {
         "7_16": 1
     },
-    "abdel": {
+    "neering": {
         "7_16": 1
     },
-    "nasser": {
-        "7_16": 1
-    },
-    "mahmoud": {
-        "7_16": 1
-    },
-    "photovolta": {
-        "7_16": 2
-    },
-    "khodabakhsh": {
-        "7_16": 1
-    },
-    "ari": {
-        "7_16": 1
-    },
-    "bakir": {
-        "7_16": 1
-    },
-    "engi": {
-        "7_16": 1
-    },
-    "neer": {
-        "7_16": 1
-    },
-    "gao": {
+    "Communications": {
         "7_16": 3
     },
-    "hong": {
+    "Gao": {
+        "7_16": 3
+    },
+    "Hong": {
         "7_16": 1
+    },
+    "Day": {
+        "7_16": 2
     },
     "ahead": {
         "7_16": 2
@@ -6077,58 +7703,85 @@
     "weather": {
         "7_16": 1
     },
-    "muzaffar": {
+    "Muzaffar": {
         "7_16": 1
     },
-    "afshari": {
+    "Afshari": {
         "7_16": 1
     },
-    "proc": {
+    "Proc": {
         "7_16": 9
     },
-    "song": {
+    "Song": {
         "7_16": 1
     },
-    "xue": {
+    "Xue": {
         "7_16": 1
     },
-    "petsci": {
+    "PetSci": {
         "7_16": 1
     },
     "JQ": {
         "7_16": 1
     },
-    "gokhan": {
+    "periodicity": {
         "7_16": 1
     },
-    "yilmaz": {
+    "Gokhan": {
         "7_16": 1
     },
-    "unel": {
+    "Yilmaz": {
         "7_16": 1
     },
-    "engin": {
-        "7_16": 7
+    "Unel": {
+        "7_16": 1
+    },
+    "Estimating": {
+        "7_16": 1
+    },
+    "engines": {
+        "7_16": 1
     },
     "IFAC": {
         "7_16": 1
     },
-    "liao": {
+    "Papers": {
         "7_16": 1
     },
-    "tang": {
+    "Online": {
+        "7_16": 1
+    },
+    "Liao": {
+        "7_16": 1
+    },
+    "Using": {
+        "7_16": 1
+    },
+    "impact": {
+        "7_16": 1
+    },
+    "Tang": {
         "7_16": 5
+    },
+    "Dai": {
+        "7_16": 2
     },
     "IET": {
         "7_16": 1
     },
-    "transmdistrib": {
+    "Gener": {
         "7_16": 1
     },
-    "shao": {
+    "TransmDistrib": {
+        "7_16": 1
+    },
+    "Shao": {
         "7_16": 2
     },
-    "clear": {
+    "Modeling": {
+        "7_16": 1
+    },
+    "clearing": {
         "7_16": 1
     },
     "BELM": {
@@ -6137,16 +7790,19 @@
     "frameworkand": {
         "7_16": 1
     },
-    "econ": {
+    "analytic": {
         "7_16": 1
     },
-    "qiu": {
+    "Econ": {
+        "7_16": 1
+    },
+    "Qiu": {
         "7_16": 2
     },
-    "ren": {
+    "Ren": {
         "7_16": 3
     },
-    "suganthan": {
+    "Suganthan": {
         "7_16": 1
     },
     "PN": {
@@ -6155,28 +7811,37 @@
     "mode": {
         "7_16": 2
     },
-    "decomposit": {
+    "decomposition": {
         "7_16": 4
     },
-    "applsoft": {
+    "ApplSoft": {
         "7_16": 1
     },
-    "symposium": {
-        "7_16": 1
-    },
-    "manohar": {
-        "7_16": 1
-    },
-    "kolei": {
-        "7_16": 1
-    },
-    "ghosh": {
-        "7_16": 1
-    },
-    "spatio": {
+    "Ensemble": {
         "7_16": 2
     },
-    "protect": {
+    "Symposium": {
+        "7_16": 1
+    },
+    "Computational": {
+        "7_16": 1
+    },
+    "Intelligence": {
+        "7_16": 1
+    },
+    "Manohar": {
+        "7_16": 1
+    },
+    "Koley": {
+        "7_16": 1
+    },
+    "Ghosh": {
+        "7_16": 1
+    },
+    "Spatio": {
+        "7_16": 1
+    },
+    "protection": {
         "7_16": 1
     },
     "scheme": {
@@ -6188,49 +7853,61 @@
     "microgrid": {
         "7_16": 1
     },
-    "irradianceintermitt": {
+    "irradianceintermittency": {
         "7_16": 1
     },
-    "electrpow": {
+    "ElectrPower": {
         "7_16": 1
     },
-    "mishra": {
+    "Mishra": {
         "7_16": 1
     },
-    "basu": {
+    "Basu": {
         "7_16": 1
     },
-    "maulik": {
+    "Maulik": {
         "7_16": 1
     },
     "U": {
         "7_16": 2
     },
-    "dans": {
+    "DaNSe": {
         "7_16": 1
     },
     "causal": {
         "7_16": 1
     },
-    "lect": {
+    "Lect": {
         "7_16": 8
     },
-    "qiao": {
+    "Notes": {
+        "7_16": 7
+    },
+    "Qiao": {
+        "7_16": 1
+    },
+    "Forecast": {
         "7_16": 1
     },
     "wavelet": {
         "7_16": 3
     },
     "transform": {
-        "7_16": 3
+        "7_16": 2
     },
-    "ji": {
+    "Ji": {
         "7_16": 1
     },
-    "zou": {
+    "Zou": {
         "7_16": 1
     },
-    "kim": {
+    "Carbon": {
+        "7_16": 1
+    },
+    "futures": {
+        "7_16": 1
+    },
+    "Kim": {
         "7_16": 2
     },
     "TY": {
@@ -6239,38 +7916,62 @@
     "SB": {
         "7_16": 1
     },
-    "residenti": {
+    "Predicting": {
         "7_16": 1
     },
-    "shen": {
+    "residential": {
+        "7_16": 1
+    },
+    "Shen": {
         "7_16": 6
+    },
+    "bus": {
+        "7_16": 1
+    },
+    "cnn": {
+        "7_16": 1
     },
     "gru": {
         "7_16": 1
     },
-    "alkandari": {
+    "AlKandari": {
         "7_16": 1
     },
-    "sembl": {
+    "Solar": {
+        "7_16": 1
+    },
+    "semble": {
         "7_16": 2
     },
-    "kong": {
+    "statistical": {
         "7_16": 1
     },
-    "deng": {
+    "Kong": {
         "7_16": 1
     },
-    "condit": {
+    "Deng": {
+        "7_16": 1
+    },
+    "Condition": {
+        "7_16": 1
+    },
+    "turbines": {
+        "7_16": 1
+    },
+    "spatio": {
+        "7_16": 1
+    },
+    "fusion": {
         "7_16": 1
     },
     "SCADA": {
         "7_16": 1
     },
-    "convolutionalneur": {
+    "convolutionalneural": {
         "7_16": 1
     },
-    "renew": {
-        "7_16": 2
+    "Renew": {
+        "7_16": 1
     },
     "UAV": {
         "7_16": 1
@@ -6278,28 +7979,28 @@
     "AFSA": {
         "7_16": 1
     },
-    "displac": {
+    "displacement": {
         "7_16": 1
     },
     "KSCE": {
         "7_16": 1
     },
-    "civil": {
+    "Civil": {
         "7_16": 1
     },
-    "sarkar": {
+    "Sarkar": {
         "7_16": 2
     },
-    "lore": {
+    "Lore": {
         "7_16": 1
     },
     "KG": {
         "7_16": 1
     },
-    "earli": {
-        "7_16": 3
+    "Early": {
+        "7_16": 2
     },
-    "am": {
+    "ame": {
         "7_16": 1
     },
     "via": {
@@ -6308,211 +8009,283 @@
     "symbolic": {
         "7_16": 1
     },
-    "annual": {
+    "Annual": {
         "7_16": 1
     },
-    "prog": {
+    "Prog": {
         "7_16": 1
     },
-    "nostic": {
+    "nostics": {
         "7_16": 1
     },
-    "manag": {
-        "7_16": 7
-    },
-    "societi": {
+    "Management": {
         "7_16": 1
     },
-    "transport": {
+    "Society": {
+        "7_16": 1
+    },
+    "transportation": {
         "7_16": 2
     },
-    "shi": {
+    "predic": {
         "7_16": 1
     },
-    "ienco": {
+    "Sensors": {
         "7_16": 2
     },
-    "interdonato": {
+    "Shi": {
+        "7_16": 1
+    },
+    "relative": {
+        "7_16": 1
+    },
+    "Ienco": {
         "7_16": 2
     },
-    "gaetano": {
+    "Interdonato": {
         "7_16": 2
     },
-    "sentinel": {
+    "Gaetano": {
+        "7_16": 2
+    },
+    "Combining": {
+        "7_16": 2
+    },
+    "Sentinel": {
         "7_16": 2
     },
     "land": {
         "7_16": 1
     },
-    "remotesen": {
+    "Photogrammetry": {
         "7_16": 1
     },
-    "arellano": {
+    "RemoteSens": {
         "7_16": 1
     },
-    "terraza": {
+    "Arellano": {
         "7_16": 1
     },
-    "ratchev": {
+    "Terrazas": {
+        "7_16": 1
+    },
+    "Ratchev": {
+        "7_16": 1
+    },
+    "Tool": {
         "7_16": 1
     },
     "wear": {
         "7_16": 2
     },
-    "adv": {
-        "7_16": 2
-    },
-    "manuf": {
+    "imaging": {
         "7_16": 1
     },
-    "xie": {
+    "Adv": {
         "7_16": 2
     },
-    "automat": {
+    "Manuf": {
+        "7_16": 1
+    },
+    "Xie": {
+        "7_16": 2
+    },
+    "Automatic": {
         "7_16": 1
     },
     "constraint": {
         "7_16": 1
     },
-    "med": {
+    "Med": {
         "7_16": 2
     },
-    "han": {
+    "Han": {
         "7_16": 1
     },
     "ST": {
         "7_16": 1
     },
-    "spatial": {
+    "Spatial": {
+        "7_16": 1
+    },
+    "Temporal": {
+        "7_16": 2
+    },
+    "Network": {
         "7_16": 1
     },
     "crowd": {
         "7_16": 1
     },
-    "coun": {
+    "counting": {
         "7_16": 1
     },
-    "lett": {
+    "Recogn": {
+        "7_16": 3
+    },
+    "Lett": {
         "7_16": 1
     },
-    "feng": {
+    "Feng": {
+        "7_16": 1
+    },
+    "Dynamic": {
         "7_16": 1
     },
     "facial": {
         "7_16": 1
     },
-    "kampffmey": {
+    "Kampffmeyer": {
         "7_16": 1
     },
-    "adversari": {
+    "relational": {
         "7_16": 1
     },
-    "toolsapp": {
+    "adversarial": {
         "7_16": 1
     },
-    "duplo": {
+    "summarization": {
         "7_16": 1
     },
-    "dual": {
+    "ToolsAppl": {
+        "7_16": 1
+    },
+    "DuPLO": {
+        "7_16": 1
+    },
+    "DUal": {
         "7_16": 1
     },
     "view": {
         "7_16": 1
     },
-    "point": {
+    "Point": {
+        "7_16": 1
+    },
+    "catiOn": {
         "7_16": 1
     },
     "ISPRS": {
         "7_16": 1
     },
+    "Photo": {
+        "7_16": 1
+    },
     "gramm": {
         "7_16": 1
     },
-    "remot": {
+    "Remote": {
         "7_16": 1
     },
-    "sen": {
+    "Sens": {
         "7_16": 1
     },
-    "yan": {
+    "Yan": {
         "7_16": 2
     },
-    "ouyang": {
+    "Ouyang": {
         "7_16": 1
     },
-    "wireless": {
+    "Wireless": {
         "7_16": 1
     },
-    "sismanoglu": {
+    "Pers": {
+        "7_16": 2
+    },
+    "Commun": {
+        "7_16": 2
+    },
+    "Sismanoglu": {
         "7_16": 1
     },
-    "ond": {
+    "Onde": {
         "7_16": 1
     },
-    "kocer": {
+    "Kocer": {
         "7_16": 1
     },
     "stock": {
-        "7_16": 10
+        "7_16": 9
     },
     "market": {
         "7_16": 2
     },
-    "meet": {
+    "Meeting": {
         "7_16": 1
     },
-    "biomed": {
+    "Electrical": {
+        "7_16": 1
+    },
+    "Electronics": {
         "7_16": 2
     },
-    "jayanth": {
+    "Biomedical": {
+        "7_16": 2
+    },
+    "Engineering": {
+        "7_16": 5
+    },
+    "Jayanth": {
         "7_16": 1
     },
     "BA": {
         "7_16": 1
     },
-    "harish": {
+    "Harish": {
         "7_16": 1
     },
     "RDS": {
         "7_16": 1
     },
-    "nair": {
+    "Nair": {
         "7_16": 1
     },
     "BB": {
         "7_16": 1
     },
+    "Applicability": {
+        "7_16": 1
+    },
     "bankex": {
         "7_16": 1
     },
-    "proccomput": {
+    "ProcComput": {
         "7_16": 2
     },
-    "leverag": {
+    "stacking": {
+        "7_16": 1
+    },
+    "leveraging": {
         "7_16": 2
     },
     "tree": {
         "7_16": 2
     },
-    "physica": {
+    "Physica": {
         "7_16": 2
     },
-    "interpret": {
+    "Preliminary": {
         "7_16": 1
     },
-    "ofcommun": {
+    "interpreting": {
         "7_16": 1
     },
-    "orimoloy": {
+    "ofCommunications": {
+        "7_16": 1
+    },
+    "Orimoloye": {
         "7_16": 1
     },
     "LO": {
         "7_16": 1
     },
-    "sung": {
+    "Sung": {
         "7_16": 1
     },
     "MC": {
+        "7_16": 1
+    },
+    "Comparing": {
         "7_16": 1
     },
     "feedforward": {
@@ -6521,31 +8294,46 @@
     "shallow": {
         "7_16": 1
     },
-    "indic": {
+    "predicting": {
+        "7_16": 3
+    },
+    "indices": {
         "7_16": 1
     },
-    "makarenko": {
+    "Expert": {
+        "7_16": 2
+    },
+    "Makarenko": {
         "7_16": 1
     },
     "AV": {
         "7_16": 2
     },
-    "lyapunov": {
+    "Lyapunov": {
         "7_16": 1
     },
-    "discret": {
+    "ponents": {
         "7_16": 1
     },
-    "stabil": {
+    "discrete": {
         "7_16": 1
     },
-    "ofnonlinear": {
+    "dynamic": {
+        "7_16": 2
+    },
+    "Stability": {
         "7_16": 1
     },
-    "dingli": {
+    "Oscillations": {
         "7_16": 1
     },
-    "fournier": {
+    "ofNonlinear": {
+        "7_16": 1
+    },
+    "Dingli": {
+        "7_16": 1
+    },
+    "Fournier": {
         "7_16": 1
     },
     "KS": {
@@ -6554,40 +8342,49 @@
     "forecastinga": {
         "7_16": 1
     },
-    "kelotra": {
+    "Kelotra": {
         "7_16": 1
     },
-    "pandei": {
+    "Pandey": {
         "7_16": 1
     },
-    "convlstm": {
+    "Stock": {
         "7_16": 1
     },
-    "forex": {
+    "Optimized": {
         "7_16": 1
     },
-    "bao": {
+    "ConvLSTM": {
         "7_16": 1
     },
-    "yue": {
+    "Ni": {
         "7_16": 1
     },
-    "rao": {
+    "Forex": {
         "7_16": 1
     },
-    "autoencod": {
-        "7_16": 2
-    },
-    "plo": {
+    "Bao": {
         "7_16": 1
     },
-    "munkhdalai": {
+    "Yue": {
         "7_16": 1
     },
-    "theera": {
+    "Rao": {
         "7_16": 1
     },
-    "umpon": {
+    "autoencoders": {
+        "7_16": 1
+    },
+    "PLos": {
+        "7_16": 1
+    },
+    "Munkhdalai": {
+        "7_16": 1
+    },
+    "Theera": {
+        "7_16": 1
+    },
+    "Umpon": {
         "7_16": 1
     },
     "VAR": {
@@ -6596,55 +8393,73 @@
     "CT": {
         "7_16": 1
     },
-    "chiang": {
+    "Chiang": {
         "7_16": 1
     },
     "LK": {
         "7_16": 1
     },
-    "huang": {
+    "Huang": {
         "7_16": 5
     },
     "YC": {
         "7_16": 1
     },
-    "interact": {
+    "interaction": {
         "7_16": 1
     },
-    "currenc": {
+    "change": {
         "7_16": 1
     },
-    "cryptocurr": {
+    "rates": {
         "7_16": 1
     },
-    "agent": {
+    "currencies": {
         "7_16": 1
     },
-    "berradi": {
+    "cryptocurrencies": {
         "7_16": 1
     },
-    "lazaar": {
+    "relation": {
         "7_16": 1
     },
-    "casablancastock": {
+    "Agents": {
         "7_16": 1
     },
-    "enhan": {
-        "7_16": 4
+    "Berradi": {
+        "7_16": 1
     },
-    "intradai": {
+    "Lazaar": {
+        "7_16": 1
+    },
+    "Integration": {
+        "7_16": 1
+    },
+    "principal": {
+        "7_16": 1
+    },
+    "Casablancastock": {
+        "7_16": 1
+    },
+    "Enhancing": {
+        "7_16": 3
+    },
+    "intraday": {
         "7_16": 1
     },
     "manip": {
         "7_16": 1
     },
-    "ulat": {
+    "ulation": {
         "7_16": 1
     },
-    "cui": {
+    "Cui": {
         "7_16": 1
     },
-    "tian": {
+    "engineering": {
+        "7_16": 1
+    },
+    "Tian": {
         "7_16": 1
     },
     "HQ": {
@@ -6653,79 +8468,100 @@
     "XF": {
         "7_16": 1
     },
-    "secondari": {
+    "Wind": {
+        "7_16": 5
+    },
+    "secondary": {
         "7_16": 1
     },
-    "applenergi": {
+    "ApplEnergy": {
         "7_16": 1
     },
-    "xiang": {
+    "Xiang": {
         "7_16": 1
     },
-    "assis": {
+    "assisted": {
         "7_16": 1
     },
     "packet": {
         "7_16": 1
     },
-    "aerodyn": {
+    "Indus": {
+        "7_16": 2
+    },
+    "Aerodyn": {
         "7_16": 1
     },
     "MX": {
         "7_16": 1
     },
-    "fei": {
+    "Fei": {
         "7_16": 1
     },
     "LY": {
         "7_16": 1
     },
-    "termmemori": {
+    "termmemory": {
         "7_16": 1
     },
-    "conv": {
+    "Conv": {
         "7_16": 3
     },
-    "pan": {
+    "Manage": {
+        "7_16": 6
+    },
+    "Pan": {
         "7_16": 1
     },
-    "pollut": {
+    "Environ": {
+        "7_16": 1
+    },
+    "Pollut": {
+        "7_16": 1
+    },
+    "enhanced": {
         "7_16": 1
     },
     "air": {
-        "7_16": 4
+        "7_16": 3
     },
-    "xiao": {
+    "Chinas": {
         "7_16": 1
     },
-    "hou": {
+    "Xiao": {
+        "7_16": 1
+    },
+    "Hou": {
         "7_16": 2
     },
     "WZ": {
         "7_16": 1
     },
-    "hourli": {
+    "Hourly": {
         "7_16": 1
     },
-    "campu": {
+    "campus": {
         "7_16": 1
     },
     "EEMD": {
         "7_16": 1
     },
-    "sustainabledevelop": {
+    "SustainableDevelopment": {
         "7_16": 1
     },
-    "hydraulic": {
+    "Resources": {
         "7_16": 1
     },
-    "earth": {
+    "Hydraulic": {
+        "7_16": 1
+    },
+    "Earth": {
         "7_16": 1
     },
     "NH": {
         "7_16": 1
     },
-    "hous": {
+    "house": {
         "7_16": 1
     },
     "cold": {
@@ -6740,52 +8576,64 @@
     "sition": {
         "7_16": 1
     },
-    "agric": {
+    "Agric": {
         "7_16": 3
+    },
+    "real": {
+        "7_16": 1
+    },
+    "heterogeneity": {
+        "7_16": 1
     },
     "oferror": {
         "7_16": 1
     },
-    "resour": {
+    "distributions": {
         "7_16": 1
     },
-    "yin": {
+    "Resour": {
+        "7_16": 1
+    },
+    "Yin": {
         "7_16": 1
     },
     "CTS": {
         "7_16": 1
     },
-    "correlatedtim": {
+    "correlatedtime": {
         "7_16": 1
     },
-    "freeman": {
+    "Freeman": {
         "7_16": 1
     },
     "BS": {
         "7_16": 1
     },
-    "taylor": {
+    "Taylor": {
         "7_16": 1
     },
-    "gharabaghi": {
+    "Gharabaghi": {
         "7_16": 1
     },
-    "wast": {
+    "Air": {
         "7_16": 1
     },
-    "assoc": {
+    "Waste": {
         "7_16": 1
     },
-    "melo": {
+    "Assoc": {
         "7_16": 1
     },
-    "sugimoto": {
+    "Melo": {
+        "7_16": 1
+    },
+    "Sugimoto": {
         "7_16": 1
     },
     "DN": {
         "7_16": 1
     },
-    "tasinaffo": {
+    "Tasinaffo": {
         "7_16": 1
     },
     "PM": {
@@ -6794,109 +8642,136 @@
     "river": {
         "7_16": 1
     },
-    "latin": {
+    "Latin": {
         "7_16": 1
     },
-    "zeng": {
+    "Zeng": {
         "7_16": 1
     },
     "GQ": {
         "7_16": 1
     },
-    "andextrem": {
+    "nonlinear": {
+        "7_16": 2
+    },
+    "andextremal": {
         "7_16": 1
     },
-    "niu": {
+    "Niu": {
         "7_16": 1
     },
-    "dissol": {
+    "Prediction": {
+        "7_16": 2
+    },
+    "dissolved": {
         "7_16": 1
     },
     "oxygen": {
         "7_16": 1
     },
-    "sheri": {
+    "shery": {
         "7_16": 1
     },
     "pond": {
         "7_16": 1
     },
-    "press": {
-        "7_16": 2
-    },
-    "peng": {
+    "Process": {
         "7_16": 4
     },
-    "denois": {
+    "press": {
         "7_16": 1
     },
-    "conversmanag": {
+    "Peng": {
+        "7_16": 3
+    },
+    "denoising": {
         "7_16": 1
     },
-    "jin": {
+    "ConversManage": {
         "7_16": 1
     },
-    "maqsood": {
+    "Jin": {
+        "7_16": 1
+    },
+    "Maqsood": {
         "7_16": 2
     },
-    "mehmood": {
+    "Mehmood": {
         "7_16": 1
     },
     "global": {
         "7_16": 1
     },
     "event": {
-        "7_16": 4
+        "7_16": 3
     },
-    "deeplear": {
+    "deeplearning": {
         "7_16": 1
     },
-    "oshea": {
+    "OShea": {
         "7_16": 1
     },
     "TJ": {
         "7_16": 1
     },
-    "roi": {
+    "Roy": {
         "7_16": 1
     },
-    "clanci": {
+    "Clancy": {
+        "7_16": 1
+    },
+    "Over": {
         "7_16": 1
     },
     "radio": {
         "7_16": 1
     },
     "signal": {
-        "7_16": 4
+        "7_16": 1
     },
-    "thorburn": {
+    "Select": {
+        "7_16": 1
+    },
+    "Topics": {
+        "7_16": 1
+    },
+    "Signal": {
+        "7_16": 3
+    },
+    "Thorburn": {
         "7_16": 1
     },
     "PJ": {
         "7_16": 3
     },
-    "fitch": {
+    "Fitch": {
         "7_16": 1
     },
-    "ofneur": {
+    "ofNeural": {
         "7_16": 1
     },
-    "andinform": {
+    "andInformation": {
         "7_16": 1
     },
-    "zhao": {
+    "Zhao": {
         "7_16": 3
     },
-    "timescal": {
+    "timescale": {
         "7_16": 1
     },
-    "gravit": {
+    "gravitational": {
         "7_16": 1
     },
-    "microlen": {
+    "microlensing": {
         "7_16": 1
     },
-    "mi": {
+    "events": {
+        "7_16": 1
+    },
+    "Mi": {
+        "7_16": 1
+    },
+    "Smart": {
         "7_16": 1
     },
     "singular": {
@@ -6905,16 +8780,28 @@
     "spectrum": {
         "7_16": 1
     },
-    "convolutionalg": {
+    "convolutionalgated": {
         "7_16": 1
     },
-    "renewenergi": {
+    "RenewEnergy": {
+        "7_16": 1
+    },
+    "Remaining": {
+        "7_16": 3
+    },
+    "batteries": {
+        "7_16": 1
+    },
+    "combining": {
+        "7_16": 1
+    },
+    "Storage": {
         "7_16": 1
     },
     "ul": {
         "7_16": 1
     },
-    "trason": {
+    "trasonic": {
         "7_16": 1
     },
     "motor": {
@@ -6923,91 +8810,133 @@
     "particleswarm": {
         "7_16": 1
     },
-    "rashid": {
+    "Measurement": {
+        "7_16": 2
+    },
+    "Rashid": {
         "7_16": 1
     },
     "KM": {
         "7_16": 1
     },
-    "loui": {
+    "Louis": {
         "7_16": 1
     },
-    "augment": {
+    "Times": {
         "7_16": 1
     },
-    "construct": {
+    "augmentation": {
         "7_16": 1
     },
-    "zanni": {
+    "construction": {
         "7_16": 1
     },
-    "merk": {
+    "Inform": {
         "7_16": 1
     },
-    "cre": {
+    "Zanni": {
+        "7_16": 1
+    },
+    "Merk": {
+        "7_16": 1
+    },
+    "Cre": {
         "7_16": 1
     },
     "milleux": {
         "7_16": 1
     },
-    "semant": {
+    "semantics": {
         "7_16": 1
     },
-    "manufactur": {
+    "manufacturing": {
         "7_16": 2
     },
-    "mehdiyev": {
+    "Mehdiyev": {
         "7_16": 1
     },
-    "lahann": {
+    "Lahann": {
         "7_16": 1
     },
-    "emrich": {
+    "Emrich": {
         "7_16": 1
     },
-    "slew": {
+    "industry": {
         "7_16": 1
     },
-    "bear": {
+    "Degradation": {
+        "7_16": 1
+    },
+    "slewing": {
+        "7_16": 1
+    },
+    "bearing": {
         "7_16": 1
     },
     "HMM": {
         "7_16": 1
     },
-    "bohan": {
+    "predictive": {
+        "7_16": 3
+    },
+    "Application": {
+        "7_16": 2
+    },
+    "tool": {
         "7_16": 1
     },
-    "yun": {
+    "Bohan": {
         "7_16": 1
     },
-    "pasia": {
+    "Yun": {
         "7_16": 1
     },
-    "vafeiadi": {
+    "Traf": {
+        "7_16": 2
+    },
+    "Emergency": {
         "7_16": 1
     },
-    "ioannidi": {
+    "Communication": {
         "7_16": 1
     },
-    "inter": {
+    "Pasias": {
+        "7_16": 1
+    },
+    "Vafeiadis": {
+        "7_16": 1
+    },
+    "Ioannidis": {
+        "7_16": 1
+    },
+    "Inter": {
+        "7_16": 1
+    },
+    "national": {
+        "7_16": 1
+    },
+    "Sensor": {
+        "7_16": 1
+    },
+    "evolutions": {
         "7_16": 1
     },
     "rhe": {
         "7_16": 1
     },
-    "ieeeintern": {
+    "IEEEInternational": {
         "7_16": 2
     },
-    "robot": {
+    "Robotics": {
         "7_16": 1
     },
-    "canizo": {
+    "Canizo": {
         "7_16": 1
     },
-    "triguero": {
+    "Triguero": {
         "7_16": 1
     },
-    "cond": {
+    "Conde": {
         "7_16": 1
     },
     "head": {
@@ -7016,124 +8945,172 @@
     "CNNRNN": {
         "7_16": 1
     },
-    "kuang": {
+    "industrial": {
         "7_16": 1
     },
-    "hua": {
+    "Kuang": {
+        "7_16": 1
+    },
+    "Hua": {
+        "7_16": 1
+    },
+    "sources": {
         "7_16": 1
     },
     "GPS": {
         "7_16": 1
     },
-    "trajectori": {
+    "trajectory": {
         "7_16": 1
     },
-    "mobil": {
+    "Mobile": {
+        "7_16": 1
+    },
+    "Chang": {
         "7_16": 1
     },
     "driven": {
         "7_16": 1
     },
-    "mecheng": {
+    "order": {
         "7_16": 1
     },
-    "varona": {
+    "MechEng": {
         "7_16": 1
     },
-    "monteserin": {
+    "Varona": {
         "7_16": 1
     },
-    "teyseyr": {
+    "Monteserin": {
         "7_16": 1
     },
-    "tomat": {
+    "Teyseyre": {
+        "7_16": 1
+    },
+    "tomatic": {
         "7_16": 1
     },
     "road": {
         "7_16": 1
     },
-    "surfac": {
+    "surface": {
         "7_16": 1
     },
-    "pothol": {
+    "pothole": {
         "7_16": 1
     },
-    "ubiqui": {
+    "Ubiqui": {
         "7_16": 1
     },
-    "tou": {
+    "tous": {
         "7_16": 1
     },
-    "cai": {
+    "Cai": {
         "7_16": 1
     },
-    "pipattanasomporn": {
+    "Pipattanasomporn": {
         "7_16": 1
     },
-    "rahman": {
+    "Rahman": {
         "7_16": 1
     },
-    "silva": {
+    "building": {
+        "7_16": 1
+    },
+    "traditional": {
+        "7_16": 1
+    },
+    "Silva": {
         "7_16": 1
     },
     "DB": {
         "7_16": 1
     },
-    "schmidt": {
+    "Schmidt": {
         "7_16": 1
     },
-    "costa": {
+    "Costa": {
         "7_16": 1
     },
     "CA": {
         "7_16": 1
     },
-    "rosa": {
+    "Rosa": {
         "7_16": 1
     },
-    "righi": {
+    "Righi": {
         "7_16": 1
     },
-    "esko": {
+    "Esko": {
         "7_16": 1
     },
-    "sign": {
+    "er": {
+        "7_16": 1
+    },
+    "signs": {
+        "7_16": 1
+    },
+    "early": {
         "7_16": 1
     },
     "tection": {
         "7_16": 2
     },
-    "mechefsk": {
+    "patient": {
+        "7_16": 1
+    },
+    "deterioration": {
+        "7_16": 1
+    },
+    "Mechefske": {
+        "7_16": 1
+    },
+    "estimation": {
         "7_16": 1
     },
     "bi": {
         "7_16": 1
     },
-    "mech": {
+    "directional": {
+        "7_16": 1
+    },
+    "autoencoder": {
+        "7_16": 1
+    },
+    "Mech": {
         "7_16": 2
     },
-    "bui": {
+    "Bui": {
         "7_16": 1
     },
-    "pham": {
+    "Pham": {
         "7_16": 1
     },
-    "vo": {
+    "Vo": {
         "7_16": 1
     },
-    "healthcar": {
+    "Tran": {
         "7_16": 1
     },
-    "prognost": {
+    "Le": {
         "7_16": 1
     },
-    "cardiovasculardiseas": {
+    "healthcare": {
         "7_16": 1
     },
-    "thedevelop": {
+    "prognostics": {
         "7_16": 1
     },
-    "vietnam": {
+    "cardiovasculardiseases": {
+        "7_16": 1
+    },
+    "theDevelopment": {
+        "7_16": 1
+    },
+    "Vietnam": {
+        "7_16": 1
+    },
+    "Detecting": {
         "7_16": 1
     },
     "contrac": {
@@ -7142,19 +9119,19 @@
     "children": {
         "7_16": 1
     },
-    "shanghai": {
+    "Shanghai": {
         "7_16": 1
     },
-    "jiaotong": {
+    "Jiaotong": {
         "7_16": 1
     },
-    "univ": {
+    "Univ": {
         "7_16": 1
     },
-    "hopp": {
+    "Hoppe": {
         "7_16": 1
     },
-    "ko": {
+    "Ko": {
         "7_16": 1
     },
     "rzdorfer": {
@@ -7163,130 +9140,166 @@
     "reso": {
         "7_16": 1
     },
-    "ngerprin": {
+    "ngerprinting": {
         "7_16": 1
     },
-    "quantitativeparamet": {
+    "quantitativeparameter": {
         "7_16": 1
     },
-    "technologyand": {
+    "Studies": {
         "7_16": 1
     },
-    "informat": {
+    "Technologyand": {
         "7_16": 1
     },
-    "netherland": {
+    "Informatics": {
+        "7_16": 1
+    },
+    "Netherlands": {
         "7_16": 1
     },
     "IOS": {
         "7_16": 1
     },
-    "chambon": {
+    "Press": {
         "7_16": 1
     },
-    "galtier": {
+    "Chambon": {
+        "7_16": 1
+    },
+    "Galtier": {
         "7_16": 1
     },
     "MN": {
         "7_16": 1
     },
-    "arnal": {
+    "Arnal": {
         "7_16": 1
     },
     "sleep": {
-        "7_16": 2
+        "7_16": 1
     },
     "stage": {
-        "7_16": 2
+        "7_16": 1
     },
     "modal": {
         "7_16": 1
     },
-    "rehabil": {
+    "Rehabil": {
         "7_16": 1
     },
-    "lauritsen": {
+    "Lauritsen": {
         "7_16": 1
     },
     "SM": {
         "7_16": 1
     },
-    "kalr": {
+    "Kalr": {
         "7_16": 1
     },
     "ME": {
         "7_16": 1
     },
-    "kongsgaard": {
+    "Kongsgaard": {
         "7_16": 1
     },
     "EL": {
         "7_16": 1
     },
-    "util": {
+    "sepsis": {
+        "7_16": 3
+    },
+    "utilizing": {
         "7_16": 1
     },
-    "fut": {
+    "electronic": {
         "7_16": 1
     },
-    "gen": {
+    "Sleep": {
+        "7_16": 1
+    },
+    "staging": {
+        "7_16": 1
+    },
+    "Fut": {
+        "7_16": 1
+    },
+    "Gen": {
+        "7_16": 1
+    },
+    "liang": {
+        "7_16": 1
+    },
+    "peng": {
+        "7_16": 1
+    },
+    "Pneumonia": {
         "7_16": 1
     },
     "BP": {
         "7_16": 1
     },
-    "fuzzi": {
+    "Fuzzy": {
         "7_16": 1
     },
-    "sarafrazi": {
+    "Sarafrazi": {
         "7_16": 1
     },
-    "choudhari": {
+    "Choudhari": {
         "7_16": 1
     },
     "RS": {
         "7_16": 1
     },
-    "mehta": {
+    "Mehta": {
         "7_16": 1
     },
-    "crace": {
+    "Cracking": {
+        "7_16": 1
+    },
+    "Assessing": {
+        "7_16": 1
+    },
+    "nature": {
         "7_16": 1
     },
     "ehr": {
         "7_16": 1
     },
-    "forearli": {
+    "forearly": {
         "7_16": 1
     },
-    "cardiol": {
+    "Cardiol": {
         "7_16": 1
     },
-    "ogi": {
+    "ogy": {
         "7_16": 1
     },
-    "zeroual": {
+    "Zeroual": {
         "7_16": 1
     },
-    "harrou": {
+    "Harrou": {
         "7_16": 1
     },
-    "dairi": {
+    "Dairi": {
         "7_16": 1
     },
     "covid": {
         "7_16": 1
     },
-    "chao": {
+    "Chaos": {
         "7_16": 1
     },
-    "solit": {
+    "Solit": {
         "7_16": 1
     },
-    "fract": {
+    "Fract": {
         "7_16": 1
     },
     "lag": {
+        "7_16": 1
+    },
+    "Arti": {
         "7_16": 1
     },
     "pedestrian": {
@@ -7295,109 +9308,148 @@
     "straight": {
         "7_16": 1
     },
-    "corridor": {
+    "corridors": {
         "7_16": 1
     },
-    "imamverdiyev": {
+    "Imamverdiyev": {
         "7_16": 1
     },
-    "abdullayeva": {
+    "Abdullayeva": {
         "7_16": 1
     },
     "denial": {
         "7_16": 1
     },
+    "service": {
+        "7_16": 1
+    },
     "attack": {
         "7_16": 1
     },
-    "restric": {
+    "restricted": {
         "7_16": 1
     },
     "boltzmann": {
         "7_16": 1
     },
-    "munir": {
+    "Munir": {
         "7_16": 1
     },
-    "siddiqui": {
+    "Siddiqui": {
         "7_16": 1
     },
     "SA": {
         "7_16": 1
     },
-    "dengel": {
+    "Dengel": {
         "7_16": 1
     },
-    "deepant": {
+    "DeepAnT": {
         "7_16": 1
     },
     "proach": {
         "7_16": 2
     },
-    "unsupervis": {
+    "unsupervised": {
         "7_16": 1
     },
-    "access": {
+    "Access": {
         "7_16": 1
     },
-    "zebin": {
+    "Zebin": {
         "7_16": 1
     },
-    "sculli": {
+    "Scully": {
         "7_16": 1
     },
-    "ozanyan": {
+    "Ozanyan": {
         "7_16": 1
     },
     "KB": {
         "7_16": 1
     },
-    "inerti": {
+    "Human": {
         "7_16": 1
     },
-    "bendong": {
+    "inertial": {
         "7_16": 1
     },
-    "huanzhang": {
+    "sensors": {
         "7_16": 1
     },
-    "shangfeng": {
+    "Bendong": {
+        "7_16": 1
+    },
+    "Huanzhang": {
+        "7_16": 1
+    },
+    "Shangfeng": {
+        "7_16": 1
+    },
+    "transformer": {
         "7_16": 1
     },
     "pre": {
         "7_16": 1
     },
+    "mised": {
+        "7_16": 1
+    },
+    "chinese": {
+        "7_16": 1
+    },
+    "word": {
+        "7_16": 1
+    },
     "segmenta": {
         "7_16": 1
     },
-    "cao": {
+    "Parallel": {
         "7_16": 1
     },
-    "messag": {
+    "Algorithms": {
         "7_16": 1
     },
-    "notescomput": {
+    "Programming": {
         "7_16": 1
     },
-    "kan": {
+    "Cao": {
         "7_16": 1
     },
-    "multimod": {
+    "popularity": {
+        "7_16": 1
+    },
+    "messages": {
+        "7_16": 1
+    },
+    "medias": {
+        "7_16": 1
+    },
+    "NotesComput": {
+        "7_16": 1
+    },
+    "Kan": {
+        "7_16": 1
+    },
+    "Xi": {
+        "7_16": 1
+    },
+    "multimodality": {
         "7_16": 1
     },
     "chaotic": {
         "7_16": 1
     },
-    "math": {
+    "Math": {
         "7_16": 1
     },
-    "rodrigu": {
+    "Rodrigues": {
         "7_16": 1
     },
-    "markou": {
+    "Markou": {
         "7_16": 1
     },
-    "pereira": {
+    "Pereira": {
         "7_16": 1
     },
     "FC": {
@@ -7409,124 +9461,145 @@
     "taxi": {
         "7_16": 1
     },
-    "kalinin": {
+    "Kalinin": {
         "7_16": 1
     },
     "MO": {
         "7_16": 1
     },
-    "lavrova": {
+    "Lavrova": {
         "7_16": 1
     },
-    "yarmak": {
+    "Yarmak": {
         "7_16": 1
     },
-    "threat": {
+    "Detection": {
         "7_16": 1
     },
-    "cyberphi": {
+    "threats": {
+        "7_16": 1
+    },
+    "cyberphys": {
         "7_16": 1
     },
     "ical": {
         "7_16": 1
     },
-    "multidimension": {
+    "multidimensional": {
         "7_16": 1
     },
-    "lei": {
+    "Autom": {
         "7_16": 1
     },
-    "diagnosisa": {
+    "Lei": {
         "7_16": 1
     },
-    "atto": {
+    "renewable": {
         "7_16": 1
     },
-    "benoit": {
+    "diagnosisA": {
         "7_16": 1
     },
-    "lambert": {
+    "Atto": {
         "7_16": 1
     },
-    "sezer": {
+    "Benoit": {
+        "7_16": 1
+    },
+    "Lambert": {
+        "7_16": 1
+    },
+    "Timed": {
+        "7_16": 1
+    },
+    "Sezer": {
         "7_16": 1
     },
     "OB": {
         "7_16": 1
     },
-    "gudelek": {
+    "Gudelek": {
         "7_16": 1
     },
-    "ozbayoglu": {
+    "Ozbayoglu": {
         "7_16": 1
     },
-    "systemat": {
+    "systematic": {
         "7_16": 1
     },
-    "soft": {
+    "Soft": {
         "7_16": 1
     },
-    "transp": {
+    "Transp": {
         "7_16": 1
     },
-    "kamilari": {
+    "Part": {
         "7_16": 1
     },
-    "prenafeta": {
+    "Emerg": {
         "7_16": 1
     },
-    "boldu": {
+    "Kamilaris": {
+        "7_16": 1
+    },
+    "Prenafeta": {
+        "7_16": 1
+    },
+    "Boldu": {
         "7_16": 1
     },
     "FX": {
         "7_16": 1
     },
-    "agricultur": {
+    "agriculture": {
         "7_16": 1
     },
-    "rui": {
+    "Rui": {
         "7_16": 1
     },
-    "ruqiang": {
+    "Ruqiang": {
         "7_16": 1
     },
-    "zhenghua": {
+    "Zhenghua": {
         "7_16": 1
     },
-    "mahdavifar": {
+    "Mahdavifar": {
         "7_16": 1
     },
-    "ghorbani": {
+    "Ghorbani": {
         "7_16": 1
     },
     "AA": {
         "7_16": 1
     },
-    "cybers": {
+    "cyberse": {
         "7_16": 1
     },
-    "curiti": {
+    "curity": {
         "7_16": 1
     },
-    "cite": {
+    "Cite": {
         "7_16": 1
     },
-    "abbrevi": {
+    "Abbreviations": {
         "7_16": 1
     },
-    "ipuintellig": {
+    "Used": {
         "7_16": 1
     },
-    "nlpnatur": {
+    "IPUintelligence": {
         "7_16": 1
     },
-    "tcntempor": {
+    "NLPnatural": {
         "7_16": 1
     },
-    "tputensor": {
+    "TCNtemporal": {
         "7_16": 1
     },
-    "unitdeep": {
+    "TPUtensor": {
+        "7_16": 1
+    },
+    "unitDEEP": {
         "7_16": 1
     }
 }
