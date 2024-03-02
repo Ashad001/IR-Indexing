@@ -38,7 +38,7 @@ def read_metadata(name: str) -> str:
         data = json.loads(data)
     return data
 
-def get_logger(name: str, see_time: bool = False, level: int = logging.INFO) -> logging.Logger:
+def get_logger(name: str, see_time: bool = False, console_log: bool = False, level: int = logging.INFO) -> logging.Logger:
     """
     Returns a logger object
 
@@ -55,13 +55,15 @@ def get_logger(name: str, see_time: bool = False, level: int = logging.INFO) -> 
         )
     else:
         formatter = logging.Formatter("%(message)s,")
+        
     file_handler = logging.FileHandler(f"./logs/{name}.log")
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
 
-    console_handler = logging.StreamHandler()
-    console_handler.setFormatter(formatter)
-    logger.addHandler(console_handler)
+    if console_log:
+        console_handler = logging.StreamHandler()
+        console_handler.setFormatter(formatter)
+        logger.addHandler(console_handler)
 
     return logger
 

@@ -15,8 +15,7 @@ from typing import List, Tuple, Dict, Optional
 
 INDEX_FILES = "indexes"
 
-
-def main(data_dir: str) -> None:
+def processor(data_dir: str) -> None:
     """
     reads data from directory and makes positional and inverted index
 
@@ -26,16 +25,21 @@ def main(data_dir: str) -> None:
     inv_idx = InvertedIndex()
     pos_idx = PositionalIndex()
     dict_set: Dict[str, int] = {}
-    
+
     tokenizer = Tokenizer()
     stemmer = PorterStemmer()
-    
-    
+
     files: List[str] = os.listdir(data_dir)
 
-    metadata_logger = get_logger("metadata")
-    lookup_logger = get_logger("lookup", see_time=True)
-    error_logger = get_logger("error", see_time=True)
+    metadata_logger = get_logger(
+        "metadata", see_time=False, console_log=False, level=logging.INFO
+    )
+    lookup_logger = get_logger(
+        "lookup", see_time=True, console_log=False, level=logging.INFO
+    )
+    error_logger = get_logger(
+        "error", see_time=True, console_log=True, level=logging.ERROR
+    )
 
     index_dir = "./" + INDEX_FILES
     os.makedirs(index_dir, exist_ok=True)
@@ -55,11 +59,11 @@ def main(data_dir: str) -> None:
             stemmed_tokens: List[str] = []
             # dict_tokens, stemmed_tokens = Tokenizer().tokenize_text(data)
             tokens = tokenizer.tokenize(data)
-        
+
             local_inv_idx = InvertedIndex()
             local_pos_idx = PositionalIndex()
             local_dict: Dict[str, int] = {}
-            
+
             metadata = {
                 "doc_id": doc_id,
                 "tokens": len(tokens),
@@ -72,21 +76,23 @@ def main(data_dir: str) -> None:
                 inv_idx.load_from_file(inv_index_file, logger=error_logger)
                 pos_idx.load_from_file(pos_index_file, logger=error_logger)
                 continue
-            
-        
+
             for i, token in enumerate(tokens):
-                
-                if token.lower() not in tokenizer.stop_words and not tokenizer.is_number(token):
-                    stemmed_token = tokenizer.stemmer.stem(token.strip())              
-                    
+
+                if (
+                    token.lower() not in tokenizer.stop_words
+                    and not tokenizer.is_number(token)
+                ):
+                    stemmed_token = stemmer.stem(token.strip())
+
                     # Local For Loading Sved Indexes
                     local_inv_idx.add_to_index(doc_id=doc_id, token=token)
                     local_pos_idx.add_to_index(doc_id=doc_id, token=token, position=i)
-                    
+
                     # global indexes
                     inv_idx.add_to_index(doc_id=doc_id, token=token)
                     pos_idx.add_to_index(doc_id=doc_id, token=token, position=i)
-                    
+
                     if not token in local_dict and not tokenizer.has_number(token):
                         local_dict[token] = 1
                         dict_set[token] = 1
@@ -94,20 +100,20 @@ def main(data_dir: str) -> None:
                         local_dict[token] += 1
                         dict_set[token] += 1
                     stemmed_tokens.append(stemmed_token)
-            
-            metadata.update({
-                "unique_tokens": len(local_dict),
-                "stemmed_tokens": len(stemmed_tokens),
-                "inv_index_file": inv_index_file,
-                "pos_index_file": pos_index_file
-            })
-                
+
+            metadata.update(
+                {
+                    "unique_tokens": len(local_dict),
+                    "stemmed_tokens": len(stemmed_tokens),
+                    "inv_index_file": inv_index_file,
+                    "pos_index_file": pos_index_file,
+                }
+            )
+
             log_message(json.dumps(metadata, indent=4), logger=metadata_logger)
-                
-                
+
             write_data(inv_index_file, local_inv_idx.index)
             write_data(pos_index_file, local_pos_idx.index)
-            
 
     with open("test_inv-index.json", "w", encoding="utf-8") as f:
         json.dump(inv_idx.index, f, indent=4)
@@ -118,4 +124,4 @@ def main(data_dir: str) -> None:
 
 
 if __name__ == "__main__":
-    main("../data/ResearchPapers/")
+    processor("../data/ResearchPapers/")
