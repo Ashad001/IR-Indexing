@@ -17,6 +17,7 @@ from typing import List, Dict
 
 INDEX_FILES = "indexes"
 
+@timing_decorator
 def processor(data_dir: str) -> None:
     """
     reads data from directory and makes positional and inverted index
@@ -88,19 +89,21 @@ def processor(data_dir: str) -> None:
                     stemmed_token = stemmer.stem(token.strip())
 
                     # Local For Loading Sved Indexes
-                    local_inv_idx.add_to_index(doc_id=doc_id, token=token)
-                    local_pos_idx.add_to_index(doc_id=doc_id, token=token, position=i)
+                    local_inv_idx.add_to_index(doc_id=doc_id, token=stemmed_token)
+                    local_pos_idx.add_to_index(doc_id=doc_id, token=stemmed_token, position=i)  #? Is it good to add positions wrt docs (not stemmed docs!)
 
                     # global indexes
-                    inv_idx.add_to_index(doc_id=doc_id, token=token)
-                    pos_idx.add_to_index(doc_id=doc_id, token=token, position=i)
+                    inv_idx.add_to_index(doc_id=doc_id, token=stemmed_token)
+                    pos_idx.add_to_index(doc_id=doc_id, token=stemmed_token, position=i)
 
-                    if not token in local_dict and not tokenizer.has_number(token):
-                        local_dict[token] = 1
-                        dict_set[token] = 1
-                    else:
-                        local_dict[token] += 1
-                        dict_set[token] += 1
+                    dict_token = token.lower()
+                    if not tokenizer.has_number(dict_token):
+                        if not dict_token in local_dict:
+                            local_dict[dict_token] = 1
+                            dict_set[dict_token] = 1
+                        else:
+                            local_dict[dict_token] += 1
+                            dict_set[dict_token] += 1
                     stemmed_tokens.append(stemmed_token)
 
             metadata.update(

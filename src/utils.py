@@ -1,5 +1,6 @@
 import os
 import re
+import time
 import json
 import logging
 from typing import Dict, List
@@ -121,3 +122,24 @@ def metadata_lookup(meta_data, data: str, logger: logging.Logger) -> bool:
             f"Metadata for {meta_data['doc_id']} not found", logger, logging.WARNING
         )
     return False
+
+def timing_decorator(func):
+    """
+    Decorator that logs the execution time of a function.
+
+    Args:
+        func: The function to be decorated.
+
+    Returns:
+        The decorated function.
+    """
+    def wrapper(*args, **kwargs):
+        logger = get_logger(func.__name__ + "_time_log", see_time=True, console_log=True)
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        log_message(f"Function {func.__name__} took {elapsed_time:.4f} seconds to run.", logger)
+        return result
+
+    return wrapper

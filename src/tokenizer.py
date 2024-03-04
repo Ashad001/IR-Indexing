@@ -1,4 +1,5 @@
 import re
+import math
 from typing import List, Tuple, Dict
 from porter_stemmer import PorterStemmer
 
@@ -11,8 +12,9 @@ class Tokenizer:
             stop_words_file_path (str, optional): . Defaults to '../data/Stopword-List.txt'.
         """
         self.stop_words: List[str] = []
-        self.load_stop_words(stop_words_file_path)
         self.stemmer = PorterStemmer()
+
+        self.load_stop_words(stop_words_file_path)
 
     def is_number(self, s) -> bool:
         """
@@ -53,6 +55,27 @@ class Tokenizer:
             stop_words = file.read().split("\n")
         self.stop_words = [word.strip() for word in stop_words]
         
+    def split_string_by_sqrt(self, string: str) -> List[str]:
+        """
+        Splits the input string into a list of substrings, where each substring's length
+        is determined by the square root of the length of the input string if it is greater
+        than 12. If the input string is 12 characters or shorter, it returns a list
+        containing the original string.
+
+        Args:
+            string (str): The input string to be split.
+
+        Returns:
+            List[str]: A list of substrings.
+        """
+        if len(string) > 12:
+            split_length = int(math.sqrt(len(string)))
+            result_list = [string[i:i + split_length] for i in range(0, len(string), split_length)]
+            return result_list
+        else:
+            return [string]
+
+        
     def preprocess(self, text: str) -> str:
         """
         Preprocess the text to remove special characters
@@ -82,14 +105,16 @@ class Tokenizer:
         dict_tokens: Dict[str, int] = {}
         stemmed_tokens: List[str] = []
 
-        for token in tokens:
-            if token.lower() not in self.stop_words and not self.is_number(token):
-                stemmed_token = self.stemmer.stem(token.strip())
-                if token in dict_tokens and not self.has_number(token):
-                    dict_tokens[token] += 1
-                else:
-                    dict_tokens[token] = 1
-                stemmed_tokens.append(stemmed_token)
+        for chunk in tokens:
+            token = self.split_string_by_sqrt(chunk)
+            for token in tokens:
+                if token.lower() not in self.stop_words and not self.is_number(token):
+                    stemmed_token = self.stemmer.stem(token.strip())
+                    if token in dict_tokens and not self.has_number(token):
+                        dict_tokens[token] += 1
+                    else:
+                        dict_tokens[token] = 1
+                    stemmed_tokens.append(stemmed_token)
 
         dict_tokens = sorted(dict_tokens.items(), key=lambda x: x[0])
         
@@ -105,10 +130,19 @@ class Tokenizer:
         Returns:
         List[str]: Preprocessed and tokenized text
         """ 
-        cleaned_text = self.preprocess(text )
-        tokens: List[str] = re.findall(r"\b\w+\b", cleaned_text)
+        tokens: List[str] = []
+        for word in re.findall(r"\b\w+\b", text):
+            if len(word) > 25:
+                continue
+            if len(word) > 15:
+                split_length = int(math.sqrt(len(word)))
+                sub_tokens = [word[i:i + split_length] for i in range(0, len(word), split_length)]
+                tokens.extend(sub_tokens)
+            else:
+                tokens.append(word)
 
         return tokens
 
-
-
+if __name__ == "__main__":
+    tk = Tokenizer()
+    print(tk.split_string_by_sqrt("desenvolvimentocientficoetecnolgicoabstract"))
