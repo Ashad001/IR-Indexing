@@ -136,10 +136,12 @@ class Tokenizer:
                 continue
             if len(word) > 15:
                 split_length = int(math.sqrt(len(word)))
-                sub_tokens = [word[i:i + split_length] for i in range(0, len(word), split_length)]
+                sub_tokens = [word[i:i + split_length] for i in range(0, len(word), split_length) if len(word[i:i + split_length]) > 1]
                 tokens.extend(sub_tokens)
-            else:
+            elif len(word) > 1:
                 tokens.append(word)
+            else:
+                continue
 
         return tokens
 

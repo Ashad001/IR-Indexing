@@ -16,6 +16,7 @@ from typing import List, Dict
 # TODO: Fix Data Pass
 
 INDEX_FILES = "indexes"
+VOCAB_FILES = "vocab"
 
 @timing_decorator
 def processor(data_dir: str) -> None:
@@ -45,7 +46,10 @@ def processor(data_dir: str) -> None:
     )
 
     index_dir = "./" + INDEX_FILES
+    vocab_file = "./" + VOCAB_FILES
+    
     os.makedirs(index_dir, exist_ok=True)
+    os.makedirs(vocab_file, exist_ok=True)
 
     logged_metadata = read_metadata("metadata")
 
@@ -74,17 +78,25 @@ def processor(data_dir: str) -> None:
 
             inv_index_file = os.path.join(index_dir, f"{doc_id}_ivnIdx.json")
             pos_index_file = os.path.join(index_dir, f"{doc_id}_posIdx.json")
+            vocab_dict_file = os.path.join(vocab_file, f"{doc_id}_vocab.json")
 
             if metadata_lookup(metadata, logged_metadata, logger=lookup_logger):
                 inv_idx.load_from_file(inv_index_file, logger=error_logger)
                 pos_idx.load_from_file(pos_index_file, logger=error_logger)
+                with open(vocab_dict_file, 'r', encoding='utf-8') as f:
+                    vocab = json.load(f)
+                for token, freq in vocab.items():
+                    if isinstance(freq, int):
+                        dict_set[token] = freq
+                    else:
+                        dict_set.setdefault(token, {}).update(freq)
                 continue
 
             for i, token in enumerate(tokens):
 
                 if (
                     token.lower() not in tokenizer.stop_words
-                    and not tokenizer.is_number(token)
+                    and not tokenizer.has_number(token)
                 ):
                     stemmed_token = stemmer.stem(token.strip())
 
@@ -97,7 +109,7 @@ def processor(data_dir: str) -> None:
                     pos_idx.add_to_index(doc_id=doc_id, token=stemmed_token, position=i)
 
                     dict_token = token.lower()
-                    if not tokenizer.has_number(dict_token):
+                    if not tokenizer.is_number(dict_token):
                         if not dict_token in local_dict:
                             local_dict[dict_token] = 1
                             dict_set[dict_token] = 1
@@ -112,6 +124,7 @@ def processor(data_dir: str) -> None:
                     "stemmed_tokens": len(stemmed_tokens),
                     "inv_index_file": inv_index_file,
                     "pos_index_file": pos_index_file,
+                    "vocab_file": vocab_dict_file
                 }
             )
 
@@ -119,6 +132,7 @@ def processor(data_dir: str) -> None:
 
             write_data(inv_index_file, local_inv_idx.index)
             write_data(pos_index_file, local_pos_idx.index)
+            write_data(vocab_dict_file, local_dict)
 
     with open("test_inv-index.json", "w", encoding="utf-8") as f:
         json.dump(inv_idx.index, f, indent=4)
