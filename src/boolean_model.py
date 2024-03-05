@@ -11,13 +11,10 @@ import queue
 import os
 
 class BooleanModel:
-    def __init__(self) -> None:
-        processor('../data/ResearchPapers')
-        self.inv_idx = None
-        with open(f'test_inv-index.json', 'r') as f:
-            self.inv_idx = json.load(f)
-        self.all_docs = len(os.listdir('../data/ResearchPapers'))
-        self.all_docs = [i for i in range(1, self.all_docs + 1)]
+    def __init__(self, inv_idx: Dict[str, Dict[str, List[int]]], len_all_docs: int) -> None:
+        self.inv_idx: Dict[str, Dict[str, List[int]]] = inv_idx
+        self.all_docs: int = len_all_docs
+        self.all_docs: List[int] = [i for i in range(1, self.all_docs + 1)]
         self.stemmer = Stemmer()
         self.tokenizer = Tokenizer()
         self.logger = get_logger("boolean_model", see_time=True, console_log=True)
@@ -25,18 +22,36 @@ class BooleanModel:
     
     @timing_decorator
     def process_query(self, query: str) -> List[str]:
-        tokens = self.tokenizer.tokenize(query)
-        words = [self.stemmer.stem(word.lower()) for word in tokens if word.upper() not in ['AND', 'OR', 'NOT']]
-        print(words)
-        postings = self.get_postings(words)
+        """
+        Main Process Query function that processes the query and returns the documents that satisfy the query
+
+        Args:
+            query (str): user query of the form "word1 AND word2 OR word3 NOT word4"
+
+        Returns:
+            List[str]: documents that satisfy the query
+        """
+        tokens: List[str] = self.tokenizer.tokenize(query)
+        words: List[str] = [self.stemmer.stem(word.lower()) for word in tokens if word.upper() not in ['AND', 'OR', 'NOT']]
+        postings: Dict[str, List[int]] = self.get_postings(words)
         if len(postings) == 0:
             return []
-        documents = self.evaluate_query(postings, tokens)
-        documents = [int(doc) for doc in documents]
+        documents: List[int|str] = self.evaluate_query(postings, tokens)
+        documents: List[int] = [int(doc) for doc in documents]
         return documents
 
     
     def evaluate_query(self, postings: List[Dict[str, List[int]]], query_tokens: List[str]) -> List[int]: 
+        """
+        REcursively Evaluate the query using the postings list and the query tokens
+
+        Args:
+            postings (List[Dict[str, List[int]]]): postings list for the words in the query
+            query_tokens (List[str]): all the tokens in the query
+
+        Returns:
+            List[int]: documents that satisfy the query (recursively evaluated)
+        """
         if len(postings) == 1:
             if query_tokens[0] == 'NOT':
                 return self.not_op(list(postings[0].values())[0])
@@ -65,16 +80,45 @@ class BooleanModel:
                 return []
                 
     def and_op(self, p1: List[int], p2: List[int]) -> List[int]:
+        """
+        Perform AND operation on the two postings list
+
+        Args:
+            p1 (List[int]): word1's postings list
+            p2 (List[int]): word2's postings list
+
+        Returns:
+            List[int]: word1 AND word2's postings list
+        """
         p1 = set(p1)
         p2 = set(p2)
         return list(p1.intersection(p2))
     
     def or_op(self, p1: List[int], p2: List[int]) -> List[int]:
+        """
+        Perform OR operation on the two postings list
+
+        Args:
+            p1 (List[int]): word1's postings list
+            p2 (List[int]): word2's postings list
+
+        Returns:
+            List[int]: word1 OR word2's postings list
+        """
         p1 = set(p1)
         p2 = set(p2)
         return list(p1.union(p2))
     
     def not_op(self, p1: List[int]):
+        """
+        Perform NOT operation on the postings list
+
+        Args:
+            p1 (List[int]): word1's postings list
+
+        Returns:
+            _type_: word1's NOT postings list
+        """
         p1 = set(p1)
         return list(set(self.all_docs).difference(p1))
     
@@ -98,7 +142,16 @@ class BooleanModel:
             unique_tokens.append(tokens[i])
         return unique_tokens
 
-    def get_postings(self, words: List[str]):
+    def get_postings(self, words: List[str]) -> Dict[str, List[int]]:
+        """
+        Generate the postings list for the words in the query
+
+        Args:
+            words (List[str]): words in the query
+
+        Returns:
+            Dict[str, List[int]]: word and its corresponding postings list
+        """
         postings = []
         for word in words:
             if word in self.inv_idx:
@@ -114,7 +167,10 @@ class BooleanModel:
         return postings
 
 if __name__=="__main__":
-    bm = BooleanModel()
+    all_docs = len(os.listdir('../data/ResearchPapers'))
+    with open(f'test_inv-index.json', 'r') as f:    
+        inv_idx = json.load(f)
+    bm = BooleanModel(inv_idx, len_all_docs=all_docs)
     query = "cancer AND learning"
     docs = bm.process_query(query)
     print(docs)
