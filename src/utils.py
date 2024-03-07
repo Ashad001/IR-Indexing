@@ -5,6 +5,8 @@ import json
 import logging
 from typing import Dict, List
 
+CONSOLE_LOGS = False
+
 
 def read_data(file_name: str) -> List[str]:
     """
@@ -134,7 +136,7 @@ def timing_decorator(func):
         The decorated function.
     """
     def wrapper(*args, **kwargs):
-        logger = get_logger(func.__name__ + "_time_log", see_time=True, console_log=True)
+        logger = get_logger(func.__name__ + "_time_log", see_time=True, console_log=CONSOLE_LOGS)
         start_time = time.time()
         result = func(*args, **kwargs)
         end_time = time.time()

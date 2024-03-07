@@ -42,7 +42,7 @@ def processor(data_dir: str) -> None:
         "lookup", see_time=True, console_log=False, level=logging.INFO
     )
     error_logger = get_logger(
-        "error", see_time=True, console_log=True, level=logging.ERROR
+        "error", see_time=True, console_log=CONSOLE_LOGS, level=logging.ERROR
     )
 
     index_dir = "./" + INDEX_FILES

@@ -5,20 +5,21 @@ from typing import List, Dict, Tuple, Optional, Any, Set
 from inverted_index import InvertedIndex
 from porter_stemmer import PorterStemmer as Stemmer
 from tokenizer import Tokenizer
-from utils import get_logger, timing_decorator
+from utils import get_logger, timing_decorator, CONSOLE_LOGS
 from processor import processor
 import queue
 import os
 
+#! self.all_docs only works for documents that are in d.txt format 'd' being a number
+
 class BooleanModel:
-    def __init__(self, inv_idx: Dict[str, Dict[str, List[int]]], len_all_docs: int) -> None:
+    def __init__(self, inv_idx: Dict[str, Dict[str, List[int]]], all_docs: int) -> None:
         self.inv_idx: Dict[str, Dict[str, List[int]]] = inv_idx
-        self.all_docs: int = len_all_docs
-        self.all_docs: List[int] = [i for i in range(1, self.all_docs + 1)]
+        self.all_docs: List[int] = [int(i.split('.')[0]) for i in all_docs]
         self.stemmer = Stemmer()
         self.tokenizer = Tokenizer()
-        self.logger = get_logger("boolean_model", see_time=True, console_log=True)
-        self.error_logger = get_logger("boolean_model_error", see_time=True, console_log=True)
+        self.logger = get_logger("boolean_model", see_time=True, console_log=CONSOLE_LOGS)
+        self.error_logger = get_logger("boolean_model_error", see_time=True, console_log=CONSOLE_LOGS)
     
     @timing_decorator
     def process_query(self, query: str) -> List[str]:
@@ -33,6 +34,8 @@ class BooleanModel:
         """
         tokens: List[str] = self.tokenizer.tokenize(query)
         words: List[str] = [self.stemmer.stem(word.lower()) for word in tokens if word.upper() not in ['AND', 'OR', 'NOT']]
+        print(words)
+        # reverse tokens
         postings: Dict[str, List[int]] = self.get_postings(words)
         if len(postings) == 0:
             return []
@@ -52,6 +55,7 @@ class BooleanModel:
         Returns:
             List[int]: documents that satisfy the query (recursively evaluated)
         """
+        
         if len(postings) == 1:
             if query_tokens[0] == 'NOT':
                 return self.not_op(list(postings[0].values())[0])
@@ -72,8 +76,12 @@ class BooleanModel:
         else:
             # recursively evaluate the query
             if query_tokens[1] == 'AND':
+                if query_tokens[2] == 'NOT':
+                    return self.and_not_op(list(postings[0].values())[0], self.evaluate_query([postings[1], postings[2]], query_tokens[3:]))
                 return self.and_op(list(postings[0].values())[0], self.evaluate_query([postings[1], postings[2]], query_tokens[2:]))
             elif query_tokens[1] == 'OR':
+                if query_tokens[2] == 'NOT':
+                    return self.or_not_op(list(postings[0].values())[0], self.evaluate_query([postings[1], postings[2]], query_tokens[3:]))
                 return self.or_op(list(postings[0].values())[0], self.evaluate_query([postings[1], postings[2]], query_tokens[2:]))
             else:
                 self.error_logger.error(f"Invalid query: {query_tokens}")
@@ -125,12 +133,14 @@ class BooleanModel:
     def and_not_op(self, p1: List[int], p2: List[int]) -> List[int]:
         p1 = set(p1)
         p2 = set(p2)
-        return list(p1.difference(p2))
+        return list(p1.intersection(self.not_op(p2)))
+        # return list(p1.difference(p2))
     
     def or_not_op(self, p1: List[int], p2: List[int]) -> List[int]:
         p1 = set(p1)
         p2 = set(p2)
-        return list(set(p1).union(set(self.all_docs).difference(p2)))
+        return list(p1.union(self.not_op(p2)))
+        # return list(set(p1).union(set(self.all_docs).difference(p2)))
     
    
     def remove_duplicate_not(self, tokens):
@@ -167,10 +177,19 @@ class BooleanModel:
         return postings
 
 if __name__=="__main__":
-    all_docs = len(os.listdir('../data/ResearchPapers'))
+    all_docs = os.listdir('../data/ResearchPapers')
     with open(f'test_inv-index.json', 'r') as f:    
         inv_idx = json.load(f)
-    bm = BooleanModel(inv_idx, len_all_docs=all_docs)
-    query = "cancer AND learning"
-    docs = bm.process_query(query)
-    print(docs)
+    bm = BooleanModel(inv_idx, all_docs=all_docs)
+    queries = [
+        "transformer AND NOT heart OR NOT artificial AND intelligence",
+        "transformer",
+        "NOT heart",
+        "transformer AND NOT",
+        "NOT artificial",
+        "intelligence",
+    ]
+    
+    for query in queries:
+        docs = bm.process_query(query)
+        print(docs)
