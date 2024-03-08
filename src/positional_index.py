@@ -2,7 +2,7 @@ import re
 import json
 import logging
 from typing import List, Dict
-from utils import log_message
+from src.utils import log_message
 class PositionalIndex:
     def __init__(self) -> None:
         self.index: Dict[str, Dict[str, List[int]]] = {}

@@ -1,11 +1,11 @@
 import re
 import json
 from typing import List, Dict, Tuple, Optional, Any, Set
-from inverted_index import InvertedIndex
-from porter_stemmer import PorterStemmer as Stemmer
-from tokenizer import Tokenizer
-from utils import get_logger, timing_decorator, CONSOLE_LOGS
-from processor import processor
+from src.inverted_index import InvertedIndex
+from src.porter_stemmer import PorterStemmer as Stemmer
+from src.tokenizer import Tokenizer
+from src.utils import get_logger, timing_decorator, CONSOLE_LOGS
+from src.processor import processor
 import queue
 import os
 

@@ -1,12 +1,12 @@
 import re
 import math
 from typing import List, Tuple, Dict
-from porter_stemmer import PorterStemmer
+from src.porter_stemmer import PorterStemmer
 
 # https://regex101.com/
 
 class Tokenizer:
-    def __init__(self, stop_words_file_path: str = "../data/Stopword-List.txt") -> None:
+    def __init__(self, stop_words_file_path: str = "./data/Stopword-List.txt") -> None:
         """
         Args:
             stop_words_file_path (str, optional): . Defaults to '../data/Stopword-List.txt'.
