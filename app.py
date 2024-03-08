@@ -1,85 +1,101 @@
-# https://discuss.streamlit.io/t/customize-theme/39156/5
-# https://discuss.streamlit.io/t/is-there-a-function-called-by-text-input-change-everytime-when-i-input-a-character/41438/2
-# https://docs.streamlit.io/library/api-reference/widgets/st.download_button
-# https://github.com/gagan3012/streamlit-tags?tab=readme-ov-file
+from flask import Flask, render_template, request, jsonify
+from src.processor import processor  # Make sure to import the necessary modules
+from src.word_suggestor import WordSuggestor
+from src.tokenizer import Tokenizer
+from src.boolean_model import BooleanModel
+from src.extended_boolean import ExtendedBooleanModel
+import json
+import re
+import os
+from typing import List, Dict
+app = Flask(__name__)
 
-# import streamlit as st
-# from st_keyup import st_keyup
-
-# value = st_keyup("Enter a value", key="0")
-
-# # Notice that value updates after every key press
-# st.write(value)
-
-# # If you want to set a default value, you can pass one
-# with_default = st_keyup("Enter a value", value="Example", key="1")
-
-# # If you want to limit how often the value gets updated, pass `debounce` value, which
-# # will force the value to only update after that many milliseconds have passed
-# with_debounce = st_keyup("Enter a value", debounce=500, key="2")
-
-import streamlit as st
-from src.processor import processor
-
-class StreamlitApp:
+class InformationRetrievalSystem:
     def __init__(self):
         self.title = "Information Retrieval System"
         self.description = "This is a simple information retrieval system that uses the extended boolean model to search for documents in a collection of research papers."
-        self.query = ""
-        self.query_results = []
-        self.query_result = None
-        processor("./data/ResearchPapers/")
+        self.dict_set = None
+        self.inv_idx = None
+        self.pos_idx = None
+        all_docs = os.listdir('./data/ResearchPapers')
+        processor(data_dir="./data/ResearchPapers/")
+        self.load_data("./docs")
         
-    def toggle_theme(self):        
-        dark = '''
-        <style>
-            .stApp {
-            background-color: black;
-            }
-        </style>
-        '''
+        self.suggestions_cache = {}
+        self.word_suggestor = WordSuggestor(self.dict_set)
+        self.tokenizer = Tokenizer()
+        self.boolean_model = BooleanModel(self.inv_idx, all_docs=all_docs)
+        self.extended_boolean_model = ExtendedBooleanModel(self.pos_idx, all_docs=all_docs)
 
-        light = '''
-        <style>
-            .stApp {
-            background-color: white;
-            }
-        </style>
-        '''
+    def load_data(self, docs_dir: str) -> None:
+        with open(docs_dir + "/dict-set.json", 'r') as f:
+            self.dict_set = json.load(f)
+        with open(docs_dir + "/inv-index.json", 'r') as f:
+            self.inv_idx = json.load(f)
+        with open(docs_dir + "/pos-index.json", 'r') as f:
+            self.pos_idx = json.load(f)
+        
 
-        st.markdown(light, unsafe_allow_html=True)
+    def cache_suggestions(self, word, suggestions):
+        self.suggestions_cache[word] = suggestions
 
-        # Create a toggle button
-        toggle = st.button("Toggle theme")
-
-        # Use a global variable to store the current theme
-        if "theme" not in st.session_state:
-            st.session_state.theme = "light"
-
-        # Change the theme based on the button state
-        if toggle:
-            if st.session_state.theme == "light":
-                st.session_state.theme = "dark"
-            else:
-                st.session_state.theme = "light"
-
-        # Apply the theme to the app
-        if st.session_state.theme == "dark":
-            st.markdown(dark, unsafe_allow_html=True)
+    def get_cached_suggestions(self, word):
+        return self.suggestions_cache.get(word, [])
+    
+    def search(self, query: str) -> List:
+        query_type = self.query_type(query)
+        if query_type == 'boolean':
+            return self.boolean_search(query)
+        elif query_type == 'proximity':
+            return self.proximity_search(query)
         else:
-            st.markdown(light, unsafe_allow_html=True)
+            error = "Your Query Should Be of the Form\n WORD1 AND WORD2 OR WORD3 AND NOT WORD4\n OR\n WORD1 WORD2 /k"
+            return [error]
+    
+    def boolean_search(self, query: str) -> List:
+        return self.boolean_model.search(query)
+    
+    def proximity_search(self, query: str) -> List:
+        return self.extended_boolean_model.search(query)
+    
+    
+    def query_type(self, query: str) -> str:
+        if re.search(r'AND|OR|NOT', query):
+            return 'boolean'
+        elif re.search(r'/(\d*)$', query):
+            return 'proximity'
         
-    def main(self):
-        st.title(self.title)
-        st.write(self.description)
-        # self.toggle_theme()
-        self.query = st.text_input("Enter a query")
-        self.query_results = st.button("Search")
-        if self.query_results:
-            self.query_result = self.proximity_query(self.query)
-            st.write(self.query_result)
-        st.write("The query results will be displayed here")
         
-if __name__=="__main__":
-    app = StreamlitApp()
-    app.main()
+
+app_instance = InformationRetrievalSystem()
+
+@app.route('/')
+def index():
+    return render_template('index.html', title=app_instance.title, description=app_instance.description)
+
+@app.route('/get_suggestions', methods=['POST'])
+def get_suggestions():
+    data = request.get_json()
+    query = data['query']
+    print(query)
+    if query:
+        check_word = app_instance.tokenizer.tokenize(query)[-1]
+        if check_word is not None and len(check_word) > 1:
+            suggestions = app_instance.get_cached_suggestions(check_word)
+            if not suggestions:
+                suggestions = app_instance.word_suggestor.find_words(check_word)
+                app_instance.cache_suggestions(check_word, suggestions)
+            return jsonify({'suggestions': suggestions})
+
+    return jsonify({'suggestions': []})
+
+@app.route('/search', methods=['POST'])
+def search():
+    data = request.get_json()
+    query = data['query']
+    docs: List[int] = app_instance.search(query)
+    print(docs)
+    return jsonify({'docs': docs})
+
+if __name__ == '__main__':
+    app.run(debug=True)
