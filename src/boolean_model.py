@@ -12,7 +12,7 @@ import os
 #! self.all_docs only works for documents that are in d.txt format 'd' being a number
 
 class BooleanModel:
-    def __init__(self, inv_idx: Dict[str, Dict[str, List[int]]], all_docs: int) -> None:
+    def __init__(self, inv_idx: Dict[str, Dict[str, List[int]]], all_docs: List[int]) -> None:
         self.inv_idx: Dict[str, Dict[str, List[int]]] = inv_idx
         self.all_docs: List[int] = [int(i.split('.')[0]) for i in all_docs]
         self.stemmer = Stemmer()
@@ -21,7 +21,7 @@ class BooleanModel:
         self.error_logger = get_logger("boolean_model_error", see_time=True, console_log=CONSOLE_LOGS)
     
     @timing_decorator
-    def process_boolean_query(self, query: str) -> List[str]:
+    def search(self, query: str) -> List[str]:
         """
         Main Process Query function that processes the query and returns the documents that satisfy the query
 
@@ -188,5 +188,5 @@ if __name__=="__main__":
     ]
     
     for query in queries:
-        docs = bm.process_query(query)
+        docs = bm.search(query)
         print(docs)

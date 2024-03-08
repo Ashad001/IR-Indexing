@@ -19,7 +19,7 @@ class ExtendedBooleanModel:
         self.error_logger = get_logger("extended_boolean_model_error", see_time=True, console_log=CONSOLE_LOGS)
 
     @timing_decorator
-    def proximity_query(self, query: str) -> List[int]:
+    def search(self, query: str) -> List[int]:
         # Use regular expression to extract words and k from the query
         match = re.match(r'((?:\w+\s?)+) /(\d+)', query)
         if not match:
@@ -73,5 +73,5 @@ if __name__ == "__main__":
     ]
 
     for query in queries:
-        result = ebm.proximity_query(query)
+        result = ebm.search(query)
         print(f"Results for query '{query}': {result}")
