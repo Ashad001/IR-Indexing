@@ -140,6 +140,8 @@ def processor(data_dir: str) -> None:
         json.dump(pos_idx.index, f, indent=4)
     with open("test_dict-set.json", "w", encoding="utf-8") as f:
         json.dump(dict_set, f, indent=4)
+    os.removedirs(index_dir)
+    os.removedirs(vocab_file)
 
 
 if __name__ == "__main__":

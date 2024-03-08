@@ -1,7 +1,6 @@
 import re
 import json
 from typing import List, Dict, Tuple, Optional, Any, Set
-# Assuming the below imports work as intended
 from inverted_index import InvertedIndex
 from porter_stemmer import PorterStemmer as Stemmer
 from tokenizer import Tokenizer
@@ -22,7 +21,7 @@ class BooleanModel:
         self.error_logger = get_logger("boolean_model_error", see_time=True, console_log=CONSOLE_LOGS)
     
     @timing_decorator
-    def process_query(self, query: str) -> List[str]:
+    def process_boolean_query(self, query: str) -> List[str]:
         """
         Main Process Query function that processes the query and returns the documents that satisfy the query
 
@@ -34,8 +33,6 @@ class BooleanModel:
         """
         tokens: List[str] = self.tokenizer.tokenize(query)
         words: List[str] = [self.stemmer.stem(word.lower()) for word in tokens if word.upper() not in ['AND', 'OR', 'NOT']]
-        print(words)
-        # reverse tokens
         postings: Dict[str, List[int]] = self.get_postings(words)
         if len(postings) == 0:
             return []
@@ -182,7 +179,7 @@ if __name__=="__main__":
         inv_idx = json.load(f)
     bm = BooleanModel(inv_idx, all_docs=all_docs)
     queries = [
-        "transformer AND NOT heart OR NOT artificial AND intelligence",
+        "transformer AND NOT heart OR NOT artificial OR intelligence",
         "transformer",
         "NOT heart",
         "transformer AND NOT",

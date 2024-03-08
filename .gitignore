@@ -32,6 +32,7 @@ local_settings.py
 *.drawio
 
 #temp files
+/indexes
 test_tokens_1.txt
 test_tokens_2.txt
 test.txt
