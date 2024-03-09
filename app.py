@@ -37,6 +37,8 @@ def get_corrections():
     data = request.get_json()
     query = data['query']
     corrected_query = app_instance.word_corrector.correct_query(query)
+    if corrected_query == query:
+        return jsonify({"corrected_query": ""})
     return jsonify({'corrected_query': corrected_query})
 
 if __name__ == '__main__':
