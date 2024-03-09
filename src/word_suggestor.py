@@ -1,6 +1,7 @@
 import os
 import json
 from typing import List, Dict, Union
+from src.utils import timing_decorator
 
 class TrieNode:
     def __init__(self):
@@ -83,6 +84,7 @@ class WordSuggestor:
         for char, child_node in node.children.items():
             self.find_words_with_prefix(child_node, current_word + char, suggestions)
 
+    @timing_decorator
     def find_words(self, word: str) -> List[Dict[str, Union[str, int]]]:
         """
         Find words in the dictionary based on a given input word

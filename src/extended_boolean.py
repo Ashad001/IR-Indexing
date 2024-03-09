@@ -25,7 +25,6 @@ class ExtendedBooleanModel:
         k_str = match.group(2)
         k = int(k_str)
         stemmed_terms = [self.stemmer.stem(word) for word in words]
-        print(stemmed_terms)
         result = None
         for i, term in enumerate(stemmed_terms):
             if term in self.pos_idx:

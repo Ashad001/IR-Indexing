@@ -44,7 +44,6 @@ function performSearch() {
                         var listItem = document.createElement('li');
                         if (correctionData.corrected_query === '') {
                             listItem.innerHTML = "No results found for query: " + query;
-                            // return from here
                             searchResultsList.appendChild(listItem);
                             return;
                         }

@@ -171,7 +171,7 @@ def timing_decorator(func):
         end_time = time.time()
         elapsed_time = end_time - start_time
         log_message(
-            f"Function {func.__name__} took {elapsed_time:.4f} seconds to run.", logger
+            f"Function {func.__name__} from {func.__qualname__} took {elapsed_time:.4f} seconds to run.", logger
         )
         return result
 
