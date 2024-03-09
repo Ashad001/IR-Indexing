@@ -139,15 +139,6 @@ class BooleanModel:
         return list(p1.union(self.not_op(p2)))
         # return list(set(p1).union(set(self.all_docs).difference(p2)))
     
-   
-    def remove_duplicate_not(self, tokens):
-        # Remove duplicate occurrences of "NOT"
-        unique_tokens = [tokens[0]]
-        for i in range(1, len(tokens)):
-            if tokens[i] == 'NOT' and tokens[i - 1] == 'NOT':
-                continue
-            unique_tokens.append(tokens[i])
-        return unique_tokens
 
     def get_postings(self, words: List[str]) -> Dict[str, List[int]]:
         """
@@ -170,12 +161,13 @@ class BooleanModel:
                 docs.sort()
                 postings.append({word: docs})
             else:
+                postings.append({word: []})
                 self.error_logger.error(f"Word '{word}' not found in inverted index")
         return postings
 
 if __name__=="__main__":
     all_docs = os.listdir('../data/ResearchPapers')
-    with open(f'test_inv-index.json', 'r') as f:    
+    with open(f'../docs/inv-index.json', 'r') as f:    
         inv_idx = json.load(f)
     bm = BooleanModel(inv_idx, all_docs=all_docs)
     queries = [

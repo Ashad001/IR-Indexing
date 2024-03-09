@@ -18,6 +18,8 @@ class WordCorrector:
         Returns:
             str: corrected word
         """
+        if word in ['AND', 'OR', 'NOT'] or re.search(r'/\d+$', word):
+            return word
         word = word.lower()
         if word in self.dictionary:
             return word
@@ -70,9 +72,11 @@ class WordCorrector:
         """
         words = query.split()
         corrected_query = ""
+        print(words)
         for word in words:
             if word not in ['AND', 'OR', "NOT"] and re.search(r'/\d+$/', word):
                 corrected_query += word + " "
             else:
                 corrected_query += self.word_corrector(word) + " "
+        print(corrected_query)
         return corrected_query.strip()

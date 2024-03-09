@@ -29,7 +29,6 @@ def get_suggestions():
 def search():
     data = request.get_json()
     query = data['query']
-    print(query)
     docs: List[int] = app_instance.search(query)
     return jsonify({'docs': docs})
 
