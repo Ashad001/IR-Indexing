@@ -13,9 +13,9 @@ def index():
 @app.route('/get_suggestions', methods=['POST'])
 def get_suggestions():
     data = request.get_json()
-    query = data['query'].lower()
+    query = data['query']
     if query:
-        check_word = app_instance.tokenizer.tokenize(query)[-1]
+        check_word = app_instance.tokenizer.tokenize(query)[-1].lower()
         if check_word is not None and len(check_word) > 1:
             suggestions = app_instance.get_cached_suggestions(check_word)
             if not suggestions:
