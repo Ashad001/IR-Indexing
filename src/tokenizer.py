@@ -31,6 +31,15 @@ class Tokenizer:
             return True
         except ValueError:
             return False
+    
+    def get_pattern(self) -> str:
+        """
+        Returns a regex pattern to match a word
+
+        Returns:
+            str: regex pattern
+        """
+        return r"\b\w+\b"
 
     def has_number(self, s: str)-> bool:
         """
@@ -76,7 +85,7 @@ class Tokenizer:
             return [string]
 
         
-    def preprocess(self, text: str) -> str:
+    def preprocess(self, text: str) -> List[str]:
         """
         Preprocess the text to remove special characters
 
@@ -86,10 +95,32 @@ class Tokenizer:
         Returns:
             str: preprocessed text
         """
-        cleaned_text =  text.encode('ascii', 'ignore').decode()
-        cleaned_text = re.sub(r'\d', "", cleaned_text)
-        return cleaned_text
+        tokens = []            
+        if len(text) > 30:
+            split_length = int(math.sqrt(len(text))) + 2
+            sub_tokens = [text[i:i + split_length] for i in range(0, len(text), split_length) if len(text[i:i + split_length]) > 1]
+            tokens.extend(sub_tokens)
+        if len(text) > 22:
+            return []
+        elif len(text) > 1:
+            tokens.append(text)
+            
+        tokens = [word.encode('ascii', 'ignore').decode() for word in tokens]
+        
+        return tokens
 
+    def replace_numbers(self, text: str) -> str:
+        """
+        Replace numbers in the text with the word "number"
+
+        Args:
+            text (str): text to be processed
+
+        Returns:
+            str: processed text
+        """
+        return re.sub(r"\d+", "", text)
+    
     def tokenize_text(self, text: str) -> Tuple[List[str], Dict[str, int]]:
         """
         Tokenize the text (English words; ignore numbers)

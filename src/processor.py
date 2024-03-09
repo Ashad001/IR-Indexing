@@ -65,15 +65,16 @@ def processor(data_dir: str) -> None:
 
             stemmed_tokens: List[str] = []
             # dict_tokens, stemmed_tokens = Tokenizer().tokenize_text(data)
-            tokens = tokenizer.tokenize(data)
+            # tokens = tokenizer.tokenize(data)
 
             local_inv_idx = InvertedIndex()
             local_pos_idx = PositionalIndex()
             local_dict: Dict[str, int] = {}
+            token_length = 0
 
             metadata = {
                 "doc_id": doc_id,
-                "tokens": len(tokens),
+                # "tokens": len(tokens),
             }
 
             inv_index_file = os.path.join(index_dir, f"{doc_id}_ivnIdx.json")
@@ -91,37 +92,40 @@ def processor(data_dir: str) -> None:
                     else:
                         dict_set.setdefault(token, {}).update(freq)
                 continue
+            
+            pattern = tokenizer.get_pattern()
+            for i, word in enumerate(re.findall(pattern, data)):
+                tokens = tokenizer.preprocess(word)
+                token_length += len(tokens)
+                for token in tokens:  
+                    if token.lower() not in tokenizer.stop_words:
+                        if tokenizer.has_number(token.lower()) and not tokenizer.is_number(token.lower()):
+                            token = tokenizer.replace_numbers(token) 
+                        stemmed_token = stemmer.stem(token.strip())
 
-            for i, token in enumerate(tokens):
+                        
+                        dict_token = token.lower()
+                        if not tokenizer.has_number(dict_token):
+                            if not dict_token in local_dict:
+                                local_dict[dict_token] = 1
+                                dict_set[dict_token] = 1
+                            else:
+                                local_dict[dict_token] += 1
+                                dict_set[dict_token] += 1
+                        stemmed_tokens.append(stemmed_token)
+                        
+                        # Local For Loading Sved Indexes
+                        local_inv_idx.add_to_index(doc_id=doc_id, token=stemmed_token)
+                        local_pos_idx.add_to_index(doc_id=doc_id, token=stemmed_token, position=i)  #? Is it good to add positions wrt docs (not stemmed docs!)
 
-                if (
-                    token.lower() not in tokenizer.stop_words
-                    and not tokenizer.has_number(token)
-                ):
-                    token = token.encode('ascii', 'ignore')
-                    token = token.decode()
-                    stemmed_token = stemmer.stem(token.strip())
+                        # global indexes
+                        inv_idx.add_to_index(doc_id=doc_id, token=stemmed_token)
+                        pos_idx.add_to_index(doc_id=doc_id, token=stemmed_token, position=i)
 
-                    # Local For Loading Sved Indexes
-                    local_inv_idx.add_to_index(doc_id=doc_id, token=stemmed_token)
-                    local_pos_idx.add_to_index(doc_id=doc_id, token=stemmed_token, position=i)  #? Is it good to add positions wrt docs (not stemmed docs!)
-
-                    # global indexes
-                    inv_idx.add_to_index(doc_id=doc_id, token=stemmed_token)
-                    pos_idx.add_to_index(doc_id=doc_id, token=stemmed_token, position=i)
-
-                    dict_token = token.lower()
-                    if not tokenizer.is_number(dict_token):
-                        if not dict_token in local_dict:
-                            local_dict[dict_token] = 1
-                            dict_set[dict_token] = 1
-                        else:
-                            local_dict[dict_token] += 1
-                            dict_set[dict_token] += 1
-                    stemmed_tokens.append(stemmed_token)
 
             metadata.update(
                 {
+                    "tokens": token_length,
                     "unique_tokens": len(local_dict),
                     "stemmed_tokens": len(stemmed_tokens),
                     "inv_index_file": inv_index_file,
