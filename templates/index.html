@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-    <!-- Include Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Include Bootstrap JavaScript (if needed) -->
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
 </head>
 <body>
     <div class="container">
@@ -18,7 +15,7 @@
                 <p>{{ description }}</p>
 
                 <label for="query">Enter a query</label>
-                <input type="text" id="query" name="query" placeholder="Enter a query">
+                <input type="text" id="query" name="query" placeholder="WORD1 AND WORD2 | WORD1 WORD2 /k ">
 
                 <button id="searchBtn" class="btn btn-primary">Search</button>
 

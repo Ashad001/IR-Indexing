@@ -120,6 +120,19 @@ class Tokenizer:
         
         return dict_tokens, stemmed_tokens
     
+    def unicode_remover(self, text: str) -> str:
+        """
+        Remove unicode characters from the text
+
+        Args:
+            text (str): any text or word or token
+
+        Returns:
+            str: 
+        """
+        pattern = r"\\u[\dA-Fa-f]{4}"
+        return re.sub(pattern, "", text)
+    
     def tokenize(self, text: str) -> List[str]:
         """
         Tokenize the text (English words; ignore numbers)

@@ -98,6 +98,8 @@ def processor(data_dir: str) -> None:
                     token.lower() not in tokenizer.stop_words
                     and not tokenizer.has_number(token)
                 ):
+                    token = token.encode('ascii', 'ignore')
+                    token = token.decode()
                     stemmed_token = stemmer.stem(token.strip())
 
                     # Local For Loading Sved Indexes
