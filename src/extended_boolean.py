@@ -9,7 +9,7 @@ import os
 class ExtendedBooleanModel:
     def __init__(self, pos_idx: Dict[str, Dict[str, List[int]]], all_docs: List[str]) -> None:
         self.pos_idx: Dict[str, Dict[str, List[int]]] = pos_idx
-        self.all_docs: List[int] = [int(i.split('.')[0]) for i in all_docs]
+        self.all_docs: List[int] = [int(i.split('.')[1].split('\\')[-1])  for i in all_docs]
         self.stemmer = Stemmer()
         self.tokenizer = Tokenizer()
         self.logger = get_logger("extended_boolean_model", see_time=True, console_log=CONSOLE_LOGS)

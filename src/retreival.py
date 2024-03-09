@@ -1,8 +1,10 @@
 from src.processor import processor  # Make sure to import the necessary modules
 from src.word_suggestor import WordSuggestor
+from src.word_corrector import WordCorrector
 from src.tokenizer import Tokenizer
 from src.boolean_model import BooleanModel
 from src.extended_boolean import ExtendedBooleanModel
+from src.utils import list_files
 import json
 import re
 import os
@@ -11,16 +13,17 @@ from typing import List, Dict
 class InformationRetrieval:
     def __init__(self):
         self.title = "Information Retrieval System"
-        self.description = "This is a simple information retrieval system that uses the extended boolean model to search for documents in a collection of research papers."
+        self.description = "This is a simple information retrieval system that uses the boolean model to search for documents in a collection of research papers."
         self.dict_set = None
         self.inv_idx = None
         self.pos_idx = None
-        all_docs = os.listdir('./data/ResearchPapers')
-        processor(data_dir="./data/ResearchPapers/")
+        all_docs = list_files('./data', exclude_files=["Stopword-List.txt"])
+        processor(data_dir="./data", exclude_files=["Stopword-List.txt"])
         self.load_data("./docs")
         
         self.suggestions_cache = {}
         self.word_suggestor = WordSuggestor(self.dict_set)
+        self.word_corrector = WordCorrector(self.dict_set)
         self.tokenizer = Tokenizer()
         self.boolean_model = BooleanModel(self.inv_idx, all_docs=all_docs)
         self.extended_boolean_model = ExtendedBooleanModel(self.pos_idx, all_docs=all_docs)
@@ -56,10 +59,9 @@ class InformationRetrieval:
     def proximity_search(self, query: str) -> List:
         return self.extended_boolean_model.search(query)
     
-    
     def query_type(self, query: str) -> str:
         if len(query.split()) == 1 or re.search(r'AND|OR|NOT', query):
             return 'boolean'
         elif re.search(r'/(\d*)$', query):
             return 'proximity'
-        
+        return "invalid query"

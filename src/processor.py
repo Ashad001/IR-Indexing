@@ -19,7 +19,7 @@ INDEX_FILES = "indexes"
 VOCAB_FILES = "vocab"
 
 @timing_decorator
-def processor(data_dir: str) -> None:
+def processor(data_dir: str, exclude_files: List[str] = ["Stopword-List.txt"]) -> None:
     """
     reads data from directory and makes positional and inverted index
 
@@ -33,17 +33,11 @@ def processor(data_dir: str) -> None:
     tokenizer = Tokenizer()
     stemmer = PorterStemmer()
 
-    files: List[str] = os.listdir(data_dir)
+    files: List[str] = list_files(data_dir, exclude_files)
 
-    metadata_logger = get_logger(
-        "metadata", see_time=False, console_log=False, level=logging.INFO
-    )
-    lookup_logger = get_logger(
-        "lookup", see_time=True, console_log=False, level=logging.INFO
-    )
-    error_logger = get_logger(
-        "error", see_time=True, console_log=CONSOLE_LOGS, level=logging.ERROR
-    )
+    metadata_logger = get_logger("metadata", see_time=False, console_log=False, level=logging.INFO)
+    lookup_logger = get_logger("lookup", see_time=True, console_log=False, level=logging.INFO)
+    error_logger = get_logger("processor_error", see_time=True, console_log=CONSOLE_LOGS, level=logging.ERROR)
 
     index_dir = "./src/" + INDEX_FILES
     vocab_file = "./src/" + VOCAB_FILES
@@ -56,7 +50,7 @@ def processor(data_dir: str) -> None:
     file_iter = 1
     for file in files:
         if file.endswith(".txt"):
-            data: str = read_data(os.path.join(data_dir, file))
+            data: str = read_data( file)
             doc_id: str = re.findall(r"\d+", file)[0]  # + data[:10] # Has to be unique
             doc_id = (
                 str(file_iter) + "_" + doc_id
@@ -151,5 +145,5 @@ def processor(data_dir: str) -> None:
     
 
 
-if __name__ == "__main__":
-    processor("./ResearchPapers/")
+# if __name__ == "__main__":
+#     processor("./ResearchPapers/")

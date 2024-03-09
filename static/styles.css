@@ -104,6 +104,15 @@ label {
     background-color: #3367d6;
 }
 
+#corrected-query {
+    font-weight: bold;
+}
+
+#corrected-query-text {
+    color: #FF0000;
+
+}
+
 #suggestions-container,
 #search-results-container {
     margin-top: 20px;

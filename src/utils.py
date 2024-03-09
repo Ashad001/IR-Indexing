@@ -7,6 +7,26 @@ from typing import Dict, List
 
 CONSOLE_LOGS = False
 
+def list_files(directory: str, exclude_files: List[str]) -> List[str]:
+    """
+    List all files in a directory
+
+    Args:
+        directory (str): directory path to list files from i.e. ./data
+        exclude_files (List[str]): exclude files from the list such as stopwords
+
+    Returns:
+        List[str]: files list in the directory
+    """
+    file_list = []
+
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            file_path = os.path.join(root, file)
+            if file not in exclude_files and os.path.isfile(file_path):
+                file_list.append(file_path)
+
+    return file_list
 
 def read_data(file_name: str) -> List[str]:
     """

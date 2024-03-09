@@ -15,7 +15,8 @@ document.getElementById('darkModeToggle').addEventListener('change', function() 
 });
 
 function performSearch() {
-    var query = document.getElementById('query').value;
+    var queryInput = document.getElementById('query');
+    var query = queryInput.value;
 
     // Update the fetch call to target the /search route
     fetch('/search', {
@@ -30,13 +31,43 @@ function performSearch() {
         var searchResultsList = document.getElementById('search-results-list');
         searchResultsList.innerHTML = '';
 
-        data.docs.forEach(function(doc) {
-            var listItem = document.createElement('li');
-            listItem.textContent = "Document ID: " + doc;
+        if (data.docs.length === 0) {
+            fetch('/get_corrections', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({'query': query})
+            })
+            .then(response => response.json())
+            .then(correctionData => {
+                var listItem = document.createElement('li');
+                listItem.innerHTML = "Did you mean: ";
 
-            // Append the list item to the search results list
-            searchResultsList.appendChild(listItem);
-        });
+                var suggestionLink = document.createElement('a');
+                suggestionLink.textContent = correctionData.corrected_query;
+                suggestionLink.href = '#'; 
+
+                suggestionLink.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    queryInput.value = correctionData.corrected_query;
+                    performSearch(); // Perform the search with the corrected query i.e. minimum lavenstein distance (when will i correcly spell this)
+                });
+
+                listItem.appendChild(suggestionLink);
+                searchResultsList.appendChild(listItem);
+            })
+            .catch(error => {
+                console.error('Error fetching suggested query:', error);
+            });
+        } else {
+            data.docs.forEach(function(doc) {
+                var listItem = document.createElement('li');
+                listItem.textContent = "Document ID: " + doc;
+
+                searchResultsList.appendChild(listItem);
+            });
+        }
     })
     .catch(error => {
         console.error('Error fetching search results:', error);

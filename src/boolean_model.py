@@ -1,12 +1,9 @@
 import re
 import json
-from typing import List, Dict, Tuple, Optional, Any, Set
-from src.inverted_index import InvertedIndex
+from typing import List, Dict
 from src.porter_stemmer import PorterStemmer as Stemmer
 from src.tokenizer import Tokenizer
 from src.utils import get_logger, timing_decorator, log_message, CONSOLE_LOGS
-from src.processor import processor
-import queue
 import os
 
 #! self.all_docs only works for documents that are in d.txt format 'd' being a number
@@ -14,7 +11,7 @@ import os
 class BooleanModel:
     def __init__(self, inv_idx: Dict[str, Dict[str, List[int]]], all_docs: List[int]) -> None:
         self.inv_idx: Dict[str, Dict[str, List[int]]] = inv_idx
-        self.all_docs: List[int] = [int(i.split('.')[0]) for i in all_docs]
+        self.all_docs: List[int] = [int(i.split('.')[1].split('\\')[-1]) for i in all_docs]
         self.stemmer = Stemmer()
         self.tokenizer = Tokenizer()
         self.logger = get_logger("boolean_model", see_time=True, console_log=CONSOLE_LOGS)
