@@ -53,8 +53,8 @@ class ExtendedBooleanModel:
             # Ensure that the positions are in ascending order
             result = {doc: sorted(positions) for doc, positions in result.items()}
             result = [doc.split('_')[1] for doc in list(result.keys())]
-            log_message(json.dumps({"query": query, "documents": result}, indent=4), self.logger, console_log=CONSOLE_LOGS)
-            return list(result.keys())
+            log_message(json.dumps({"query": query, "documents": result}, indent=4), self.logger)
+            return result
 
         else:
             return []

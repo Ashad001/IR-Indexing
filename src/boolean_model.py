@@ -39,7 +39,7 @@ class BooleanModel:
         documents: List[int|str] = self.evaluate_query(postings, tokens)
         documents: List[int] = [int(doc) for doc in documents]
         # log docs
-        log_message(json.dumps({"query": query, "documents": documents}, indent=4), self.logger, console_log=CONSOLE_LOGS)
+        log_message(json.dumps({"query": query, "documents": documents}, indent=4), self.logger)
         return documents
 
     
