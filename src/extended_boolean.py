@@ -1,12 +1,9 @@
 import re
 import json
-from typing import List, Dict, Tuple, Optional, Any, Set
-from src.inverted_index import InvertedIndex
+from typing import List, Dict
 from src.porter_stemmer import PorterStemmer as Stemmer
 from src.tokenizer import Tokenizer
 from src.utils import get_logger, timing_decorator, CONSOLE_LOGS
-from src.processor import processor
-import queue
 import os
 
 class ExtendedBooleanModel:
@@ -20,7 +17,6 @@ class ExtendedBooleanModel:
 
     @timing_decorator
     def search(self, query: str) -> List[int]:
-        # Use regular expression to extract words and k from the query
         match = re.match(r'((?:\w+\s?)+) /(\d+)', query)
         if not match:
             return []
@@ -28,9 +24,8 @@ class ExtendedBooleanModel:
         words = match.group(1).split()
         k_str = match.group(2)
         k = int(k_str)
-        print(words)
         stemmed_terms = [self.stemmer.stem(word) for word in words]
-
+        print(stemmed_terms)
         result = None
         for i, term in enumerate(stemmed_terms):
             if term in self.pos_idx:
@@ -38,7 +33,7 @@ class ExtendedBooleanModel:
                 if result is None:
                     result = current_positions
                 else:
-                    # Check if positions are k tokens apart
+                    # Check if all positions are k tokens apart for all words in the query
                     new_result = {}
                     for doc in result:
                         if doc in current_positions:
@@ -49,12 +44,14 @@ class ExtendedBooleanModel:
                                     if abs(pos1 - pos2) <= k:
                                         if doc not in new_result:
                                             new_result[doc] = []
-                                        new_result[doc].extend(positions1)
+                                        new_result[doc].extend([pos1, pos2])
                                         break
 
                     result = new_result
 
         if result is not None:
+            # Ensure that the positions are in ascending order
+            result = {doc: sorted(positions) for doc, positions in result.items()}
             return list(result.keys())
         else:
             return []
@@ -62,14 +59,15 @@ class ExtendedBooleanModel:
 if __name__ == "__main__":
     # ... (unchanged)
     all_docs = os.listdir("../data/ResearchPapers")
-    with open("test_pos-index.json", 'r') as f:
+    with open("../docs/pos-index.json", 'r') as f:
         pos_idx = json.load(f)
     ebm = ExtendedBooleanModel(pos_idx, all_docs)
 
     queries = [
         "perspective looked /2",
-        "International Forecasting /2",
-        "transformers dependencies capture development /5"
+        "International Forecasting /10",
+        "Intelligence Concepts Artificial Natural Processing /50",
+        "electrocardiographic electronic /4"
     ]
 
     for query in queries:

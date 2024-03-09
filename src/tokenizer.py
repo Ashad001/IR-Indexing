@@ -132,9 +132,9 @@ class Tokenizer:
         """ 
         tokens: List[str] = []
         for word in re.findall(r"\b\w+\b", text):
-            if len(word) > 25:
+            if len(word) > 30:
                 continue
-            if len(word) > 15:
+            if len(word) > 22:
                 split_length = int(math.sqrt(len(word)))
                 sub_tokens = [word[i:i + split_length] for i in range(0, len(word), split_length) if len(word[i:i + split_length]) > 1]
                 tokens.extend(sub_tokens)
