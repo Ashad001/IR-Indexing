@@ -4,7 +4,7 @@ from typing import List, Dict, Tuple, Optional, Any, Set
 from src.inverted_index import InvertedIndex
 from src.porter_stemmer import PorterStemmer as Stemmer
 from src.tokenizer import Tokenizer
-from src.utils import get_logger, timing_decorator, CONSOLE_LOGS
+from src.utils import get_logger, timing_decorator, log_message, CONSOLE_LOGS
 from src.processor import processor
 import queue
 import os
@@ -38,6 +38,8 @@ class BooleanModel:
             return []
         documents: List[int|str] = self.evaluate_query(postings, tokens)
         documents: List[int] = [int(doc) for doc in documents]
+        # log docs
+        log_message(json.dumps({"query": query, "documents": documents}, indent=4), self.logger, console_log=CONSOLE_LOGS)
         return documents
 
     
@@ -81,6 +83,7 @@ class BooleanModel:
                     return self.or_not_op(list(postings[0].values())[0], self.evaluate_query([postings[1], postings[2]], query_tokens[3:]))
                 return self.or_op(list(postings[0].values())[0], self.evaluate_query([postings[1], postings[2]], query_tokens[2:]))
             else:
+                log_message(f"Invalid query: {query_tokens}", self.error_logger, console_log=CONSOLE_LOGS)
                 self.error_logger.error(f"Invalid query: {query_tokens}")
                 return []
                 

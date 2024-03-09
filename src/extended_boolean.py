@@ -3,7 +3,7 @@ import json
 from typing import List, Dict
 from src.porter_stemmer import PorterStemmer as Stemmer
 from src.tokenizer import Tokenizer
-from src.utils import get_logger, timing_decorator, CONSOLE_LOGS
+from src.utils import get_logger, timing_decorator, log_message, CONSOLE_LOGS
 import os
 
 class ExtendedBooleanModel:
@@ -52,7 +52,10 @@ class ExtendedBooleanModel:
         if result is not None:
             # Ensure that the positions are in ascending order
             result = {doc: sorted(positions) for doc, positions in result.items()}
+            result = [doc.split('_')[1] for doc in list(result.keys())]
+            log_message(json.dumps({"query": query, "documents": result}, indent=4), self.logger, console_log=CONSOLE_LOGS)
             return list(result.keys())
+
         else:
             return []
 
