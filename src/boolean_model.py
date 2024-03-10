@@ -38,7 +38,7 @@ class BooleanModel:
         postings: Dict[str, List[int]] = self.get_postings(words)
         if re.search(r'^(?!.*\b(?:OR|NOT)\b).*\bAND\b.*', query):
             # sort posrings by assending order if only AND is present
-            postings = sorted(postings, key=lambda x: len(list(x.values())[0]))
+            postings = sorted(postings, key=lambda x: len(list(x.values())[0]), reverse=True)
         if len(postings) == 0:
             return []
         documents: List[int|str] = self.evaluate_query(postings, tokens)
@@ -78,7 +78,6 @@ class BooleanModel:
                     return self.or_not_op(list(postings[1].values())[0], list(postings[0].values())[0])
                 elif query_tokens[2] == 'NOT':
                     return self.or_not_op(list(postings[0].values())[0], list(postings[1].values())[0])
-                print(list(postings[0].values())[0], list(postings[1].values())[0])
                 return self.or_op(list(postings[0].values())[0], list(postings[1].values())[0])
         else:
             #* recursively evaluate the query..!
