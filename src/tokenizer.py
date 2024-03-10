@@ -104,6 +104,8 @@ class Tokenizer:
             return []
         elif len(text) > 1:
             tokens.append(text)
+        else:
+            return []
             
         tokens = [word.encode('ascii', 'ignore').decode() for word in tokens]
         

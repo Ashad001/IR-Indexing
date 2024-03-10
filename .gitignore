@@ -33,6 +33,7 @@ local_settings.py
 
 #temp files
 /indexes
+/vocab
 test_tokens_1.txt
 test_tokens_2.txt
 test.txt
