@@ -8,7 +8,7 @@ class TestBooleanModel(unittest.TestCase):
     def test_search(self) -> None:
         index_processor = IndexProcessor("./data", exclude_files=['Stopword-List.txt'])
         _, pos_idx, _ = index_processor.process_data()
-        queries, results = self.load_tests("./tests/test_data/golden_proximity_queries.txt")
+        queries, results = self.load_tests("./tests/test_sets/golden_proximity_queries.txt")
         all_docs = list_files('./data', exclude_files=['Stopword-List.txt'])
         boolean_model = ExtendedBooleanModel(pos_idx=pos_idx.index, all_docs=all_docs)
         for query, result in zip(queries, results):
