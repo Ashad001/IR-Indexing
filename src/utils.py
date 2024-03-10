@@ -28,7 +28,7 @@ def list_files(directory: str, exclude_files: List[str]) -> List[str]:
 
     return file_list
 
-def read_data(file_name: str) -> List[str]:
+def read_data(file_name: str) -> str:
     """
     reads data from file
 
@@ -38,7 +38,6 @@ def read_data(file_name: str) -> List[str]:
     with open(file_name, "r", encoding='utf-8') as file:
         data = file.read()
     return data
-
 
 def write_data(file_name: str, data: Dict[str, Dict[str, List[int]]]) -> None:
     """
