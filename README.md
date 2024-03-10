@@ -55,6 +55,8 @@ IR-Indexing
 ## Project Components
 
 - **`data/`:** Contains research papers in the `ResearchPapers/` directory and a file `Stopword-List.txt` with common stop words.
+  - Simply place new files in this folder, and the app will automatically index them.
+  - Don't Remove `Stopword-List.txt` as it is used for stop word removal, though you can update the .txt file manually.
 
 - **`flows/`:** Contains diagrams and drawings illustrating data flows and UI design.
 
@@ -141,6 +143,16 @@ Run the tests to ensure the correctness of the implemented functionalities:
 ```bash
 python -m unittest discover tests
 ```
+
+## Acknowledgements 
+- The Porter Stemmer implementation is based on the original algorithm by Martin Porter.
+  -  Source: [https://vijinimallawaarachchi.com/2017/05/09/porter-stemming-algorithm/](https://vijinimallawaarachchi.com/2017/05/09/porter-stemming-algorithm/)
+  -   GitHub Repository: [https://github.com/jedijulia/porter-stemmer/blob/master/stemmer.py](https://github.com/jedijulia/porter-stemmer/)
+
+- The Levenshtein distance algorithm is based on the original algorithm by Vladimir Levenshtein.
+  - Source: [https://en.wikipedia.org/wiki/Levenshtein_distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
+
+
 
 <details>
   <summary>Code Stats</summary>
