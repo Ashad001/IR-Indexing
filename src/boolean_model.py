@@ -30,9 +30,11 @@ class BooleanModel:
         """
         tokens: List[str] = self.tokenizer.tokenize(query)
         words: List[str] = [self.stemmer.stem(word.lower()) for word in tokens if word.upper() not in ['AND', 'OR', 'NOT']]
+        print(words)
         postings: Dict[str, List[int]] = self.get_postings(words)
         if len(postings) == 0:
             return []
+        print(postings)
         documents: List[int|str] = self.evaluate_query(postings, tokens)
         documents: List[int] = [int(doc) for doc in documents]
         # log docs
@@ -70,7 +72,7 @@ class BooleanModel:
                     return self.or_not_op(list(postings[0].values())[0], list(postings[1].values())[0])
                 return self.or_op(list(postings[0].values())[0], list(postings[1].values())[0])
         else:
-            # recursively evaluate the query
+            #* recursively evaluate the query..!
             if query_tokens[1] == 'AND':
                 if query_tokens[2] == 'NOT':
                     return self.and_not_op(list(postings[0].values())[0], self.evaluate_query([postings[1], postings[2]], query_tokens[3:]))
@@ -152,17 +154,21 @@ class BooleanModel:
         """
         postings = []
         for word in words:
-            if word in self.inv_idx:
-                # sort the documents in terms of frequency of the word
-                # docs = sorted(self.inv_idx[word].items(), key=lambda x: x[1], reverse=False)
-                docs = list(self.inv_idx[word].keys())
-                # docs = [(doc.split('_')[1]) for doc in docs]
-                docs = [int(doc.split('_')[1]) for doc in docs]
-                docs.sort()
-                postings.append({word: docs})
-            else:
+            print(word in self.inv_idx)
+            try:
+                if word in self.inv_idx:
+                    docs = list(self.inv_idx[word].keys())
+                    print(docs)
+                    # docs = [(doc.split('_')[1]) for doc in docs]
+                    docs = [int(doc.split('_')[1]) for doc in docs]
+                    docs.sort()
+                    postings.append({word: docs})
+                else:
+                    postings.append({word: []})
+                    self.error_logger.error(f"Word '{word}' not found in inverted index")
+            except Exception as e:
+                self.error_logger.error(f"Error occurred while processing word '{word}': {str(e)}")
                 postings.append({word: []})
-                self.error_logger.error(f"Word '{word}' not found in inverted index")
         return postings
 
 if __name__=="__main__":

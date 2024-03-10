@@ -12,7 +12,6 @@ from typing import List, Dict, Tuple, Any
 INDEX_FILES = "indexes"
 VOCAB_FILES = "vocab"
 
-
 class IndexProcessor:
     def __init__(self, data_dir: str, exclude_files: List[str] = ["Stopword-List.txt"]) -> None:
         """

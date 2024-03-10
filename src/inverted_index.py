@@ -8,7 +8,7 @@ class InvertedIndex:
     def __init__(self, load_from_file=False) -> None:
         self.index: Dict[str, Dict[str, List[int]]] = {}
         if load_from_file:
-            self.load_index()
+            self.load_from_file(file_name="../docs/inverted_index.json", logger=logging.getLogger("inverted_index"))
     
     def load_from_file(self, file_name: str, logger: logging.Logger) -> None:
         """

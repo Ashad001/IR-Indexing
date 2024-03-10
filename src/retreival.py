@@ -31,9 +31,9 @@ class InformationRetrieval:
 
     def load_data(self) -> None:
         inv_idx, pos_idx, dict_set = self.processor.process_data()
-        self.inv_idx = inv_idx
-        self.pos_idx = pos_idx
-        self.dict_set = dict_set        
+        self.inv_idx = inv_idx.index
+        self.pos_idx = pos_idx.index
+        self.dict_set = dict_set    
 
     def cache_suggestions(self, word, suggestions):
         self.suggestions_cache[word] = suggestions
@@ -48,6 +48,7 @@ class InformationRetrieval:
         elif query_type == 'proximity':
             return self.proximity_search(query)
         else:
+            #* Not Used!!!!
             error = "Your Query Should Be of the Form\n WORD1 AND WORD2 OR WORD3 AND NOT WORD4\n OR\n WORD1 WORD2 /k"
             return [error]
     
