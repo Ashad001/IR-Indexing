@@ -75,6 +75,14 @@ IR-Indexing
 
 - **`app.py`:** The main Flask application file.
 
+## Flow & Design
+### Data Flow 
+![Data Flow](flows/data-flow.png)
+
+### UI design
+![UI](flows/ui.png)
+
+
 ## Functionality
 
 The app offers efficient retrieval capabilities, emphasizing performance and user experience.
