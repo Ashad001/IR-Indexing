@@ -1,4 +1,4 @@
-from src.processor import processor  # Make sure to import the necessary modules
+from src.processor import IndexProcessor  # Make sure to import the necessary modules
 from src.word_suggestor import WordSuggestor
 from src.word_corrector import WordCorrector
 from src.tokenizer import Tokenizer
@@ -17,25 +17,23 @@ class InformationRetrieval:
         self.dict_set = None
         self.inv_idx = None
         self.pos_idx = None
-        all_docs = list_files('./data', exclude_files=["Stopword-List.txt"])
-        processor(data_dir="./data", exclude_files=["Stopword-List.txt"])
-        self.load_data("./docs")
+        self.processor = IndexProcessor(data_dir="./data", exclude_files=["Stopword-List.txt"])
+        self.load_data()
         
+        self.tokenizer = Tokenizer()
         self.suggestions_cache = {}
         self.word_suggestor = WordSuggestor(self.dict_set)
         self.word_corrector = WordCorrector(self.dict_set)
-        self.tokenizer = Tokenizer()
+        
+        all_docs = list_files('./data', exclude_files=["Stopword-List.txt"])
         self.boolean_model = BooleanModel(self.inv_idx, all_docs=all_docs)
         self.extended_boolean_model = ExtendedBooleanModel(self.pos_idx, all_docs=all_docs)
 
-    def load_data(self, docs_dir: str) -> None:
-        with open(docs_dir + "/dict-set.json", 'r') as f:
-            self.dict_set = json.load(f)
-        with open(docs_dir + "/inv-index.json", 'r') as f:
-            self.inv_idx = json.load(f)
-        with open(docs_dir + "/pos-index.json", 'r') as f:
-            self.pos_idx = json.load(f)
-        
+    def load_data(self) -> None:
+        inv_idx, pos_idx, dict_set = self.processor.process_data()
+        self.inv_idx = inv_idx
+        self.pos_idx = pos_idx
+        self.dict_set = dict_set        
 
     def cache_suggestions(self, word, suggestions):
         self.suggestions_cache[word] = suggestions

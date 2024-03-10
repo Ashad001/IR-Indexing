@@ -136,7 +136,13 @@ def metadata_lookup(
     #         data = f.read()
     # data = "[" + data[: (len(data) - 2)] + "]"
     # data = json.loads(data)
-    meta_doc_ids = [x["doc_id"] for x in data if x["doc_id"] == meta_data.get("doc_id")]
+    meta_doc_ids = []
+    for x in data:
+        if x["doc_id"] == meta_data.get("doc_id"):
+            if "inv_index_file" in x and "pos_index_file" in x and "vocab_file" in x:
+                meta_doc_ids.append(x["doc_id"])
+                
+    print(meta_doc_ids)
     if meta_data["doc_id"] in meta_doc_ids:
         log_message(
             f"Processing already done for {meta_data['doc_id']}.txt",
