@@ -1,21 +1,20 @@
 import unittest
 import os
-from src.boolean_model import BooleanModel
+from src.extended_boolean import ExtendedBooleanModel
 from src.processor import IndexProcessor
 from src.utils import list_files
 
 class TestBooleanModel(unittest.TestCase):
     def test_search(self) -> None:
         index_processor = IndexProcessor("./data", exclude_files=['Stopword-List.txt'])
-        inv_idx, _, _ = index_processor.process_data()
-        queries, results = self.load_tests("./tests/test_data/golden_boolean_queries.txt")
+        _, pos_idx, _ = index_processor.process_data()
+        queries, results = self.load_tests("./tests/test_data/golden_proximity_queries.txt")
         all_docs = list_files('./data', exclude_files=['Stopword-List.txt'])
-        boolean_model = BooleanModel(inv_idx=inv_idx.index, all_docs=all_docs)
+        boolean_model = ExtendedBooleanModel(pos_idx=pos_idx.index, all_docs=all_docs)
         for query, result in zip(queries, results):
             result = set(result.split(", "))  
-            docs = set(boolean_model.search(query))
-            self.assertEqual(set(docs), result)  
-    
+            self.assertEqual(set(boolean_model.search(query)), result)  
+            
     def load_tests(self, test_file: str):
         queries = []
         results = []

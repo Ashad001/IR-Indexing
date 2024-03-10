@@ -1,0 +1,2 @@
+Example Query: heart intelligence /4
+Result-Set: 8, 11

@@ -11,7 +11,7 @@ import os
 class BooleanModel:
     def __init__(self, inv_idx: Dict[str, Dict[str, List[int]]], all_docs: List[int]) -> None:
         self.inv_idx: Dict[str, Dict[str, List[int]]] = inv_idx
-        self.all_docs: List[int] = [int(i.split('.')[1].split('\\')[-1]) for i in all_docs]
+        self.all_docs: List[int] = [i.split('.')[1].split('\\')[-1] for i in all_docs]
         self.stemmer = Stemmer()
         self.tokenizer = Tokenizer()
         self.logger = get_logger("boolean_model", see_time=True, console_log=CONSOLE_LOGS)
@@ -30,13 +30,11 @@ class BooleanModel:
         """
         tokens: List[str] = self.tokenizer.tokenize(query)
         words: List[str] = [self.stemmer.stem(word.lower()) for word in tokens if word.upper() not in ['AND', 'OR', 'NOT']]
-        print(words)
         postings: Dict[str, List[int]] = self.get_postings(words)
         if len(postings) == 0:
             return []
-        print(postings)
         documents: List[int|str] = self.evaluate_query(postings, tokens)
-        documents: List[int] = [int(doc) for doc in documents]
+        documents: List[int] = [doc for doc in documents]
         # log docs
         log_message(json.dumps({"query": query, "documents": documents}, indent=4), self.logger)
         return documents
@@ -154,13 +152,11 @@ class BooleanModel:
         """
         postings = []
         for word in words:
-            print(word in self.inv_idx)
             try:
                 if word in self.inv_idx:
                     docs = list(self.inv_idx[word].keys())
-                    print(docs)
                     # docs = [(doc.split('_')[1]) for doc in docs]
-                    docs = [int(doc.split('_')[1]) for doc in docs]
+                    docs = [doc.split('_')[1] for doc in docs]
                     docs.sort()
                     postings.append({word: docs})
                 else:
