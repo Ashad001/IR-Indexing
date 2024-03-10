@@ -35,7 +35,7 @@ def read_data(file_name: str) -> List[str]:
     Args:
         file_name (str): file name
     """
-    with open(file_name, "r") as file:
+    with open(file_name, "r", encoding='utf-8') as file:
         data = file.read()
     return data
 
