@@ -24,25 +24,22 @@ label {
     color: #333;
 }
 
-/* Improve the suggestions container */
 #suggestions-container {
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
     padding: 20px;
     margin-top: 20px;
-    width: 300px; /* Adjust width as needed */
-    margin-right: 20px; /* Adjust the margin */
+    width: 300px;
+    margin-right: 20px; 
     float: right;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
-    background-color: #fff; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
 }
 
 /* Style the suggestions list */
 #suggestions-list {
     list-style-type: none;
-    padding: 10px;
-    margin: 10px;
 }
 
 #suggestions-list li {

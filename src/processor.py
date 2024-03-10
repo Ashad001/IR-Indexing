@@ -25,11 +25,14 @@ class IndexProcessor:
         self.exclude_files = exclude_files
         self.inv_idx = InvertedIndex()
         self.pos_idx = PositionalIndex()
+        self.local_inv_idx = InvertedIndex()
+        self.local_pos_idx = PositionalIndex()
         self.dict_set: Dict[str, int] = {}
+        self.local_dict: Dict[str, int] = {}
         self.tokenizer = Tokenizer()
         self.stemmer = PorterStemmer()
         
-        
+    @timing_decorator
     def process_data(self) -> Tuple[InvertedIndex, PositionalIndex, Dict[str, int]]:
         """
         Reads data from the directory and creates positional and inverted indexes.
@@ -46,9 +49,12 @@ class IndexProcessor:
         file_iter = 1
 
         for file in files:
+            self.local_inv_idx = InvertedIndex()
+            self.local_pos_idx = PositionalIndex()
             if file.endswith(".txt"):
                 data = read_data(file)
-                doc_id = re.findall(r"\d+", file)[0]
+                doc_id = re.findall(r'[^\\/]*$', file)
+                doc_id = doc_id[0].split(".")[0]
                 doc_id = str(file_iter) + "_" + doc_id
                 file_iter += 1
                 self.process_file(
@@ -163,6 +169,7 @@ class IndexProcessor:
         self.inv_idx.add_to_index(doc_id=doc_id, token=stemmed_token)
         self.pos_idx.add_to_index(doc_id=doc_id, token=stemmed_token, position=position)
 
+    @timing_decorator
     def load_indexes(self, inv_index_file: str, pos_index_file: str, vocab_dict_file: str, error_logger) -> None:
         """
         Loads indexes from saved files.
@@ -183,6 +190,7 @@ class IndexProcessor:
             else:
                 self.dict_set.setdefault(token, {}).update(freq)
 
+    @timing_decorator
     def save_indexes(self) -> None:
         """
         Saves the global indexes to files.

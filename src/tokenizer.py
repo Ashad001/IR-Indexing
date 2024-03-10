@@ -61,7 +61,6 @@ class Tokenizer:
         Args:
             file_path (str): file_path for stop words
         """
-        print(os.listdir())
         with open(file_path, "r", encoding="utf-8") as file:
             stop_words = file.read().split("\n")
         self.stop_words = [word.strip() for word in stop_words]

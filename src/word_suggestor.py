@@ -29,6 +29,7 @@ class WordSuggestor:
             self.data = json.load(f)
         return [word for word in self.data.keys()]
 
+    @timing_decorator
     def build_trie(self, words: List[str]) -> TrieNode:
         """
         Build a Trie data structure from a list of words.
