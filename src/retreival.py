@@ -26,8 +26,8 @@ class InformationRetrieval:
         self.word_corrector = WordCorrector(self.dict_set)
         
         all_docs = list_files('./data', exclude_files=["Stopword-List.txt"])
-        self.boolean_model = BooleanModel(self.inv_idx, all_docs=all_docs)
-        self.extended_boolean_model = ExtendedBooleanModel(self.pos_idx, all_docs=all_docs)
+        self.boolean_model = BooleanModel(self.inv_idx, all_docs_files=all_docs)
+        self.extended_boolean_model = ExtendedBooleanModel(self.pos_idx, all_docs_files=all_docs)
 
     def load_data(self) -> None:
         inv_idx, pos_idx, dict_set = self.processor.process_data()
@@ -42,6 +42,7 @@ class InformationRetrieval:
         return self.suggestions_cache.get(word, [])
     
     def search(self, query: str) -> List:
+        query = self.tokenizer.remove_stop_words(query)
         query_type = self.query_type(query)
         if query_type == 'boolean':
             return self.boolean_search(query)

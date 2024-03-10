@@ -63,8 +63,20 @@ class Tokenizer:
         """
         with open(file_path, "r", encoding="utf-8") as file:
             stop_words = file.read().split("\n")
-        self.stop_words = [word.strip() for word in stop_words]
-        
+        self.stop_words = [word.strip() for word in stop_words if word.strip() != ""]
+    
+    def remove_stop_words(self, text: str) -> str:
+        """
+        Removes stop words from the text
+
+        Args:
+            text (str): text to be processed
+
+        Returns:
+            str: processed text
+        """
+        return " ".join([word for word in text.split(' ') if word not in self.stop_words])    
+    
     def split_string_by_sqrt(self, string: str) -> List[str]:
         """
         Splits the input string into a list of substrings, where each substring's length
@@ -96,14 +108,16 @@ class Tokenizer:
         Returns:
             str: preprocessed text
         """
-        tokens = []            
-        if len(text) > 30:
+        tokens = []
+        if len(text) > 35:
+            return []            
+        if len(text) > 25:
             split_length = int(math.sqrt(len(text))) + 2
             sub_tokens = [text[i:i + split_length] for i in range(0, len(text), split_length) if len(text[i:i + split_length]) > 1]
             tokens.extend(sub_tokens)
         if len(text) > 22:
             return []
-        elif len(text) > 1:
+        elif len(text) > 2:
             tokens.append(text)
         else:
             return []

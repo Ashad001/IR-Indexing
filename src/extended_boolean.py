@@ -7,9 +7,14 @@ from src.utils import get_logger, timing_decorator, log_message, CONSOLE_LOGS
 import os
 
 class ExtendedBooleanModel:
-    def __init__(self, pos_idx: Dict[str, Dict[str, List[int]]], all_docs: List[str]) -> None:
+    def __init__(self, pos_idx: Dict[str, Dict[str, List[int]]], all_docs_files: List[str]) -> None:
         self.pos_idx: Dict[str, Dict[str, List[int]]] = pos_idx
-        self.all_docs: List[int] = [i.split('.')[1].split('\\')[-1]  for i in all_docs]
+        all_docs = []
+        for file in all_docs_files:
+            doc_id = re.findall(r'[^\\/]*$', file)
+            doc_id = doc_id[0].split(".")[0]
+            all_docs.append(doc_id)
+        self.all_docs = all_docs
         self.stemmer = Stemmer()
         self.tokenizer = Tokenizer()
         self.logger = get_logger("extended_boolean_model", see_time=True, console_log=CONSOLE_LOGS)

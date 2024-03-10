@@ -6,12 +6,17 @@ from src.tokenizer import Tokenizer
 from src.utils import get_logger, timing_decorator, log_message, CONSOLE_LOGS
 import os
 
-#! self.all_docs only works for documents that are in d.txt format 'd' being a number
+
 
 class BooleanModel:
-    def __init__(self, inv_idx: Dict[str, Dict[str, List[int]]], all_docs: List[int]) -> None:
+    def __init__(self, inv_idx: Dict[str, Dict[str, List[int]]], all_docs_files: List[int]) -> None:
         self.inv_idx: Dict[str, Dict[str, List[int]]] = inv_idx
-        self.all_docs: List[int] = [i.split('.')[1].split('\\')[-1] for i in all_docs]
+        all_docs = []
+        for file in all_docs_files:
+            doc_id = re.findall(r'[^\\/]*$', file)
+            doc_id = doc_id[0].split(".")[0]
+            all_docs.append(doc_id)
+        self.all_docs = all_docs
         self.stemmer = Stemmer()
         self.tokenizer = Tokenizer()
         self.logger = get_logger("boolean_model", see_time=True, console_log=CONSOLE_LOGS)
@@ -31,6 +36,9 @@ class BooleanModel:
         tokens: List[str] = self.tokenizer.tokenize(query)
         words: List[str] = [self.stemmer.stem(word.lower()) for word in tokens if word.upper() not in ['AND', 'OR', 'NOT']]
         postings: Dict[str, List[int]] = self.get_postings(words)
+        if re.search(r'^(?!.*\b(?:OR|NOT)\b).*\bAND\b.*', query):
+            # sort posrings by assending order if only AND is present
+            postings = sorted(postings, key=lambda x: len(list(x.values())[0]))
         if len(postings) == 0:
             return []
         documents: List[int|str] = self.evaluate_query(postings, tokens)
@@ -57,20 +65,25 @@ class BooleanModel:
                 return self.not_op(list(postings[0].values())[0])
             return list(postings[0].values())[0]
         elif len(postings) == 2:
+            if query_tokens[0] == "NOT": 
+                return self.not_op(self.evaluate_query(postings[:1], query_tokens[1:]))
             if query_tokens[1] == 'AND':
                 if query_tokens[0] == 'NOT':
                     return self.and_not_op(list(postings[1].values())[0], list(postings[0].values())[0])
                 elif query_tokens[2] == 'NOT':
                     return self.and_not_op(list(postings[0].values())[0], list(postings[1].values())[0])
                 return self.and_op(list(postings[0].values())[0], list(postings[1].values())[0])
-            elif query_tokens[1] == 'OR':
+            elif query_tokens[1] == "OR":
                 if query_tokens[0] == 'NOT':
                     return self.or_not_op(list(postings[1].values())[0], list(postings[0].values())[0])
                 elif query_tokens[2] == 'NOT':
                     return self.or_not_op(list(postings[0].values())[0], list(postings[1].values())[0])
+                print(list(postings[0].values())[0], list(postings[1].values())[0])
                 return self.or_op(list(postings[0].values())[0], list(postings[1].values())[0])
         else:
             #* recursively evaluate the query..!
+            if query_tokens[0] == 'NOT':
+                return self.not_op(self.evaluate_query([postings[0]], query_tokens[1:]))
             if query_tokens[1] == 'AND':
                 if query_tokens[2] == 'NOT':
                     return self.and_not_op(list(postings[0].values())[0], self.evaluate_query([postings[1], postings[2]], query_tokens[3:]))

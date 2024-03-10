@@ -25,8 +25,8 @@ class IndexProcessor:
         self.exclude_files = exclude_files
         self.inv_idx = InvertedIndex()
         self.pos_idx = PositionalIndex()
-        self.local_inv_idx = InvertedIndex()
-        self.local_pos_idx = PositionalIndex()
+        self.local_inv_idx = None
+        self.local_pos_idx = None
         self.dict_set: Dict[str, int] = {}
         self.local_dict: Dict[str, int] = {}
         self.tokenizer = Tokenizer()
@@ -51,6 +51,7 @@ class IndexProcessor:
         for file in files:
             self.local_inv_idx = InvertedIndex()
             self.local_pos_idx = PositionalIndex()
+            self.local_dict = {}
             if file.endswith(".txt"):
                 data = read_data(file)
                 doc_id = re.findall(r'[^\\/]*$', file)
@@ -117,13 +118,13 @@ class IndexProcessor:
                     stemmed_token = self.stemmer.stem(token.strip())
                     stemmed_token_length += 1
                     dict_token = token.lower()
-                    self.update_local_dict(doc_id, dict_token)
+                    self.update_dict(doc_id, dict_token)
                     self.update_indexes(doc_id, stemmed_token, i)
 
         metadata.update(
                 {
                     "tokens": tokens_length,
-                    "unique_tokens": len(self.dict_set),
+                    "unique_tokens": len(self.local_dict),
                     "stemmed_tokens": stemmed_token_length,
                     "inv_index_file": inv_index_file,
                     "pos_index_file": pos_index_file,
@@ -137,7 +138,7 @@ class IndexProcessor:
         write_data(pos_index_file, self.pos_idx.index)
         write_data(vocab_dict_file, self.dict_set)
 
-    def update_local_dict(self, doc_id: str, dict_token: str) -> None:
+    def update_dict(self, doc_id: str, dict_token: str) -> None:
         """
         Updates the local dictionary.
 
