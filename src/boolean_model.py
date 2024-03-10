@@ -43,6 +43,8 @@ class BooleanModel:
             return []
         documents: List[int|str] = self.evaluate_query(postings, tokens)
         documents: List[int] = [doc for doc in documents]
+        # sort documents
+        documents = sorted(documents, key=lambda x: int(x))
         # log docs
         log_message(json.dumps({"query": query, "documents": documents}, indent=4), self.logger)
         return documents
@@ -169,7 +171,6 @@ class BooleanModel:
                     docs = list(self.inv_idx[word].keys())
                     # docs = [(doc.split('_')[1]) for doc in docs]
                     docs = [doc.split('_')[1] for doc in docs]
-                    docs.sort()
                     postings.append({word: docs})
                 else:
                     postings.append({word: []})

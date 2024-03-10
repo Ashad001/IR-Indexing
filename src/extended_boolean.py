@@ -55,8 +55,8 @@ class ExtendedBooleanModel:
 
         if result is not None:
             # Ensure that the positions are in ascending order
-            result = {doc: sorted(positions) for doc, positions in result.items()}
             result = [doc.split('_')[1] for doc in list(result.keys())]
+            result = sorted(result, key=lambda x: int(x))
             log_message(json.dumps({"query": query, "documents": result}, indent=4), self.logger)
             return result
 
