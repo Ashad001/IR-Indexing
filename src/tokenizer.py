@@ -98,7 +98,7 @@ class Tokenizer:
             return [string]
 
         
-    def preprocess(self, text: str) -> List[str]:
+    def preprocess(self, token: str) -> List[str]:
         """
         Preprocess the text to remove special characters
 
@@ -108,23 +108,15 @@ class Tokenizer:
         Returns:
             str: preprocessed text
         """
-        tokens = []
-        if len(text) > 35:
-            return []            
-        if len(text) > 25:
-            split_length = int(math.sqrt(len(text))) + 2
-            sub_tokens = [text[i:i + split_length] for i in range(0, len(text), split_length) if len(text[i:i + split_length]) > 1]
-            tokens.extend(sub_tokens)
-        if len(text) > 22:
-            return []
-        elif len(text) > 2:
-            tokens.append(text)
-        else:
-            return []
-            
-        tokens = [word.encode('ascii', 'ignore').decode() for word in tokens]
+        token = token.lower()
+        if len(token) > 24 or len(token) < 2 or token in self.stop_words:
+            return ""
+                
+        token = token.encode('ascii', 'ignore').decode()
+        if self.has_number(token) and not self.is_number(token):
+            token = self.replace_numbers(token)
         
-        return tokens
+        return token
 
     def replace_numbers(self, text: str) -> str:
         """

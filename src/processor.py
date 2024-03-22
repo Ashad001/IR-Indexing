@@ -109,17 +109,14 @@ class IndexProcessor:
         stemmed_token_length = 0
         pattern = self.tokenizer.get_pattern()
         for i, word in enumerate(re.findall(pattern, data)):
-            tokens = self.tokenizer.preprocess(word)
-            tokens_length += len(tokens) if tokens is not [] else 0
-            for token in tokens:
-                if token.lower() not in self.tokenizer.stop_words:
-                    if self.tokenizer.has_number(token.lower()) and not self.tokenizer.is_number(token.lower()):
-                        token = self.tokenizer.replace_numbers(token)
-                    stemmed_token = self.stemmer.stem(token.strip())
-                    stemmed_token_length += 1
-                    dict_token = token.lower()
-                    self.update_dict(doc_id, dict_token)
-                    self.update_indexes(doc_id, stemmed_token, i)
+            token = self.tokenizer.preprocess(word)
+            tokens_length += 1 if token != "" else 0
+            if token != "":
+                stemmed_token = self.stemmer.stem(token.strip())
+                stemmed_token_length += 1
+                dict_token = token.lower()
+                self.update_dict(doc_id, dict_token)
+                self.update_indexes(doc_id, stemmed_token, i)
 
         metadata.update(
                 {
