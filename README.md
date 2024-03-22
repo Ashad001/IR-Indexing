@@ -1,6 +1,6 @@
 # IR-Indexing
 
-Welcome to the IR-Indexing project! This Flask app facilitates Information Retrieval using various indexing techniques. The project structure is outlined below, providing an overview of the organization and key components.
+This Flask app facilitates Information Retrieval using various indexing techniques. The project structure is outlined below, providing an overview of the organization and key components.
 
 ## Project Structure
 
