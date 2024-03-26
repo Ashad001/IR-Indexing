@@ -2,10 +2,10 @@ import os
 import re
 import json
 import logging
-from src.tokenizer import Tokenizer
-from src.porter_stemmer import PorterStemmer
-from src.inverted_index import InvertedIndex
-from src.positional_index import PositionalIndex
+from src.processing.tokenizer import Tokenizer
+from src.processing.porter_stemmer import PorterStemmer
+from src.indexer.inverted_index import InvertedIndex
+from src.indexer.positional_index import PositionalIndex
 from src.utils import *
 from typing import List, Dict, Tuple, Any
 

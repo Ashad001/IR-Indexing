@@ -71,9 +71,8 @@ class WordCorrector:
         Returns:
             str: corrected query
         """
-        words = query.split()
+        words = query.split() if query.find(" ") != -1 else [query]
         corrected_query = ""
-        print(words)
         for word in words:
             if word not in ['AND', 'OR', "NOT"] and re.search(r'/\d+$/', word):
                 corrected_query += word + " "

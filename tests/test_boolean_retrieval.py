@@ -1,7 +1,7 @@
 import unittest
 import os
-from src.boolean_model import BooleanModel
-from src.processor import IndexProcessor
+from src.models.boolean_model import BooleanModel
+from src.processing.processor import IndexProcessor
 from src.utils import list_files
 
 class TestBooleanModel(unittest.TestCase):

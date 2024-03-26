@@ -4,6 +4,8 @@ import heapq
 import logging
 from typing import   Dict, List
 from src.utils import log_message
+
+
 class InvertedIndex:
     def __init__(self, load_from_file=False) -> None:
         self.index: Dict[str, Dict[str, List[int]]] = {}

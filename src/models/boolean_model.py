@@ -1,12 +1,10 @@
 import re
 import json
 from typing import List, Dict
-from src.porter_stemmer import PorterStemmer as Stemmer
-from src.tokenizer import Tokenizer
+from src.processing.porter_stemmer import PorterStemmer as Stemmer
+from src.processing.tokenizer import Tokenizer
 from src.utils import get_logger, timing_decorator, log_message, CONSOLE_LOGS
 import os
-
-
 
 class BooleanModel:
     def __init__(self, inv_idx: Dict[str, Dict[str, List[int]]], all_docs_files: List[int]) -> None:
@@ -42,6 +40,7 @@ class BooleanModel:
         if len(postings) == 0:
             return []
         documents: List[int|str] = self.evaluate_query(postings, tokens)
+        print(documents)
         documents: List[int] = [doc for doc in documents]
         # sort documents
         documents = sorted(documents, key=lambda x: int(x))

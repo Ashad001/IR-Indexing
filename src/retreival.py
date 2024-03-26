@@ -1,14 +1,12 @@
-from src.processor import IndexProcessor  # Make sure to import the necessary modules
-from src.word_suggestor import WordSuggestor
-from src.word_corrector import WordCorrector
-from src.tokenizer import Tokenizer
-from src.boolean_model import BooleanModel
-from src.extended_boolean import ExtendedBooleanModel
+from src.processing.processor import IndexProcessor 
+from src.processing.word_suggestor import WordSuggestor
+from src.processing.word_corrector import WordCorrector
+from src.processing.tokenizer import Tokenizer
+from src.models.boolean_model import BooleanModel
+from src.models.extended_boolean import ExtendedBooleanModel
 from src.utils import list_files
-import json
 import re
-import os
-from typing import List, Dict
+from typing import List
 
 class InformationRetrieval:
     def __init__(self):

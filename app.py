@@ -16,7 +16,7 @@ def get_suggestions():
     query = data['query']
     if query:
         check_word = app_instance.tokenizer.tokenize(query)[-1].lower()
-        if check_word is not None and len(check_word) > 1:
+        if check_word is not None and len(check_word) > 0:
             suggestions = app_instance.get_cached_suggestions(check_word)
             if not suggestions:
                 suggestions = app_instance.word_suggestor.find_words(check_word)
@@ -36,7 +36,7 @@ def search():
 def get_corrections():
     data = request.get_json()
     query = data['query']
-    corrected_query = app_instance.word_corrector.correct_query(query) if len(query.split()) > 1 else query
+    corrected_query = app_instance.word_corrector.correct_query(query) #if len(query.split()) > 1 else query
     if corrected_query == query:
         return jsonify({"corrected_query": ""})
     return jsonify({'corrected_query': corrected_query})

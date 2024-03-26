@@ -1,5 +1,5 @@
 import unittest
-from src.porter_stemmer import PorterStemmer
+from src.processing.porter_stemmer import PorterStemmer
 
 class TestPorterStem(unittest.TestCase):
 

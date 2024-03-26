@@ -2,7 +2,7 @@ import os
 import re
 import math
 from typing import List, Tuple, Dict
-from src.porter_stemmer import PorterStemmer
+from src.processing.porter_stemmer import PorterStemmer
 
 # https://regex101.com/
 
@@ -115,6 +115,7 @@ class Tokenizer:
         token = token.encode('ascii', 'ignore').decode()
         if self.has_number(token) and not self.is_number(token):
             token = self.replace_numbers(token)
+            token = self.unicode_remover(token)
         
         return token
 
@@ -129,36 +130,6 @@ class Tokenizer:
             str: processed text
         """
         return re.sub(r"\d+", "", text)
-    
-    def tokenize_text(self, text: str) -> Tuple[List[str], Dict[str, int]]:
-        """
-        Tokenize the text (English words; ignore numbers)
-        
-        Args:
-        text (str): Extracted English text (with numbers)
-        
-        Returns:
-        Tuple[List[str], Dict[str, str]]: Tuple containing two lists - dictionary tokens and stemmed tokens
-        """ 
-        cleaned_text = self.preprocess(text )
-        tokens: List[str] = re.findall(r"\b\w+\b", cleaned_text)
-        dict_tokens: Dict[str, int] = {}
-        stemmed_tokens: List[str] = []
-
-        for chunk in tokens:
-            token = self.split_string_by_sqrt(chunk)
-            for token in tokens:
-                if token.lower() not in self.stop_words and not self.is_number(token):
-                    stemmed_token = self.stemmer.stem(token.strip())
-                    if token in dict_tokens and not self.has_number(token):
-                        dict_tokens[token] += 1
-                    else:
-                        dict_tokens[token] = 1
-                    stemmed_tokens.append(stemmed_token)
-
-        dict_tokens = sorted(dict_tokens.items(), key=lambda x: x[0])
-        
-        return dict_tokens, stemmed_tokens
     
     def unicode_remover(self, text: str) -> str:
         """
@@ -185,16 +156,9 @@ class Tokenizer:
         """ 
         tokens: List[str] = []
         for word in re.findall(r"\b\w+\b", text):
-            if len(word) > 30:
-                continue
-            if len(word) > 22:
-                split_length = int(math.sqrt(len(word)))
-                sub_tokens = [word[i:i + split_length] for i in range(0, len(word), split_length) if len(word[i:i + split_length]) > 1]
-                tokens.extend(sub_tokens)
-            elif len(word) > 1:
-                tokens.append(word)
-            else:
-                continue
+            token = self.preprocess(word)
+            if token != "":
+                tokens.append(token)
 
         return tokens
 

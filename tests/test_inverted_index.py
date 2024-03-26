@@ -1,5 +1,5 @@
 import unittest
-from src.inverted_index import InvertedIndex
+from src.indexer.inverted_index import InvertedIndex
 
 class TestInvertedIndex(unittest.TestCase):
     def test_add_to_index(self) -> None:
