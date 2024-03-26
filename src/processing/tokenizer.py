@@ -98,7 +98,7 @@ class Tokenizer:
             return [string]
 
         
-    def preprocess(self, token: str) -> List[str]:
+    def preprocess(self, token: str, case_fold=True) -> List[str]:
         """
         Preprocess the text to remove special characters
 
@@ -108,9 +108,10 @@ class Tokenizer:
         Returns:
             str: preprocessed text
         """
-        token = token.lower()
-        if len(token) > 24 or len(token) < 2 or token in self.stop_words:
-            return ""
+        if case_fold:
+            token = token.lower()
+            if len(token) > 24 or len(token) < 2 or token in self.stop_words:
+                return ""
                 
         token = token.encode('ascii', 'ignore').decode()
         if self.has_number(token) and not self.is_number(token):
@@ -144,7 +145,7 @@ class Tokenizer:
         pattern = r"\\u[\dA-Fa-f]{4}"
         return re.sub(pattern, "", text)
     
-    def tokenize(self, text: str) -> List[str]:
+    def tokenize(self, text: str, case_fold=True) -> List[str]:
         """
         Tokenize the text (English words; ignore numbers)
         
@@ -156,7 +157,7 @@ class Tokenizer:
         """ 
         tokens: List[str] = []
         for word in re.findall(r"\b\w+\b", text):
-            token = self.preprocess(word)
+            token = self.preprocess(word, case_fold=case_fold)
             if token != "":
                 tokens.append(token)
 

@@ -31,7 +31,7 @@ class BooleanModel:
         Returns:
             List[str]: documents that satisfy the query
         """
-        tokens: List[str] = self.tokenizer.tokenize(query)
+        tokens: List[str] = self.tokenizer.tokenize(query, case_fold=False)
         words: List[str] = [self.stemmer.stem(word.lower()) for word in tokens if word.upper() not in ['AND', 'OR', 'NOT']]
         postings: Dict[str, List[int]] = self.get_postings(words)
         if re.search(r'^(?!.*\b(?:OR|NOT)\b).*\bAND\b.*', query):
@@ -40,8 +40,7 @@ class BooleanModel:
         if len(postings) == 0:
             return []
         documents: List[int|str] = self.evaluate_query(postings, tokens)
-        print(documents)
-        documents: List[int] = [doc for doc in documents]
+        documents: List[int] = [doc for doc in documents] if documents is not None else []
         # sort documents
         documents = sorted(documents, key=lambda x: int(x))
         # log docs

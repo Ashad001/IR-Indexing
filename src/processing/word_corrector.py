@@ -78,7 +78,6 @@ class WordCorrector:
                 corrected_query += word + " "
             else:
                 corrected_query += self.word_corrector(word) + " "
-        print(corrected_query)
         return corrected_query.strip()
 
 if __name__=="__main__":
