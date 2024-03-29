@@ -110,13 +110,13 @@ class Tokenizer:
         """
         if case_fold:
             token = token.lower()
-            if len(token) > 24 or len(token) < 2 or token in self.stop_words:
+            if len(token) > 24 or len(token) < 2 or token in self.stop_words or self.is_number(token):
                 return ""
                 
         token = token.encode('ascii', 'ignore').decode()
         if self.has_number(token) and not self.is_number(token):
             token = self.replace_numbers(token)
-            token = self.unicode_remover(token)
+        token = self.unicode_remover(token)
         
         return token
 
