@@ -3,7 +3,8 @@ import json
 from typing import List, Dict
 from src.processing.porter_stemmer import PorterStemmer as Stemmer
 from src.processing.tokenizer import Tokenizer
-from src.utils import get_logger, timing_decorator, log_message, CONSOLE_LOGS
+from src.utils import timing_decorator
+from src.logger import get_logger, log_message, CONSOLE_LOGS
 import os
 
 class ExtendedBooleanModel:

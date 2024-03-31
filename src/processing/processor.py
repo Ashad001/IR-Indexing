@@ -7,6 +7,7 @@ from src.processing.porter_stemmer import PorterStemmer
 from src.indexer.inverted_index import InvertedIndex
 from src.indexer.positional_index import PositionalIndex
 from src.utils import *
+from src.logger import get_logger, log_message, metadata_lookup
 from typing import List, Dict, Tuple, Any
 
 INDEX_FILES = "indexes"

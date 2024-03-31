@@ -1,7 +1,7 @@
 import os
 import re
 import math
-from typing import List, Tuple, Dict
+from typing import List
 from src.processing.porter_stemmer import PorterStemmer
 
 # https://regex101.com/

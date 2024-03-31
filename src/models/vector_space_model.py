@@ -2,14 +2,11 @@ import json
 import math
 from typing import Dict, List, Tuple
 import os
-# append path on sys
-# import sys
 import sys
 
 current_dir = os.path.dirname(__file__)
 parent_dir = os.path.abspath(os.path.join(current_dir, '../..'))
 
-# Append the parent directory to sys.path
 sys.path.append(parent_dir)
 
 from src.processing.processor import IndexProcessor
