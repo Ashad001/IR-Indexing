@@ -1,7 +1,7 @@
 import os
 import time
 import json
-import logging
+from src.logger import get_logger, log_message
 from typing import Dict, List
 
 CONSOLE_LOGS = False

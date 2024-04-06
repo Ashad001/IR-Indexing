@@ -3,7 +3,8 @@ import json
 import heapq
 import logging
 from typing import   Dict, List
-from src.utils import log_message
+from src.utils import *
+from src.logger import log_message
 
 
 class InvertedIndex:
