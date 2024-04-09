@@ -23,7 +23,6 @@ class VectorSpaceModel:
         self.inverted_index = inverted_index
         self.documents = self._parse_inverted_index()
         self.document_ids = list(self.documents.keys())
-        print(self.document_ids)
 
         if load_from_files:
             self.document_term_matrix, self.tfidf_matrix, self.normalized_tfidf_matrix = self.load_saved_matrices()
@@ -54,12 +53,12 @@ class VectorSpaceModel:
         Returns:
             Tuple: Document-Term Matrix, TF-IDF Matrix, Normalized TF-IDF Matrix.
         """
-        if os.path.exists('document_term_matrix.json') and os.path.exists('tfidf_matrix.json') and os.path.exists('normalized_tfidf_matrix.json'):
-            with open('document_term_matrix.json', 'r') as f:
+        if os.path.exists('./docs/document_term_matrix.json') and os.path.exists('./docs/tfidf_matrix.json') and os.path.exists('./docs/normalized_tfidf_matrix.json'):
+            with open('./docs/document_term_matrix.json', 'r') as f:
                 document_term_matrix = json.load(f)
-            with open('tfidf_matrix.json', 'r') as f:
+            with open('./docs/tfidf_matrix.json', 'r') as f:
                 tfidf_matrix = json.load(f)
-            with open('normalized_tfidf_matrix.json', 'r') as f:
+            with open('./docs/normalized_tfidf_matrix.json', 'r') as f:
                 normalized_tfidf_matrix = json.load(f)
             return document_term_matrix, tfidf_matrix, normalized_tfidf_matrix
         else:
@@ -143,6 +142,9 @@ class VectorSpaceModel:
         normalized_matrix = self.normalize_vectors(tfidf_matrix)
 
         return matrix, tfidf_matrix, normalized_matrix
+
+    def save_to_files(self):
+        pass
 
     def cosine_similarity(self, doc_id1: str, doc_id2: str) -> float:
         """

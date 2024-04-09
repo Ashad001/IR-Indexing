@@ -117,7 +117,7 @@ class IndexProcessor:
                 stemmed_token_length += 1
                 dict_token = token.lower()
                 self.update_dict(doc_id, dict_token)
-                self.update_indexes(doc_id, stemmed_token, i)
+                self.update_indexes(doc_id, stemmed_token, i)        
 
         metadata.update(
                 {
