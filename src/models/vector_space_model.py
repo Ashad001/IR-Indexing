@@ -2,6 +2,7 @@ import json
 import math
 import os
 import re
+import logging
 from typing import Dict, List, Tuple
 from src.processing.tokenizer import Tokenizer
 from src.processing.porter_stemmer import PorterStemmer
@@ -18,12 +19,17 @@ class VectorSpaceModel:
             inverted_index (dict): A dictionary representing the inverted index.
             load_from_files (bool): Whether to load pre-computed TF-IDF data from files if available.
         """
+        
+        self.stemmer = PorterStemmer()
+        self.logger = get_logger("vector_model", see_time=True, console_log=False)
+        
         self.inverted_index = inverted_index
         self.documents = self._parse_inverted_index()
         self.document_ids = list(self.documents.keys())
-        self.stemmer = PorterStemmer()
         self.document_term_matrix, self.tfidf_matrix, self.normalized_tfidf_matrix = self.load_saved_matrices()
         self.save_to_files()
+        
+        
             
     def _parse_inverted_index(self) -> Dict[str, Dict[str, int]]:
         """
@@ -58,6 +64,7 @@ class VectorSpaceModel:
                 normalized_tfidf_matrix = json.load(f)
             return document_term_matrix, tfidf_matrix, normalized_tfidf_matrix
         else:
+            log_message('Could not load pre-computed matrices from files.', logger=self.logger, level=logging.WARNING)
             return self.generate_vector_space_model()
 
     def create_document_term_matrix(self) -> List[List[int]]:
@@ -242,6 +249,7 @@ class VectorSpaceModel:
             list: List of document IDs.
         """
         ranks = self.rank_documents(query)
+        print(ranks)
         return [doc_id for doc_id, score in ranks if score > 0.005 ]
 
 if __name__ == "__main__":
