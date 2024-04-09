@@ -1,1 +1,1 @@
-machine learnign 
+machine learning and computer vision

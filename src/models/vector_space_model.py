@@ -1,18 +1,16 @@
 import json
 import math
-from typing import Dict, List, Tuple
 import os
-import sys
-
-current_dir = os.path.dirname(__file__)
-parent_dir = os.path.abspath(os.path.join(current_dir, '../..'))
-
-sys.path.append(parent_dir)
-
+import re
+from typing import Dict, List, Tuple
+from src.processing.tokenizer import Tokenizer
+from src.processing.porter_stemmer import PorterStemmer
+from src.logger import get_logger, log_message, CONSOLE_LOGS
+from src.utils import timing_decorator
 from src.processing.processor import IndexProcessor
 
 class VectorSpaceModel:
-    def __init__(self, inverted_index: Dict[str, Dict[str, int]], load_from_files: bool = True):
+    def __init__(self, inverted_index: Dict[str, Dict[str, int]]):
         """
         Initialize the VectorSpaceModel with the inverted index.
 
@@ -23,12 +21,10 @@ class VectorSpaceModel:
         self.inverted_index = inverted_index
         self.documents = self._parse_inverted_index()
         self.document_ids = list(self.documents.keys())
-
-        if load_from_files:
-            self.document_term_matrix, self.tfidf_matrix, self.normalized_tfidf_matrix = self.load_saved_matrices()
-        else:
-            self.document_term_matrix, self.tfidf_matrix, self.normalized_tfidf_matrix = self.generate_vector_space_model()
-
+        self.stemmer = PorterStemmer()
+        self.document_term_matrix, self.tfidf_matrix, self.normalized_tfidf_matrix = self.load_saved_matrices()
+        self.save_to_files()
+            
     def _parse_inverted_index(self) -> Dict[str, Dict[str, int]]:
         """
         Parse the inverted index into a usable format.
@@ -80,6 +76,7 @@ class VectorSpaceModel:
             matrix.append(row)
         return matrix
 
+    @timing_decorator
     def calculate_tf_idf(self, matrix: List[List[int]]) -> List[List[float]]:
         """
         Calculate TF-IDF Weights.
@@ -108,6 +105,7 @@ class VectorSpaceModel:
             tfidf_matrix.append(tfidf_row)
         return tfidf_matrix
 
+    @timing_decorator
     def normalize_vectors(self, matrix: List[List[float]]) -> List[List[float]]:
         """
         Normalize Vectors to unit length.
@@ -125,6 +123,7 @@ class VectorSpaceModel:
             normalized_matrix.append(normalized_row)
         return normalized_matrix
 
+    @timing_decorator
     def generate_vector_space_model(self) -> Tuple[List[List[int]], List[List[float]], List[List[float]]]:
         """
         Generate Vector Space Model.
@@ -144,8 +143,16 @@ class VectorSpaceModel:
         return matrix, tfidf_matrix, normalized_matrix
 
     def save_to_files(self):
+        with open('./docs/document_term_matrix.json', 'w') as f:
+            json.dump(self.document_term_matrix, f)
+        with open('./docs/tfidf_matrix.json', 'w') as f:
+            json.dump(self.tfidf_matrix, f)
+        with open('./docs/normalized_matrix.json', 'w') as f:
+            json.dump(self.normalized_tfidf_matrix, f)
+            
         pass
 
+    @timing_decorator
     def cosine_similarity(self, doc_id1: str, doc_id2: str) -> float:
         """
         Compute cosine similarity between two documents.
@@ -179,7 +186,7 @@ class VectorSpaceModel:
         index = self.document_ids.index(doc_id)
         return self.normalized_tfidf_matrix[index]
     
-    
+    @timing_decorator
     def generate_query_vector(self, query: str) -> List[float]:
         """
         Generate a query vector for a given query.
@@ -190,13 +197,18 @@ class VectorSpaceModel:
         Returns:
             list: Query vector.
         """
+        tokens = Tokenizer().tokenize(query)
+        
+        stemmed_tokens = [self.stemmer.stem(token) for token in tokens]
+        
         query_vector = [0] * len(self.inverted_index)
-        for term in query.split():
+        for term in stemmed_tokens:
             if term in self.inverted_index:
                 index = list(self.inverted_index.keys()).index(term)
                 query_vector[index] += 1
         return query_vector
     
+    @timing_decorator
     def rank_documents(self, query: str) -> List[Tuple[str, float]]:
         """
         Rank documents based on the query.
@@ -218,6 +230,19 @@ class VectorSpaceModel:
             score = sum(x * y for x, y in zip(normalized_query_vector, doc_vector))
             scores.append((doc_id, score))
         return sorted(scores, key=lambda x: x[1], reverse=True)
+
+    def search(self, query: str) -> List[str]:
+        """
+        Search for documents based on the query.
+
+        Args:
+            query (str): Query string.
+
+        Returns:
+            list: List of document IDs.
+        """
+        ranks = self.rank_documents(query)
+        return [doc_id for doc_id, score in ranks if score > 0.005 ]
 
 if __name__ == "__main__":
     iv = IndexProcessor(data_dir='./data')

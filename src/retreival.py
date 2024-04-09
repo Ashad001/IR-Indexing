@@ -4,6 +4,7 @@ from src.processing.word_corrector import WordCorrector
 from src.processing.tokenizer import Tokenizer
 from src.models.boolean_model import BooleanModel
 from src.models.extended_boolean import ExtendedBooleanModel
+from src.models.vector_space_model import VectorSpaceModel
 from src.utils import list_files
 import re
 from typing import List
@@ -26,6 +27,8 @@ class InformationRetrieval:
         all_docs = list_files('./data', exclude_files=["Stopword-List.txt"])
         self.boolean_model = BooleanModel(self.inv_idx, all_docs_files=all_docs)
         self.extended_boolean_model = ExtendedBooleanModel(self.pos_idx, all_docs_files=all_docs)
+        self.vsm = VectorSpaceModel(self.inv_idx)
+        
 
     def load_data(self) -> None:
         inv_idx, pos_idx, dict_set = self.processor.process_data()
@@ -47,15 +50,17 @@ class InformationRetrieval:
         elif query_type == 'proximity':
             return self.proximity_search(query)
         else:
-            #* Not Used!!!!
-            error = "Your Query Should Be of the Form\n WORD1 AND WORD2 OR WORD3 AND NOT WORD4\n OR\n WORD1 WORD2 /k"
-            return [error]
+            return self.vector_search(query)
     
     def boolean_search(self, query: str) -> List:
         return self.boolean_model.search(query)
     
     def proximity_search(self, query: str) -> List:
         return self.extended_boolean_model.search(query)
+    
+    def vector_search(self, query: str) -> List:
+        return self.vsm.search(query)
+
     
     def query_type(self, query: str) -> str:
         if len(query.split()) == 1 or re.search(r'AND|OR|NOT', query):
