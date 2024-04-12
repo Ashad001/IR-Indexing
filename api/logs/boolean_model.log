@@ -1,0 +1,560 @@
+2024-03-10 22:24:04,810 - boolean_model - INFO - {
+    "query": "heart AND suggestions",
+    "documents": [
+        "1",
+        "7",
+        "8",
+        "9",
+        "11"
+    ]
+}
+2024-03-22 19:54:51,953 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "26"
+    ]
+}
+2024-03-22 20:03:27,412 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "26"
+    ]
+}
+2024-03-22 20:03:48,576 - boolean_model - INFO - {
+    "query": "heart AND intelligence",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "11",
+        "26"
+    ]
+}
+2024-03-22 20:05:13,856 - boolean_model - INFO - {
+    "query": "heart AND intelligecen",
+    "documents": []
+}
+2024-03-22 20:05:22,238 - boolean_model - INFO - {
+    "query": "heart AND intelligence",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "11",
+        "26"
+    ]
+}
+2024-03-22 20:05:26,643 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "26"
+    ]
+}
+2024-03-26 23:07:45,489 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "26"
+    ]
+}
+2024-03-26 23:10:57,114 - boolean_model - INFO - {
+    "query": "hear",
+    "documents": []
+}
+2024-03-26 23:11:01,913 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "26"
+    ]
+}
+2024-03-26 23:11:03,553 - boolean_model - INFO - {
+    "query": "heartt",
+    "documents": []
+}
+2024-03-26 23:11:14,054 - boolean_model - INFO - {
+    "query": "heartt AND intelligence",
+    "documents": []
+}
+2024-03-26 23:11:16,203 - boolean_model - INFO - {
+    "query": "heart AND intelligence",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "11",
+        "26"
+    ]
+}
+2024-03-26 23:14:43,806 - boolean_model - INFO - {
+    "query": "heartt",
+    "documents": []
+}
+2024-03-26 23:15:18,099 - boolean_model - INFO - {
+    "query": "heartt",
+    "documents": []
+}
+2024-03-26 23:15:19,724 - boolean_model - INFO - {
+    "query": "heartyy",
+    "documents": []
+}
+2024-03-26 23:16:04,278 - boolean_model - INFO - {
+    "query": "heartyy",
+    "documents": []
+}
+2024-03-26 23:16:23,524 - boolean_model - INFO - {
+    "query": "heartyy",
+    "documents": []
+}
+2024-03-26 23:16:23,572 - boolean_model - INFO - {
+    "query": "hearty",
+    "documents": []
+}
+2024-03-26 23:17:37,395 - boolean_model - INFO - {
+    "query": "hearty",
+    "documents": []
+}
+2024-03-26 23:17:37,414 - boolean_model - INFO - {
+    "query": "heartyy",
+    "documents": []
+}
+2024-03-26 23:17:42,581 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "26"
+    ]
+}
+2024-03-26 23:20:11,221 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "26"
+    ]
+}
+2024-03-26 23:20:11,247 - boolean_model - INFO - {
+    "query": "heartt",
+    "documents": []
+}
+2024-03-26 23:20:14,906 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "26"
+    ]
+}
+2024-03-26 23:21:29,393 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "26"
+    ]
+}
+2024-03-26 23:21:29,436 - boolean_model - INFO - {
+    "query": "heartt",
+    "documents": []
+}
+2024-03-26 23:21:35,419 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "26"
+    ]
+}
+2024-03-26 23:23:22,754 - boolean_model - INFO - {
+    "query": "heartt",
+    "documents": []
+}
+2024-03-26 23:23:25,662 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": []
+}
+2024-03-26 23:23:51,042 - boolean_model - INFO - {
+    "query": "heartt",
+    "documents": []
+}
+2024-03-26 23:23:56,094 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "26"
+    ]
+}
+2024-03-26 23:27:26,464 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "26"
+    ]
+}
+2024-03-26 23:27:28,814 - boolean_model - INFO - {
+    "query": "heartt",
+    "documents": []
+}
+2024-03-26 23:27:30,757 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "26"
+    ]
+}
+2024-03-26 23:28:27,937 - boolean_model - INFO - {
+    "query": "heartt",
+    "documents": []
+}
+2024-03-26 23:28:30,062 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "26"
+    ]
+}
+2024-03-26 23:30:44,658 - boolean_model - INFO - {
+    "query": "heart AND intelligenceewe",
+    "documents": []
+}
+2024-03-26 23:30:50,700 - boolean_model - INFO - {
+    "query": "heart AND intelligence",
+    "documents": []
+}
+2024-03-26 23:30:56,767 - boolean_model - INFO - {
+    "query": "heart AND intelligence",
+    "documents": []
+}
+2024-03-26 23:31:00,640 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "26"
+    ]
+}
+2024-03-26 23:31:04,565 - boolean_model - INFO - {
+    "query": "heart AND intelligence",
+    "documents": []
+}
+2024-03-26 23:31:12,033 - boolean_model - INFO - {
+    "query": "heart OR intelligence",
+    "documents": []
+}
+2024-03-26 23:31:21,326 - boolean_model - INFO - {
+    "query": "heart AND intelligence",
+    "documents": []
+}
+2024-03-26 23:32:06,731 - boolean_model - INFO - {
+    "query": "heart AND intelligencee",
+    "documents": []
+}
+2024-03-26 23:32:19,858 - boolean_model - INFO - {
+    "query": "heart AND intelligence",
+    "documents": []
+}
+2024-03-26 23:33:18,397 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "26"
+    ]
+}
+2024-03-26 23:33:21,316 - boolean_model - INFO - {
+    "query": "heart AND intelligence",
+    "documents": []
+}
+2024-03-26 23:34:00,338 - boolean_model - INFO - {
+    "query": "heart AND intelligence",
+    "documents": []
+}
+2024-03-26 23:34:28,129 - boolean_model - INFO - {
+    "query": "heart AND intelligencer",
+    "documents": []
+}
+2024-03-26 23:34:31,704 - boolean_model - INFO - {
+    "query": "heart AND intelligence",
+    "documents": []
+}
+2024-03-26 23:35:46,318 - boolean_model - INFO - {
+    "query": "heart AND intelligence",
+    "documents": []
+}
+2024-03-26 23:36:47,153 - boolean_model - INFO - {
+    "query": "heart AND intelligence",
+    "documents": []
+}
+2024-03-26 23:38:30,946 - boolean_model - INFO - {
+    "query": "heart AND intelligenc",
+    "documents": []
+}
+2024-03-26 23:38:43,515 - boolean_model - INFO - {
+    "query": "heart AND intelligence",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "11",
+        "26"
+    ]
+}
+2024-03-26 23:38:49,868 - boolean_model - INFO - {
+    "query": "heart OR intelligence",
+    "documents": [
+        "1",
+        "2",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "15",
+        "16",
+        "17",
+        "21",
+        "23",
+        "24",
+        "25",
+        "26"
+    ]
+}
+2024-04-09 00:38:55,306 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "26"
+    ]
+}
+2024-04-09 00:39:04,736 - boolean_model - INFO - {
+    "query": "heart AND intelligence",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "11",
+        "26"
+    ]
+}
+2024-04-09 00:39:08,165 - boolean_model - INFO - {
+    "query": "heart",
+    "documents": [
+        "1",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "26"
+    ]
+}
+2024-04-09 20:25:43,776 - boolean_model - INFO - {
+    "query": "learning ",
+    "documents": [
+        "1",
+        "2",
+        "3",
+        "7",
+        "8",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "101"
+    ]
+}
+2024-04-09 20:27:33,977 - boolean_model - INFO - {
+    "query": "learning ",
+    "documents": [
+        "99",
+        "101"
+    ]
+}
+2024-04-09 20:28:01,848 - boolean_model - INFO - {
+    "query": "learning AND vision",
+    "documents": [
+        "99"
+    ]
+}
+2024-04-09 20:28:34,638 - boolean_model - INFO - {
+    "query": "natural AND intelligence",
+    "documents": [
+        "101"
+    ]
+}
+2024-04-09 20:28:51,953 - boolean_model - INFO - {
+    "query": "intelligence",
+    "documents": [
+        "100",
+        "101"
+    ]
+}
+2024-04-09 20:29:14,626 - boolean_model - INFO - {
+    "query": "science",
+    "documents": []
+}
+2024-04-09 20:29:16,469 - boolean_model - INFO - {
+    "query": "machine",
+    "documents": [
+        "99"
+    ]
+}
+2024-04-09 20:29:19,595 - boolean_model - INFO - {
+    "query": "learning",
+    "documents": [
+        "99",
+        "101"
+    ]
+}
+2024-04-09 20:29:23,727 - boolean_model - INFO - {
+    "query": "natural",
+    "documents": [
+        "101"
+    ]
+}
+2024-04-09 21:57:35,411 - boolean_model - INFO - {
+    "query": "interesting",
+    "documents": [
+        "100"
+    ]
+}
+2024-04-09 21:58:41,254 - boolean_model - INFO - {
+    "query": "artificial",
+    "documents": [
+        "100",
+        "101"
+    ]
+}
+2024-04-09 21:59:04,096 - boolean_model - INFO - {
+    "query": "artificial ",
+    "documents": [
+        "100",
+        "101"
+    ]
+}
+2024-04-09 22:13:25,918 - boolean_model - INFO - {
+    "query": "learning",
+    "documents": [
+        "99",
+        "100",
+        "101"
+    ]
+}
+2024-04-09 22:44:06,271 - boolean_model - INFO - {
+    "query": "cancer",
+    "documents": [
+        "2",
+        "7",
+        "8",
+        "11",
+        "16",
+        "22",
+        "24",
+        "26"
+    ]
+}
+2024-04-12 22:40:35,064 - boolean_model - INFO - {
+    "query": "Held AND ingellivenc",
+    "documents": []
+}
+2024-04-12 22:40:38,320 - boolean_model - INFO - {
+    "query": "held AND intelligence",
+    "documents": [
+        "7"
+    ]
+}
