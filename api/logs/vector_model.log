@@ -1,5 +1,0 @@
-2024-04-13 16:28:08,901 - vector_model - WARNING - Could not load pre-computed matrices from files.
-2024-04-13 16:38:36,039 - vector_model - WARNING - Term 'hearti' not found in the inverted index.
-2024-04-13 16:42:23,302 - vector_model - WARNING - Term 'intelligenct' not found in the inverted index.
-2024-04-13 16:55:25,195 - vector_model - WARNING - Term 'learnig' not found in the inverted index.
-2024-04-13 16:56:32,433 - vector_model - WARNING - Term 'gloabl' not found in the inverted index.
