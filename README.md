@@ -1,55 +1,52 @@
-# IR-Indexing
+# Information Retreival Using Vector Space Model
 
-This Flask app facilitates Information Retrieval using various indexing techniques and now incorporates a React frontend for enhanced user interaction. Additionally, documents are ranked using the Vector Space Model based on TF-IDF (Term Frequency-Inverse Document Frequency). The project structure is outlined below, providing an overview of the organization and key components.
+This Flask app facilitates Information Retrieval using various indexing techniques and incorporates a React frontend for enhanced user interaction. Additionally, documents are ranked using the Vector Space Model based on TF-IDF (Term Frequency-Inverse Document Frequency). The project structure is outlined below, providing an overview of the organization and key components.
 
 ## Project Structure
 
 ```plaintext
-IR-Indexing
-├── data/
-│   ├── ResearchPapers/
-│   │   ├── 1.txt
-│   │   ├── 2.txt
-│   │   ├── 3.txt
-│   │   ├── ... (and so on)
-│   └── Stopword-List.txt
-├── logs/ (local)
-├── flows/
-│   ├── data-flow.png
-|   ├── ui.png
+indexer/
+│
+├── api/
+│   ├── data/
+│   │   ├── ResearchPapers/
+│   │   │   ├── (Research papers files)
+│   │   └── Stopword-List.txt
+│   ├── docs/
+│   ├── logs/
+│   ├── src/
+│   │   ├── indexer/
+│   │   ├── indexes/
+│   │   ├── models/
+│   │   ├── processing/
+│   │   ├── vocab/
+│   │   ├── __pycache__/
+│   │   ├── __init__.py
+│   │   ├── logger.py
+│   │   ├── retreival.py
+│   │   └── utils.py
+│   ├── .flaskenv
+│   ├── app.py
+│   ├── README.md
+│   └── requirements.txt
+│
+├── node_modules/
+├── public/
 ├── src/
-│   ├── indexes/ (local)
-│   ├── vocab/ (local)
-│   ├── boolean_model.py
-│   ├── extended_boolean.py
-│   ├── inverted_index.py
-│   ├── porter_stemmer.py
-│   ├── positional_index.py
-│   ├── processor.py
-│   ├── retreival.py
-│   ├── tokenizer.py
-│   ├── trie_search.py
-│   ├── utils.py
-│   ├── word_corrector.py
-│   └── word_suggestor.py
-├── static/
-│   ├── script.js
-│   └── styles.css
-├── templates/
-│   └── index.html
-├── tests/
-│   ├── test_sets/
-│   │   ├── golden_boolean_queries.txt
-│   │   └── golden_proximity_queries.txt
-│   ├── test_boolean_retrieval.py
-│   ├── test_ext_boolean_retrieval.py
-│   ├── test_inverted_index.py
-│   ├── test_porter_stem.py
-│   └── test_positional_retireval.py
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+│
 ├── .gitignore
-├── app.py
-├── README.md
-└── requirements.txt
+├── package-lock.json
+├── package.json
+└── README.md
+
 ```
 
 ## Project Components
