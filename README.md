@@ -76,7 +76,7 @@ indexer/
 
 ## Flow & Design
 ### Data Flow 
-![Data Flow](flows/data-flow.png)
+![Data Flow](flows/dataflow.png)
 
 ### UI design
 ![UI](flows/ui.png)
