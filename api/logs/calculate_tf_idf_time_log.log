@@ -1,1 +1,1 @@
-2024-04-13 13:19:06,461 - calculate_tf_idf_time_log - INFO - Function calculate_tf_idf from VectorSpaceModel.calculate_tf_idf took 0.0064 seconds to run.
+2024-04-13 16:28:08,985 - calculate_tf_idf_time_log - INFO - Function calculate_tf_idf from VectorSpaceModel.calculate_tf_idf took 0.0085 seconds to run.

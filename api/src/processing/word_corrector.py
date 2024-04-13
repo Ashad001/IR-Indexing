@@ -1,14 +1,14 @@
 import re
 import json
 from typing import List, Dict
-from src.utils import timing_decorator
+from src.utils import time_logger
 
 # used dynamic programming to find the minimum distance between two words i.e. lavenstein distance
 class WordCorrector:
     def __init__(self, dictionary: Dict[str, int]) -> None:
         self.dictionary: List[str] = dictionary.keys()
         
-    @timing_decorator
+    @time_logger
     def word_corrector(self, word: str) -> str:
         """
         Corrects the word and returns the corrected word

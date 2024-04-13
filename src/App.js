@@ -4,10 +4,12 @@ import './App.css'
 
 function App() {
   const [query, setQuery] = useState('');
+  const [ranks, setRanks] = useState([]);
   const [suggestions, setSuggestions] = useState([]);
   const [searchResults, setSearchResults] = useState([]);
   const [correctedQuery, setCorrectedQuery] = useState('');
   const [loading, setLoading] = useState(false);
+  const [summaries, setSummaries] = useState([]);
 
   useEffect(() => {
     if (query.length > 2) {
@@ -34,6 +36,8 @@ function App() {
       const response = await axios.post('/search', { query });
       if (response.data.docs.length > 0) {
         setSearchResults(response.data.docs);
+        setRanks(response.data.ranks);
+        setSummaries(response.data.summaries);
         setCorrectedQuery('');
       } else {
         getCorrections();
@@ -83,9 +87,13 @@ function App() {
         {searchResults.length > 0 && (
           <div className="search-results">
             <h2>Search Results:</h2>
-            <ul>
+            <ul >
               {searchResults.map((result, index) => (
-                <li key={index}>{result}</li>
+                <li key={index}>
+                  <span className='document-id'> Doc: {result} </span>
+                  <span className='rank-results'>Score: {ranks[index]}</span>
+                  <span className='summary-results'>{summaries[index]}</span>
+                </li>
               ))}
             </ul>
           </div>
@@ -110,7 +118,7 @@ function App() {
         </div>
       )}
     </div>
-    );
+  );
     }
             
 export default App;

@@ -8,11 +8,11 @@ from typing import Dict, List, Tuple
 from src.processing.tokenizer import Tokenizer
 from src.processing.porter_stemmer import PorterStemmer
 from src.logger import get_logger, log_message, CONSOLE_LOGS
-from src.utils import timing_decorator
+from src.utils import time_logger
 from src.processing.processor import IndexProcessor
 
 class VectorSpaceModel:
-    def __init__(self, inverted_index: Dict[str, Dict[str, int]]):
+    def __init__(self, inverted_index: Dict[str, Dict[str, int]], alpha: float = 0.025):
         """
         Initialize the VectorSpaceModel with the inverted index.
 
@@ -22,6 +22,7 @@ class VectorSpaceModel:
         """
         self.stemmer = PorterStemmer()
         self.logger = get_logger("vector_model", see_time=True, console_log=False)
+        self.alpha = alpha
         
         self.inverted_index = inverted_index
         self.inverted_index = self.sort_index(self.inverted_index)
@@ -80,7 +81,7 @@ class VectorSpaceModel:
                     matrix[i, j] = self.documents[doc][term]
         return matrix
 
-    @timing_decorator
+    @time_logger
     def calculate_tf_idf(self, matrix: np.ndarray) -> np.ndarray:
         """
         Calculate TF-IDF Weights.
@@ -102,7 +103,7 @@ class VectorSpaceModel:
         tfidf_matrix = matrix * idf
         return tfidf_matrix
 
-    @timing_decorator
+    @time_logger
     def normalize_vectors(self, matrix: np.ndarray) -> np.ndarray:
         """
         Normalize Vectors to unit length.
@@ -116,7 +117,7 @@ class VectorSpaceModel:
         norms = np.linalg.norm(matrix, axis=1, keepdims=True)
         return matrix / norms
 
-    @timing_decorator
+    @time_logger
     def generate_vector_space_model(self) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
         """
         Generate Vector Space Model.
@@ -140,7 +141,7 @@ class VectorSpaceModel:
         np.save('./docs/tfidf_matrix.npy', self.tfidf_matrix)
         np.save('./docs/normalized_tfidf_matrix.npy', self.normalized_tfidf_matrix)
             
-    @timing_decorator
+    @time_logger
     def cosine_similarity(self, doc_id1: str, doc_id2: str) -> float:
         """
         Compute cosine similarity between two documents.
@@ -171,7 +172,7 @@ class VectorSpaceModel:
         index = self.document_ids.index(doc_id)
         return self.normalized_tfidf_matrix[index]
     
-    @timing_decorator
+    @time_logger
     def generate_query_vector(self, query: str) -> np.ndarray:
         """
         Generate a query vector for a given query.
@@ -198,7 +199,7 @@ class VectorSpaceModel:
                 return None
         return query_vector
     
-    @timing_decorator
+    @time_logger
     def rank_documents(self, query: str) -> List[Tuple[str, float]]:
         """
         Rank documents based on the query.
@@ -212,7 +213,6 @@ class VectorSpaceModel:
         query_vector = self.generate_query_vector(query)
         if query_vector is None:
             return None
-        query_vector = query_vector / len(query.split())
         normalized_query_vector = query_vector / np.linalg.norm(query_vector)
 
         scores = []
@@ -220,6 +220,7 @@ class VectorSpaceModel:
             doc_vector = self.get_document_vector(doc_id)
             score = np.dot(normalized_query_vector, doc_vector)
             scores.append((doc_id, score))
+            
         return sorted(scores, key=lambda x: x[1], reverse=True)
 
     def search(self, query: str) -> List[str]:
@@ -233,10 +234,10 @@ class VectorSpaceModel:
             list: List of document IDs.
         """
         ranks = self.rank_documents(query)
-        print(ranks)
         if ranks is None:
             return []
-        return [doc_id for doc_id, score in ranks if score > 0.005]
+
+        return ranks
 
 if __name__ == "__main__":
     iv = IndexProcessor(data_dir='./data')

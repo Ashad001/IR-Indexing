@@ -5,7 +5,7 @@ from src.processing.tokenizer import Tokenizer
 from src.models.boolean_model import BooleanModel
 from src.models.extended_boolean import ExtendedBooleanModel
 from src.models.vector_space_model import VectorSpaceModel
-from src.utils import list_files
+from src.utils import list_files, read_summary
 import re
 from typing import List
 
@@ -35,6 +35,9 @@ class InformationRetrieval:
         self.inv_idx = inv_idx.index
         self.pos_idx = pos_idx.index
         self.dict_set = dict_set    
+        
+        with open('./logs/metadata.log', 'r') as f:
+            self.metadata = f.read()
 
     def cache_suggestions(self, word, suggestions):
         self.suggestions_cache[word] = suggestions
@@ -55,18 +58,29 @@ class InformationRetrieval:
             return []
     
     def boolean_search(self, query: str) -> List:
-        return self.boolean_model.search(query)
+        docs =  self.boolean_model.search(query)
+        summaries = [read_summary(self.metadata, doc) for doc in docs]        
+        docs = [(doc_id, round(100.0, 2), summary) for doc_id, summary in zip(docs, summaries)]        
+        return docs
     
     def proximity_search(self, query: str) -> List:
-        return self.extended_boolean_model.search(query)
+        docs = self.extended_boolean_model.search(query)
+        summaries = [read_summary(self.metadata, doc) for doc in docs]
+        docs = [(doc_id, round(100.0, 2), summary) for doc_id, summary in zip(docs, summaries)]
+        return docs
     
     def vector_search(self, query: str) -> List:
-        return self.vsm.search(query)
-
-    
+        docs =  self.vsm.search(query)
+        print(docs)
+        summaries = [read_summary(self.metadata, doc_id) for doc_id, _ in docs]
+        docs = [(doc_id, round(score, 6), summary) for (doc_id, score), summary in zip(docs, summaries) if score > self.vsm.alpha]
+        return docs
     def query_type(self, query: str) -> str:
         if re.search(r'AND|OR|NOT', query):
             return 'boolean'
         elif re.search(r'/(\d*)$', query):
             return 'proximity'
         return "ranked"
+
+
+        

@@ -33,7 +33,7 @@ class IndexProcessor:
         self.tokenizer = Tokenizer()
         self.stemmer = PorterStemmer()
         
-    @timing_decorator
+    @time_logger
     def process_data(self) -> Tuple[InvertedIndex, PositionalIndex, Dict[str, int]]:
         """
         Reads data from the directory and creates positional and inverted indexes.
@@ -108,9 +108,14 @@ class IndexProcessor:
 
         tokens_length = 0
         stemmed_token_length = 0
+        static_summary = ""
+        summary_token_length = 20
         pattern = self.tokenizer.get_pattern()
         for i, word in enumerate(re.findall(pattern, data)):
             token = self.tokenizer.preprocess(word)
+            if i < summary_token_length:
+                static_summary += token + " "
+                
             tokens_length += 1 if token != "" else 0
             if token != "":
                 stemmed_token = self.stemmer.stem(token.strip())
@@ -126,7 +131,8 @@ class IndexProcessor:
                     "stemmed_tokens": stemmed_token_length,
                     "inv_index_file": inv_index_file,
                     "pos_index_file": pos_index_file,
-                    "vocab_file": vocab_dict_file
+                    "vocab_file": vocab_dict_file,
+                    "static_summary": static_summary
                 }
             )
 
@@ -168,7 +174,7 @@ class IndexProcessor:
         self.inv_idx.add_to_index(doc_id=doc_id, token=stemmed_token)
         self.pos_idx.add_to_index(doc_id=doc_id, token=stemmed_token, position=position)
 
-    @timing_decorator
+    @time_logger
     def load_indexes(self, inv_index_file: str, pos_index_file: str, vocab_dict_file: str, error_logger) -> None:
         """
         Loads indexes from saved files.
@@ -189,7 +195,7 @@ class IndexProcessor:
             else:
                 self.dict_set.setdefault(token, {}).update(freq)
 
-    @timing_decorator
+    @time_logger
     def save_indexes(self) -> None:
         """
         Saves the global indexes to files.

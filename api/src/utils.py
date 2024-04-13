@@ -60,7 +60,27 @@ def read_metadata(name: str) -> List[Dict[str, str]]:
     return data
 
 
-def timing_decorator(func):
+def read_summary(log, doc_id: str) -> str:
+    """
+    Read the summary of a document from the log file.
+
+    Args:
+        log (_type_): metadata
+        doc_id (str): document id to search for
+
+    Returns:
+        str: summary of the document (static)
+    """
+    data = "[" + log[: (len(log) - 2)] + "]"
+    data = json.loads(data)
+    for entry in data:
+        entry_id = entry['doc_id'].split("_")[1]
+        if str(entry_id) == str(doc_id):
+            return entry["static_summary"]
+    
+    return ""
+
+def time_logger(func):
     """
     Decorator that logs the execution time of a function.
 

@@ -3,7 +3,7 @@ import json
 from typing import List, Dict
 from src.processing.porter_stemmer import PorterStemmer as Stemmer
 from src.processing.tokenizer import Tokenizer
-from src.utils import timing_decorator
+from src.utils import time_logger
 from src.logger import get_logger, log_message, CONSOLE_LOGS
 import os
 
@@ -21,7 +21,7 @@ class ExtendedBooleanModel:
         self.logger = get_logger("extended_boolean_model", see_time=True, console_log=CONSOLE_LOGS)
         self.error_logger = get_logger("extended_boolean_model_error", see_time=True, console_log=CONSOLE_LOGS)
 
-    @timing_decorator
+    @time_logger
     def search(self, query: str) -> List[int]:
         match = re.match(r'((?:\w+\s?)+) /(\d+)', query)
         if not match:
