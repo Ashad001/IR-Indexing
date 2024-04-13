@@ -112,12 +112,13 @@ class IndexProcessor:
         summary_token_length = 20
         pattern = self.tokenizer.get_pattern()
         for i, word in enumerate(re.findall(pattern, data)):
+            
             token = self.tokenizer.preprocess(word)
-            if i < summary_token_length:
-                static_summary += token + " "
                 
             tokens_length += 1 if token != "" else 0
             if token != "":
+                if i < summary_token_length:
+                    static_summary += token + " "
                 stemmed_token = self.stemmer.stem(token.strip())
                 stemmed_token_length += 1
                 dict_token = token.lower()

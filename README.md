@@ -106,7 +106,7 @@ The app offers efficient retrieval capabilities, emphasizing performance and use
 
 ### Search Results Presentation
 
-- Documents are now ranked using the Vector Space Model based on TF-IDF scores.
+- Documents are ranked using the Vector Space Model based on TF-IDF scores.
 - If documents match the user's query, the app presents the corresponding document IDs along with their relevance scores.
 - In the absence of matching documents, the app attempts to correct the query using Levenshtein distance on a word-by-word basis.
 - The corrected query is presented to the user, and if the original and corrected queries are identical, the user is informed that no documents match the query.
@@ -126,13 +126,18 @@ To run the project, follow these steps:
 1. Set up a Python environment and install dependencies:
 
     ```bash
+    cd api 
+    venv\Scripts\activate
+    ```
+    ```bash
     pip install -r requirements.txt
     ```
 
 2. Run the Flask app:
 
     ```bash
-    flask run
+    cd .. (to go back to the root directory)
+    yarn start-api
     ```
 
 3. Open a web browser and navigate to `http://127.0.0.1:5000/` to interact with the app.

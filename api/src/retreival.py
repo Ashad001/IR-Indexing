@@ -7,7 +7,7 @@ from src.models.extended_boolean import ExtendedBooleanModel
 from src.models.vector_space_model import VectorSpaceModel
 from src.utils import list_files, read_summary
 import re
-from typing import List
+from typing import List, Tuple
 
 class InformationRetrieval:
     def __init__(self):
@@ -31,6 +31,9 @@ class InformationRetrieval:
         
 
     def load_data(self) -> None:
+        """
+        Load the data from the data directory and process it using the IndexProcessor
+        """
         inv_idx, pos_idx, dict_set = self.processor.process_data()
         self.inv_idx = inv_idx.index
         self.pos_idx = pos_idx.index
@@ -58,23 +61,53 @@ class InformationRetrieval:
             return []
     
     def boolean_search(self, query: str) -> List:
+        """
+        search for documents using the boolean model
+
+        Args:
+            query (str): user query string
+
+
+        Returns:
+            List[Tuple[str, float, str]]: Returns a list of documents with their scores and summaries
+        """
         docs =  self.boolean_model.search(query)
         summaries = [read_summary(self.metadata, doc) for doc in docs]        
         docs = [(doc_id, round(100.0, 2), summary) for doc_id, summary in zip(docs, summaries)]        
         return docs
     
     def proximity_search(self, query: str) -> List:
+        """
+        search for documents using the procimity search
+
+        Args:
+            query (str): user query string
+
+
+        Returns:
+            List[Tuple[str, float, str]]: Returns a list of documents with their scores and summaries
+        """
         docs = self.extended_boolean_model.search(query)
         summaries = [read_summary(self.metadata, doc) for doc in docs]
         docs = [(doc_id, round(100.0, 2), summary) for doc_id, summary in zip(docs, summaries)]
         return docs
     
-    def vector_search(self, query: str) -> List:
+    def vector_search(self, query: str) -> List[Tuple[str, float, str]]:
+        """
+        search for documents using the vector space model
+
+        Args:
+            query (str): user query string
+
+
+        Returns:
+            List[Tuple[str, float, str]]: Returns a list of documents with their scores and summaries
+        """
         docs =  self.vsm.search(query)
-        print(docs)
         summaries = [read_summary(self.metadata, doc_id) for doc_id, _ in docs]
         docs = [(doc_id, round(score, 6), summary) for (doc_id, score), summary in zip(docs, summaries) if score > self.vsm.alpha]
         return docs
+    
     def query_type(self, query: str) -> str:
         if re.search(r'AND|OR|NOT', query):
             return 'boolean'
