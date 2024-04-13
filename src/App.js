@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import './App.css'
 
 function App() {
   const [query, setQuery] = useState('');
@@ -9,12 +10,9 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    const delayDebounce = setTimeout(() => {
-      if (query.length > 2) {
-        fetchSuggestions();
-      }
-    }, 300);  // Adds a 300ms delay to reduce API calls
-    return () => clearTimeout(delayDebounce);
+    if (query.length > 2) {
+      fetchSuggestions();
+    }
   }, [query]);
 
   const handleQueryChange = (e) => {
@@ -27,7 +25,6 @@ function App() {
       setSuggestions(response.data.suggestions);
     } catch (error) {
       console.error('Error fetching suggestions:', error);
-      setSuggestions([]);
     }
   };
 
@@ -35,11 +32,14 @@ function App() {
     setLoading(true);
     try {
       const response = await axios.post('/search', { query });
-      setSearchResults(response.data.docs.length ? response.data.docs : []);
-      setCorrectedQuery('');
+      if (response.data.docs.length > 0) {
+        setSearchResults(response.data.docs);
+        setCorrectedQuery('');
+      } else {
+        getCorrections();
+      }
     } catch (error) {
       console.error('Error searching:', error);
-      setSearchResults([]);
     }
     setLoading(false);
   };
@@ -48,7 +48,7 @@ function App() {
     try {
       const response = await axios.post('/get_corrections', { query });
       setCorrectedQuery(response.data.corrected_query);
-      setSearchResults([]);
+      setSearchResults([]); // Clear previous results if corrections are suggested
     } catch (error) {
       console.error('Error getting corrections:', error);
     }
@@ -72,14 +72,35 @@ function App() {
   };
 
   return (
-    <div>
-      <form onSubmit={handleFormSubmit}>
-        <input type="text" value={query} onChange={handleQueryChange} placeholder="Search here..." />
-        <button type="submit" disabled={loading}>Search</button>
+    <div className="search-container">
+      <h1> Vector Indexing </h1>
+      <form className="search-form" onSubmit={handleFormSubmit}>
+        <input className="search-input" type="text" value={query} onChange={handleQueryChange} placeholder="Search here..." />
+        <button className="search-button" type="submit" disabled={loading}>Search</button>
       </form>
-      
+  
+      <div className="results-container">
+        {searchResults.length > 0 && (
+          <div className="search-results">
+            <h2>Search Results:</h2>
+            <ul>
+              {searchResults.map((result, index) => (
+                <li key={index}>{result}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+  
+        {correctedQuery && (
+          <div className="corrections">
+            <h2>Did you mean:</h2>
+            <p onClick={() => setQuery(correctedQuery)} style={{ cursor: 'pointer', textDecoration: 'underline' }}>{correctedQuery}</p>
+          </div>
+        )}
+      </div>
+  
       {suggestions.length > 0 && (
-        <div>
+        <div className="suggestions">
           <h2>Suggestions:</h2>
           <ul>
             {suggestions.map((suggestion, index) => (
@@ -88,26 +109,8 @@ function App() {
           </ul>
         </div>
       )}
-
-      {searchResults.length > 0 && (
-        <div>
-          <h2>Search Results:</h2>
-          <ul>
-            {searchResults.map((result, index) => (
-              <li key={index}>{result}</li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      {correctedQuery && (
-        <div>
-          <h2>Did you mean:</h2>
-          <p onClick={() => setQuery(correctedQuery)} style={{cursor: 'pointer', textDecoration: 'underline'}}>{correctedQuery}</p>
-        </div>
-      )}
     </div>
-  );
-}
-
+    );
+    }
+            
 export default App;

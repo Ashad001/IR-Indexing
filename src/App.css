@@ -39,45 +39,94 @@
 
 
 body {
-  background: #f4f4f9;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Arail', sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
 }
 
-form {
+h1 {
+  color: #5c67f2;
+  align-items: center;
+}
+
+.search-container {
+  max-width: 90%;
+  min-height: 90vh;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  overflow: auto; /* Add overflow property */
+}
+
+.search-form {
   display: flex;
   justify-content: center;
-  margin: 20px auto;
-  width: 90%;
-  max-width: 600px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  border-radius: 8px;
-  overflow: hidden;
+  margin-bottom: 20px;
 }
 
-input[type="text"] {
-  flex: 1;
+.search-input {
+  flex-grow: 1;
   padding: 10px;
-  border: none;
-  border-radius: 8px 0 0 8px;
-  outline: none;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
-button {
+.search-button {
   padding: 10px 20px;
-  background-color: #5c67f2;
+  margin-left: 10px;
   border: none;
+  background-color: #5c67f2;
   color: white;
-  font-weight: bold;
+  border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  font-size: 16px;
 }
 
-button:hover {
-  background-color: #434cdf;
-}
-
-button:disabled {
+.search-button:disabled {
   background-color: #ccc;
+}
+
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+
+.suggestions {
+  position: absolute; 
+  top: 24%; 
+  right: 14%; 
+  width: 200px;
+  background: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  max-height: auto;
+  overflow-y: auto;
+  margin-top: 20px;
+  max-width: 30%;
+}
+
+.results-container {
+  margin-top: 20px;
+  max-width: 70%;
+
+}
+
+.suggestions, .search-results, .corrections {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-top: 20px;
 }
 
 ul {
@@ -87,8 +136,8 @@ ul {
 
 li {
   padding: 10px;
+  border-bottom: 1px solid #eee;
   cursor: pointer;
-  border-bottom: 1px solid #ddd;
 }
 
 li:last-child {
@@ -96,10 +145,9 @@ li:last-child {
 }
 
 li:hover {
-  background-color: #f9f9f9;
+  background-color: #f8f8f8;
 }
 
 h2 {
-  color: #333;
-  padding-left: 20px;
+  color: #5c67f2;
 }
