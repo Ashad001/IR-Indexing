@@ -1,70 +1,161 @@
-# Getting Started with Create React App
+# IR-Indexing
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Flask app facilitates Information Retrieval using various indexing techniques and now incorporates a React frontend for enhanced user interaction. Additionally, documents are ranked using the Vector Space Model based on TF-IDF (Term Frequency-Inverse Document Frequency). The project structure is outlined below, providing an overview of the organization and key components.
 
-## Available Scripts
+## Project Structure
 
-In the project directory, you can run:
+```plaintext
+IR-Indexing
+├── data/
+│   ├── ResearchPapers/
+│   │   ├── 1.txt
+│   │   ├── 2.txt
+│   │   ├── 3.txt
+│   │   ├── ... (and so on)
+│   └── Stopword-List.txt
+├── logs/ (local)
+├── flows/
+│   ├── data-flow.png
+|   ├── ui.png
+├── src/
+│   ├── indexes/ (local)
+│   ├── vocab/ (local)
+│   ├── boolean_model.py
+│   ├── extended_boolean.py
+│   ├── inverted_index.py
+│   ├── porter_stemmer.py
+│   ├── positional_index.py
+│   ├── processor.py
+│   ├── retreival.py
+│   ├── tokenizer.py
+│   ├── trie_search.py
+│   ├── utils.py
+│   ├── word_corrector.py
+│   └── word_suggestor.py
+├── static/
+│   ├── script.js
+│   └── styles.css
+├── templates/
+│   └── index.html
+├── tests/
+│   ├── test_sets/
+│   │   ├── golden_boolean_queries.txt
+│   │   └── golden_proximity_queries.txt
+│   ├── test_boolean_retrieval.py
+│   ├── test_ext_boolean_retrieval.py
+│   ├── test_inverted_index.py
+│   ├── test_porter_stem.py
+│   └── test_positional_retireval.py
+├── .gitignore
+├── app.py
+├── README.md
+└── requirements.txt
+```
 
-### `npm start`
+## Project Components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **`data/`:** Contains research papers in the `ResearchPapers/` directory and a file `Stopword-List.txt` with common stop words.
+  - Simply place new files in this folder, and the app will automatically index them.
+  - Don't Remove `Stopword-List.txt` as it is used for stop word removal, though you can update the .txt file manually.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **`flows/`:** Contains diagrams and drawings illustrating data flows and UI design.
 
-### `npm test`
+- **`src/`:** Contains the source code for the app and various modules for indexing and retrieval.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **`static/`:** Includes JavaScript (`script.js`) and CSS (`styles.css`) files for static content.
 
-### `npm run build`
+- **`templates/`:** Contains HTML template for rendering pages.
+  
+- **`tests/`:** Contains unit tests with corresponding test sets for various functionalities.
+  
+  - **`tests/test_sets:`** Add your test sets in the files
+    - `golden_boolean_queries.txt`
+    - `golden_proximity_queries.txt`
+    - Enter Queries of the form:
+      - Example Query: TOUR_QUERY 
+      - Result-Set: EXPECTED_RESULTS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **`app.py`:** The main Flask application file.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Flow & Design
+### Data Flow 
+![Data Flow](flows/data-flow.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### UI design
+![UI](flows/ui.png)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Functionality
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The app offers efficient retrieval capabilities, emphasizing performance and user experience.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Index Generation and Metadata Logging
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Index generation occurs at the beginning and is only performed once, saving indexes to files.
+- Metadata, including information about file structure and indexes, is logged for future reference.
+- If indexes are requested again, the app checks  for changes in data and regenerates only the necessary indexes.
 
-## Learn More
+### Performance Logging
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Essential performance metrics are logged, providing insights into processing times for index formation, search operations, and more.
+- This information helps in monitoring and optimizing the efficiency of the retrieval system.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Query Processing
 
-### Code Splitting
+- The app prompts users to enter queries, whether boolean or proximity-based.
+- The algorithm determines the query type and performs the search accordingly.
+- Suggestions for words are provided to users, enhancing the query input experience.
+- Trie-based searching is employed for efficient and fast word suggestions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Search Results Presentation
 
-### Analyzing the Bundle Size
+- Documents are now ranked using the Vector Space Model based on TF-IDF scores.
+- If documents match the user's query, the app presents the corresponding document IDs along with their relevance scores.
+- In the absence of matching documents, the app attempts to correct the query using Levenshtein distance on a word-by-word basis.
+- The corrected query is presented to the user, and if the original and corrected queries are identical, the user is informed that no documents match the query.
+- Each document in the search result is accompanied by a static summary. Hovering over the document displays its rank/score.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Logging User Interaction
 
-### Making a Progressive Web App
+- The app logs important information about user queries, errors, and search results.
+- This logging allows for a comprehensive review of user interactions, aiding in system analysis and improvement.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The combined features ensure a seamless and efficient experience for users interacting with the IR-Indexing app, promoting effective information retrieval and user-friendly query processing.
 
-### Advanced Configuration
+## Running the Project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To run the project, follow these steps:
 
-### Deployment
+1. Set up a Python environment and install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-### `npm run build` fails to minify
+2. Run the Flask app:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    ```bash
+    flask run
+    ```
+
+3. Open a web browser and navigate to `http://127.0.0.1:5000/` to interact with the app.
+
+For the React frontend:
+
+1. Start the React development server:
+
+    ```bash
+    yarn start
+    ```
+
+2. The React app will be running on `http://localhost:3000/` by default.
+
+
+
+## Acknowledgements 
+- The Porter Stemmer implementation is based on the original algorithm by Martin Porter.
+  -  Source: [https://vijinimallawaarachchi.com/2017/05/09/porter-stemming-algorithm/](https://vijinimallawaarachchi.com/2017/05/09/porter-stemming-algorithm/)
+  -   GitHub Repository: [https://github.com/jedijulia/porter-stemmer/blob/master/stemmer.py](https://github.com/jedijulia/porter-stemmer/)
+
+- The Levenshtein distance algorithm is based on the original algorithm by Vladimir Levenshtein.
+  - Source: [https://en.wikipedia.org/wiki/Levenshtein_distance](https://en.wikipedia.org/wiki/Levenshtein_distance)

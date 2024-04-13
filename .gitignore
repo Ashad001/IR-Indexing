@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 venv
+logs
+docs
 
 # testing
 /coverage
