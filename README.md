@@ -127,6 +127,7 @@ To run the project, follow these steps:
 
     ```bash
     cd api 
+    python -m venv venv
     venv\Scripts\activate
     ```
     ```bash
@@ -137,6 +138,7 @@ To run the project, follow these steps:
 
     ```bash
     cd .. (to go back to the root directory)
+    npm install
     yarn start-api
     ```
 

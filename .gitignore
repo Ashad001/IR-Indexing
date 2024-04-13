@@ -7,6 +7,8 @@
 venv
 logs
 docs
+indexes
+vobab
 
 # testing
 /coverage
