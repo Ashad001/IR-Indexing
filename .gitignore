@@ -8,7 +8,7 @@ venv
 logs
 docs
 indexes
-vobab
+vocab
 
 # testing
 /coverage
