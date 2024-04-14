@@ -130,6 +130,7 @@ To run the project, follow these steps:
     python -m venv venv
     venv\Scripts\activate
     ```
+    
     ```bash
     pip install -r requirements.txt
     ```
