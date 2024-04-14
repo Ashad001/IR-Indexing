@@ -48,7 +48,7 @@ class InformationRetrieval:
     def get_cached_suggestions(self, word):
         return self.suggestions_cache.get(word, [])
     
-    def search(self, query: str) -> List:
+    def search(self, query: str, alpha: float = 0.05) -> List:
         query = self.tokenizer.remove_stop_words(query)
         query_type = self.query_type(query)
         if query_type == 'boolean':
@@ -56,7 +56,7 @@ class InformationRetrieval:
         elif query_type == 'proximity':
             return self.proximity_search(query)
         elif query_type == 'ranked':
-            return self.vector_search(query)
+            return self.vector_search(query, alpha)
         else:
             return []
     
@@ -92,12 +92,13 @@ class InformationRetrieval:
         docs = [(doc_id, round(100.0, 2), summary) for doc_id, summary in zip(docs, summaries)]
         return docs
     
-    def vector_search(self, query: str) -> List[Tuple[str, float, str]]:
+    def vector_search(self, query: str, alpha: float) -> List[Tuple[str, float, str]]:
         """
         search for documents using the vector space model
 
         Args:
             query (str): user query string
+            alpha (float): the alpha parameter for the vector space model
 
 
         Returns:
@@ -105,7 +106,7 @@ class InformationRetrieval:
         """
         docs =  self.vsm.search(query)
         summaries = [read_summary(self.metadata, doc_id) for doc_id, _ in docs]
-        docs = [(doc_id, round(score, 6), summary) for (doc_id, score), summary in zip(docs, summaries) if score > self.vsm.alpha]
+        docs = [(doc_id, round(score, 6), summary) for (doc_id, score), summary in zip(docs, summaries) if score > alpha]
         return docs
     
     def query_type(self, query: str) -> str:

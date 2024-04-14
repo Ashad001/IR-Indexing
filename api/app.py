@@ -24,11 +24,14 @@ def get_suggestions():
 def search():
     data = request.get_json()
     query = data['query']
-    ranked_docs = app_instance.search(query)
+    alpha = data.get('alpha', 0.5)  
+    print(alpha)
+    ranked_docs = app_instance.search(query, alpha)  
     ranks = [doc[1] for doc in ranked_docs]
     docs = [doc[0] for doc in ranked_docs]
     summaries = [doc[2] for doc in ranked_docs]
     return jsonify({'docs': docs, 'ranks': ranks, 'summaries': summaries})
+
 
 @app.route('/get_corrections', methods=['POST'])
 def get_corrections():

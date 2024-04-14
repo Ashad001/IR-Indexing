@@ -212,3 +212,8 @@ h2 {
 .search-results li:hover .rank-results {
   display: inline-block; /* Display score on hover */
 }
+
+.alpha-slider {
+  width: 80%;
+  margin: 20px auto;
+}
