@@ -141,23 +141,6 @@ class VectorSpaceModel:
         np.save('./docs/tfidf_matrix.npy', self.tfidf_matrix)
         np.save('./docs/normalized_tfidf_matrix.npy', self.normalized_tfidf_matrix)
             
-    @time_logger
-    def cosine_similarity(self, doc_id1: str, doc_id2: str) -> float:
-        """
-        Compute cosine similarity between two documents.
-
-        Args:
-            doc_id1 (str): Identifier of the first document.
-            doc_id2 (str): Identifier of the second document.
-
-        Returns:
-            float: Cosine similarity between the two documents.
-        """
-        index1 = self.document_ids.index(doc_id1)
-        index2 = self.document_ids.index(doc_id2)
-        vector1 = self.normalized_tfidf_matrix[index1]
-        vector2 = self.normalized_tfidf_matrix[index2]
-        return np.dot(vector1, vector2)
 
     def get_document_vector(self, doc_id: str) -> np.ndarray:
         """
@@ -239,21 +222,21 @@ class VectorSpaceModel:
 
         return ranks
 
-if __name__ == "__main__":
-    iv = IndexProcessor(data_dir='./data')
-    iv.process_data()
+# if __name__ == "__main__":
+    # iv = IndexProcessor(data_dir='./data')
+    # iv.process_data()
 
-    with open('./docs/inv-index.json', 'r') as f:
-        inverted_index = json.load(f)
+    # with open('./docs/inv-index.json', 'r') as f:
+    #     inverted_index = json.load(f)
 
-    vsm = VectorSpaceModel(inverted_index)
+    # vsm = VectorSpaceModel(inverted_index)
 
-    ex_1 = '1'
-    ex_2 = '2'
-    # Example of computing cosine similarity
-    similarity = vsm.cosine_similarity(ex_1, ex_2)
-    print(f"Cosine Similarity between Document {ex_1} and Document {ex_2}:", similarity)
+#     ex_1 = '1'
+#     ex_2 = '2'
+#     # Example of computing cosine similarity
+#     similarity = vsm.cosine_similarity(ex_1, ex_2)
+#     print(f"Cosine Similarity between Document {ex_1} and Document {ex_2}:", similarity)
 
-    ranks = vsm.rank_documents("machine learn")
-    for doc_id, score in ranks:
-        print(f"Document {doc_id}: {score}")
+#     ranks = vsm.rank_documents("machine learn")
+#     for doc_id, score in ranks:
+#         print(f"Document {doc_id}: {score}")
