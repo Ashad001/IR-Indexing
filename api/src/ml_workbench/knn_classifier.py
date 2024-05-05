@@ -1,5 +1,7 @@
 import json
 import numpy as np
+from typing import List
+
 from src.models.vector_space_model import VectorSpaceModel
 from src.processing.processor import IndexProcessor
 
@@ -54,21 +56,50 @@ class KNNClassifier:
         return classifier
 
     def _prepare_data(self):
-        self.tfidf_vectorizer = TfidfVectorizer()
-        documents = self.vector_space_model.documents
-        document_texts = [" ".join(doc.keys()) for doc in documents.values()]
-        tfidf_matrix = self.tfidf_vectorizer.fit_transform(document_texts)
-        doc_ids = documents.keys()
-        document_classes = [self.class_mapping.get(doc_id, "Unknown") for doc_id in doc_ids]
+        """
+        Prepares the data for training.
+
+        Returns:
+            tuple: Tuple containing TF-IDF matrix and document classes.
+        """
+        # self.tfidf_vectorizer = TfidfVectorizer()
+        # documents = self.vector_space_model.documents
+        # document_texts = [" ".join(doc.keys()) for doc in documents.values()]
+        # tfidf_matrix = self.tfidf_vectorizer.fit_transform(document_texts)
+        # doc_ids = documents.keys()
+        # document_classes = [self.class_mapping.get(doc_id, "Unknown") for doc_id in doc_ids]
+        tfidf_matrix = self.vector_space_model.normalized_tfidf_matrix
+        document_classes = [self.class_mapping.get(doc_id, "Unknown") for doc_id in self.vector_space_model.document_ids]
 
         return tfidf_matrix, document_classes
 
     def predict(self, query: str) -> str:
-        query_vector = self.tfidf_vectorizer.transform([query])
-        predicted_class = self.classifier.predict(query_vector)[0]
-        return predicted_class  
+        """
+        Predicts the class label for a given query.
+
+        Args:
+            query (str): Input query.
+
+        Returns:
+            str: Predicted class label.
+        """
+        # query_vector = self.tfidf_vectorizer.transform([query])
+        # predicted_class = self.classifier.predict(query_vector)[0]
+        # return predicted_class  
+        query_vector = self.vector_space_model.generate_normalized_query_vector(query)
+        predicted_class = self.classifier.predict([query_vector])[0]
+        return predicted_class
     
-    def get_relevant_class(self, predicted_class: str) -> list:
+    def get_relevant_class(self, predicted_class: str) -> List:
+        """
+        Retrieves relevant document IDs for a predicted class label.
+
+        Args:
+            predicted_class (str): Predicted class label.
+
+        Returns:
+            List[str]: List of relevant document IDs.
+        """
         docs = [key for key, value in self.class_mapping.items() if value == predicted_class]
         return docs
 
@@ -76,14 +107,11 @@ if __name__ == "__main__":
     knn_classifier = KNNClassifier(data_dir='./data', index_file='./docs/inv-index.json', k=5)
 
     query = """
-    FEATURE selection has been an active research area in
-    machine learning and data m ining for decades. It is an
-    important and frequently used technique for data dimensionreduction by removing irrelevant and redundant information
-    from a data set. It is also a knowledge discovery tool for
-    providing insights on the problem through interpretations of
-    the most relevant features [1]. Discussions on feature selec-
-    tion usually center on two technical aspects: search strategyand evaluation criteria. Algorithms designed with different
-    strategies broadly fall into three categories: ?lter, wrapper,
+    HEART FAILURE BURDEN
+    Around a million people in England 
+    are living with heart failure, and nearly 
+    200 000 are newly diagnosed each year.4 
+    Patients typically experience increasing 
     """
     predicted_class = knn_classifier.predict(query)
     print("Predicted Class:", predicted_class)

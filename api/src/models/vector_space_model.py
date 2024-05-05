@@ -48,8 +48,7 @@ class VectorSpaceModel:
                 if doc not in documents:
                     documents[doc] = {}
                 documents[doc][category] = tf
-        with open("./docs/documents.json", "w") as f:
-            json.dump(documents, f, indent=4)
+
         return documents
 
     def load_saved_matrices(self):
@@ -141,7 +140,9 @@ class VectorSpaceModel:
         np.save('./docs/document_term_matrix.npy', self.document_term_matrix)
         np.save('./docs/tfidf_matrix.npy', self.tfidf_matrix)
         np.save('./docs/normalized_tfidf_matrix.npy', self.normalized_tfidf_matrix)
-            
+        with open("./docs/documents.json", "w") as f:
+            tfidf_vector = {doc_id: list(doc_vector) for doc_id, doc_vector in zip(self.document_ids, self.normalized_tfidf_matrix)}
+            json.dump(tfidf_vector, f, indent=4)
 
     def get_document_vector(self, doc_id: str) -> np.ndarray:
         """
