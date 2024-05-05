@@ -27,6 +27,7 @@ class VectorSpaceModel:
         self.inverted_index = self.sort_index(self.inverted_index)
         self.documents = self._parse_inverted_index()
         self.document_ids = list(self.documents.keys())
+        print(self.document_ids)
         self.document_term_matrix, self.tfidf_matrix, self.normalized_tfidf_matrix = self.load_saved_matrices()
         self.save_to_files()
         
@@ -66,6 +67,7 @@ class VectorSpaceModel:
         else:
             log_message('Could not load pre-computed matrices from files.', logger=self.logger, level=logging.WARNING)
             return self.generate_vector_space_model()
+        
 
     def create_document_term_matrix(self) -> np.ndarray:
         """
