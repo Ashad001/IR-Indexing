@@ -9,7 +9,6 @@ from src.processing.tokenizer import Tokenizer
 from src.processing.porter_stemmer import PorterStemmer
 from src.logger import get_logger, log_message, CONSOLE_LOGS
 from src.utils import time_logger
-from src.processing.processor import IndexProcessor
 
 class VectorSpaceModel:
     def __init__(self, inverted_index: Dict[str, Dict[str, int]], alpha: float = 0.025):
@@ -49,6 +48,8 @@ class VectorSpaceModel:
                 if doc not in documents:
                     documents[doc] = {}
                 documents[doc][category] = tf
+        with open("./docs/documents.json", "w") as f:
+            json.dump(documents, f, indent=4)
         return documents
 
     def load_saved_matrices(self):
@@ -95,7 +96,7 @@ class VectorSpaceModel:
         n_docs = matrix.shape[0]
         n_terms = matrix.shape[1]
         
-        # Calculate IDF
+        # Calculate DF & IDF
         df = np.sum(matrix > 0, axis=0)
         idf = np.where(df > 0, np.log10(n_docs / df), 0)
 
@@ -182,6 +183,22 @@ class VectorSpaceModel:
                 return None
         return query_vector
     
+    def generate_normalized_query_vector(self, query: str) -> np.ndarray:
+        """
+        Generate a query vector for a given query.
+
+        Args:
+            query (str): Query string.
+
+        Returns:
+            np.ndarray: Query vector.
+        """
+        query_vector = self.generate_query_vector(query)
+        if query_vector is None:
+            return None
+        query_vector = query_vector / np.linalg.norm(query_vector)
+        return query_vector
+    
     @time_logger
     def rank_documents(self, query: str) -> List[Tuple[str, float]]:
         """
@@ -193,11 +210,7 @@ class VectorSpaceModel:
         Returns:
             list: List of document IDs and their respective cosine similarity scores.
         """
-        query_vector = self.generate_query_vector(query)
-        if query_vector is None:
-            return None
-        normalized_query_vector = query_vector / np.linalg.norm(query_vector)
-
+        normalized_query_vector = self.generate_normalized_query_vector(query)
         scores = []
         for doc_id in self.document_ids:
             doc_vector = self.get_document_vector(doc_id)
