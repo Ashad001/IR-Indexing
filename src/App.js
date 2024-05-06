@@ -12,6 +12,9 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [summaries, setSummaries] = useState([]);
   const [alpha, setAlpha] = useState(0.05); // Initial alpha value
+  const [predictedClass, setPredictedClass] = useState('');
+  const [relevantDocs, setRelevantDocs] = useState([]);
+  const [evaluation, setEvaluation] = useState([]);
 
   useEffect(() => {
     if (query.length > 2) {
@@ -22,6 +25,7 @@ function App() {
   const handleQueryChange = (e) => {
     setQuery(e.target.value);
   };
+
 
   const fetchSuggestions = async () => {
     try {
@@ -49,7 +53,7 @@ function App() {
     }
     setLoading(false);
   };
-  
+
   const getCorrections = async () => {
     try {
       const response = await axios.post('/get_corrections', { query });
@@ -72,66 +76,102 @@ function App() {
     setSuggestions([]);
   };
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-    search();
-  };
+  const predictClass = async () => {
+    try {
+      const response = await axios.post('/predict_class', { query });
+      setPredictedClass(response.data.predicted_class);
+      setRelevantDocs(response.data.relevant_docs);
+    } catch (error) {
+      console.error('Error predicting class:', error);
+    }
+  }
+
+  const evaluate = async () => {
+    try {
+      const response = await axios.post('/evaluate', {});
+      setEvaluation(response.data.evaluation);
+    }
+    catch (error) {
+      console.error('Error evaluating:', error);
+    }
 
 
-  return (
-    <div className="search-container">
-      <h1>Vector Indexing</h1>
-      <form className="search-form" onSubmit={handleFormSubmit}>
-        <input className="search-input" type="text" value={query} onChange={handleQueryChange} placeholder="Search here..." />
-        <button className="search-button" type="submit" disabled={loading}>Search</button>
-      </form>
 
-      <input
-        type="range"
-        min="0"
-        max="0.25"
-        step="0.005"
-        value={alpha}
-        onChange={(e) => setAlpha(parseFloat(e.target.value))}
-      />
-      <p>Alpha: {alpha}</p>
+    const handleFormSubmit = (e) => {
+      e.preventDefault();
+      search();
+    };
 
-      <div className="results-container">
-        {searchResults.length > 0 && (
-          <div className="search-results">
-            <h2>Search Results:</h2>
+
+    return (
+      <div className="search-container">
+        <h1>Vector Indexing</h1>
+        <form className="search-form" onSubmit={handleFormSubmit}>
+          <input className="search-input" type="text" value={query} onChange={handleQueryChange} placeholder="Search here..." />
+          <button className="search-button" type="submit" disabled={loading}>Search</button>
+        </form>
+
+        <input
+          type="range"
+          min="0"
+          max="0.25"
+          step="0.005"
+          value={alpha}
+          onChange={(e) => setAlpha(parseFloat(e.target.value))}
+        />
+        <p>Alpha: {alpha}</p>
+
+        <div className="results-container">
+          {searchResults.length > 0 && (
+            <div className="search-results">
+              <h2>Search Results:</h2>
+              <ul>
+                {searchResults.map((result, index) => (
+                  <li key={index}>
+                    <span className='document-id'> Doc: {result} </span>
+                    <span className='rank-results'>Score: {ranks[index]}</span>
+                    <span className='summary-results'>{summaries[index]}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {correctedQuery && (
+            <div className="corrections">
+              <h2>Did you mean:</h2>
+              <p onClick={() => setQuery(correctedQuery)} style={{ cursor: 'pointer', textDecoration: 'underline' }}>{correctedQuery}</p>
+            </div>
+          )}
+        </div>
+
+        {suggestions.length > 0 && (
+          <div className="suggestions">
+            <h2>Suggestions:</h2>
             <ul>
-              {searchResults.map((result, index) => (
-                <li key={index}>
-                  <span className='document-id'> Doc: {result} </span>
-                  <span className='rank-results'>Score: {ranks[index]}</span>
-                  <span className='summary-results'>{summaries[index]}</span>
-                </li>
+              {suggestions.map((suggestion, index) => (
+                <li key={index} onClick={() => handleSuggestionClick(suggestion)}>{suggestion}</li>
               ))}
             </ul>
           </div>
         )}
 
-        {correctedQuery && (
-          <div className="corrections">
-            <h2>Did you mean:</h2>
-            <p onClick={() => setQuery(correctedQuery)} style={{ cursor: 'pointer', textDecoration: 'underline' }}>{correctedQuery}</p>
+        <button onClick={predictClass}>Predict Class</button>
+        {predictedClass && (
+          <div className="predicted-class">
+            <h2>Predicted Class:</h2>
+            <p>{predictedClass}</p>
+            <h2>Relevant Documents:</h2>
+            <ul>
+              {relevantDocs.map((doc, index) => (
+                <li key={index}>{doc}</li>
+              ))}
+            </ul>
           </div>
         )}
       </div>
-
-      {suggestions.length > 0 && (
-        <div className="suggestions">
-          <h2>Suggestions:</h2>
-          <ul>
-            {suggestions.map((suggestion, index) => (
-              <li key={index} onClick={() => handleSuggestionClick(suggestion)}>{suggestion}</li>
-            ))}
-          </ul>
-        </div>
-      )}
-    </div>
-  );
+    );
+  }
 }
 
 export default App;

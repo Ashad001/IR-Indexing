@@ -2,13 +2,15 @@ import json
 import numpy as np
 from typing import List
 from sklearn.model_selection import train_test_split
+from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.metrics import classification_report, accuracy_score
 from sklearn.neighbors import KNeighborsClassifier
 from src.models.vector_space_model import VectorSpaceModel
 from src.processing.processor import IndexProcessor
 
+
 class KNNClassifier:
-    def __init__(self, data_dir: str, index_file: str, k: int = 3):
+    def __init__(self, data_dir: str, index_file: str, k: int = 3, use_tts: bool = True):
         self.class_mapping = {
             "1": "Explainable Artificial Intelligence",
             "2": "Explainable Artificial Intelligence",
@@ -34,7 +36,10 @@ class KNNClassifier:
 
         self.vector_space_model = self._initialize_vector_space_model(data_dir, index_file)
         self.k = k
-        self.classifier = self._train_classifier()
+        if use_tts:
+            self.classifier = self._train_classifier_tts()
+        else:
+            self.classifier = self._train_classifier_sss()
 
     def _initialize_vector_space_model(self, data_dir: str, index_file: str) -> VectorSpaceModel:
         iv = IndexProcessor(data_dir=data_dir)
@@ -48,9 +53,20 @@ class KNNClassifier:
 
         return vector_space_model
 
-    def _train_classifier(self) -> KNeighborsClassifier:
+    def _train_classifier_tts(self) -> KNeighborsClassifier:
         tfidf_matrix, document_classes = self._prepare_data()
         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(tfidf_matrix, document_classes, test_size=0.15, random_state=42)
+        classifier = KNeighborsClassifier(n_neighbors=self.k)
+        classifier.fit(self.X_train, self.y_train)
+        return classifier
+
+    def _train_classifier_sss(self) -> KNeighborsClassifier:
+        X, y = self._prepare_data()
+        sss = StratifiedShuffleSplit(n_splits=2, test_size=0.25, random_state=42)
+        for train_index, test_index in sss.split(X, y):
+            self.X_train, self.X_test = [X[i] for i in train_index], [X[i] for i in test_index]
+            self.y_train, self.y_test = [y[i] for i in train_index], [y[i] for i in test_index]
+        print("Training Sample: ", self.X_[:5], self.y_[:5])
         classifier = KNeighborsClassifier(n_neighbors=self.k)
         classifier.fit(self.X_train, self.y_train)
         return classifier
@@ -75,7 +91,7 @@ class KNNClassifier:
         y_pred = self.classifier.predict(self.X_test)
         y_true = self.y_test
         accuracy = accuracy_score(y_true, y_pred)
-        report = classification_report(y_true, y_pred, output_dict=True)
+        report = classification_report(y_true, y_pred, output_dict=True, labels=np.unique(y_pred))
         return {
             'accuracy': round(accuracy, 2),
             'precision': round(report['weighted avg']['precision'], 2),
@@ -94,14 +110,16 @@ if __name__ == "__main__":
     print("F1 Score:", evaluation_metrics['f1_score'])
 
     query = """
-Then, the most common deep learning architectures that are currently being successfully applied to
-predict time series are described, highlighting their advantages and limitations. Particular attention is given to feed
-forward networks, recurrent neural networks (including Elman, long-short term memory, gated recurrent units, andbidirectional networks), and convolutional neural networks. Practical aspects, such as the setting of values for hyper-
-parameters and the choice of the most suitable frameworks, for the successful application of deep learning to time
-series are also provided and discussed. Several fruitful research ?elds in which the architectures analyzed have
-obtained a good performance are reviewed. As a result, research gaps have been identi?ed in the literature for
-several domains of application, thus expecting to inspire new and better forms of knowledge.
-Keywords: big data; deep learning; time series forecasting
+Transformers have achieved superior performances
+in many tasks in natural language processing and
+computer vision, which also triggered great inter-
+est in the time series community. Among multiple
+advantages of Transformers, the ability to capture
+long-range dependencies and interactions is espe-
+cially attractive for time series modeling, leading
+to exciting progress in various time series appli-
+cations. In this paper, we systematically review
+Transformer schemes for time series modeling by
     """
     predicted_class = knn_classifier.predict(query)
     print("Predicted Class:", predicted_class)

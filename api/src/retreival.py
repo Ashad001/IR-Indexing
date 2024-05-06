@@ -5,7 +5,7 @@ from src.processing.tokenizer import Tokenizer
 from src.models.boolean_model import BooleanModel
 from src.models.extended_boolean import ExtendedBooleanModel
 from src.models.vector_space_model import VectorSpaceModel
-from src.ml_workbench.kmeans_clustering import KMeansTextClustering
+from src.ml_workbench.knn_classifier import KNNClassifier
 from src.utils import list_files, read_summary
 import re
 from typing import List, Tuple
@@ -29,10 +29,8 @@ class InformationRetrieval:
         self.boolean_model = BooleanModel(self.inv_idx, all_docs_files=all_docs)
         self.extended_boolean_model = ExtendedBooleanModel(self.pos_idx, all_docs_files=all_docs)
         self.vsm = VectorSpaceModel(self.inv_idx)
-        self.kmeans = KMeansTextClustering(data_dir="./data", index_file = "./docs/inv-index.json", k = 5)
         
-        
-        
+        self.knn_classifier = KNNClassifier(data_dir="./data", index_file="./docs/inv-index.json", k=3, use_tts=True)
 
     def load_data(self) -> None:
         """
@@ -119,3 +117,13 @@ class InformationRetrieval:
         elif re.search(r'/(\d*)$', query):
             return 'proximity'
         return "ranked"
+    
+    def get_class(self, query: str) -> str:
+        return self.knn_classifier.predict(query)
+    
+    def get_relevant_docs(self, predicted_class: str) -> List[str]:
+        return self.knn_classifier.get_relevant_class(predicted_class)
+    
+    def evaluate(self) -> dict:
+        return self.knn_classifier.evaluate()
+    

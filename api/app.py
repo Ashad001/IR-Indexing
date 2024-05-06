@@ -42,6 +42,22 @@ def get_corrections():
         return jsonify({"corrected_query": ""})
     return jsonify({'corrected_query': corrected_query})
 
-# if __name__ == '__main__':
-#     app.run(debug=True)
+@app.route('/predict', methods=['POST'])
+def predict():
+    data = request.get_json()
+    query = data['query']
+    predicted_class = app_instance.classifier.predict(query)
+    relevant_docs = app_instance.get_relevant_class(predicted_class)
+    
+    return jsonify({'predicted_class': predicted_class, 'relevant_docs': relevant_docs})
+
+@app.route('/get_evaluation', methods=['POST'])
+def get_evaluation():
+    evaluation_metrics = app_instance.evaluate()
+    return jsonify(evaluation_metrics)
+
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
 
