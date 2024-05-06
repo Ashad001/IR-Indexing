@@ -5,6 +5,7 @@ from src.processing.tokenizer import Tokenizer
 from src.models.boolean_model import BooleanModel
 from src.models.extended_boolean import ExtendedBooleanModel
 from src.models.vector_space_model import VectorSpaceModel
+from src.ml_workbench.kmeans_clustering import KMeansTextClustering
 from src.utils import list_files, read_summary
 import re
 from typing import List, Tuple
@@ -28,6 +29,9 @@ class InformationRetrieval:
         self.boolean_model = BooleanModel(self.inv_idx, all_docs_files=all_docs)
         self.extended_boolean_model = ExtendedBooleanModel(self.pos_idx, all_docs_files=all_docs)
         self.vsm = VectorSpaceModel(self.inv_idx)
+        self.kmeans = KMeansTextClustering(data_dir="./data", index_file = "./docs/inv-index.json", k = 5)
+        
+        
         
 
     def load_data(self) -> None:
@@ -115,6 +119,3 @@ class InformationRetrieval:
         elif re.search(r'/(\d*)$', query):
             return 'proximity'
         return "ranked"
-
-
-        

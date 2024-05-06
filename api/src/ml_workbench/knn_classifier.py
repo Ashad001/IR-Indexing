@@ -50,7 +50,7 @@ class KNNClassifier:
 
     def _train_classifier(self) -> KNeighborsClassifier:
         tfidf_matrix, document_classes = self._prepare_data()
-        self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(tfidf_matrix, document_classes, test_size=0.1, random_state=42)
+        self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(tfidf_matrix, document_classes, test_size=0.15, random_state=42)
         classifier = KNeighborsClassifier(n_neighbors=self.k)
         classifier.fit(self.X_train, self.y_train)
         return classifier
@@ -77,10 +77,10 @@ class KNNClassifier:
         accuracy = accuracy_score(y_true, y_pred)
         report = classification_report(y_true, y_pred, output_dict=True)
         return {
-            'accuracy': accuracy,
-            'precision': report['weighted avg']['precision'],
-            'recall': report['weighted avg']['recall'],
-            'f1_score': report['weighted avg']['f1-score']
+            'accuracy': round(accuracy, 2),
+            'precision': round(report['weighted avg']['precision'], 2),
+            'recall': round(report['weighted avg']['recall'], 2),
+            'f1_score': round(report['weighted avg']['f1-score'], 2)
         }
 
 if __name__ == "__main__":
@@ -94,14 +94,14 @@ if __name__ == "__main__":
     print("F1 Score:", evaluation_metrics['f1_score'])
 
     query = """
-    and deep neural networks, in their feedforward and
-    recurrent versions, and tree-based methods, such as
-    random forests and boosted trees. We also consider
-    ensembleandhybridmodelsbycombiningingredients
-    fromdifferentalternatives.Testsforsuperiorpredictive
-    ability are briefly reviewed. Finally, we discuss appli-
-    cationofMLineconomicsandfinanceandprovidean
-    illustrationwithhigh-frequencyfinancialdata.
+Then, the most common deep learning architectures that are currently being successfully applied to
+predict time series are described, highlighting their advantages and limitations. Particular attention is given to feed
+forward networks, recurrent neural networks (including Elman, long-short term memory, gated recurrent units, andbidirectional networks), and convolutional neural networks. Practical aspects, such as the setting of values for hyper-
+parameters and the choice of the most suitable frameworks, for the successful application of deep learning to time
+series are also provided and discussed. Several fruitful research ?elds in which the architectures analyzed have
+obtained a good performance are reviewed. As a result, research gaps have been identi?ed in the literature for
+several domains of application, thus expecting to inspire new and better forms of knowledge.
+Keywords: big data; deep learning; time series forecasting
     """
     predicted_class = knn_classifier.predict(query)
     print("Predicted Class:", predicted_class)
