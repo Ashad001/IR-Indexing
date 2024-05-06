@@ -9,7 +9,7 @@ from sklearn.metrics import silhouette_score, adjusted_rand_score
 from sklearn.cluster import KMeans
 
 
-class KMeansTextClustering:
+class KMeansClustering:
     def __init__(self, data_dir: str, index_file: str, k: int = 3, max_k: int = 10):
         self.vector_space_model = self._initialize_vector_space_model(
             data_dir, index_file
@@ -39,6 +39,7 @@ class KMeansTextClustering:
             self.vector_space_model.normalized_tfidf_matrix
         )
         print("Clustering complete.", self.cluster_labels)
+        return self.cluster_labels
 
     def evaluate_clustering(self):
         """
@@ -69,9 +70,9 @@ class KMeansTextClustering:
         rand_index = adjusted_rand_score(true_labels, self.cluster_labels)
 
         return {
-            "purity": purity,
-            "silhouette_score": silhouette,
-            "rand_index": rand_index,
+            "purity": round(purity, 3),
+            "silhouette_score": round(silhouette, 3),
+            "rand_index": round(rand_index, 3),
         }
 
     def cluster_representation(self, labels=None):
@@ -91,7 +92,7 @@ class KMeansTextClustering:
 
         return cluster_dict
 
-    def reduce_dimentions(self):
+    def reduce_dimensions(self):
         """
         Reduce the dimensions of the vector space model using PCA.
         """
@@ -116,38 +117,40 @@ class KMeansTextClustering:
         plt.xlabel("Number of clusters")
         plt.ylabel("WCSS")
         plt.show()
-
+        
     def plot_clusters(self):
         """
         Plot the clusters.
         """
-        reduced_matrix = self.reduce_dimentions()
+        reduced_matrix = self.reduce_dimensions()
         plt.figure(figsize=(10, 8))
         scatter = plt.scatter(
             reduced_matrix[:, 0],
             reduced_matrix[:, 1],
             c=self.cluster_labels,
             cmap="viridis",
+            alpha=0.8,
+            edgecolors="w",
         )
         plt.xlabel("PCA 1")
         plt.ylabel("PCA 2")
         plt.title("KMeans Clustering")
 
-        # Create legend entries for each document ID
         handles = []
         labels = []
         for cluster_label in range(self.k):
             indices = np.where(self.cluster_labels == cluster_label)[0]
             cluster_docs = [self.vector_space_model.document_ids[i] for i in indices]
-            handles.append(scatter)
+            cluster_scatter = plt.scatter([], [], c=[scatter.to_rgba(cluster_label)], label=f'Cluster {cluster_label}')
+            handles.append(cluster_scatter)
             labels.append(cluster_docs)
 
         plt.legend(handles, labels, loc="best", title="Document IDs", fontsize="small")
-        plt.show()
-
-
+        
+        return plt.gcf()
+    
 if __name__ == "__main__":
-    kmeans_clustering = KMeansTextClustering(
+    kmeans_clustering = KMeansClustering(
         data_dir="./data", index_file="./docs/inv-index.json", k=5
     )
     # kmeans_clustering.plot_elbow()
