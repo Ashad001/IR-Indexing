@@ -1,0 +1,10 @@
+__pycache__
+venv
+logs
+docs
+indexes
+vocab
+
+try.py
+app.py
+.flaskenv

@@ -12,9 +12,6 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [summaries, setSummaries] = useState([]);
   const [alpha, setAlpha] = useState(0.05); // Initial alpha value
-  const [predictedClass, setPredictedClass] = useState('');
-  const [relevantDocs, setRelevantDocs] = useState([]);
-  const [evaluation, setEvaluation] = useState([]);
 
   useEffect(() => {
     if (query.length > 2) {
@@ -156,19 +153,7 @@ function App() {
           </div>
         )}
 
-        <button onClick={predictClass}>Predict Class</button>
-        {predictedClass && (
-          <div className="predicted-class">
-            <h2>Predicted Class:</h2>
-            <p>{predictedClass}</p>
-            <h2>Relevant Documents:</h2>
-            <ul>
-              {relevantDocs.map((doc, index) => (
-                <li key={index}>{doc}</li>
-              ))}
-            </ul>
-          </div>
-        )}
+        
       </div>
     );
   }

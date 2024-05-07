@@ -106,8 +106,6 @@ def main():
             st.write(f"<p style='margin: 5px 0;'><strong>Silhouette Score: </strong> {evaluation['silhouette_score']}</p>", unsafe_allow_html=True)
             st.write(f"<p style='margin: 5px 0;'><strong>Rand Score: </strong> {evaluation['rand_index']}</p>", unsafe_allow_html=True)
         
-        
-        
             
 if __name__ == "__main__":
     main()    
